@@ -1,0 +1,8 @@
+씨밤 ...
+
+
+$ . scraping/bin/activate
+>> 설명 : 가상환경 접속
+
+$ deactivate
+>> 설명 : 가상환경 종료
