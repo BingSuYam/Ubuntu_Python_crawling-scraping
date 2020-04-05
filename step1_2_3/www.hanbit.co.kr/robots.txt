@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /hb_admin/
+Disallow: /myhanbit/

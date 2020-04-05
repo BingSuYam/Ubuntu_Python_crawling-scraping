@@ -1,0 +1,3295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!--[if lte IE 8]>
+<script>
+  location.replace('/support/explorer_upgrade.html');
+</script>
+<![endif]-->
+<meta charset="utf-8"/>
+<title>맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020</title>
+<link rel="shortcut icon" href="http://www.hanbit.co.kr/images/common/hanbit.ico"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020"/>
+<meta property="og:description" content="영상 제작과 편집에 꼭 필요한 프리미어 프로와 애프터 이펙트를 한번에 쉽게 배울 수 있습니다. 영상, 모션 그래픽 제작 및 편집 필수 기능만 골라 담아 부담 없이 학습할 수 있으며, 두 프로그램을 따로따로 배우는 것보다 효과적으로 익힐 수 있습니다."/>  
+<meta property="og:image" content="http://www.hanbit.co.kr/data/books/B4873434511_m.jpg"/>
+<meta property="og:url" content="http://www.hanbit.co.kr/store/books/look.php?p_code=B4873434511"/>
+<link rel="canonical" href="http://www.hanbit.co.kr/store/books/look.php?p_code=B4873434511" />
+<meta name="keywords" content="책,전자책,ebook,출판사,동영상,콘텐츠,강의,자격증,대학교재" />
+<meta name="description" content="영상 제작과 편집에 꼭 필요한 프리미어 프로와 애프터 이펙트를 한번에 쉽게 배울 수 있습니다. 영상, 모션 그래픽 제작 및 편집 필수 기능만 골라 담아 부담 없이 학습할 수 있으며, 두 프로그램을 따로따로 배우는 것보다 효과적으로 익힐 수 있습니다." />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="viewport" content="width=1260">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="naver-site-verification" content="01c29ed1852aecca7a48ac0c3e0869627bc512d8"/>
+<!-- <meta name="naver-site-verification" content="823ff8b8e7e3eb396c310703c2bbd731f48c1d9b"/> -->
+<link rel="stylesheet" href="/css/common.css?20190625102532" />
+<link href="/css/hover.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="/js/jquery.raty.css" />
+<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/jquery.event.drag-1.5.min.js"></script>
+<script type="text/javascript" src="/js/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="/js/jquery.raty.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/lib/cheditor/cheditor.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript" src="/js/engine.js"></script>
+<script type="text/javascript" src="/js/vue.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47080738-1', 'hanbit.co.kr');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '406459623338891');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=406459623338891&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Kakao Pixel Code -->
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+  kakaoPixel('3011392806152551233').pageView();
+  kakaoPixel('3011392806152551233').viewContent({
+    id: 'B4873434511'
+  });
+</script>
+<!-- //Kakao Pixel Code -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9D5PM3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<link rel="stylesheet" href="/css/layout-hanbit.css?20191130" />
+<link rel="stylesheet" href="/css/layout-member.css" />
+<link rel="stylesheet" href="/css/layout-network.css" />
+<link rel="stylesheet" href="/css/layout-store.css" />
+<link rel="stylesheet" href="/css/layout-myhanbit.css" />
+<link rel="stylesheet" href="/css/layout-event.css" />
+<!-- 메뉴 바로가기 -->
+<div id="quick_skip_menu">
+  <a href="#gnb" onclick="document.getElementById('gnb').tabIndex = -1;document.getElementById('gnb').focus();return false;"><span>메뉴 바로가기</span></a>
+  <a href="#top_search" onclick="view_hover('main_search_area','','show'), document.getElementById('top_search').tabIndex = -1;document.getElementById('top_search').focus();return false;"><span>검색 및 카테고리 바로가기</span></a>
+    <a href="#container" onclick="document.getElementById('container').tabIndex = -1;document.getElementById('container').focus();return false;"><span>본문 바로가기</span></a>
+  </div>
+<!-- //메뉴 바로가기 -->
+
+<!-- header -->
+<header>
+  <!-- top menu -->
+  	<nav>
+		<div id="wrap_nav">
+			<ul class="top_brand">
+				<li><a href="http://www.hanbit.co.kr/index.html" name="hanbit_network"><span>HOME</span></a></li>
+				<li><a href="http://www.hanbit.co.kr/media/">한빛미디어</a></li>
+				<li><a href="http://www.hanbit.co.kr/academy/">한빛아카데미</a></li>
+				<li><a href="http://www.hanbit.co.kr/biz/">한빛비즈</a></li>
+				<li><a href="http://www.hanbit.co.kr/life/">한빛라이프</a></li>
+				<li><a href="http://www.hanbit.co.kr/edu/">한빛에듀</a></li>
+				<li><a href="http://www.hanbit.co.kr/realtime/">리얼타임</a></li>
+				<li><a href="http://www.hanbit.co.kr/textbook/" target="_blank">한빛정보교과서</a></li>
+        <li><a href="http://www.hanbit.co.kr/rent/" target="_blank">한빛대관서비스</a></li>
+			</ul>
+			
+			<ul class="top_menu">
+                        	<li><a href="https://www.hanbit.co.kr/member/login.html" class="login">로그인</a></li>
+				<li><a href="https://www.hanbit.co.kr/member/member_agree.html" class="join">회원가입</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/myhanbit.html" class="myhanbit">마이한빛</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/cart.html" class="cart">장바구니</a></li>
+            				<!-- <li class="top_menu_store"><a href="http://www.hanbit.co.kr/store/store_submain.html">STORE</a></li> -->
+			</ul>
+		</div>
+	</nav>  <!-- //top menu -->
+
+  <div id="wrap_gnb">
+    <!-- logo -->
+    <h1><a href="http://www.hanbit.co.kr/index.html">한빛출판네트워크</a></h1>
+    <!-- //logo -->
+
+    <!-- Menu -->
+    <div id="gnb" name="gnb">
+      <ul>
+        <li><a href="http://www.hanbit.co.kr/brand/brand_submain.html" class="">BRAND</a></li>
+        <li><a href="http://www.hanbit.co.kr/channel/channel_submain.html" class="">Channel.H</a></li>
+        <li><a href="http://www.hanbit.co.kr/store/store_submain.html" class="curr">STORE</a></li>
+        <li><a href="http://www.hanbit.co.kr/support/help_info.html" class="">SUPPORT</a></li>
+        <li><a href="http://www.hanbit.co.kr/event/current/current_event_list.html" class="">EVENT</a></li>
+        
+        <li id="top_search" class="search"><a href="javascript:;" onClick="view_hover('main_search_area','','show'); $('#keyword_str').focus();"><span>SERACH</span></a></li>
+      </ul>
+    </div>
+    <!-- //Menu -->
+    
+    <!-- lnb -->
+    <div class="lnb" style="top:92px;">
+      <div class="lnb_area">
+      <!-- BRAND -->
+            <ul class="lnb_depth1_category">
+        <li onmouseover="view_hover('category_store','','show')" onMouseOut="view_hover('category_store','','hide')"><a href="#" onFocus="view_hover('category_store','','show')" class="gnb_category">카테고리</a>
+          <ul id="category_store">
+
+                          <li onmouseover="view_hover('category_store1','','show')" onMouseOut="view_hover('category_store1','','hide')"><a href="/store/books/category_list.html?cate_cd=001" onFocus="view_hover('category_store1','','show')">IT/모바일</a>
+                <ul id="category_store1">
+                              <li><a href="/store/books/category_list.html?cate_cd=001001">프로그래밍</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001002">웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001003">모바일/스마트기기</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001013">데이터베이스</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001005">운영체제</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001014">하드웨어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001015">시스템/네트워크</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001016">보안</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001009">비즈니스/문화</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001010">게임</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001017">IT에세이</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001012">자격증</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001018">인공지능/데이터과학</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store2','','show')" onMouseOut="view_hover('category_store2','','hide')"><a href="/store/books/category_list.html?cate_cd=002" onFocus="view_hover('category_store2','','show')">MAKE</a>
+                <ul id="category_store2">
+                              <li><a href="/store/books/category_list.html?cate_cd=002001">Make 매거진</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=002002">Make 프로젝트 북</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store3','','show')" onMouseOut="view_hover('category_store3','','hide')"><a href="/store/books/category_list.html?cate_cd=003" onFocus="view_hover('category_store3','','show')">IT활용</a>
+                <ul id="category_store3">
+                              <li><a href="/store/books/category_list.html?cate_cd=003001">오피스/OA</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003002">그래픽/멀티미디어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003003">사진/예술</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003004">컴퓨터입문/IT교양</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store4','','show')" onMouseOut="view_hover('category_store4','','hide')"><a href="/store/books/category_list.html?cate_cd=004" onFocus="view_hover('category_store4','','show')">대학교재</a>
+                <ul id="category_store4">
+                              <li><a href="/store/books/category_list.html?cate_cd=004007">컴퓨터공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004008">정보통신/전기/전자</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004003">수학/과학/공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004004">프로그래밍/웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004005">그래픽/디자인</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004006">OA/활용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004009">수험서/자격증</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store5','','show')" onMouseOut="view_hover('category_store5','','hide')"><a href="/store/books/category_list.html?cate_cd=006" onFocus="view_hover('category_store5','','show')">실용서</a>
+                <ul id="category_store5">
+                              <li><a href="/store/books/category_list.html?cate_cd=006001">취미/실용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006002">여행</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006003">건강</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006004">유아/육아</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store6','','show')" onMouseOut="view_hover('category_store6','','hide')"><a href="/store/books/category_list.html?cate_cd=007" onFocus="view_hover('category_store6','','show')">경제/경영/인문</a>
+                <ul id="category_store6">
+                              <li><a href="/store/books/category_list.html?cate_cd=007001">경제/경영</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007002">자기계발</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007003">인문/교양</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007004">마케팅</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007005">에세이</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store7','','show')" onMouseOut="view_hover('category_store7','','hide')"><a href="/store/books/category_list.html?cate_cd=008" onFocus="view_hover('category_store7','','show')">유아/어린이/초등</a>
+                <ul id="category_store7">
+                              <li><a href="/store/books/category_list.html?cate_cd=008001">4~6세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008002">5~7세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008003">예비초등</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008004">초등교과연계 1~12영역</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008005">초등 전학년</a></li>      
+              </ul></li>            
+          <!-- 항상 노출 메뉴 -->          
+          <li class="gnb_category_series"><a href="http://www.hanbit.co.kr/store/books/series_list.html">시리즈</a></li>
+          <li class="gnb_category_reservations"><a href="http://www.hanbit.co.kr/store/books/reservations_list.html">예약도서</a></li>
+          <!--
+          <li class="gnb_category_full"><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li>
+          -->
+          <!--/li-->
+        </ul>
+      </ul>
+      <!--/li-->        
+      <!--/ul-->
+
+      <ul class="lnb_depth1">
+        <li><a href="http://www.hanbit.co.kr/store/books/new_book_list.html">새로나온 책</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/bestseller_list.html">베스트셀러</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/education/edu_list.html">교육</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/item/item_list.html">Item &amp; Maker Shed</a></li>
+      </ul>
+      
+      <!-- SUPPORT -->
+          </div>
+    </div>
+    <!--// lnb -->
+  </div>
+</header>
+<!-- //header -->
+
+<!-- 메인 검색 및 카테고리 영역 -->
+<div id="main_search_area" class="fixed" style="display:none;">
+  <div class="msa_wrap">
+
+    <!-- 검색 -->
+    <div class="msa_srch_wrap">
+      <form onsubmit="return false;">
+      <fieldset class="msa_srch_field">
+        <legend>한빛출판네트워크 검색</legend>
+        <input title="검색어" autocomplete="off" class="srch_keyword" accesskey="s" type="text" name="keyword_str" id="keyword_str" v-model="keyword" @input="typeKeyword">
+        <input type="submit" class="srch_btn" style="cursor:pointer;" @click="clickSearch">
+      </fieldset>
+      </form>
+    </div>
+    <!-- //검색 -->
+
+    <!-- ① 인기검색어 -->
+    <div class="msa_srch_polular" v-if="showPopularKeyword === true">
+      <h2 class="tit">인기 검색어 <span>(최근 1개월간)</span></h2>
+        <div class="popula_box">
+          <ul class="left">
+            <li v-for="keyword in leftPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li v-for="keyword in rightPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <!-- ① 인기검색어 -->
+
+    <!-- ② 검색결과/검색서제스쳔 -->
+    <div class="msa_srch_suggestion" v-if="showPopularKeyword === false">
+      <div class="sugg_left" v-if="bookList.length !== 0">
+        <h3 class="tit">BOOK</h3>
+        <ul class="books_list">
+          <li v-for="book in bookList" @mouseover="mouseOverBook(book.id)"><a @click="clickBookKeyword(book)"><p v-html="book.name"></p></a></li>
+        </ul>
+      </div>
+
+      <div class="sugg_right">
+        <div class="sugg_book" v-if="bookList.length !== 0">
+          <table class="sugg_book_detail">
+            <tr>
+              <td class="cover">
+                <a @click="clickBookKeyword(bookSummary)">
+                  <img :src="bookSummary.imgUrl" class="b_cover">
+                </a>
+              </td>
+              <td class="draft">
+                <a @click="clickBookKeyword(bookSummary)" class="b_title"><strong v-html="bookSummary.originName"></strong></a>
+                <p class="b_int">
+                {{ bookSummary.author }} 지음<br />
+                {{ bookSummary.publishingCompany }} | {{ bookSummary.date }}
+                </p>
+                <p class="b_type">
+                <span>{{ bookSummary.bookType }}</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="sugg_edu" v-if="educationList.length !== 0">
+          <h3 class="tit">EDUCATION</h3>
+          <ul class="edu_list">
+            <li v-for="education in educationList">&#149; <a @click="clickEducationKeyword(education)"><span v-html="education.title"></span></a></li>
+          </ul>
+        </div>
+
+        <div class="sugg_cont" v-if="contentList.length !== 0">
+          <h3 class="tit">CONTENTS</h3>
+          <ul class="cont_list">
+            <li v-for="content in contentList">&#149; <a @click="clickContentKeyword(content)"><span v-html="content.title"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //② 검색결과/검색서제스쳔 -->
+
+  <!-- 닫기 -->
+  <div class="msa_wrap_close">
+    <a href="javascript:;" onclick="view_hover('main_search_area','','hide')">닫기</a>
+  </div>
+  <!-- //닫기 -->
+
+  </div>
+</div>
+
+<!-- old // 구현시 필요없으면 삭제해도 됩니다.
+<script type="text/javascript">
+  function sch_smit(){
+    if(!$.trim($("#keyword_str").val()).length) {
+      alert("검색어를 입력해주세요");
+      $("#keyword_str").focus();
+      return false;
+    }else{
+      $("#gnbsearchfrm").attr("action","/search/search_list.html");
+      $("#gnbsearchfrm").submit(); 
+    }
+  }
+</script>
+-->
+
+<script type="text/javascript">
+    "use strict";
+
+    var common_top_search_vue = new Vue({
+        el: '#main_search_area',
+        data: {
+            //검색엔진 URL
+            searchProxyURL: "https://search.hanbit.co.kr",
+            //인기 검색어 show 여부
+            showPopularKeyword: true,
+            //사용자 검색 키워드
+            keyword: '',
+            //인기 검색어 리스트
+            popularKeywordList: [],
+            // 인기 검색어 리스트 (왼쪽)
+            leftPopularKeywordList: [],
+            // 인기 검색어 리스트 (오른쪽)
+            rightPopularKeywordList: [],
+            // 자동완성에서의 책 리스트
+            bookList: [],
+            // 자동완성에서의 책 정보
+            bookSummary: {
+                'imgUrl': '',
+                'link': '',
+                'name': '',
+                'author': '',
+                'publishingCompany': '',
+                'date': '',
+                'bookType': ''
+            },
+            //에듀케이션 리스트
+            educationList: [],
+            //컨텐츠 리스트
+            contentList: []
+        },
+        created: function created() {
+            // 인기 검색어 조회
+            this.getPopularKeyword();
+        },
+        methods: {
+            /**
+             * 사용자가 검색 키워드를 입력할때 발생하는 이벤트
+             */
+            typeKeyword: function typeKeyword() {
+                var self = this;
+                var keyword = $("#keyword_str").val();
+
+                if (keyword.length !== 0) {
+                    //자동완성어
+                    this.findAutocompleteResult(keyword);
+                } else {
+                    //인기검색어
+                    self.showPopularKeyword = true;
+                }
+            },
+
+            /**
+             * 인기검색어 조회
+             */
+            getPopularKeyword: function getPopularKeyword() {
+                var self = this;
+                this.popularKeywordList = [];
+                $.get(this.searchProxyURL + "/querylog/popularKeyword").done(function (data) {
+                    if (data != null) {
+                        self.drawPopularKeyword(data);
+                    }
+                });
+            },
+
+            /**
+             * 인기 검색어 그리기
+             */
+            drawPopularKeyword: function drawPopularKeyword(popularBooks) {
+                var self = this;
+                popularBooks.forEach(function (item) {
+                    var popularBook = {
+                        bookName: item.keyword
+                    };
+                    self.popularKeywordList.push(popularBook);
+                });
+                var number = 0;
+
+                for (var _iterator = this.popularKeywordList, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
+                    var _ref;
+
+                    if (_isArray) {
+                        if (_i >= _iterator.length) break;
+                        _ref = _iterator[_i++];
+                    } else {
+                        _i = _iterator.next();
+                        if (_i.done) break;
+                        _ref = _i.value;
+                    }
+
+                    var keyword = _ref;
+                    number = number + 1;
+                    keyword.number = number.toString().length < 2 ? "0" + number : number;
+
+                    if (number > 5) {
+                        keyword.direction = "right";
+                        self.rightPopularKeywordList.push(keyword);
+                    } else {
+                        keyword.direction = "left";
+
+                        if (number < 4) {
+                            keyword.bold = 'active';
+                        }
+
+                        self.leftPopularKeywordList.push(keyword);
+                    }
+                }
+            },
+
+            /**
+             * 자동완성 검색 결과
+             */
+            findAutocompleteResult: function findAutocompleteResult(keyword) {
+                var self = this;
+                var param = {
+                    q: keyword,
+                    types: "education,book,contents",
+                    fq: keyword
+                };
+                $.post(this.searchProxyURL + "/autocomplete/search", param).done(function (data) {
+                    if (data != null) {
+                        var bookResult = data.booksResults;
+                        self.changeBookList(keyword, bookResult);
+                        var contentResult = data.contentsResults;
+                        self.changeContentList(keyword, contentResult);
+                        var educationResult = data.educationResults;
+                        self.changeEducationList(keyword, educationResult);
+                    }
+                });
+                this.showPopularKeyword = false;
+            },
+
+            /**
+             * 자동완성어에서 BOOK 부분에서 마우스를 올렸을 시에 발생하는 이벤트
+             * @param bookId
+             */
+            mouseOverBook: function mouseOverBook(bookId) {
+                var currentBook = this.bookList.filter(function (book) {
+                    return book.id === bookId;
+                });
+                this.changeBookSummary(currentBook[0]);
+            },
+
+            /**
+             * 책 소개 변경
+             * @param book
+             */
+            changeBookSummary: function changeBookSummary(book) {
+                if (book !== {}) {
+                    this.bookSummary.name = book.name;
+                    this.bookSummary.originName = book.originName;
+                    this.bookSummary.author = book.author;
+                    this.bookSummary.bookType = book.bookType;
+                    this.bookSummary.imgUrl = book.imgUrl;
+                    this.bookSummary.link = book.link;
+                    this.bookSummary.publishingCompany = book.publishingCompany;
+                    this.bookSummary.date = book.date;
+                    this.bookSummary.bookType = book.bookType;
+                }
+            },
+
+            /**
+             * BOOK 리스트 변경
+             */
+            changeBookList: function changeBookList(keyword, bookResultList) {
+                var self = this;
+                self.bookList = [];
+                var index = 0;
+
+                if (bookResultList != null) {
+                    for (var _iterator2 = bookResultList, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : _iterator2[Symbol.iterator]();;) {
+                        var _ref2;
+
+                        if (_isArray2) {
+                            if (_i2 >= _iterator2.length) break;
+                            _ref2 = _iterator2[_i2++];
+                        } else {
+                            _i2 = _iterator2.next();
+                            if (_i2.done) break;
+                            _ref2 = _i2.value;
+                        }
+
+                        var result = _ref2;
+
+                        if (index < 10) {
+                            var book = {};
+                            book.id = result.code;
+                            book.originName = result.title;
+                            book.name = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            book.link = result.code;
+                            book.imgUrl = self.getBookImageURL(result.code);
+                            book.author = result.author;
+                            book.publishingCompany = result.brand;
+                            book.date = result.pubDate;
+                            book.bookType = result.bookType;
+                            self.bookList.push(book); //책 미리보기 변경
+
+                            self.changeBookSummary(self.bookList[0]);
+                        }
+                    }
+                } else {
+                    self.initBookSummary();
+                }
+            },
+
+            /**
+             * 책 이미지 주소 가져오기
+             */
+            getBookImageURL: function getBookImageURL(bookCode) {
+                var imgURL;
+
+                if (bookCode.substr(0, 1) === "E") {
+                    imgURL = '/data/ebook/' + bookCode + '_m.jpg';
+                } else {
+                    imgURL = '/data/books/' + bookCode + "_m.jpg";
+                }
+
+                return imgURL;
+            },
+
+            /**
+             * 검색 결과가 없을 경우 책 미리보기 초기화
+             */
+            initBookSummary: function initBookSummary() {
+                this.bookSummary = {
+                    'imgUrl': '',
+                    'link': '',
+                    'name': '',
+                    'author': '',
+                    'publishingCompany': '',
+                    'date': '',
+                    'bookType': ''
+                };
+            },
+
+            /**
+             * education 리스트 변경
+             */
+            changeEducationList: function changeEducationList(keyword, educationResultList) {
+                var self = this;
+                self.educationList = [];
+                var index = 0;
+
+                if (educationResultList != null) {
+                    for (var _iterator3 = educationResultList, _isArray3 = Array.isArray(_iterator3), _i3 = 0, _iterator3 = _isArray3 ? _iterator3 : _iterator3[Symbol.iterator]();;) {
+                        var _ref3;
+
+                        if (_isArray3) {
+                            if (_i3 >= _iterator3.length) break;
+                            _ref3 = _iterator3[_i3++];
+                        } else {
+                            _i3 = _iterator3.next();
+                            if (_i3.done) break;
+                            _ref3 = _i3.value;
+                        }
+
+                        var result = _ref3;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.educationList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * contents 리스트 변경
+             */
+            changeContentList: function changeContentList(keyword, contentResult) {
+                var self = this;
+                self.contentList = [];
+                var index = 0;
+
+                if (contentResult != null) {
+                    for (var _iterator4 = contentResult, _isArray4 = Array.isArray(_iterator4), _i4 = 0, _iterator4 = _isArray4 ? _iterator4 : _iterator4[Symbol.iterator]();;) {
+                        var _ref4;
+
+                        if (_isArray4) {
+                            if (_i4 >= _iterator4.length) break;
+                            _ref4 = _iterator4[_i4++];
+                        } else {
+                            _i4 = _iterator4.next();
+                            if (_i4.done) break;
+                            _ref4 = _i4.value;
+                        }
+
+                        var result = _ref4;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.contentList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * 하이라이트 표시
+             */
+            replaceHighlightWord: function replaceHighlightWord(str, highlightKeyword) {
+                var replaceHighlightKeyword = highlightKeyword.replace(/[^a-z0-9가-힣_ ]/gi, '');
+                var regEx = new RegExp(replaceHighlightKeyword, "gi");
+                str = str.replace(regEx, function (a) {
+                    return '<span class="keysel">' + a + '</span>';
+                });
+                return str;
+            },
+
+            /**
+             * 검색 버튼 클릭 시
+             * @param e
+             */
+            clickSearch: function clickSearch(e) {
+                if (!this.keyword || this.keyword.length === 0) {
+                    alert("검색어를 입력하세요");
+                    $("#keyword_str").focus();
+                    e.preventDefault();
+                } else {
+                    location.href = "/search/search_list.html?keyword=" + this.keyword;
+                }
+            },
+
+            /**
+             * 인기 검색어 클릭시
+             * @param book
+             */
+            clickPopularKeyword: function clickPopularKeyword(book) {
+                var searchKeyword = book.bookName;
+                location.href = "/search/search_list.html?keyword=" + searchKeyword;
+            },
+
+            /**
+             * 책 검색어 클릭시 책 상세로 이동
+             * @param book
+             */
+            clickBookKeyword: function clickBookKeyword(book) {
+                location.href = "/store/books/look.php?p_code=" + book.link;
+            },
+
+            /**
+             * 교육 클릭시 교육 상세로 이동
+             * @param education
+             */
+            clickEducationKeyword: function clickEducationKeyword(education) {
+                location.href = "/store/education/edu_view.html?p_code=" + education.link;
+            },
+
+            /**
+             * 컨텐츠 클릭시 컨텐츠 상세로 이동
+             * @param contents
+             */
+            clickContentKeyword: function clickContentKeyword(content) {
+                location.href = "/channel/category/category_view.html?cms_code=" + content.link;
+            }
+        }
+    });
+</script>
+<!-- //메인 검색 및 카테고리 영역 -->
+<SCRIPT LANGUAGE="JavaScript">
+
+  function Cart(strMode) {
+
+    var m_idx = "";
+    var p_code = "B4873434511";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){
+        if(strMode=='cart') { 
+          if(result ==1) { 
+            $('#cartmsg').show();
+            $('#cartmsg2').hide();
+            add_cart_layer_open('layer_add_cart');
+          } else if(result==0) {
+            $('#cartmsg2').show();
+            $('#cartmsg').hide();
+            add_cart_layer_open('layer_add_cart');
+            return;
+          }
+        }  else {
+          location.href="/myhanbit/cart.html";
+        }
+      }          
+    });            
+  }  
+
+  // 견본도서 장바구니 담기. by coffin. 2017-04-12
+  function Cart_p(strMode) {
+    var m_idx = "";
+    var p_code = "B4873434511";
+    var ea = 1;
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+
+    $.ajax({
+      type : "post",
+      url : "/academy/professor/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){      
+        if(strMode=='cart') { 
+          location.href='/academy/professor/cart.html';
+        }  else {
+          location.href='/academy/professor/cart.html';
+        }
+      }          
+    });            
+  }  
+
+  function Wishlist() {
+
+    var m_idx = "";
+    var p_code = "B4873434511";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    var comment = "";
+
+    if(m_idx =="") {
+      alert('로그인이 필요한 서비스 입니다.');
+      document.location.href='/member/login.html';
+      return;
+    }
+
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addWishlist.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt,"comment":comment},
+      dataType : "text",
+      success : function(result, status){
+        if(result ==1) { 
+          alert("해당 상품을 위시리스트에 담았습니다");
+          return;
+        } else if(result==0) {
+          alert("이미 위시리스트에 추가된 상품입니다.");
+          return;
+        }
+      }
+    });            
+  }  
+
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT
+  --------------------------------------------------------------- */  
+  //리뷰 팝업요청 버튼 
+  function review_start(){  
+    var m_idx = '';
+    var re_chk_num = '0';    
+    
+    if(!m_idx) { 
+      alert("로그인후 리뷰 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }  
+      
+    if(re_chk_num<1){
+      review_layer_open('layer_review');
+      $('#hbr_content_review').html('<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>');
+      return;
+    }else{
+      alert('리뷰등록은 도서당 한번만 가능합니다.');
+      return;
+    }
+  }  
+  
+  //리뷰 등록 취소 버튼    
+  function frm_reset(){    
+    $('.review_layer').fadeOut();    
+  }  
+
+
+  //리뷰등록  처리 버튼
+  function review_proc(str,idx){      
+    
+    document.getElementById("hbr_content").value = myeditor.outputBodyHTML();        
+
+    if(!$.trim($("#hbr_title").val()).length) {
+      alert("리뷰제목을 입력해주세요"); $("#hbr_title").focus();return;
+    }    
+
+    if(!$.trim($("#hbr_score").val()).length) {
+      alert("별점 평가를 선택해주세요"); $("#hbr_score").focus();return;
+    }
+    
+          
+    if($("#hbr_content").val().length <= 13) {
+      alert("리뷰내용을 입력해주세요"); $("#hbr_content").focus();return;
+    }      
+    
+    var type_str      =  str;  
+    var hbr_idx       =  idx;    
+    var fk_p_code    = $("#fk_p_code").val();  
+    var fk_m_idx      = $("#fk_m_idx").val();  
+    var hbr_type     = $("#hbr_type").val();            
+    var hbr_title      = $("#hbr_title").val();  
+    var hbr_score    = $("#hbr_score").val();  
+    var hbr_content   = $("#hbr_content").val();  
+
+    var result_postdata= {  
+        type_str    :   type_str,
+        hbr_idx      :  hbr_idx,
+        fk_p_code   :   fk_p_code,
+        fk_m_idx     :   fk_m_idx,
+        hbr_type     :  hbr_type,
+        hbr_title    :   hbr_title,        
+        hbr_score   :   hbr_score,
+        hbr_content :   hbr_content    
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addReview.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){                
+        if(data  >0){                              
+          $('.review_layer').fadeOut();  
+          //location.reload();
+          var currentUrl = window.location.href.split('&');                  
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=review';
+          //location.href='/store/books/look.php?p_code=B4873434511&tid=review';                  
+        }            
+      }
+    });
+  }  
+
+  //리뷰 수정, 삭제
+  function review_frm_proc(str,idx,n){
+
+    if(str =="redel"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }
+    var result_postdata= {  str : str, idx:idx}    
+    var result_url = "/inc/inc_store_layer_popup_review_ajax.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){            
+
+        if(str == "redel" && data ==1 ){
+          alert("리뷰가 삭제되었습니다.");              
+          location.reload();
+          //location.href="/store/books/look.php?p_code=$p_code#review_tab";
+          
+        }else{
+          $("#review_popup_div").html("");        
+          $("#review_popup_div").html(data);        
+          review_layer_open('layer_review');
+        }
+      }         
+    });  
+    
+  }
+      
+  //리뷰 댓글 리스트  ::  리뷰 idx , div_num
+  function comment_list(idx,n){      
+    //alert(idx+"="+n)
+    var result_postdata= {  hbr_idx : idx, div_n:n}    
+    var result_url = "/store/rev_comm_list.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){          
+        $("#comment_div_"+n).html(data);        
+      }         
+    });          
+  }    
+  
+  //등록, 수정, 삭제    ::  처리 str , 리뷰 div_num , 리뷰 idx , 댓글 div_num,  댓글 idx
+  function comment_proc( str ,div_n, idx , div2_n ,re_idx){      
+    var fk_hbr_idx     = idx;    
+    var fk_m_idx     = $("#fk_m_idx").val();        
+    var comment    = $("#comment_"+div_n).val();                
+    var hbrc_idx     = re_idx;
+    
+    if(!fk_m_idx) { 
+      alert("로그인후 댓글을 작성 하실수있습니다.");
+      document.location.href='/member/login.html';
+      return;  
+    }    
+    if(str == "del"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }else if(str == "ins"||str == "mod"){    
+      if(!comment){
+        alert("내용을  입력해주세요.");      
+        $("#comment_"+div_n).focus(); return;  
+      }
+    }
+            
+    var result_postdata= {            
+      str:str,            
+      div_n:div_n,    
+      fk_hbr_idx : fk_hbr_idx,  
+      fk_m_idx : fk_m_idx,  
+      comment:comment,    
+      hbrc_idx:hbrc_idx,
+      div2_n:div2_n
+    }    
+    var result_url = "/store/rev_comm_proc.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){      
+        if(str == "mod_f"){          
+          $("#re_"+div_n+"_"+div2_n).html("");
+          $("#re_"+div_n+"_"+div2_n).html(data);
+        }else{
+          //var ment = data.trim();
+          alert(data.trim());  
+          comment_list( fk_hbr_idx,div_n); //댓글 리스트          
+        }          
+      }         
+    });            
+  }    
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT
+  --------------------------------------------------------------- */  
+  //오탈자 리스트     
+  function misprint_get_list(str){    
+    var p_code     = 'B4873434511';          
+    var conf      = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();  
+    if(!str)str = "page";    
+    
+    //정렬
+    if(str == "page"){    
+      if( p_sort_type == "DE"){ p_sort_type = "A";
+      }else if( p_sort_type == "" ||  p_sort_type == "A"){  p_sort_type = "DE";
+      }      
+      r_sort_type = "";
+    }
+    if(str == "regdt"){    
+      if( r_sort_type == "DE"){ r_sort_type = "A";
+      }else if(  r_sort_type == "" ||r_sort_type == "A"){  r_sort_type = "DE";
+      }
+      p_sort_type = "";    
+    }                  
+    $("#p_sort_type").val(p_sort_type);
+    $("#r_sort_type").val(r_sort_type);
+    //alert(p_sort_type+"=="+r_sort_type);
+            
+    $.ajax({
+      type : "post",
+      url : "/inc/inc_store_detail_misprint_ajaxList.php",
+      data:{  fk_p_code:p_code , conf :conf , p_sort_type : p_sort_type , r_sort_type:r_sort_type },          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){      
+        $("#misprint_con_div").html("");
+        //$("#misprint_con_div").html(data);            
+        $(".misprint_list").eq(0).html(data);            
+        $(".misprint_list").eq(1).html(data);            
+      }
+    });            
+  }
+  
+  //오탈자 팝업요청 버튼 
+  function misprint_start(){    
+    var m_idx = '';  
+    if(!m_idx) { 
+      alert("로그인 후 오탈자 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }    
+    misprint_layer_open('layer_misprint');return;    
+  }  
+  
+  //오탈자 등록 취소 버튼    
+  function misprint_reset(){    
+    $('.misprint_layer').fadeOut();    
+  }  
+
+  //오탈자등록  처리 버튼
+  function misprint_proc(str,idx){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+    
+    $("#err_info").val( myeditor_err.outputBodyHTML());            
+    
+    var type_str        =  str;          
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var err_type        = $("#err_type option:selected").val();      
+    var err_p_version    = "";  
+    var err_p_page      = $("#err_p_page").val();       
+    var err_location    = $("#err_location").val();   
+    var err_info        = $("#err_info").val();   
+    var err_file        = $("#err_file").val();                                                                  
+                
+                    
+    if($("#err_type option:selected").val() =="") {
+      alert("구분을선택해주세요");$("#err_type").focus();return;
+    }
+    
+    if($(":checkbox[name='err_p_version[]']:checked").length < 1) {
+      alert("상품버전을 선택해주세요");$("#err_p_version").focus();return;
+    }
+          
+    if(!err_p_page) {
+      alert("페이지를 입력해주세요");$("#err_p_page").focus();return;
+    }      
+    
+    if(!err_location) {
+      alert("위치정보를 입력해주세요");$("#err_location").focus();return;
+    }  
+        
+    var err_info_len = $("#err_info").val().length;    
+    if(err_info_len <20) {
+      alert("내용을 입력해주세요");$("#err_info").focus();return;
+    }                
+  
+    err_p_version = "";
+    $('input:checkbox[name="err_p_version[]"]').each(function() {         
+      if(this.checked){
+        err_p_version+=','+$(this).val();      
+      }                    
+     });     
+    err_p_version = err_p_version.substring(1,err_p_version.length);         
+            
+    var result_postdata= {  
+         type_str        :  type_str,
+         fk_m_idx        :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         err_type        :  err_type,        
+         err_p_version    :  err_p_version,  
+         err_p_page      :   err_p_page,      
+         err_location      :  err_location,          
+         err_info        :  err_info,    
+         err_file          :  err_file              
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addMisprint.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){  
+        if(data  >0){    
+          $('.misprint_layer').fadeOut();      
+          var currentUrl = window.location.href.split('&');        
+          
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=misprint';
+          //location.href='/store/books/look.php?p_code=B4873434511&tid=misprint';                  
+          //location.reload(true);
+        }            
+      }
+    });  
+  }    
+  
+  //오탈자 인쇄하기
+  function misprint_print(){      
+    var p_code       = 'B4873434511';          
+    var conf        = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();      
+    
+    //var sort_type;    
+    //if(p_sort_type)sort_type = p_sort_type ;
+    //if(r_sort_type)sort_type = r_sort_type ;
+        
+    var url_full = "/store/books/misprint_view.html?fk_p_code="+p_code+"&conf="+conf+"&p_sort_type="+p_sort_type+"&r_sort_type="+r_sort_type;      
+    
+    var openNewWindow = window.open("about:blank");
+        openNewWindow.location.href = url_full;                
+  }
+              
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+  function book_auth(){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+          
+    var fk_m_idx      = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var buy_date      = $("#buy_date").val();      
+    var buy_site        = $("#buy_site").val();      
+    var add_code      = $("#add_code").val();                                                                                
+          
+    if(!buy_site) {
+      alert("구입처를 선택해주세요");$("#buy_site").focus();return;
+    }  
+
+    if(!buy_date) {
+      alert("구입일을 입력해주세요");$("#buy_date").focus();return;
+    }          
+    
+    if(!add_code) {
+      alert("부가기호를 입력해주세요");$("#add_code").focus();return;
+    }  
+    
+    $("#cfrm").submit();
+    
+    /*    
+    var result_postdata= {  
+         fk_m_idx      :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         buy_date      :  buy_date,        
+         buy_site        :  buy_site,  
+         add_code      :   add_code,          
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addBookauth.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){          
+        if(data  >0){                        
+          $('.certification_layer').fadeOut();      
+          location.reload(true);
+        }            
+      }
+    });  
+    */
+  }
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+
+</SCRIPT>
+
+<!-- Contents -->
+<div id="container">
+  <!-- 상단 광고 배너 -->
+  <!--
+<div class="docu_title" style="margin-top:4px;text-align:center;padding:4px;font-weight:bold;background-color:#52AEE1;border:2px solid #000;">
+<a href="http://www.hanbit.co.kr/event/current/current_event_view.html?hbe_idx=129" alt="한빛비즈 회원가입 이벤트" class="hvr-glow" style="width:100%;padding:4px;color:#000000;letter-spacing:-1px;">회원가입이벤트 :: 한빛비즈 스페셜 멤버로 초대합니다! (이메일 수신동의, '한빛비즈' 관심브랜드 체크시 최대 5,000점 마일리지 적립)</a>
+</div> -->  <!-- //상단 광고 배너 -->
+  <!-- 카테고리 상세 wrap -->
+  <div class="store_view_wrap">
+    <div class="store_view_wrap_l">
+      <!-- 책 정보 -->
+            <div class="store_view_area">
+        <div class="store_product_box">
+          <div class="store_product_box_img">
+                        <img src="/data/books/B4873434511_l.jpg" alt="" class="thumb" />
+                      </div>
+          <div class="store_product_box_btn"><a href="javascript:;" onclick="javascript:openPreviewFlip('http://preview2.hanbit.co.kr/books/fvpj','PREVIEW');return false;">미리보기</a></div>
+        </div>
+        
+        <div class="store_product_info_box">
+          <h3>맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020</h3>
+          <p class="stit"></p>
+          
+          <div class="info_area">
+            <div class="info_ico">
+              <p class="ico_m">한빛미디어</p>
+                              <p class="ico_book1">집필서</p>
+                            
+                              <p class="ico_shopping1">판매중</p>
+                            
+            </div>
+            
+            <div class="sns_ico">
+              <span class="ico_facebook"><a href="http://www.facebook.com/share.php?u=http://www.hanbit.co.kr/store/books/look.php?p_code=B4873434511" target="_blank">페이스북 퍼가기</a></span>
+              <span class="ico_google"><a href="https://plus.google.com/share?url=http://www.hanbit.co.kr/store/books/look.php?p_code=B4873434511" target="_blank">구글+ 퍼가기</a></span>
+              <span class="ico_twitter"><a href="http://twitter.com/share?text=%EB%A7%9B%EC%9E%88%EB%8A%94+%EB%94%94%EC%9E%90%EC%9D%B8+%ED%94%84%EB%A6%AC%EB%AF%B8%EC%96%B4+%ED%94%84%EB%A1%9C%26%EC%95%A0%ED%94%84%ED%84%B0+%EC%9D%B4%ED%8E%99%ED%8A%B8+CC+2020&url=http://www.hanbit.co.kr/store/books/look.php?p_code=B4873434511" target="_blank">트위터 퍼가기</a></span>
+            </div>
+          </div>
+          
+          <ul class="info_list">
+                          <li><strong>저자 : </strong><span>김덕영 , 심수진 , 윤성우 , 이수정 </span></li>
+                                    <li><strong>출간 : </strong><span>2020-02-05</span></li>
+            <li><strong>페이지 : </strong><span>504 쪽</span></li>
+            <li><strong>ISBN : </strong><span>9791162242599</span></li>
+                        <li><strong>물류코드 :</strong><span>10259</span></li>
+                        
+            
+            
+          </ul>
+
+                    
+                    
+          <div class="tag_area"><span>TAG : </span><a href='/search/search_list.html?ptype=B&keyword=프리미어 프로'>프리미어 프로</a> ,<a href='/search/search_list.html?ptype=B&keyword=프리미어프로'>프리미어프로</a> ,<a href='/search/search_list.html?ptype=B&keyword=애프터 이펙트'>애프터 이펙트</a> ,<a href='/search/search_list.html?ptype=B&keyword=애프터이펙트'>애프터이펙트</a> ,<a href='/search/search_list.html?ptype=B&keyword=CC 2019'>CC 2019</a> ,<a href='/search/search_list.html?ptype=B&keyword=CC 2020'>CC 2020</a> ,<a href='/search/search_list.html?ptype=B&keyword=어도비'>어도비</a> ,<a href='/search/search_list.html?ptype=B&keyword=프리미어'>프리미어</a> ,<a href='/search/search_list.html?ptype=B&keyword=애펙'>애펙</a> ,<a href='/search/search_list.html?ptype=B&keyword=어도비 프리미어 프로'>어도비 프리미어 프로</a> ,<a href='/search/search_list.html?ptype=B&keyword=어도비 애프터 이펙트'>어도비 애프터 이펙트</a> ,<a href='/search/search_list.html?ptype=B&keyword=adobe Premiere Pro'>adobe Premiere Pro</a> ,<a href='/search/search_list.html?ptype=B&keyword=adobe After Effect'>adobe After Effect</a> ,<a href='/search/search_list.html?ptype=B&keyword=영상 디자인'>영상 디자인</a> ,<a href='/search/search_list.html?ptype=B&keyword=영상 편집'>영상 편집</a> ,<a href='/search/search_list.html?ptype=B&keyword=유튜브'>유튜브</a> ,<a href='/search/search_list.html?ptype=B&keyword=동영상 편집'>동영상 편집</a> ,<a href='/search/search_list.html?ptype=B&keyword=모션 그래픽'>모션 그래픽</a> ,<a href='/search/search_list.html?ptype=B&keyword=프리미어 프로 독학'>프리미어 프로 독학</a> ,<a href='/search/search_list.html?ptype=B&keyword=애프터 이펙트 독학'>애프터 이펙트 독학</a> ,<a href='/search/search_list.html?ptype=B&keyword=프리미어 프로 체험판'>프리미어 프로 체험판</a> ,<a href='/search/search_list.html?ptype=B&keyword=애프터 이펙트 체험판'>애프터 이펙트 체험판</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛디'>맛디</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛있는 디자인'>맛있는 디자인</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛있는'>맛있는</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛있는디자인'>맛있는디자인</a> ,<a href='/search/search_list.html?ptype=B&keyword=에프터 이펙트'>에프터 이펙트</a> ,<a href='/search/search_list.html?ptype=B&keyword=에'>에</a> </div>  
+          <div class="step_area ico_step1">
+            <span><strong>초급</strong></span>
+            <span> 초중급 </span>
+            <span> 중급 </span>
+            <span> 중고급 </span>
+            <span> 고급 </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- //책 정보 -->
+      
+      <!-- 별점 및 좋아요 -->
+      					
+			<script>
+
+			$(function() {
+				$('.store_grade_star').raty({
+					readOnly: true,
+					score: 4.8,
+					starHalf   : '/media/images/star_l-half.png',
+					starOff    : '/media/images/star_l-off.png',
+					starOn     : '/media/images/star_l-on.png'
+				});
+				
+			});
+			</script>	
+            
+            
+            <div class="store_like_area">
+				<div class="store_grade"><div class="store_grade_star"></div><span>4.8점 (6명)</span></div>
+				<div class="store_like"><span>좋아요 : </span><font id="likescore">0</font></div>
+			</div>      <!-- //별점 및 좋아요 -->
+      
+      <!-- 버튼 -->
+      <div class="store_btn_area">
+        <div class="btn_review"><a href="javascript:;" onClick="review_start()">리뷰쓰기</a></div>
+        <div  class="btn_like"><a href="javascript:setLike('B4873434511','');">좋아요</a></div>
+        <div class="btn_misprint"><a href="javascript:;" onClick="misprint_start()">오탈자 등록</a></div>
+                            <div class="btn_certification"><a href="javascript:alert('로그인 후 이용가능한 서비스입니다.');">도서인증</a></div>
+                        </div>
+            <!-- //버튼 -->
+      <!-- 하단 컨텐츠 -->
+      <div class="store_detail_area">
+        <!-- 텝메뉴 -->
+        <script>
+        $(function() {
+          $( ".detial_tabs" ).tabs();
+        });
+        </script>
+        
+        <div class="detial_tabs">
+          <ul>          
+            <li onclick="javascript:hb_show_tabs('0');"><a href="javascript:;">전체</a></li>
+              
+            <li onclick="javascript:hb_show_tabs('1');"><a href="javascript:;">책소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('2');"><a href="javascript:;">저자소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('3');"><a href="javascript:;">목차</a></li>
+
+                                  
+            <li onclick="javascript:hb_show_tabs('5');"><a href="javascript:;">독자리뷰</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('6');"><a href="javascript:;">오탈자 보기</a></li>
+                      
+                        <li onclick="javascript:hb_show_tabs('7');"><a href="javascript:;">부록/예제소스</a></li>
+            
+                      </ul>                
+          
+          <!-- 책소개 -->
+                                            <div id="tabs_1">
+                          <p class="detail_tit" style="display:none;">책소개</p>
+                            		<div id="" class="detail_conbox hanbit_edit_view">
+			<p>
+					<b>프리미어 프로&애프터 이펙트를 제대로 배우는 가장 완벽한 레시피!</b>
+</p>
+<p>
+					<b>한 권으로, 한번에! 쉽고 빠르게 익혀 바로 써먹는 그래픽 입문서!</b>
+</p>
+<p>&nbsp;</p>
+<p>영상 제작과 편집에 꼭 필요한 프리미어 프로와 애프터 이펙트를 한번에 쉽게 배울 수 있습니다. 영상, 모션 그래픽 제작 및 편집 필수 기능만 골라 담아 부담 없이 학습할 수 있으며, 두 프로그램을 따로따로 배우는 것보다 효과적으로 익힐 수 있습니다. 가장 최신 버전인 CC 2020에 완벽히 대응하여 기초 이론은 물론, 필수 기능 및 CC 2020 버전의 신기능까지 빠르게 배울 수 있습니다. 전문가가 아니어도 누구나 쉽게 영상 편집에 도전할 수 있도록 가볍게 학습할 수 있는 기초 용어와 최신 트렌드를 소개하고, 다양한 예제를 [간단 실습]과 [한눈에 실습]으로 따라 하면서 기본 기능을 완벽하게 마스터할 수 있도록 구성했습니다.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					<b>어떤 독자를 위한 책인가?</b>
+</p>
+<p>&nbsp;</p>
+<p>• 프리미어 프로와 애프터 이펙트를 한 번에 배우고 싶은 영상 제작 입문 디자이너</p>
+<p>• 프리미어 프로와 애프터 이펙트를 몇 번 다뤄봤지만 기본기가 약한 초급자</p>
+<p>• 취미로 유튜브 등 영상을 제작해 공유하고 싶은 일반인</p>
+<p>• 영상 제작에 처음 입문하여 체계적인 학습 플랜이 필요한 사람</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					<b>이 책의 특징</b>
+</p>
+<p>&nbsp;</p>
+<p>
+					<b>맛있는 디자인 프리미어 프로& 애프터 이펙트 CC 2020를 선택해야 하는 세 가지 이유!</b>
+</p>
+<p>&nbsp;</p>
+<p>
+					<b>① 영상 제작/편집 디자인, 모션 그래픽의 기초부터 활용까지 한 권으로 익힌다!</b>
+</p>
+<p>영상 제작/편집과 모션 그래픽을 제대로 배우려면 프리미어 프로와 애프터 이펙트 두 프로그램을 동시에 익혀야 합니다. 프리미어 프로와 애프터 이펙트 활용에 필요한 주요 기능을 한 권에 담았습니다. CC 2020 버전의 신기능부터 실무에 쓰이는 활용 예제까지 알차게 구성하여 두 프로그램의 기초와 활용법을 탄탄히 다질 수 있습니다.</p>
+<p>&nbsp;</p>
+<p>
+					<b>② 프리미어 프로와 애프터 이펙트 CC 2020 최신 버전 완벽 대응!</b>
+</p>
+<p>이 책은 가장 최신 버전인 CC 2020에 완벽히 대응했습니다. 영상 편집과 모션 그래픽 제작에 필요한 더욱 강력해진 기능을 다양한 예제로 학습할 수 있습니다. 어도비 CC 2020가 업데이트되며 달라진 프리미어 프로와 애프터 이펙트의 기능까지 한번에 배워보세요!&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					<b>③ 가장 완벽한 학습 구성으로 거의 모든 기능을 학습한다!</b>
+</p>
+<p>영상과 모션 그래픽의 이론을 학습한 후 [간단 실습]을 통해 감각적이고 트렌디한 실습 예제로 기능을 익히고, [한눈에 실습]으로 복합적인 기능을 쉽게 따라 해볼 수 있습니다. 목차만 보더라도 어떤 기능으로 어떤 결과물을 만들 수 있는지 바로 확인할 수 있으므로 필요한 기능을 찾을 때 헤매지 않고 빠르게 찾아 학습할 수 있습니다.</p>
+<p>&nbsp;</p>
+<p>
+					<b>④ 기능 익히기에 가장 적합한 실무 예제 구성</b>
+</p>
+<p>프리미어 프로와 애프터 이펙트의 기초&핵심 기능만 제대로 익혀도 웬만한 영상 제작 작업은 충분히 할 수 있습니다. 모든 기능을 백과사전식으로 외우는 지루한 방식이 아니라 기능을 익히는 데 가장 적합한 실무 예제 구성으로 효과적인 학습을 할 수 있도록 도와줍니다.</p>
+<p>&nbsp;</p>
+<p style="text-align: center">
+					<img src="http://www.hanbit.co.kr/data/editor/20200204135733_kabbuqzh.jpg" alt="맛디프애2020_상세700px.jpg" style="width: 700px; height: 5740px" />
+</p>
+<p>&nbsp;</p>						
+		</div>                        </div>
+                              <!-- //책소개 -->
+  
+          <!-- 저자소개 -->
+                                            <div id="tabs_2">                          
+                          <p class="detail_tit" style="display:none;">저자소개</p>
+                                        <div id="" class="detail_conbox">
+              <!-- 저자 소개 -->
+                                <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">김덕영</p>                  
+                    <p>명지대학교 영상디자인과 전공</p>
+<p>대한민국 국회 뉴미디어팀, BPC LAP 근무</p>
+<p>현 픽쳐몬스터 대표</p>
+<p>《맛있는 디자인 프리미어 프로 CC 2019》 공동 집필</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                <div class="related_pro_box">
+                                  <p class="rel_tit">관련상품</p>
+                  <div class="rel_pro">
+                    <p>책 &amp; eBook</p>
+                    <ul>
+                                              <li><span>맛있는 디자인 프리미어 프로 CC 2020</span><a href="/store/books/look.php?p_code=B4077587469">바로가기 &gt;</a></li>
+                                              <li><span>맛있는 디자인 프리미어 프로 CC 2019 & 프리미어 러시</span><a href="/store/books/look.php?p_code=B8867750450">바로가기 &gt;</a></li>
+                                              <li><span>맛있는 디자인 프리미어 프로 CS6 & CC</span><a href="/store/books/look.php?p_code=B1311683806">바로가기 &gt;</a></li>
+                                          </ul>
+                  </div>
+                                                    </div>
+                                              <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">심수진</p>                  
+                    <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>명지대학교 영상디자인과 전공</p>
+<p>영상 편집 교육 애플리케이션 '아임크리' 제작 프로젝트 매니저</p>
+<p>어도비 맥스 2018 VR 신기술 세미나 발표, 온라인 라이브 클래스</p>
+<p>연세대학교, 홍익대학교, 문화체육관광부, 한국콘텐츠진흥원 영상 제작 특강</p>
+<p>패스트캠퍼스 프리미어 프로 강의</p>
+<p>현 (주)발렌타인드림 프로젝트 매니저</p>
+<p>《맛있는 디자인 프리미어 프로 CC 2019》 공동 집필&nbsp;</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                <div class="related_pro_box">
+                                  <p class="rel_tit">관련상품</p>
+                  <div class="rel_pro">
+                    <p>책 &amp; eBook</p>
+                    <ul>
+                                              <li><span>맛있는 디자인 프리미어 프로 CC 2020</span><a href="/store/books/look.php?p_code=B4077587469">바로가기 &gt;</a></li>
+                                              <li><span>맛있는 디자인 프리미어 프로 CC 2019 & 프리미어 러시</span><a href="/store/books/look.php?p_code=B8867750450">바로가기 &gt;</a></li>
+                                          </ul>
+                  </div>
+                                                    </div>
+                                              <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">윤성우</p>                  
+                    <p>E-Mail: ripeness21@gmail.com<br />
+<br />
+2000년대 초반까지는 소프트웨어 아키텍트(Architect)로 일을 하다가 이후로는 다양한 분야에서 개발경험을 쌓고 있다. 시간이 날 때마다 조깅을 하며 다양한 구상을 하는 저자는, 방법론에 근거한 소프트웨어 설계 전문가가 모든 분야에서 활발히 활동하여 소프트웨어 발전에 기여해야 한다는 생각을 갖고 있다.<br />
+<br />
+『열혈강의 C 프로그래밍』(2003, 프리렉) 집필<br />
+『열혈강의 C++ 프로그래밍』(2004, 프리렉) 집필<br />
+『열혈강의 TCP/IP 프로그래밍』(2003, 프리렉) 집필</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                <div class="related_pro_box">
+                                  <p class="rel_tit">관련상품</p>
+                  <div class="rel_pro">
+                    <p>책 &amp; eBook</p>
+                    <ul>
+                                              <li><span>뇌를 자극하는 윈도우즈 시스템 프로그래밍</span><a href="/store/books/look.php?p_code=B7673779595">바로가기 &gt;</a></li>
+                                          </ul>
+                  </div>
+                                                      <div class="rel_pro">
+                    <p>교육</p>
+                    <ul>
+                                          <li><span>윈도우즈 시스템 프로그래밍</span><a href="/store/education/edu_view.html?p_code=C8547578294">바로가기 &gt;</a></li>
+                                        </ul>
+                  </div>
+                                  </div>
+                                              <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">이수정</p>                  
+                    <p>이화여자대학교 생활미술학과 전공</p>
+<p>Parsons School of Design MFADT, New York 석사</p>
+<p>KBS 한국방송 특수영상팀 디자이너/프로젝트 아트디렉터, JTBC 브랜드디자인팀 팀장</p>
+<p>현 인하대학교 디자인융합학과 겸임교수</p>
+<p>《맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020》 공동 집필</p>
+<p>《맛있는 디자인 애프터 이펙트 CC 2019》 집필&nbsp;</p>
+<p>《모션 그래픽 디자인 강의 + 애프터 이펙트 : 10년차 디자이너에게 1:1로 배우는》 집필</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+														<feelbay>
+																												<kbs>			</kbs>						
+	</feelbay>
+</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                <div class="related_pro_box">
+                                  <p class="rel_tit">관련상품</p>
+                  <div class="rel_pro">
+                    <p>책 &amp; eBook</p>
+                    <ul>
+                                              <li><span>맛있는 디자인 애프터 이펙트 CC 2020</span><a href="/store/books/look.php?p_code=B2792129465">바로가기 &gt;</a></li>
+                                              <li><span>맛있는 디자인 애프터 이펙트 CC 2019</span><a href="/store/books/look.php?p_code=B3506576933">바로가기 &gt;</a></li>
+                                              <li><span>모션 그래픽 디자인 강의 + 애프터 이펙트</span><a href="/store/books/look.php?p_code=B4961630095">바로가기 &gt;</a></li>
+                                              <li><span>맛있는 디자인 애프터 이펙트 CS6 & CC</span><a href="/store/books/look.php?p_code=B8629164768">바로가기 &gt;</a></li>
+                                          </ul>
+                  </div>
+                                                    </div>
+                                            <!-- //관련상품 -->
+
+              <!-- 역자 소개 -->    
+                            <!-- //역자 소개 -->              
+            </div>
+                        </div>
+                              <!-- //저자소개 -->
+  
+          <!-- 목차 -->
+                                            <div id="tabs_3">
+                          <p class="detail_tit" style="display:none;">목차</p>
+                            						<div id="" class="detail_conbox hanbit_edit_view">
+							<p><p>
+					<b>프리미어 프로 | 쉽고 빠른 프리미어 프로 레시피</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>CHAPTER 01. 영상 편집 기초 이론</b>
+</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 01. 영상 편집이란 : 영상 편집의 개념과 편집 방법</b>
+</p>
+<p>영상 편집의 기초 이해하기</p>
+<p>영상 편집의 종류 알아보기</p>
+<p>좋은 영상을 편집하는 방법</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 꼭 알아두자! 영상 편집의 기초 : 영상 편집의 기본기 쌓기</b>
+</p>
+<p>영상 편집 준비 및 계획 세우기</p>
+<p>기본 영상 편집 기술 익히기</p>
+<p>영상 촬영 용어 익히기</p>
+<p>영상 편집 용어 익히기</p>
+<p>코덱 알아보기</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 02. 프리미어 프로 CC 2020의 첫 단계&nbsp;</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 프리미어 프로 CC 2020 시작하기 : 프리미어 프로 프로젝트 만들기</b>
+</p>
+<p>프리미어 프로 CC 2020 [Home] 대화상자</p>
+<p>[간단 실습] 프리미어 프로 프로젝트 만들기</p>
+<p>[간단 실습] 시퀀스 만들고 설정하기</p>
+<p>[간단 실습] 프로젝트 파일 저장하고 닫기</p>
+<p>[간단 실습] 프로젝트 파일 불러오기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 영상 불러오기부터 완성까지 초단기 코스 : 영상 편집 과정 한번에 따라 하기&nbsp;</b>
+</p>
+<p>STEP ① 편집할 영상 가져오기</p>
+<p>STEP ② 프로젝트 만들기</p>
+<p>STEP ③ 영상 편집하기</p>
+<p>STEP ④ 기본 자막과 효과 넣기</p>
+<p>STEP ⑤ 사운드 편집하기&nbsp;</p>
+<p>STEP ⑥ 출력하여 완성하기&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 프리미어 프로와 친해지기 : 프리미어 프로의 다양한 패널, 도구, 기본 기능 익히기</b>
+</p>
+<p>프리미어 프로 CC 2020 인터페이스</p>
+<p>[Source] 패널 사용법 익히기</p>
+<p>[간단 실습] [Source] 패널에 영상 불러오고 닫기</p>
+<p>[간단 실습] [Source] 패널 화면 크기 조정하고 플레이백 해상도 설정하기&nbsp;</p>
+<p>[Source] 패널에서 영상 편집하기</p>
+<p>[간단 실습] 영상 인서트하고 오버라이트하기</p>
+<p>[간단 실습] 인 점, 아웃 점 지정하고 시퀀스 삽입하기</p>
+<p>[Program] 패널에서 영상 소스 삭제하고 추출하기</p>
+<p>[간단 실습] 리프트, 익스트랙트 사용하기</p>
+<p>[Project] 패널의 기본 사용법 익히기</p>
+<p>[간단 실습] 아이콘 뷰와 리스트 뷰로 소스 내용 확인하기</p>
+<p>[Project] 패널에서 파일 검색하고 정리하기</p>
+<p>[간단 실습] 파인드 박스에서 검색하기</p>
+<p>[간단 실습] 어드밴스드 파인드로 검색하기</p>
+<p>[Timeline] 패널의 기본 사용법 익히기</p>
+<p>[한눈에 실습] [Timeline] 패널 확대하고 축소하기</p>
+<p>[간단 실습] Add Track 기능으로 트랙 추가하기</p>
+<p>[간단 실습] 드래그로 트랙 추가하기</p>
+<p>[간단 실습] 트랙 삭제하기</p>
+<p>영상 편집이 쉬워지는 클립 배치하기</p>
+<p>트랙 높이 변경하기</p>
+<p>트랙 헤더 알아보기</p>
+<p>기본 작업 영역 구성 외 패널 알아보기</p>
+<p>클립을 재생할 때 Spacebar와 Enter의 차이</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 04. 작업에 맞춰 작업 영역 바꾸기 : 프리미어 프로 작업 영역 살펴보기</b>
+</p>
+<p>작업 영역 모드 알아보기</p>
+<p>내 마음대로 패널 바꾸기</p>
+<p>[간단 실습] 패널 크기 조정하기</p>
+<p>[간단 실습] 패널 위치 이동하기</p>
+<p>패널 그룹 만들기, 해제(분리)하기</p>
+<p>패널(패널 그룹) 보기 방법 설정하기</p>
+<p>변경한 작업 영역 저장하고 원래대로 되돌리기</p>
+<p>프리미어 프로 프로젝트 파일의 원리</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 03. 유튜브 영상 촬영 이론</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 유튜브 영상 촬영을 위한 영상 기초 이론 : 멋진 유튜브 영상 촬영을 위한 노하우 알아보기</b>
+</p>
+<p>좋은 구도와 조명의 중요성 이해하기</p>
+<p>스마트폰으로 촬영하기</p>
+<p>삼각대, 짐벌 사용해 촬영하기</p>
+<p>목소리 녹음하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 유튜브에서 찾은 동영상 다운로드하기 : 유튜브 다운로더로 영상 소스 다운로드하기</b>
+</p>
+<p>유튜브 다운로더로 영상 소스 다운로드하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 프리미어 프로로 영상 불러오기 : 영상을 프로젝트에 불러오기&nbsp;</b>
+</p>
+<p>세 가지 방법으로 영상 불러오기</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>CHAPTER 04. 프리미어 프로로 영상 편집하기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 프리미어 프로의 편집 도구 소개 : 도구 패널 기능 알아보기</b>
+</p>
+<p>도구 패널 기본 기능 알아보기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 단축키로 영상 편집의 기본 익히기 : C 로 영상을 자르고 V 로 선택하여 옮기기</b>
+</p>
+<p>[간단 실습] 영상 자르고 옮기기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 영상 클립 이어 붙이기 : Ripple Delete 기능 활용하기</b>
+</p>
+<p>[간단 실습] 클립 사이의 공백 없애기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 04. 영상 트랙에 레이어 추가하기 : 트랙에 레이어 배치하기</b>
+</p>
+<p>[간단 실습] 컬러매트 레이어 만들기&nbsp;</p>
+<p>[간단 실습] 컬러매트 레이어를 배경으로 사용하기&nbsp;</p>
+<p>[간단 실습] 컬러매트 레이어로 영상 블랙 디졸브 처리하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 05. 멀티 트랙에서 영상 편집하기 : 여러 개의 영상 자르고 편집하기</b>
+</p>
+<p>멀티 트랙 사용하기</p>
+<p>[간단 실습] 영상 자르고 옮기기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 06. 다양하게 영상 가공하기 : Position, Scale, Rotation, Opacity 적용하기&nbsp;</b>
+</p>
+<p>[간단 실습] 영상 위치 변경하기</p>
+<p>[간단 실습] 영상 크기 변경하기</p>
+<p>[간단 실습] 영상 회전 변경하기</p>
+<p>[한눈에 실습] 불투명도 변경하기</p>
+<p>마스크 활용하기</p>
+<p>[간단 실습] 마스크로 이미지에 영상 삽입하기</p>
+<p>[한눈에 실습] 다양하게 마스크 속성 조절하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 07. 영상 클립에 키프레임 적용하기 : 키프레임을 이용한 애니메이션 작업</b>
+</p>
+<p>키프레임 기본 익히기</p>
+<p>[간단 실습] 키프레임 조정하기</p>
+<p>키프레임 보간하기</p>
+<p>[간단 실습] 키프레임 보간하여 가속도 있는 모션 작업하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 08. 포토샵 이미지 삽입하여 편집하기 : 레이어가 살아 있는 포토샵 이미지 파일 활용하기&nbsp;</b>
+</p>
+<p>[간단 실습] 포토샵 이미지 삽입하고 다양하게 꾸미기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 09. 비디오 트랜지션 알아보기 : 비디오 트랜지션 알아보고 적용하기</b>
+</p>
+<p>비디오 트랜지션의 종류</p>
+<p>[간단 실습] 비디오 트랜지션 적용하기</p>
+<p>기본 비디오 트랜지션의 설정</p>
+<p>[간단 실습] 비디오 트랜지션 길이와 위치 조정하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 10. 비디오 이펙트 알아보기 : 다양한 비디오 이펙트 알아보기</b>
+</p>
+<p>비디오 이펙트</p>
+<p>비디오 이펙트 자세히 알아보기</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 05. 다양한 유튜브 자막 만들기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 다양한 유튜브 자막 만들기 : 타이프 도구로 자막 디자인하기</b>
+</p>
+<p>[간단 실습] 타이프 도구로 기본 자막 만들기</p>
+<p>[간단 실습] 반응형 디자인 자막 만들기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 예능 느낌 자막 만들기 : Legacy Title로 자막 만들기</b>
+</p>
+<p>[간단 실습] 레거시 타이틀 자막 만들기</p>
+<p>[간단 실습] 레거시 타이틀 자막 복제해 활용하기</p>
+<p>[간단 실습] 자막 스타일을 프리셋으로 저장하고 활용하기</p>
+<p>[간단 실습] 레거시 타이틀 자막 프리셋 활용하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 응용 자막 만들기 : 마스크 효과가 적용된 자막 만들기</b>
+</p>
+<p>[간단 실습] 투명한 자막 타이틀 만들기</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 06. 색보정으로 영상 분위기 바꿔보기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. Lumetri Color 완전 정복 : 색보정의 기본인 Lumetri Color 알아보기</b>
+</p>
+<p>Basic Correction</p>
+<p>Creative&nbsp;</p>
+<p>Curve&nbsp;</p>
+<p>Color Wheels & Match</p>
+<p>HSL Secondary(HSL 보조)</p>
+<p>Vignette&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 기본 기능으로 색보정하기 : Lumetri Color로 색보정하기</b>
+</p>
+<p>보정 레이어 사용하기</p>
+<p>[간단 실습] 보정 레이어 추가하기</p>
+<p>[간단 실습] 루메트리 컬러로 색보정하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 블렌드 모드로 색보정하기 : 보케 효과를 적용해 영상에 감성 더하기</b>
+</p>
+<p>[간단 실습] 블렌드 모드 적용하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 07. 사운드 편집하기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 사운드 편집의 기초 이해하기 : 작업 영역 살펴보고 간단하게 사운드 편집하기</b>
+</p>
+<p>오디오 사운드 편집하기</p>
+<p>[간단 실습] 오디오 파일을 이용한&nbsp;</p>
+<p>기본적인 편집 방법</p>
+<p>오디오 클립의 기본 속성 알아보기</p>
+<p>[간단 실습] 키프레임을 이용하여 페이드 아웃 효과 적용하기</p>
+<p>오디오 클립 볼륨 조절하기</p>
+<p>[간단 실습] 오디오 클립에서 직접 레벨 조절하기</p>
+<p>[Audio Track Mixer] 패널</p>
+<p>[Audio Clip Mixer] 패널</p>
+<p>[간단 실습][Audio Clip Mixer] 패널에서 키프레임 적용하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 오디오 파형을 보면서 사운드 편집하기 : 오디오 클립의 파형 확인하고 작업하기&nbsp;</b>
+</p>
+<p>오디오 클립 파형 확인하기</p>
+<p>[간단 실습] 오디오 파형을 보면서 사운드 편집하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 오디오 트랜지션 알아보기 : 오디오 트랜지션 적용하고 응용하기</b>
+</p>
+<p>오디오 트랜지션</p>
+<p>오디오 트랜지션의 기본 설정</p>
+<p>오디오 트랜지션 길이와 위치 조정하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 04. 오디오 이펙트 알아보기 : 오디오 이펙트로 다양한 오디오 효과 적용하기&nbsp;</b>
+</p>
+<p>오디오 이펙트 자세히 알아보기</p>
+<p>[간단 실습]Auto-Match(Ducking) 기능으로 볼륨 조절하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 08. 프리미어 프로로 영상 출력하기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 영상 출력의 기본기 익히기 : [Export Settings] 대화상자 알아보기</b>
+</p>
+<p>[Export Settings] 대화상자의 기본 사용법 익히기</p>
+<p>[간단 실습] 소스 크기 조절하기</p>
+<p>Export 옵션 설정 알아보기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 어도비 미디어 인코더 알아보기 : 다양한 형태로 미디어 파일 인코딩하기</b>
+</p>
+<p>어도비 미디어 인코더&nbsp;</p>
+<p>미디어 인코더의 패널 자세히 알아보기&nbsp;</p>
+<p>[간단 실습] 어도비 미디어 인코더로 출력하기&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. [Export Settings] 대화상자에서 출력하기 : 최종 결과물 만들고 인코딩하기</b>
+</p>
+<p>[간단 실습] 최종 미디어 파일로 출력하기</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+					<b>애프터 이펙트 | 기초가 튼튼해지는 애프터 이펙트 기본편</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>CHAPTER 01. 애프터 이펙트 CC 2020 시작하기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 모션 그래픽 디자인 : 애프터 이펙트로 표현하는 모션 그래픽의 모든 것</b>
+</p>
+<p>모션 그래픽 디자인 트렌드 읽기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 모션 그래픽 실무 제작 과정 : 실무 워크플로우 한눈에 이해하기</b>
+</p>
+<p>제작회의&nbsp;</p>
+<p>프로젝트 리서치</p>
+<p>프로젝트 콘셉트 설정</p>
+<p>아이디어 및 샘플 이미지 스케치</p>
+<p>스토리보드(30초) 구성</p>
+<p>제작 방식 결정</p>
+<p>마무리 작업과 완성</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 애프터 이펙트 CC 2020과의 첫 만남 : 인터페이스와 주요 패널 알아보기</b>
+</p>
+<p>애프터 이펙트 CC 2020 인터페이스</p>
+<p>다양한 도구의 집합체, 도구바</p>
+<p>소스를 불러오고 관리하는 [Project] 패널</p>
+<p>애니메이션 작업을 확인하고 디자인하는 [Composition] 패널</p>
+<p>미디어 파일을 레이어 형태로 관리하는 [Timeline] 패널</p>
+<p>정보를 확인하는 [Info] 패널, 오디오 옵션을 볼 수 있는 [Audio] 패널</p>
+<p>작업한 애니메이션을 확인하는 [Preview] 패널</p>
+<p>텍스트 스타일을 지정하는 [Character], [Paragraph] 패널</p>
+<p>이펙트와 프리셋을 검색하고 적용할 수 있는 [Effects&Presets] 패널</p>
+<p>적용한 이펙트를 확인하고 조절하는 [Effect Controls] 패널</p>
+<p>하나의 레이어만 보면서 작업할 수 있는 [Layer] 패널</p>
+<p>애니메이션을 편집할 수 있는 [Graph Editor] 패널</p>
+<p>작업 환경 설정하기</p>
+<p>프로젝트 저장하기</p>
+<p>사라진 미디어 파일 찾기</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 02. 애프터 이펙트 기본&핵심 기능 익히기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. [Project] 패널 활용하기 : 다양한 형식의 파일 불러오기</b>
+</p>
+<p>[간단 실습] 파일 불러오기</p>
+<p>[간단 실습] 레이어드 포토샵(Layerd Photoshop, psd) 파일 불러오기</p>
+<p>[간단 실습] 일러스트레이터(ai) 파일 불러오기</p>
+<p>[간단 실습] 벡터 레이어를 셰이프 레이어로 변환하기&nbsp;</p>
+<p>[간단 실습] 미디어 파일을 폴더 채로 불러오기</p>
+<p>[간단 실습] 이미지 시퀀스로 불러오기</p>
+<p>[간단 실습] 폴더 안에 있는 여러 파일을 한번에 불러오기</p>
+<p>텍스트를 포함한 psd 파일 불러오고 편집하기</p>
+<p>알파 채널 해석하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. [Composition] 패널 활용하기 : 애니메이션 작업을 확인하고 패널 자유롭게 다루기</b>
+</p>
+<p>[간단 실습] 컴포지션 새로 만들기</p>
+<p>[간단 실습] [New Composition From Footage] 클릭하여 컴포지션 만들기&nbsp;</p>
+<p>[Project] 패널의 미디어 파일을 컴포지션으로 등록하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. [Timeline] 패널 활용하기 : 키프레임을 생성하고 패널 자유롭게 다루기</b>
+</p>
+<p>타임 디스플레이 스타일 설정하기</p>
+<p>[Timeline] 패널 확대, 축소하기</p>
+<p>[Timeline] 패널의 옵션 숨기거나 나타나게 하기</p>
+<p>작업 영역(Work Area) 설정하고 프리뷰하기</p>
+<p>컴포지션 마커 만들기</p>
+<p>레이어 마커 만들기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 04. 렌더링하여 저장하기 : 동영상 파일로 저장하기</b>
+</p>
+<p>[간단 실습] 렌더링하기 ① Add to Render Queue</p>
+<p>[간단 실습] 렌더링하기 ② Add to Adobe Media&nbsp;</p>
+<p>Encoder Queue</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 03. 애프터 이펙트 레이어 이해하기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 레이어 이해하기 : 애니메이션의 기본인 레이어의 모든 것</b>
+</p>
+<p>레이어의 개념 이해하기</p>
+<p>레이어 시작점과 끝점 자유롭게 조작하기</p>
+<p>레이어 편집하기</p>
+<p>레이어 보기 모드 전환하기</p>
+<p>여러 개의 레이어를 차례대로 배치하기</p>
+<p>레이어 라벨 색상 수정하기</p>
+<p>Shy 기능으로 레이어 감추기</p>
+<p>Pre-Compose 기능으로 컴포지션 그룹 만들기</p>
+<p>레이어 검색하기</p>
+<p>레이어 블렌딩 모드 적용하기</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 02. 다양한 레이어 만들기 : 텍스트, 솔리드, 셰이프 레이어 만들기</b>
+</p>
+<p>텍스트 레이어 만들기</p>
+<p>텍스트 레이어에 레이어 스타일 적용하기</p>
+<p>텍스트 레이어에 움직임 속성 추가하기</p>
+<p>솔리드 레이어 만들기</p>
+<p>널 오브젝트 레이어 만들기</p>
+<p>셰이프 레이어 만들기</p>
+<p>조정 레이어 만들기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 레이어 활용하기 : 레이어의 숨겨진 기능 정복하기</b>
+</p>
+<p>[간단 실습] 레이어 스타일 적용하기</p>
+<p>Parents 기능</p>
+<p>[간단 실습] Parents 관계 설정하기</p>
+<p>텍스트 레이어 변환하기</p>
+<p>[간단 실습] 텍스트를 셰이프로 변환하고 Trim Paths 적용하기</p>
+<p>[간단 실습] 텍스트를 마스크로 변환하고 Scribble 이펙트 적용하기</p>
+<p>3D 레이어 활용하기</p>
+<p>[간단 실습] 3D 레이어로 변환하기</p>
+<p>오디오 레이어 활용하기</p>
+<p>[간단 실습]Convert Audio to Keyframe 적용하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>CHAPTER 04. 모션&이펙트 적용하기</b>
+</p>
+<p>
+					<b><br /></b>
+</p>
+<p>
+					<b>LESSON 01. 키프레임 애니메이션 시작하기 : 키프레임 설정하고 애니메이션의 기초 익히기</b>
+</p>
+<p>[간단 실습] 키프레임 설정하기</p>
+<p>[간단 실습] 키프레임 설정하고 모션 패스 수정하기</p>
+<p>[간단 실습] 키프레임 시간 조절하기</p>
+<p>Transform 속성 알아보기</p>
+<p>[간단 실습] 위치(Position) 이동하기</p>
+<p>[한눈에 실습] 위치(Position) 이동하고 모션 패스 조절하기</p>
+<p>[간단 실습] 크기(Scale) 조절하기</p>
+<p>[한눈에 실습] X, Y값을 다르게 크기(Sacle) 조절하기</p>
+<p>[간단 실습] 중심점(Anchor Point) 이동하고&nbsp;</p>
+<p>회전(Rotation) 조절하기</p>
+<p>[간단 실습] 투명도(Opacity) 조절하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 02. 키프레임 움직임 응용하기 : 보간 애니메이션 이해하고 그래프 에디터 활용하기</b>
+</p>
+<p>[간단 실습] Keyframe Assistant로 보간 조절하기</p>
+<p>그래프 에디터 확인하기</p>
+<p>[간단 실습] Keyframe Velocity로 가속도 조절하기</p>
+<p>[간단 실습] 그래프 에디터 활용하여 공이 튀는 애니메이션 만들기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 03. 마스크 기초 익히기 : 마스크 기능 알아보고 활용하기</b>
+</p>
+<p>마스크 만들기</p>
+<p>마스크의 속성</p>
+<p>마스크 모드 설정하기</p>
+<p>[간단 실습] 다양한 도형을 마스크로 그려보기</p>
+<p>[간단 실습] 도형 도구의 숨겨진 옵션을 이용해 새로운 도형 만들기</p>
+<p>[간단 실습] 마스크 옵션 애니메이션 제작하기</p>
+<p>[간단 실습] 펜 도구로 마스크 추가하여 캐릭터 그리기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 04. 매트 기초 익히기 : 트랙 매트 이해하고 적용하기</b>
+</p>
+<p>[간단 실습] 알파 매트와 반전 알파 매트 적용하기</p>
+<p>[한눈에 실습] 루마 매트와 반전 루마 매트 적용하기</p>
+<p>&nbsp;</p>
+<p>
+					<b>LESSON 05. 카메라 포커스 효과를 주고 스타일 추가하기 : 다양한 이펙트 적용하기</b>
+</p>
+<p>[간단 실습] 가우시안 블러 적용하기</p>
+<p>[한눈에 실습] 드롭 쉐도우 적용하기</p>
+<p>[간단 실습] 그레이디언트 램프 적용하기</p></p>
+						</div>                        </div>
+                              <!-- //목차 -->
+  
+          <!-- 출판사리뷰 -->
+                              <!-- //출판사리뷰 -->
+  
+          <!-- 독자리뷰 -->
+          
+                     
+                                           
+                        <div id="tabs_5" ><a id="review_tab" ></a>                       
+                            <p class="detail_tit" style="display:none;">독자리뷰</p>
+                                                                       
+            <div id="" class="detail_conbox" >
+              <div class="detail_review_area">
+                <div class="detail_btn right"><a href="javascript:;" onclick="review_start();">리뷰 쓰기</a></div>
+                
+                <ul>
+                                                      <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8275">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>pusan***</strong><span>l</span>2020-03-27</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+1).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate1"></div>
+                        <div class="tit">유튜브를 시작하려는 분들은 이책 맛있는 디자인 프리미어 프로& 애프터 이펙트 cc 2020로</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>
+	<img style="width: 800px; height: 856px" alt="IMG_3362.JPG" src="http://www.hanbit.co.kr/data/editor/20200327212741_vfwkenuo.jpg" />
+</p>
+<p>&nbsp;</p>
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-6852d990-ea10-4e83-ad6e-08af02cc6fbd">
+	<span class="se-fs- se-ff-   " id="SE-f18e39f7-439c-4a7f-ae75-4f8f4488111e">점차 영상편집에 대한 관심이 늘어나고 점차 개인의 영상 컨텐츠 제작하고 유튜브나 네이버TV에</span>
+</p><!-- } SE-TEXT --><!-- SE-TEXT { -->
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-3e72ad9f-37fd-4a77-841e-cf21d503615d">
+	<span class="se-fs- se-ff-   " id="SE-d40768fb-a2ee-4c2b-920b-5ee3b8b660a1">올리기 위해 좀더 퀄리티 높은 영상을 제작하고 싶어 하는 분들이 많아 지고 있다. 나 역시 영상에</span>
+</p><!-- } SE-TEXT --><!-- SE-TEXT { -->
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-cb75b936-e818-4130-9840-270893a55918">
+	<span class="se-fs- se-ff-   " id="SE-88cce37a-f044-4d9c-906a-487d7eb8fcc9">관심이 많고 좀 더 영상의 퀄리티가 높았으면 좋겠다고 생각을 하지만 프리미어 프로와 에프터 이펙트를</span>
+</p><!-- } SE-TEXT --><!-- SE-TEXT { -->
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-b239f707-541d-4242-bd00-2a29eb50559d">
+	<span class="se-fs- se-ff-   " id="SE-89fb3ba8-9d27-4161-adfc-a183c10017e9">따로 따로 구매를 해서 공부하긴엔 좀  부담스럽긴하다!! 그래서 한빛 미디어에서 나온</span>
+</p><!-- } SE-TEXT --><!-- SE-TEXT { -->
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-cd995f5b-5e98-44b6-bf30-e364bdf50a3e">
+	<span class="se-fs- se-ff-   " id="SE-aae1619d-d224-4522-93e1-1688cab455f1">맛있는 디자인 프리미어 프로& 애프터 이펙트 CC2020이 좋은 책인것 같다.</span>
+</p>
+<div class="autosourcing-stub-extra" style="-ms-zoom: 1; opacity: 1">&nbsp;</div>
+<p>&nbsp;</p>
+<p style="text-align: center">
+	책을 열어보면 이책이 어떻게 프리미어 프로와 애프터 이펙트를 어떻게 구성이 되어있는지 알려주고<!-- } SE-TEXT --><!-- SE-TEXT { -->
+</p>
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-371b9024-b219-494c-b5fd-363f3c93e98a">
+	<span class="se-fs- se-ff-   " id="SE-e8777a01-05dc-4dc9-b6c2-4654ab27ba83">어떤식으로 진행하며 예제파일을 어디에서 받을수 있는지 잘 나와 있다~~!!</span>
+</p>
+<div align="center" class="autosourcing-stub-extra" style="-ms-zoom: 1; opacity: 1">&nbsp;</div>
+<p align="center">&nbsp;</p>
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-236b3759-7c4d-40d4-9294-39c9bfa2776d">
+	<span class="se-fs- se-ff-   " id="SE-b5e2123a-7814-4715-bb4b-c4f2af811650">영상 만드는 것이 어렵다고 도전하지 않는것 보다 요녀석 맛있는 디자인 프리어 프로& 애프터 이펙트 cc2020</span>
+</p><!-- } SE-TEXT --><!-- SE-TEXT { -->
+<p align="center" class="se-text-paragraph se-text-paragraph-align-center " id="SE-f6873d9c-a057-43c2-97bc-c3b473e7aff8">
+	<span class="se-fs- se-ff-   " id="SE-89b2ac2c-4faa-409a-8e8d-7e0c0b10ddca">한권으로 다가가보는 것은 어떻가 싶다~~~!! 초보에게 꼭 권하고 싶은 책이다~~!!</span>
+</p>
+<div align="center" class="autosourcing-stub-extra" style="-ms-zoom: 1; opacity: 1">&nbsp;</div>
+<p align="center">&nbsp;</p>
+<p>&nbsp;</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_1"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8275','1');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8273">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>beholde***</strong><span>l</span>2020-03-27</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+2).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate2"></div>
+                        <div class="tit">두 마리 토끼를 잡을 수 있는 맛있는 디자인! 프리미어 프로& 애프터 이펙트 CC 2020</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>
+			<span style='box-sizing: inherit; font-family: "Noto Sans Demilight", "Noto Sans KR"; color: #000000'>1월 1일이 되면 그 해 목표를 세우곤합니다.</span>
+</p>
+<p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>
+			<span style='box-sizing: inherit; font-family: "Noto Sans Demilight", "Noto Sans KR"; color: #000000'>보통 배우고싶은 게 주를 이루는데 올해는 그 중 하나가 사진이나 영상을 찍어 직접 편집해보는 것입니다.</span>
+</p>
+<p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>&nbsp;</p>
+<p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>
+			<span style="box-sizing: inherit; color: #000000"><span style='box-sizing: inherit; font-family: "Noto Sans Demilight", "Noto Sans KR"'>잠깐 유튜브에 영상 편집을 알려주는 채널들이 있어 따라해보았지만, 결과물은 마음에 들었으나 어쩐지 기초 지식이 부족해진다고 느낄때쯤 책 한권을 선물 받았습니다.</span></span>
+</p>
+<p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>&nbsp;&nbsp;</p>
+<p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>
+			<span style='box-sizing: inherit; font-family: "Noto Sans Demilight", "Noto Sans KR"; color: #000000'>영상 편집을 하는 사람들이 가장 많이 이용하는 대표적인 프로그램이 바로&nbsp;<span style="box-sizing: inherit; font-weight: bolder">프리미어 프로</span>와&nbsp;<span style="box-sizing: inherit; font-weight: bolder">애프터 이펙트</span>&nbsp;입니다. 보통 프리미어 프로로 하나의 영상을 만들어 애프터이펙트로 더 화려한 효과를 넣어주곤 합니다.</span>
+</p>
+<p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>
+		<span style='box-sizing: inherit; color: #000000; font-family: "Noto Sans Demilight", "Noto Sans KR"'>영상 편집하는 책들은 대부분 프리미어 프로와 애프터 이펙트를 같이 수록하지 않습니다. 양이 방대해져서 일까요?</span>
+</p>
+<p style='box-sizing: inherit; color: #333333; font-family: "Noto Sans KR", sans-serif, Avenir, SpoqaHanSans, "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", "Nanum Gothic", Dotum, 돋움, Helvetica, sans-serif; font-size: medium'>
+		<span style='box-sizing: inherit; color: #000000; font-family: "Noto Sans Demilight", "Noto Sans KR"'>그런데 이 책은 Part 1은 프리미어 프로, Part 2는 애프터 이펙트로 구성되있어 두마리 토끼를 잡을 수 있습니다!!</span>
+</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_2"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8273','2');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8226">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>edui***</strong><span>l</span>2020-03-27</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+3).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate3"></div>
+                        <div class="tit">[서평] 맛있는 디자인 1+1으로 나도 유튜버</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>동영상 제작을 해야하는 일이 있어서 관련 도서들을 찾아보던 중에 이 책 &lt;맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020&gt;를 선택하게 되었다. 컷 편집부터 간단한 합성까지 배워야 했던 차에 프리미어와 애프터 이펙트를 한 권으로 쉽게 설명되어 있는 이 책은 매우 안성맞춤이었다. 솔직히 보통 두께의 한 권으로 두 프로그램을 얼마나 잘 배울 수 있을지 의문이 들기도 했지만 책으로 공부해 가면서 그런 생각이 사라졌다.</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/btiXGB/btqCX8ugLNv/l8sWSVTcc4kBdkZPZTh9Qk/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/btiXGB/btqCX8ugLNv/l8sWSVTcc4kBdkZPZTh9Qk/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbtiXGB%2FbtqCX8ugLNv%2Fl8sWSVTcc4kBdkZPZTh9Qk%2Fimg.jpg" data-filename="01.jpg" data-origin-width="3284" data-origin-height="1960" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>우선 표지를 보면 그래픽 분야 1위에 빛나는 베스트셀러라고 되어있는데 그래서 인지 더 신뢰가 가기도 했다. 깔끔하게 되어있는 앞표지와, 책의 구성에 관해서 간략하게 소개 되어있는 뒤표지는 이 책을 이용해서 어떤 부분을 배우게 될지를 파악하는데 도움이 되고 있다.</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/cf8w7L/btqC1H97yTj/fBYD7UIpHQO1AOYKHVKBP1/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/cf8w7L/btqC1H97yTj/fBYD7UIpHQO1AOYKHVKBP1/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcf8w7L%2FbtqC1H97yTj%2FfBYD7UIpHQO1AOYKHVKBP1%2Fimg.jpg" data-filename="02.jpg" data-origin-width="3112" data-origin-height="1960" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>책을 선택할 때 고려하는 것 중에 하나가 저자인데 이 책은 믿을만한 4명의 영상디자이너들의 공동 집필로 단순한 편집기술 뿐만 아니라 디자인적인 감각과 스킬을 함께 배울 수 있을 것이라는 기대를 하게 만들기도 한다.</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/Jjooj/btqCZZJ8TKf/rzO587IqJoprpSA0qNbF30/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/Jjooj/btqCZZJ8TKf/rzO587IqJoprpSA0qNbF30/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FJjooj%2FbtqCZZJ8TKf%2FrzO587IqJoprpSA0qNbF30%2Fimg.jpg" data-filename="03.jpg" data-origin-width="1882" data-origin-height="2393" width="640" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>
+	그리고&nbsp;한빛출판네트워크&nbsp;홈페이지(<a href="http://www.hanbit.co.kr/" target="_blank" rel="noopener" style="color: #d4bca7">www.hanbit.co.kr</a>)에 접속해서 쉽게 예제와 완성 파일들을 다운로드 받을 수 있다. (빠른 링크도 포함하고 있으므로 찾지 않고 바로 다운로드 페이지로 접속 가능하다)
+</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/bqxKkc/btqCXwvrvcK/OCdDhgiwRq0ZVnbd6VXDYk/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/bqxKkc/btqCXwvrvcK/OCdDhgiwRq0ZVnbd6VXDYk/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbqxKkc%2FbtqCXwvrvcK%2FOCdDhgiwRq0ZVnbd6VXDYk%2Fimg.jpg" data-filename="04.jpg" data-origin-width="2944" data-origin-height="1789" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>프로그램 관련 책임에도 불과하고 이 책은 프로그램 사용에 관한 꼭 필요한 내용을 쉽게 설명해주고 있을 뿐만 아니라 영상 편집에 있어서 알아야할 기초 이론과 기본 용어, 모션그래픽 실무 제작 과정에 대해서 알기 쉽게 정리되어 있으므로 영상에 대한 기본 지식이 부족한 초보자들도 기초를 다지고 영상 제작을 위한 중요한 팁들을 얻을 수 있도록 도와주고 있다.</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/R6k3w/btqCX9fG4DS/fIKL8eSB0rN00e4iafph4K/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/R6k3w/btqCX9fG4DS/fIKL8eSB0rN00e4iafph4K/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FR6k3w%2FbtqCX9fG4DS%2FfIKL8eSB0rN00e4iafph4K%2Fimg.jpg" data-filename="05.jpg" data-origin-width="4032" data-origin-height="1960" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>그 뿐만 아니라 유튜브 촬영 이론이 함께 설명이 되어 있어서 촬영을 위한 기초 이론(조명, 구도, 조명, 녹음 등) 전문가들의 노하우를 함께&nbsp;&nbsp;배울 수 있는 장점이 있다.</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/cg6dLf/btqC1GwzaM7/jvv6ioksDrAbzx1qpNhDKk/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/cg6dLf/btqC1GwzaM7/jvv6ioksDrAbzx1qpNhDKk/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fcg6dLf%2FbtqC1GwzaM7%2Fjvv6ioksDrAbzx1qpNhDKk%2Fimg.jpg" data-filename="06.jpg" data-origin-width="3318" data-origin-height="1960" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/2vZXs/btqCXvpFVmv/v18AzycYi5SGpAuRvIpU01/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/2vZXs/btqCXvpFVmv/v18AzycYi5SGpAuRvIpU01/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2F2vZXs%2FbtqCXvpFVmv%2Fv18AzycYi5SGpAuRvIpU01%2Fimg.jpg" data-filename="07.jpg" data-origin-width="1960" data-origin-height="1532" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>CC2020 최신버전에 달라진 점들과 프로그램의 기초적인 툴 사용법을 시작으로 자막 만들기, 색보정, 사운드 편집 영상에 해당하는 마무리 작업까지 예제파일로 실습을 해보면서 해당 이론을 빠르고 재미있게 습득할 수 있어서 바로 실전에 적용하면서 공부할 수 있어서 많은 도움이 된다.</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/bjBs2s/btqCWL0CaSM/esCmpMUDQy8iqPQB4gk0qK/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/bjBs2s/btqCWL0CaSM/esCmpMUDQy8iqPQB4gk0qK/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbjBs2s%2FbtqCWL0CaSM%2FesCmpMUDQy8iqPQB4gk0qK%2Fimg.jpg" data-filename="08.jpg" data-origin-width="3060" data-origin-height="1834" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>어떤 프로그램이든지 단축키를 알고 있으면 작업 시간이 훨씬 많이 단축된다는 것은 누구나 아는 사실일 것이다. 역시 이렇게 프리미어와 애프터 이펙트의 단축키가 잘 정리되어 있어서 작업하다가 잘 생각나지 않는 단축키는 바로 찾아 볼 수 있어서 좋은 것 같다.</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; padding: 0px; display: table; position: relative; text-align: center; font-family: "Noto Sans KR", sans-serif; font-size: 16px'>
+	<span data-url="https://k.kakaocdn.net/dn/l0kh8/btqC1GwzcSG/NTzkHxL6ozFWgknHYU4Jyk/img.jpg" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/l0kh8/btqC1GwzcSG/NTzkHxL6ozFWgknHYU4Jyk/img.jpg" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fl0kh8%2FbtqC1GwzcSG%2FNTzkHxL6ozFWgknHYU4Jyk%2Fimg.jpg" data-filename="09.jpg" data-origin-width="4032" data-origin-height="1960" style="border: none; vertical-align: top; max-width: 100%; display: inline-block; width: 860px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>&nbsp;</p>
+<p style='margin-bottom: 22px; padding-right: 0px; padding-left: 0px; word-break: break-all; font-size: 16px; line-height: 1.5714; color: #666666; font-family: "Noto Sans KR", sans-serif; padding-top: 0px !important; padding-bottom: 0px !important'>
+	보통은&nbsp;프로그램을&nbsp;책으로&nbsp;배운다는&nbsp;것은&nbsp;쉬운&nbsp;일이&nbsp;아니다.&nbsp;시중에&nbsp;딱딱하게&nbsp;쓰인&nbsp;책들도&nbsp;많고&nbsp;공부를&nbsp;하다가&nbsp;궁금한&nbsp;점이나&nbsp;이해가&nbsp;가지&nbsp;않는&nbsp;점을&nbsp;바로&nbsp;해결할&nbsp;수&nbsp;없는&nbsp;경우가&nbsp;많기&nbsp;때문에&nbsp;도중에&nbsp;쉽게&nbsp;포기하는&nbsp;사람들도&nbsp;많다.&nbsp;<br />&nbsp;그러나&nbsp;이&nbsp;책&nbsp;&lt;<b>맛있는&nbsp;디자인&nbsp;프리미어&nbsp;프로&애프터&nbsp;이펙트&nbsp;CC2020</b>&gt;은&nbsp;아주&nbsp;초보들부터&nbsp;중급자들까지&nbsp;참고할&nbsp;수&nbsp;있는&nbsp;책이며&nbsp;기초부터&nbsp;활용,&nbsp;전문가들의&nbsp;노하우까지&nbsp;모두&nbsp;얻을&nbsp;수&nbsp;있는&nbsp;책이다.&nbsp;<br />&nbsp;뿐만&nbsp;아니라&nbsp;이해하기&nbsp;쉬운&nbsp;설명과&nbsp;지루하지&nbsp;않은&nbsp;구성과&nbsp;편집으로&nbsp;마무리까지&nbsp;할&nbsp;수&nbsp;있는&nbsp;추천하고&nbsp;싶은&nbsp;책이다.
+</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_3"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8226','3');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8215">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>kghm***</strong><span>l</span>2020-03-26</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+4).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate4"></div>
+                        <div class="tit">[서평] 맛있는 디자인 프리미어프로 & 애프터 이펙트 CC 2020</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>
+	<img width="480" height="640" class="_photoImage" id="MjAyMDAzMjZfMTA5/MDAxNTg1MTc0MDY2ODc5.dmxod1qCqErmINuMUGk0XM16qvCcK9kYK0qLWfxbM-sg.o_yxeLXLQwB4pXaFwSd1qEtFOzjweZ2_DReRb4IOBFkg.JPEG.kghmice/KakaoTalk_20200326_070217850.jpg" style="cursor: pointer; rwidth: 480px; rheight: 640px" alt="" src="https://blogfiles.pstatic.net/MjAyMDAzMjZfMTA5/MDAxNTg1MTc0MDY2ODc5.dmxod1qCqErmINuMUGk0XM16qvCcK9kYK0qLWfxbM-sg.o_yxeLXLQwB4pXaFwSd1qEtFOzjweZ2_DReRb4IOBFkg.JPEG.kghmice/KakaoTalk_20200326_070217850.jpg?type=w3" data-lazy-src="" /><br style="clear: both" /><br style="clear: both" /><img width="480" height="640" class="_photoImage" id="MjAyMDAzMjZfMTI1/MDAxNTg1MTc0MDY3Mzk5.7nbSd7f_sYfSVQRtgl_ySIf23Jd0Yqnslik55ilOXZMg.qNkl6spoW3GMqYzmLRSE8X4XjApZpWXo_Kmbx7VlJmcg.JPEG.kghmice/KakaoTalk_20200326_070218475.jpg" style="cursor: pointer; rwidth: 480px; rheight: 640px" alt="" src="https://blogfiles.pstatic.net/MjAyMDAzMjZfMTI1/MDAxNTg1MTc0MDY3Mzk5.7nbSd7f_sYfSVQRtgl_ySIf23Jd0Yqnslik55ilOXZMg.qNkl6spoW3GMqYzmLRSE8X4XjApZpWXo_Kmbx7VlJmcg.JPEG.kghmice/KakaoTalk_20200326_070218475.jpg?type=w3" data-lazy-src="" />
+</p>
+<p>&nbsp;</p>
+<p class="0" style="text-align: justify">
+	<span lang="EN-US" style="letter-spacing: 0pt; font-family: 굴림; font-size: 10pt">&nbsp;나도 처음부터 영샹편집에 관심이 있었던 것은 아니다. 이직하려는 분야가 크리에이터, 유튜버를 꿈꾸는 사람들이 많아지면서 자연스럽게 영상 편집에 관심을 갖는 사람들도 급속도로 많아졌다. 영상을 편집하는 건 ADOBE 프리미어를 거치지 않고서는 한계점이 많다는 점이다. 그만큼 프리미어의 가치가 충분히 있고, 이것을 활용할 줄 안다면 모두에게나 충분한 무기이자 스펙이 될 수 있다는 것이다. 나도 그래서 뒤늦게 영상편집이라는 분야에 뛰어들기 시작했다. </span>
+</p>
+<p class="0" style="text-align: justify">&nbsp;ADOBE 프로그램은 전세계적으로 인지도가 높은 것으로 알고 있다. 게다가 프리미어와 애프터 이펙트는 같은 회사의 프로그램들이기 때문에, 상호 호환이 가능하고, 시너지효과도 발휘할 수 있다. 게다가 포토샵이나 일러스트레이터도 활용하면 더더욱 가치가 있는 것도 사실이다. </p>
+<p class="0" style="text-align: justify">
+	<span lang="EN-US" style="letter-spacing: 0pt; font-family: 굴림; font-size: 10pt">​ 이 책은 프리미어 프로와 애프터 이펙트를 같이 공부하고자 하는 분들에게는 많은 쓸모가 있을 것이다. 한 권에 두 과목의 내용이 들어있어서, 기초적이고 입문적인 내용이라고 할 수 있을 것 같다. 너무 처음부터 방대한 양을 배우기에는 양이 부담될 수도 있고, 중간에 어려움을 느끼기라도 한다면, 손을 놓을 수도 있다. 그렇기에 이 책부터 차근차근 짚고 넘어가는 것이 좋겠다는 것이 나의 생각이다. </span>
+</p>
+<p class="0" style="text-align: justify">
+	<span lang="EN-US" style="letter-spacing: 0pt; font-family: 굴림; font-size: 10pt">&nbsp;단순히 책만 보는 것에 그치지 않고, 연습을 해야, 비로소 의미가 있고 빛을 발하지 않을까...?</span>
+</p>
+<p class="0" style="text-align: justify">
+	<span lang="EN-US" style="letter-spacing: 0pt; font-family: 굴림; font-size: 10pt">책에도 예제가 실어져있어서, 기본기를 다지는데 더 큰 도움이 될 것이다. 이 책은 입문으로 생각하고, 나중에 심화로 들어가도 늦지는 않을 것이라고 본다. </span>
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="0" style="text-align: justify">
+	<span lang="EN-US" style="letter-spacing: 0pt; font-family: 굴림; font-size: 10pt"><span lang="EN-US" style="letter-spacing: 0pt; font-family: 굴림; font-size: 10pt"><img width="480" height="360" class="_photoImage" id="MjAyMDAzMjZfODQg/MDAxNTg1MTc0MDY3ODAz.1Rg8TqyQqKUIGVGZA-wChQNHfE6PBjvs7FuOoE8gzowg.GMzO57_uafnBbM6FOi_a5K0rBeLNEPbD74L7-HXMK5gg.JPEG.kghmice/KakaoTalk_20200326_070219079.jpg" style="cursor: pointer; rwidth: 480px; rheight: 360px" alt="" src="https://blogfiles.pstatic.net/MjAyMDAzMjZfODQg/MDAxNTg1MTc0MDY3ODAz.1Rg8TqyQqKUIGVGZA-wChQNHfE6PBjvs7FuOoE8gzowg.GMzO57_uafnBbM6FOi_a5K0rBeLNEPbD74L7-HXMK5gg.JPEG.kghmice/KakaoTalk_20200326_070219079.jpg?type=w3" data-lazy-src="" />&nbsp;</span></span>
+</p>
+<p class="0" style="text-align: justify">
+	<span lang="EN-US" style="letter-spacing: 0pt; font-family: 굴림; font-size: 10pt">&nbsp;영상편집이지만, 오디오도 중요하다. 소리가 없는 영상은 무의미하니까... 이 부분이 나는 이해하는데 애 좀 많이 먹었다. 그래서 대표적으로 꼽아보았다. 아마도 독자분들 중에서 이 부분이 어려우신 분들도 있을 것이라 여겨진다. 이 책을 부담없이 나는 추천한다. 모두들 이 책과 함께 건투를 빌고, 승자가 되었으면 좋겠다.</span>
+</p>
+<div class="autosourcing-stub-extra" style="-ms-zoom: 1; opacity: 1">&nbsp;</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_4"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8215','4');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8133">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>cjw1***</strong><span>l</span>2020-03-23</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+5).raty({
+                              readOnly: true,
+                              score: 4,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate5"></div>
+                        <div class="tit">[나는 리뷰어다] 맛있는 디자인 프리미어 프로&애프터 이펙트 리뷰</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>&nbsp;</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>요즘 직장인은 가슴 속에 두 가지 꿈을 간직하고 있다고 한다. 하나는 퇴사, 둘은 유튜버. 누구라도 유튜브 대박을 한 번쯤은 꿈꿀수 있는, 관련 전공을 하지 않더라도 무료로 제공되는 수많은 강의로 누구나 질 좋은 컨텐츠를 만들 수있는 시대가 되었다. 대다수가 이런 생각을 하는 지금은 이렇게 뻘건 레드 오션이 따로 없지만. 				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>물론 지금 직장인이 아닌 나도 유튜버의 꿈은 꾸고 있다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>뭐 백만 구독을 노린다는 건 아니고</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>실버 버튼은 한번 달아 보고 싶은 정도</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>?				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>앞서 말했듯 레드 오션인 크리에이터 시장에서</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>나는 성공의 요건이 이 정도라고 생각한다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>.				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoListParagraph" style="margin-left: 38pt; text-indent: -18pt">
+		<!-- [if !supportLists] --><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>1.<span style='font: 7pt "맑은 고딕", "Malgun Gothic"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span><!-- [endif] --><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>High Quality </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>편집</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>				<o:p>			</o:p></span>
+</p>
+<p class="MsoListParagraph" style="margin-left: 38pt; text-indent: -18pt">
+		<!-- [if !supportLists] --><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>2.<span style='font: 7pt "맑은 고딕", "Malgun Gothic"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span><!-- [endif] --><span style='font-family: "맑은 고딕", "Malgun Gothic"'>참신함</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>				<o:p>			</o:p></span>
+</p>
+<p class="MsoListParagraph" style="margin-left: 38pt; text-indent: -18pt">
+		<!-- [if !supportLists] --><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>3.<span style='font: 7pt "맑은 고딕", "Malgun Gothic"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span><!-- [endif] --><span style='font-family: "맑은 고딕", "Malgun Gothic"'>고양이</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>				<o:p>			</o:p></span>
+</p>
+<p class="MsoListParagraph" style="margin-left: 38pt; text-indent: -18pt">&nbsp;</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>뭐 다른 요소도 많겠지만 대표적으로는 이 정도겠지</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. 				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">
+		<span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>3</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>번의 고양이는 뭐 말할 것도 없다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>.</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>자기 전에 노루</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>루미 보거나 몽자 뛰어 노는 걸 보면서 어느새 실실 웃는 자신의 모습을다들 발견했을 것이다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. 				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">
+		<span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>2</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>번의 참신함</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>유튜브의 알고리즘이란 참 신기해서</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>연관이 없어 보이는 영상이라도 이어지면 뭔가 보게 되는 게 있다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>참신하면 구독 좋아요 알림설정을 하게 되는 것이고</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>스티브 잡스가 이 말을 했었다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. “</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>사람들은 자기가 무엇을 원하는지 모른다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>.” </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>난 이 말을 참 좋아하는데</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>유튜브 추천 영상을 보면 과연 그러하다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. ‘</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>던질까말까</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>’</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>를 </span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>1</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>시간 동안 반복하는 영상이 인기를 끌 줄</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>두더지 잡는 영상을 몇 백만이 볼 줄</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>자취생이 자기 밥 해먹는 영상을몇십만이 볼 줄 누가 알았을까</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>? 				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">
+		<span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>1</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>번은 두말할 것 없다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>워크맨에 날개를 달아 준 것이 편집이니까</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. 				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>서두가 길었는데</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>,</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>이 책은 그 편집의 기초를 잡아 주는 책이다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>대학교 교양 수업에서 포토샵을 다루는 강의를 들을 때 재미있어서 열심히 했던 기억이 있다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>같은 </span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>Adobe </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>사의 프로그램이라 그런지 다루기가 어렵지 않았다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>.&nbsp;</span>
+</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>사진 속 책의 표지 뒤 모니터는 간단하게 컷</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>, </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>배속을 사용하여 영상을 편집 해 본 결과물이다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. 				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">
+		<span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>				<o:p>
+						<span style='font-family: "맑은 고딕", "Malgun Gothic"'>&nbsp;</span>		
+		</o:p></span>
+</p>
+<p style="text-align: center">
+		<img src="http://www.hanbit.co.kr/data/editor/20200323165657_bxchcssk.jpg" alt="맛있는디자인PrAe-1.jpg" id="image_0.3735289514161164" style="width: 500px; height: 766px" />
+</p>
+<p>&nbsp;</p>
+<p style="text-align: center">
+		<img src="http://www.hanbit.co.kr/data/editor/20200323165700_esxiwnho.jpg" alt="맛있는디자인PrAe-2.jpg" style="width: 600px; height: 350px" />
+</p>
+<p>&nbsp;</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>책의 내용 중 </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>자막을 만드는 것의 설명이다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>.&nbsp;</span>
+</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>단계별로 자세하게 설명이 되어 있어서 처음 하는 사람도 어렵지 않게 따라할 수있다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>.				<o:p>			</o:p></span>
+</p>
+<p class="MsoNormal">
+		<span style='font-family: "맑은 고딕", "Malgun Gothic"'>막히는 부분이 생겼을 때 열어볼 책으로 적합한 것 같다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>. </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>인트로를 만들 때 사용할&nbsp;</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>Ae(</span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>애프터 이펙트</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>) </span><span style='font-family: "맑은 고딕", "Malgun Gothic"'>관련 설명도 같이 있으니요긴하게 써야겠다</span><span lang="EN-US" style='font-family: "맑은 고딕", "Malgun Gothic"'>.<b>						<o:p>				</o:p></b></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">
+		<font face="맑은 고딕, Malgun Gothic">#한빛미디어 글쓰기 도구가 너무 좋지 않아 당황했다...;; 너무 불편합니다!!ㅠㅠ</font>
+</p>
+<p>&nbsp;</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_5"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8133','5');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8082">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>22y***</strong><span>l</span>2020-03-16</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+6).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate6"></div>
+                        <div class="tit">영상을 배워보고 싶은 문과생들에게도 추천</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>
+	<img src="http://www.hanbit.co.kr/data/editor/20200316172308_dheqsoca.jpg" alt="024F8A1C-921C-4606-91CA-BB2B3C1E9EBF-28261-000012981113AE13.jpg" style="width: 750px; height: 750px" />
+</p>
+<p>&nbsp;</p>
+<p>영상을 편집하고 싶으나 경험한 적이 없는 사람들,</p>
+<p>거기다 두 가지 프로그램이 있는데 둘 다 사용해보고 싶고, 책 두권을 사자니 금전이 부담이 된다는 사람에게 이 책을 추천함.</p>
+<p>프리미어 프로의 경우 책 첫 부분에 설치 방법부터 나와있으니 입문자나 설치도 어렵게 느끼는 사람에게 좋음.</p>
+<p>영상으로 보고 배우는 것도 좋지만 멈추고 따라하기 보단 책에 어떤 버튼을 눌러야 하는지 상세하게 표시되어 있으니 따라하기 훨씬 수월함.</p>
+<p>&nbsp;</p>
+<p>그리고 가장 중요한 사양 안내가 되어 있어서 윈도우 뭐뭐를 사용하는데 프리미어 프로를 사용할 수 있을까요 라고 질문하거나 검색할 필요없이 본인 컴퓨터 사양을 확인해서 설치해도 되는지 알아볼 수 있음.</p>
+<p>&nbsp;</p>
+<p>책이 너무 두껍다고 생각할 수 있는데 두 가지를 담아낸 것 치고는 얇다고 생각하며, 또 빠지는 부분이 없음.</p>
+<p>예를 들어 어떤 순서대로 따라해야하는지 캡처 화면 위에 클릭 순서가 표시되어있는데&nbsp;</p>
+<p>옆에&nbsp; {[frames/second]를 선택합니다, 초당 프레임 수를 의미합니다.} 와 같이 상세하게 설명해줘서 독학하기에 무리가 없음.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_6"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8082','6');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                    
+
+                                    
+                                  </ul>
+              </div>
+            </div>                          
+                        </div>
+                                      
+          <!-- //독자리뷰 -->
+  
+          <!-- 오탈자 보기 -->
+                                            <div id="tabs_6"><a id="misprint_tab" ></a>
+                          <p class="detail_tit" style="display:none;">오탈자 보기</p>
+                            		 					
+						<div id="" class="detail_conbox"  >
+							<div class="detail_btn right"><a href="/errata/view.html?isbn=9791162242599" target="_blank">(구 홈페이지 / 2016년 5월 이전) 오탈자보기</a> <a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+							<!--a href="/store/books/misprint_view.html" target="_blank"-->
+							<input type="hidden" name="p_sort_type" id="p_sort_type"  value="">
+							<input type="hidden" name="r_sort_type" id="r_sort_type"  value="">
+							
+							
+							<div id="misprint_con_div" class="misprint_list"><!--  오탈자 리스트 --></div>
+							
+							<!-- 오탈자 등록 버튼-->
+							<div class="detail_btn right"><a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+						</div>
+						<script>
+							$(function() { misprint_get_list();  });	 //오탈자 리스트 호출	
+						</script>
+                        </div>
+                              <!-- //오탈자 보기 -->
+  
+          <!-- 부록/예제소스 -->
+                    <div id="tabs_7"><a id="exam_tab" ></a>
+            <p class="detail_tit" style="display:none;">부록/예제소스</p>
+              <div id="" class="detail_conbox">
+    <div class="table_area">
+      <div style="text-align:right;font-size:12px;letter-spacing:-1px;font-weight:bold;padding:4px;">
+      <a href="javascript:;" onclick="centerNewWin('https://docs.google.com/document/d/e/2PACX-1vSPq2pdZo44LmE7QxmIOnhEfer5m1drDVWZMSLI0WELgrmv-nGsSXQSocb2Ri-VMGNNOiv9WFyrWIkS/pub','HELP', 660,800);return false;">
+      <img src="/images/common/help_icon.png" alt="HELP" width="18" align="absmiddle">
+      구글 드라이브(<img src="/images/common/srt_google_download.png" alt="Google Drive" align="absmiddle" width="15" height="15">)에서 부록/예제소스 다운로드하는 방법 <i>- Click</i></a>
+      </div>
+      <table class="tbl_type_list" border="0" cellspacing="0" summary="부록/예제소스">
+        <caption>부록/예제소스</caption>
+        <colgroup>
+        <col width="">
+        <col width="140px">
+        <col width="120px">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">자료명</th>
+            <th scope="col">등록일</th>
+            <th scope="col" class="bdr_r">다운로드</th>
+          </tr>
+        </thead>
+        <tbody>
+  <tr>
+    <td class="b_tit"><img src="/images/common/srt_google_download.png" alt="Google Drive" width="22" align="absmiddle" border="0"> 예제소스</td>
+    <td>2020-03-11</td>
+    <td><a href="/support/supplement_survey.html?pcode=B4873434511" class="btn_dw_default" style="color:#fff;">다운로드</a></td>
+  </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+          </div>
+                    <!-- //부록/예제소스 -->
+  
+          <!-- 추천도서 -->
+                    <!-- //추천도서 -->
+        </div>
+        <!-- //텝메뉴 -->
+      </div>
+      <!-- //하단 컨텐츠 -->
+    </div>
+
+    <div class="store_payment_area">
+      <!-- 결재 정보 -->
+                  <fieldset>
+        <legend>결재하기</legend>
+        <!-- 2차 상품이 있는 경우 -->
+
+        
+                
+
+        <!-- 2차 상품이 없는 책 일 경우 -->
+                <label class="payment_box curr">
+          <p><span class="pbl">정가 : </span><span class="pbr"><del>23,000원</del></span></p>
+          <p><span class="pbl"><strong>판매가 : </strong></span><span class="pbr"><strong>20,700</strong>원<span>(10% off)</span></span></p>
+          <p><span class="pbl">마일리지 : </span><span class="pbr">1,150점 (5%)</span></p>
+        </label>
+                
+        <!-- 2차 상품이 없는 eBook 일 경우 -->
+        
+        <!-- 2차 상품이 없고 무료인 eBook 일 경우-->
+        
+                <!-- 소득공제 유무 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span style="color:#00AFA0;">&#149; 문화비 소득공제 가능</span></div>
+        </div>
+        <!-- //소득공제 유무 -->
+        
+        <!-- 배송료 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span>&#149; 배송료 : </span>0원<a href="javascript:;" onClick="view_hover('shopping_charge_open','','show')"><img src="http://www.hanbit.co.kr/images/store/ico_question.gif" alt="배송료란?" /></a></div>
+          
+          <div id="shopping_charge_open" class="shopping_charge_open">
+            <p class="tit">배송료 안내</p>
+            <ul>
+              <li>책, 아이템 등 상품을 3만원 이상 구매시 무료배송</li>
+              <li>브론즈, 실버, 골드회원이 주문하신 경우 무료배송</li>
+            </ul>
+            <p>무료배송 상품을 포함하여 주문하신 경우에는 구매금액에 관계없이 무료로 배송해 드립니다.</p>
+            <a href="javascript:;" onClick="view_hover('shopping_charge_open','','hide')"><img src="http://www.hanbit.co.kr/images/store/btn_shipping_charge.png" alt="닫기" /></a>
+          </div>
+        </div>
+        <!-- //배송료 -->
+
+        <input type="hidden" name="p_type_kind" id="p_type_kind"  value="B">
+        <!-- 결재버튼 -->
+
+                <label>
+          <button name="btnAddCart" id="btnAddCart" type="button" value="장바구니" class="btn_baket" onClick="Cart('cart');">장바구니</button>
+        </label>
+        <label>
+          <button name="" type="submit" value="위시리스트" class="btn_wish" onClick="Wishlist();">위시리스트</button>
+        </label>
+                
+                <label>
+          <button name="btnBuy" id="btnBuy" type="submit" value="구매하기" class="btn_buy" onClick="Cart('buy');"> 구매하기</button>
+        </label>
+                
+        
+        
+                <!-- //결재버튼 -->
+      </fieldset>
+      
+            <!-- //결재 정보 -->
+      
+      <!-- 관련 사이트 -->
+            <!-- //관련 사이트 -->
+    </div>
+
+  </div>
+  <!-- //카테고리 상세 wrap -->
+  
+  <!-- 레이어 팝업 - 리뷰쓰기 -->
+  
+	
+	<div id="review_popup_div" >
+		<div class="review_layer">					
+			<div class="bg"></div>
+			<div class="review_pop-layer" id="layer_review">												
+				<div class="pop-container">
+					<div class="pop-conts">																		
+						<!--content //-->
+						<form id="frm"  name="frm"  method="post" enctype="multipart/form-data">
+						<input type="hidden" name="fk_p_code" id="fk_p_code" value="B4873434511">	
+						<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">						
+						<input type="hidden" name="hbr_score" id="hbr_score" value="">
+						
+						<p class="tit">리뷰쓰기</p>
+						<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+						
+						<div class="layer_scroll">
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>제목 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="hbr_title" id="hbr_title" class="i_text1" value="">	
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									
+									<div class="i_tit"><span>* </span>별점평가</div>
+									<div class="i_con">							
+										<script>
+										$.fn.raty.defaults.path = "http://www.hanbit.co.kr";
+										$(function() {
+											$('#default').raty({
+												click: function(score, evt) { $("#hbr_score").val(score);}										
+											});
+										});
+										</script>											
+										<div id="default" style="margin-top:5px;"></div>
+										<div class="highlight"><pre><span class="nt"><div></div></span></pre></div>
+									</div>
+								</div>
+				
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con" id="hbc_cont_div">
+										<label >																
+											<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>				
+											<script type="text/javascript">
+											var myeditor = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor.inputForm = 'hbr_content'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor.useBold = false;
+											myeditor.run(); // 에디터를 실행합니다.
+											</script>																						
+											
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+							
+							<p class="note_tit">* 리뷰 작성시 유의사항</p>
+							<p class="note_txt">글이나 이미지/사진 저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 게시물은 이용약관 및 관련법률에 의해 제재를 받을 수 있습니다.</p>
+							<p class="note_txt">
+								1. 특히 뉴스/언론사 기사를 전문 또는 부분적으로 '허락없이' 갖고 와서는 안됩니다 (출처를 밝히는 경우에도 안됨).<br />
+								2. 저작권자의 허락을 받지 않은 콘텐츠의 무단 사용은 저작권자의 권리를 침해하는 행위로, 이에 대한 법적 책임을 지게 될 수 있습니다.
+							</p>
+							
+							<div class="btn_layer_default">
+								<label><button id="proc_btn" name="proc_btn" type="button" value="" class="btn_blue" onclick="review_proc('re_ins','');">등록</button></label>
+								<label><button id="reset_btn" name="reset_btn" type="button" value="" class="btn_white" onclick="frm_reset();">취소</button></label>
+							</div>
+						</div>
+
+						</form> 
+						<!--// content-->					
+					</div>
+				</div>											
+			</div>			
+		</div>			
+	</div>			  <!-- //레이어 팝업 - 리뷰쓰기 -->
+  
+  <!-- 레이어 팝업 - 오탈자등록 -->
+  	
+	<div class="misprint_layer">
+		<div class="bg"></div>
+		<div class="misprint_pop-layer" id="layer_misprint">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">오탈자 등록</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<form id="err_input_frm"  name="err_input_frm"  method="post" enctype="multipart/form-data">
+							<input type="hidden" name="fk_p_code" id="fk_p_code" value="B4873434511">	
+							<input type="hidden" name="fk_isbn" id="fk_isbn" value="">	
+							<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">														
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>구분 :</div>
+									<div class="i_con">
+										<label>
+											<select id="err_type" name="err_type" class="i_select">	
+												<option value="" selected>오탈자 유형 선택</option>	
+												<option value="G">내용 오류/확인 요청</option>	
+												<option value="P">주요 기술 오류(로직/코드)</option>	
+												<option value="E">오자/탈자, 띄어쓰기 오류</option>												
+											</select>	
+										</label>
+									</div>
+		
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>상품 버전</div>
+									<div class="i_con">
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="종이책"><span>종이책</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="PDF"><span>PDF</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="ePub"><span>ePub</span></span>
+										<!--<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="Mobi"><span>Mobi</span></span>-->
+									</div>
+								</div>
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>페이지 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_p_page" id="err_p_page" class="i_text2" onkeyup="this.value=number_filter(this.value);" ><span>숫자로만 입력해주세요.</span>
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>위치정보 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_location" id="err_location" class="i_text1">	
+										</label>
+									</div>
+								</div>							
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con">
+										<label>
+											<textarea name="err_info" id="err_info" class="i_textarea"></textarea>	
+											<script type="text/javascript">
+											var myeditor_err = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor_err.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor_err.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor_err.inputForm = 'err_info'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor_err.useBold = false;
+											myeditor_err.run(); // 에디터를 실행합니다.
+											</script>		
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+						</form>
+					
+						<div class="btn_layer_default">
+							<label>
+								<button name="" type="submit" value="" class="btn_blue" onclick="misprint_proc('ins','');">등록</button>
+							</label>
+							<label>
+								<button name="" type="submit" value="" class="btn_white" onclick="misprint_reset();">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	  <!-- //레이어 팝업 - 오탈자등록 -->
+
+  <!-- 레이어 팝업 - 도서인증 -->
+  
+<link rel="stylesheet" href="/css/jquery-ui.css">
+
+<!--
+<style>
+.ui-datepicker {
+	width: 280px;
+	padding:0;
+	display: none;
+	background:#fff;
+	border:4px solid #333;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: 10px 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 5px;
+	width: 1.8em;
+	height: 1.8em;
+	font-size:13px;
+	cursor:pointer;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	text-decoration:underline;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	left: 210px;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin:0;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width:;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width:;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+.ui-datepicker .ui-widget-content {
+    background: #999 none;
+}
+
+</style>
+-->
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript">
+ $(function() {    
+	$("#buy_date").datepicker({ maxDate: '0'  });
+ });
+
+</script>
+	<form name="cfrm" id="cfrm" method="post" action="/store/ajax.addBookauth.php">
+	<input type="hidden" name="fk_p_code" id="fk_p_code" value="B4873434511">	
+	<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">		
+	<div class="certification_layer">
+		<div class="bg"></div>
+		<div class="certification_pop-layer" id="layer_certification">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">도서 인증</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<div class="layer_con_box">
+							<fieldset>
+							<div class="lp_register_li">
+								<div class="i_tit">도서명<span>* </span></div>
+								<div class="i_con">맛있는 디자인 프리미어 프로&애프터 이펙트 CC 2020</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입처<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<select id="buy_site" name="buy_site" class="i_select">	
+											<option value="" selected>선택하세요.</option>	
+											<option value="교보문고">교보문고</option>
+											<option value="예스24">예스24</option>
+											<option value="알라딘">알라딘</option>
+											<option value="반디앤루니스">반디앤루니스</option>
+											<option value="영풍문고">영풍문고</option>
+											<option value="한빛 웹사이트">한빛 웹사이트</option>
+											<option value="기타서점">기타서점</option>
+										</select>	
+									</label>
+								</div>
+	
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입일<span>* </span></div>
+								<div class="i_con">
+									<!-- 달력 -->
+									<label><input class="i_text2" id="buy_date" name="buy_date" type="text" value=""  /></label>
+									<label><button name="btnBuyDate" id="btnBuyDate" type="button" value="검색" class="i_car">달력</button></label>
+									<!-- //달력 -->
+								</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">부가기호<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<input type="text" name="add_code" id="add_code" class="i_text2">	
+									</label>
+								</div>
+							</div>
+							<div class="barcode_img">
+								<img src="http://www.hanbit.co.kr/images/common/rs_barcode_ban.png" alt="부가기호 안내" />
+							</div>
+							</fieldset>
+						</div>
+						<p class="txt">* 회원가입후 도서인증을 하시면 마일리지 500점을 드립니다.</p>
+						<p class="txt">* 한빛 웹사이트에서 구입한 도서는 자동 인증됩니다.</p>
+						<p class="txt">* 도서인증은 일 3권, 월 10권, 년 50권으로 제한됩니다.</p>
+						<p class="txt">* 절판도서,  eBook 등 일부 도서는 도서인증이 제한됩니다.</p>
+						
+						<div class="btn_layer_default">
+							<label>
+								<!--<button name="btnBookauth1" type="submit" class="btn_blue">등록</button>-->
+								<button name="btnBookauth1" type="button" class="btn_blue" onclick='book_auth();'>등록</button>
+							</label>
+							<label>
+								<button name="btnBookauth2" type="button" value="" class="btn_white">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+<SCRIPT LANGUAGE="JavaScript">
+<!--	
+	$("#btnBuyDate").click(function() {					
+		$('#buy_date').datepicker('show');
+	});		
+
+//-->
+</SCRIPT>  <!-- //레이어 팝업 - 도서인증 -->
+  
+  <!-- 레이어 팝업 - 카트 담기 -->
+  	<div class="add_cart_layer">
+		<div class="bg"></div>
+		<div class="add_cart_pop-layer" id="layer_add_cart">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close.png" width="38" height="38" alt="닫기" /></a></div>
+					<p class="ctxt"><span id='cartmsg'>해당 상품을 장바구니에 담았습니다.</span><span id='cartmsg2'>이미 장바구니에 추가된 상품입니다.</span><br />장바구니로 이동하시겠습니까?</p>
+					<div class="btn_layer">
+						<a href="/myhanbit/cart.html">장바구니<br />이동</a> <!-- #juha -->
+						<!--<a href="javascript:;" onClick="$('.add_cart_layer').hide();">쇼핑<br />계속</a>-->
+						<a class="cbtn" href="javascript:;" onClick="">쇼핑<br />계속</a>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>  <!-- //레이어 팝업 - 카트 담기 -->
+</div>
+<!-- //Contents -->
+<script>
+
+//focus 강제지정
+/*
+$(document).ready(function() 
+document.getElementById("container").addEventListener("click", function() {
+   $("#wrap_gnb").focus();
+});
+*/
+
+//숫자만 입력
+function number_filter(str_value){
+  return str_value.replace(/[^0-9]/gi, ""); 
+}
+  
+function hb_show_tabs(t_num){        
+  //alert(t_num);
+  var t_max = 9;
+  for(var t=1; t <t_max; t++){    
+    if(t_num ==0){
+      $("#tabs_"+t).show();
+      $(".detail_tit").css({"display":"block"});
+    }else{      
+      if(t==t_num){ 
+        $("#tabs_"+t).show();
+        $(".detail_tit").css({"display":"none"});      
+      }else{
+        $("#tabs_"+t).hide();    
+      }
+    }
+  }
+  
+}
+
+var tid= "";
+if(tid=="review"){  
+  hb_show_tabs(5);
+  document.getElementById("review_tab").scrollIntoView();
+  
+}else if(tid=="misprint"){  
+  hb_show_tabs(6);
+  document.getElementById("misprint_tab").scrollIntoView();
+
+}else if(tid=="exam"){  
+  hb_show_tabs(7);
+  document.getElementById("exam_tab").scrollIntoView();
+  
+}else{
+  hb_show_tabs(0);
+}
+
+/*
+$(document).ready(function() {
+  location.hash="#hanbit_network";
+  setTimeout(function(){
+      $('#wrap_gnb').focus();    
+      removeHash();
+  }, 100);
+});
+*/
+
+//해쉬 태그로 포커스 이동후 해쉬 제거
+function removeHash () { 
+    var scrollV, scrollH, loc = window.location;
+    if ("pushState" in history)
+        history.pushState("", document.title, loc.pathname + loc.search);
+    else {
+        // Prevent scrolling by storing the page's current scroll offset
+        scrollV = document.body.scrollTop;
+        scrollH = document.body.scrollLeft;
+
+        loc.hash = "";
+
+        // Restore the scroll offset, should be flicker free
+        document.body.scrollTop = scrollV;
+        document.body.scrollLeft = scrollH;
+    }
+}
+</script><!-- Footer -->
+<footer>
+  <!-- 공지사항 -->
+  <div class="foot_notice">
+      </div>
+  <!-- //공지사항 -->
+  
+  <div class="foot_contents">
+    <!-- 하단 메뉴 -->
+    <div class="foot_menu">
+      <!-- added by coffin -->
+            <ul>
+        <li><a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">회사소개</a>(<a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">KOR</a> | <a href="http://www.hanbit.co.kr/publisher/index.html?lang=e" target="_blank">ENG</a>) &#149; <a href="http://www.hanbit.co.kr/publisher/contact.html?lang=k" target="_blank">약도</a></li>
+        <li><a href="http://www.hanbit.co.kr/publisher/write.html" target="_blank">기획 및 원고 모집</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/use_agreement.html">이용약관</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/privacy_policy.html"><strong>개인정보취급방침</strong></a></li>
+        <li><a href="http://www.hanbit.co.kr/sitemap/sitemap.html">사이트맵</a></li>
+      </ul>
+          </div>
+    <!-- //하단 메뉴 -->
+
+    <!-- SNS -->
+    <div class="foot_sns">
+            
+      <ul>
+        <li class="foot_facebook"><a href="https://www.facebook.com/hanbitmedia" target="_blank"><span>페이스북</span></a></li>
+        <!-- <li class="foot_googleplus"><a href="https://plus.google.com/u/0/+HanbitCoKr/posts" target="_blank"><span>구글플러스</span></a></li> -->
+        <li class="foot_twitter"><a href="https://twitter.com/hanbit" target="_blank"><span>트위터</span></a></li>
+        <li class="foot_youtube"><a href="https://www.youtube.com/user/HanbitMedia93" target="_blank"><span>유튜브</span></a></li>
+        <li class="foot_bolg"><a href="http://blog.hanbit.co.kr/" target="_blank"><span>블로그</span></a></li>
+        <li class="foot_naverpost"><a href="https://m.post.naver.com/hanbitstory" target="_blank"><span>네이버포스트</span></a></li>
+      </ul>
+      
+      
+        <fieldset class="foot_srch">
+          <legend>하단 검색영역</legend>
+          <input title="검색어" class="foot_srch_keyword" accesskey="s" type="text" value=""  id="foot_keyword_str" style="font-size:16px;">
+          <input type="button" alt="" class="foot_srch_btn" onclick="foot_sch_smit();" style="cursor: pointer;">
+        </fieldset>
+
+      
+      <script>
+        // 검색 리스트  
+        $(document).ready(function() {       
+          $('#foot_keyword_str').keyup(function(e) {
+            if (e.keyCode == 13) 
+              foot_sch_smit();
+          });        
+        });
+
+        function foot_sch_smit(){            
+          var foot_keyword_str = $("#foot_keyword_str").val();      
+          var searchUrl = "/search/search_list.html?keyword="+foot_keyword_str;
+
+          if(!foot_keyword_str){
+            alert("검색어를 입력해주세요");
+            $("#foot_keyword_str").focus();
+          }else{
+            location.href = searchUrl;
+          }
+        }
+      </script>  
+      
+    </div>
+    <!-- //SNS -->
+    
+    <!-- 한빛 정보 -->
+    <div class="foot_about">
+      <div class="foot_about_area">
+        
+
+        <p><strong>한빛미디어㈜ &#149; 한빛아카데미㈜ &#149; 한빛비즈㈜</strong></p>
+        <p>(03785) 서울 서대문구 연희로2길 62</p>
+        <p>EMAIL : support@hanbit.co.kr</p>
+        <p>대표이사 : 김태헌</p>
+        <p>사업자등록번호 : 220-81-05665 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208105665" target="_blank">[확인]</a></p>
+        <p>통신판매업신고 : 2017-서울서대문-0671호</p>
+        <p>호스팅제공자 : (주)누리호스팅</p>
+        
+
+      </div>
+    </div>
+    <!-- //한빛 정보 -->
+  </div>
+  
+  <div class="copyright">&copy;1993-2020 Hanbit Publishing Network, Inc. All rights reserved.</div>
+</footer>
+<!-- //푸터 -->
+<div class="foot_download_btn"><a href="http://www.hanbit.co.kr/support/supplement_list.html">자료실</a></div>
+
+<!-- 공통 JS 호출 -->
+<script type="text/javascript" src="/js/common.js"></script>
+<!-- //공통 JS 호출 -->
+
+</body>
+</html>

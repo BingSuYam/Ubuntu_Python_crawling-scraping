@@ -1,0 +1,2370 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!--[if lte IE 8]>
+<script>
+  location.replace('/support/explorer_upgrade.html');
+</script>
+<![endif]-->
+<meta charset="utf-8"/>
+<title>IT CookBook, 쉽게 배우는 운영체제</title>
+<link rel="shortcut icon" href="http://www.hanbit.co.kr/images/common/hanbit.ico"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="IT CookBook, 쉽게 배우는 운영체제"/>
+<meta property="og:description" content="컴퓨터 관련 학과 학생을 대상으로 운영체제의 구조와 원리를 설명한 책입니다. 주요 개념은 일상생활의 사례를 통해 쉽게 이해하고, 개념 간의 관계는 다양한 그림과 표로 명확히 정리할 수 있습니다. 20년 가까이 강의해온 저자의 내공이 고스란히 녹아 있어 복잡하고 어려운 내용이지만 차근차근 공부할 수 있습니다."/>  
+<meta property="og:image" content="http://www.hanbit.co.kr/data/books/B5471691739_m.jpg"/>
+<meta property="og:url" content="http://www.hanbit.co.kr/store/books/look.php?p_code=B5471691739"/>
+<link rel="canonical" href="http://www.hanbit.co.kr/store/books/look.php?p_code=B5471691739" />
+<meta name="keywords" content="책,전자책,ebook,출판사,동영상,콘텐츠,강의,자격증,대학교재" />
+<meta name="description" content="컴퓨터 관련 학과 학생을 대상으로 운영체제의 구조와 원리를 설명한 책입니다. 주요 개념은 일상생활의 사례를 통해 쉽게 이해하고, 개념 간의 관계는 다양한 그림과 표로 명확히 정리할 수 있습니다. 20년 가까이 강의해온 저자의 내공이 고스란히 녹아 있어 복잡하고 어려운 내용이지만 차근차근 공부할 수 있습니다." />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="viewport" content="width=1260">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="naver-site-verification" content="01c29ed1852aecca7a48ac0c3e0869627bc512d8"/>
+<!-- <meta name="naver-site-verification" content="823ff8b8e7e3eb396c310703c2bbd731f48c1d9b"/> -->
+<link rel="stylesheet" href="/css/common.css?20190625102532" />
+<link href="/css/hover.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="/js/jquery.raty.css" />
+<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/jquery.event.drag-1.5.min.js"></script>
+<script type="text/javascript" src="/js/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="/js/jquery.raty.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/lib/cheditor/cheditor.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript" src="/js/engine.js"></script>
+<script type="text/javascript" src="/js/vue.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47080738-1', 'hanbit.co.kr');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '406459623338891');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=406459623338891&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Kakao Pixel Code -->
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+  kakaoPixel('3011392806152551233').pageView();
+  kakaoPixel('3011392806152551233').viewContent({
+    id: 'B5471691739'
+  });
+</script>
+<!-- //Kakao Pixel Code -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9D5PM3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<link rel="stylesheet" href="/css/layout-hanbit.css?20191130" />
+<link rel="stylesheet" href="/css/layout-member.css" />
+<link rel="stylesheet" href="/css/layout-network.css" />
+<link rel="stylesheet" href="/css/layout-store.css" />
+<link rel="stylesheet" href="/css/layout-myhanbit.css" />
+<link rel="stylesheet" href="/css/layout-event.css" />
+<!-- 메뉴 바로가기 -->
+<div id="quick_skip_menu">
+  <a href="#gnb" onclick="document.getElementById('gnb').tabIndex = -1;document.getElementById('gnb').focus();return false;"><span>메뉴 바로가기</span></a>
+  <a href="#top_search" onclick="view_hover('main_search_area','','show'), document.getElementById('top_search').tabIndex = -1;document.getElementById('top_search').focus();return false;"><span>검색 및 카테고리 바로가기</span></a>
+    <a href="#container" onclick="document.getElementById('container').tabIndex = -1;document.getElementById('container').focus();return false;"><span>본문 바로가기</span></a>
+  </div>
+<!-- //메뉴 바로가기 -->
+
+<!-- header -->
+<header>
+  <!-- top menu -->
+  	<nav>
+		<div id="wrap_nav">
+			<ul class="top_brand">
+				<li><a href="http://www.hanbit.co.kr/index.html" name="hanbit_network"><span>HOME</span></a></li>
+				<li><a href="http://www.hanbit.co.kr/media/">한빛미디어</a></li>
+				<li><a href="http://www.hanbit.co.kr/academy/">한빛아카데미</a></li>
+				<li><a href="http://www.hanbit.co.kr/biz/">한빛비즈</a></li>
+				<li><a href="http://www.hanbit.co.kr/life/">한빛라이프</a></li>
+				<li><a href="http://www.hanbit.co.kr/edu/">한빛에듀</a></li>
+				<li><a href="http://www.hanbit.co.kr/realtime/">리얼타임</a></li>
+				<li><a href="http://www.hanbit.co.kr/textbook/" target="_blank">한빛정보교과서</a></li>
+        <li><a href="http://www.hanbit.co.kr/rent/" target="_blank">한빛대관서비스</a></li>
+			</ul>
+			
+			<ul class="top_menu">
+                        	<li><a href="https://www.hanbit.co.kr/member/login.html" class="login">로그인</a></li>
+				<li><a href="https://www.hanbit.co.kr/member/member_agree.html" class="join">회원가입</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/myhanbit.html" class="myhanbit">마이한빛</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/cart.html" class="cart">장바구니</a></li>
+            				<!-- <li class="top_menu_store"><a href="http://www.hanbit.co.kr/store/store_submain.html">STORE</a></li> -->
+			</ul>
+		</div>
+	</nav>  <!-- //top menu -->
+
+  <div id="wrap_gnb">
+    <!-- logo -->
+    <h1><a href="http://www.hanbit.co.kr/index.html">한빛출판네트워크</a></h1>
+    <!-- //logo -->
+
+    <!-- Menu -->
+    <div id="gnb" name="gnb">
+      <ul>
+        <li><a href="http://www.hanbit.co.kr/brand/brand_submain.html" class="">BRAND</a></li>
+        <li><a href="http://www.hanbit.co.kr/channel/channel_submain.html" class="">Channel.H</a></li>
+        <li><a href="http://www.hanbit.co.kr/store/store_submain.html" class="curr">STORE</a></li>
+        <li><a href="http://www.hanbit.co.kr/support/help_info.html" class="">SUPPORT</a></li>
+        <li><a href="http://www.hanbit.co.kr/event/current/current_event_list.html" class="">EVENT</a></li>
+        
+        <li id="top_search" class="search"><a href="javascript:;" onClick="view_hover('main_search_area','','show'); $('#keyword_str').focus();"><span>SERACH</span></a></li>
+      </ul>
+    </div>
+    <!-- //Menu -->
+    
+    <!-- lnb -->
+    <div class="lnb" style="top:92px;">
+      <div class="lnb_area">
+      <!-- BRAND -->
+            <ul class="lnb_depth1_category">
+        <li onmouseover="view_hover('category_store','','show')" onMouseOut="view_hover('category_store','','hide')"><a href="#" onFocus="view_hover('category_store','','show')" class="gnb_category">카테고리</a>
+          <ul id="category_store">
+
+                          <li onmouseover="view_hover('category_store1','','show')" onMouseOut="view_hover('category_store1','','hide')"><a href="/store/books/category_list.html?cate_cd=001" onFocus="view_hover('category_store1','','show')">IT/모바일</a>
+                <ul id="category_store1">
+                              <li><a href="/store/books/category_list.html?cate_cd=001001">프로그래밍</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001002">웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001003">모바일/스마트기기</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001013">데이터베이스</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001005">운영체제</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001014">하드웨어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001015">시스템/네트워크</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001016">보안</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001009">비즈니스/문화</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001010">게임</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001017">IT에세이</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001012">자격증</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001018">인공지능/데이터과학</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store2','','show')" onMouseOut="view_hover('category_store2','','hide')"><a href="/store/books/category_list.html?cate_cd=002" onFocus="view_hover('category_store2','','show')">MAKE</a>
+                <ul id="category_store2">
+                              <li><a href="/store/books/category_list.html?cate_cd=002001">Make 매거진</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=002002">Make 프로젝트 북</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store3','','show')" onMouseOut="view_hover('category_store3','','hide')"><a href="/store/books/category_list.html?cate_cd=003" onFocus="view_hover('category_store3','','show')">IT활용</a>
+                <ul id="category_store3">
+                              <li><a href="/store/books/category_list.html?cate_cd=003001">오피스/OA</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003002">그래픽/멀티미디어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003003">사진/예술</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003004">컴퓨터입문/IT교양</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store4','','show')" onMouseOut="view_hover('category_store4','','hide')"><a href="/store/books/category_list.html?cate_cd=004" onFocus="view_hover('category_store4','','show')">대학교재</a>
+                <ul id="category_store4">
+                              <li><a href="/store/books/category_list.html?cate_cd=004007">컴퓨터공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004008">정보통신/전기/전자</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004003">수학/과학/공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004004">프로그래밍/웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004005">그래픽/디자인</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004006">OA/활용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004009">수험서/자격증</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store5','','show')" onMouseOut="view_hover('category_store5','','hide')"><a href="/store/books/category_list.html?cate_cd=006" onFocus="view_hover('category_store5','','show')">실용서</a>
+                <ul id="category_store5">
+                              <li><a href="/store/books/category_list.html?cate_cd=006001">취미/실용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006002">여행</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006003">건강</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006004">유아/육아</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store6','','show')" onMouseOut="view_hover('category_store6','','hide')"><a href="/store/books/category_list.html?cate_cd=007" onFocus="view_hover('category_store6','','show')">경제/경영/인문</a>
+                <ul id="category_store6">
+                              <li><a href="/store/books/category_list.html?cate_cd=007001">경제/경영</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007002">자기계발</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007003">인문/교양</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007004">마케팅</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007005">에세이</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store7','','show')" onMouseOut="view_hover('category_store7','','hide')"><a href="/store/books/category_list.html?cate_cd=008" onFocus="view_hover('category_store7','','show')">유아/어린이/초등</a>
+                <ul id="category_store7">
+                              <li><a href="/store/books/category_list.html?cate_cd=008001">4~6세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008002">5~7세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008003">예비초등</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008004">초등교과연계 1~12영역</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008005">초등 전학년</a></li>      
+              </ul></li>            
+          <!-- 항상 노출 메뉴 -->          
+          <li class="gnb_category_series"><a href="http://www.hanbit.co.kr/store/books/series_list.html">시리즈</a></li>
+          <li class="gnb_category_reservations"><a href="http://www.hanbit.co.kr/store/books/reservations_list.html">예약도서</a></li>
+          <!--
+          <li class="gnb_category_full"><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li>
+          -->
+          <!--/li-->
+        </ul>
+      </ul>
+      <!--/li-->        
+      <!--/ul-->
+
+      <ul class="lnb_depth1">
+        <li><a href="http://www.hanbit.co.kr/store/books/new_book_list.html">새로나온 책</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/bestseller_list.html">베스트셀러</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/education/edu_list.html">교육</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/item/item_list.html">Item &amp; Maker Shed</a></li>
+      </ul>
+      
+      <!-- SUPPORT -->
+          </div>
+    </div>
+    <!--// lnb -->
+  </div>
+</header>
+<!-- //header -->
+
+<!-- 메인 검색 및 카테고리 영역 -->
+<div id="main_search_area" class="fixed" style="display:none;">
+  <div class="msa_wrap">
+
+    <!-- 검색 -->
+    <div class="msa_srch_wrap">
+      <form onsubmit="return false;">
+      <fieldset class="msa_srch_field">
+        <legend>한빛출판네트워크 검색</legend>
+        <input title="검색어" autocomplete="off" class="srch_keyword" accesskey="s" type="text" name="keyword_str" id="keyword_str" v-model="keyword" @input="typeKeyword">
+        <input type="submit" class="srch_btn" style="cursor:pointer;" @click="clickSearch">
+      </fieldset>
+      </form>
+    </div>
+    <!-- //검색 -->
+
+    <!-- ① 인기검색어 -->
+    <div class="msa_srch_polular" v-if="showPopularKeyword === true">
+      <h2 class="tit">인기 검색어 <span>(최근 1개월간)</span></h2>
+        <div class="popula_box">
+          <ul class="left">
+            <li v-for="keyword in leftPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li v-for="keyword in rightPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <!-- ① 인기검색어 -->
+
+    <!-- ② 검색결과/검색서제스쳔 -->
+    <div class="msa_srch_suggestion" v-if="showPopularKeyword === false">
+      <div class="sugg_left" v-if="bookList.length !== 0">
+        <h3 class="tit">BOOK</h3>
+        <ul class="books_list">
+          <li v-for="book in bookList" @mouseover="mouseOverBook(book.id)"><a @click="clickBookKeyword(book)"><p v-html="book.name"></p></a></li>
+        </ul>
+      </div>
+
+      <div class="sugg_right">
+        <div class="sugg_book" v-if="bookList.length !== 0">
+          <table class="sugg_book_detail">
+            <tr>
+              <td class="cover">
+                <a @click="clickBookKeyword(bookSummary)">
+                  <img :src="bookSummary.imgUrl" class="b_cover">
+                </a>
+              </td>
+              <td class="draft">
+                <a @click="clickBookKeyword(bookSummary)" class="b_title"><strong v-html="bookSummary.originName"></strong></a>
+                <p class="b_int">
+                {{ bookSummary.author }} 지음<br />
+                {{ bookSummary.publishingCompany }} | {{ bookSummary.date }}
+                </p>
+                <p class="b_type">
+                <span>{{ bookSummary.bookType }}</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="sugg_edu" v-if="educationList.length !== 0">
+          <h3 class="tit">EDUCATION</h3>
+          <ul class="edu_list">
+            <li v-for="education in educationList">&#149; <a @click="clickEducationKeyword(education)"><span v-html="education.title"></span></a></li>
+          </ul>
+        </div>
+
+        <div class="sugg_cont" v-if="contentList.length !== 0">
+          <h3 class="tit">CONTENTS</h3>
+          <ul class="cont_list">
+            <li v-for="content in contentList">&#149; <a @click="clickContentKeyword(content)"><span v-html="content.title"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //② 검색결과/검색서제스쳔 -->
+
+  <!-- 닫기 -->
+  <div class="msa_wrap_close">
+    <a href="javascript:;" onclick="view_hover('main_search_area','','hide')">닫기</a>
+  </div>
+  <!-- //닫기 -->
+
+  </div>
+</div>
+
+<!-- old // 구현시 필요없으면 삭제해도 됩니다.
+<script type="text/javascript">
+  function sch_smit(){
+    if(!$.trim($("#keyword_str").val()).length) {
+      alert("검색어를 입력해주세요");
+      $("#keyword_str").focus();
+      return false;
+    }else{
+      $("#gnbsearchfrm").attr("action","/search/search_list.html");
+      $("#gnbsearchfrm").submit(); 
+    }
+  }
+</script>
+-->
+
+<script type="text/javascript">
+    "use strict";
+
+    var common_top_search_vue = new Vue({
+        el: '#main_search_area',
+        data: {
+            //검색엔진 URL
+            searchProxyURL: "https://search.hanbit.co.kr",
+            //인기 검색어 show 여부
+            showPopularKeyword: true,
+            //사용자 검색 키워드
+            keyword: '',
+            //인기 검색어 리스트
+            popularKeywordList: [],
+            // 인기 검색어 리스트 (왼쪽)
+            leftPopularKeywordList: [],
+            // 인기 검색어 리스트 (오른쪽)
+            rightPopularKeywordList: [],
+            // 자동완성에서의 책 리스트
+            bookList: [],
+            // 자동완성에서의 책 정보
+            bookSummary: {
+                'imgUrl': '',
+                'link': '',
+                'name': '',
+                'author': '',
+                'publishingCompany': '',
+                'date': '',
+                'bookType': ''
+            },
+            //에듀케이션 리스트
+            educationList: [],
+            //컨텐츠 리스트
+            contentList: []
+        },
+        created: function created() {
+            // 인기 검색어 조회
+            this.getPopularKeyword();
+        },
+        methods: {
+            /**
+             * 사용자가 검색 키워드를 입력할때 발생하는 이벤트
+             */
+            typeKeyword: function typeKeyword() {
+                var self = this;
+                var keyword = $("#keyword_str").val();
+
+                if (keyword.length !== 0) {
+                    //자동완성어
+                    this.findAutocompleteResult(keyword);
+                } else {
+                    //인기검색어
+                    self.showPopularKeyword = true;
+                }
+            },
+
+            /**
+             * 인기검색어 조회
+             */
+            getPopularKeyword: function getPopularKeyword() {
+                var self = this;
+                this.popularKeywordList = [];
+                $.get(this.searchProxyURL + "/querylog/popularKeyword").done(function (data) {
+                    if (data != null) {
+                        self.drawPopularKeyword(data);
+                    }
+                });
+            },
+
+            /**
+             * 인기 검색어 그리기
+             */
+            drawPopularKeyword: function drawPopularKeyword(popularBooks) {
+                var self = this;
+                popularBooks.forEach(function (item) {
+                    var popularBook = {
+                        bookName: item.keyword
+                    };
+                    self.popularKeywordList.push(popularBook);
+                });
+                var number = 0;
+
+                for (var _iterator = this.popularKeywordList, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
+                    var _ref;
+
+                    if (_isArray) {
+                        if (_i >= _iterator.length) break;
+                        _ref = _iterator[_i++];
+                    } else {
+                        _i = _iterator.next();
+                        if (_i.done) break;
+                        _ref = _i.value;
+                    }
+
+                    var keyword = _ref;
+                    number = number + 1;
+                    keyword.number = number.toString().length < 2 ? "0" + number : number;
+
+                    if (number > 5) {
+                        keyword.direction = "right";
+                        self.rightPopularKeywordList.push(keyword);
+                    } else {
+                        keyword.direction = "left";
+
+                        if (number < 4) {
+                            keyword.bold = 'active';
+                        }
+
+                        self.leftPopularKeywordList.push(keyword);
+                    }
+                }
+            },
+
+            /**
+             * 자동완성 검색 결과
+             */
+            findAutocompleteResult: function findAutocompleteResult(keyword) {
+                var self = this;
+                var param = {
+                    q: keyword,
+                    types: "education,book,contents",
+                    fq: keyword
+                };
+                $.post(this.searchProxyURL + "/autocomplete/search", param).done(function (data) {
+                    if (data != null) {
+                        var bookResult = data.booksResults;
+                        self.changeBookList(keyword, bookResult);
+                        var contentResult = data.contentsResults;
+                        self.changeContentList(keyword, contentResult);
+                        var educationResult = data.educationResults;
+                        self.changeEducationList(keyword, educationResult);
+                    }
+                });
+                this.showPopularKeyword = false;
+            },
+
+            /**
+             * 자동완성어에서 BOOK 부분에서 마우스를 올렸을 시에 발생하는 이벤트
+             * @param bookId
+             */
+            mouseOverBook: function mouseOverBook(bookId) {
+                var currentBook = this.bookList.filter(function (book) {
+                    return book.id === bookId;
+                });
+                this.changeBookSummary(currentBook[0]);
+            },
+
+            /**
+             * 책 소개 변경
+             * @param book
+             */
+            changeBookSummary: function changeBookSummary(book) {
+                if (book !== {}) {
+                    this.bookSummary.name = book.name;
+                    this.bookSummary.originName = book.originName;
+                    this.bookSummary.author = book.author;
+                    this.bookSummary.bookType = book.bookType;
+                    this.bookSummary.imgUrl = book.imgUrl;
+                    this.bookSummary.link = book.link;
+                    this.bookSummary.publishingCompany = book.publishingCompany;
+                    this.bookSummary.date = book.date;
+                    this.bookSummary.bookType = book.bookType;
+                }
+            },
+
+            /**
+             * BOOK 리스트 변경
+             */
+            changeBookList: function changeBookList(keyword, bookResultList) {
+                var self = this;
+                self.bookList = [];
+                var index = 0;
+
+                if (bookResultList != null) {
+                    for (var _iterator2 = bookResultList, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : _iterator2[Symbol.iterator]();;) {
+                        var _ref2;
+
+                        if (_isArray2) {
+                            if (_i2 >= _iterator2.length) break;
+                            _ref2 = _iterator2[_i2++];
+                        } else {
+                            _i2 = _iterator2.next();
+                            if (_i2.done) break;
+                            _ref2 = _i2.value;
+                        }
+
+                        var result = _ref2;
+
+                        if (index < 10) {
+                            var book = {};
+                            book.id = result.code;
+                            book.originName = result.title;
+                            book.name = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            book.link = result.code;
+                            book.imgUrl = self.getBookImageURL(result.code);
+                            book.author = result.author;
+                            book.publishingCompany = result.brand;
+                            book.date = result.pubDate;
+                            book.bookType = result.bookType;
+                            self.bookList.push(book); //책 미리보기 변경
+
+                            self.changeBookSummary(self.bookList[0]);
+                        }
+                    }
+                } else {
+                    self.initBookSummary();
+                }
+            },
+
+            /**
+             * 책 이미지 주소 가져오기
+             */
+            getBookImageURL: function getBookImageURL(bookCode) {
+                var imgURL;
+
+                if (bookCode.substr(0, 1) === "E") {
+                    imgURL = '/data/ebook/' + bookCode + '_m.jpg';
+                } else {
+                    imgURL = '/data/books/' + bookCode + "_m.jpg";
+                }
+
+                return imgURL;
+            },
+
+            /**
+             * 검색 결과가 없을 경우 책 미리보기 초기화
+             */
+            initBookSummary: function initBookSummary() {
+                this.bookSummary = {
+                    'imgUrl': '',
+                    'link': '',
+                    'name': '',
+                    'author': '',
+                    'publishingCompany': '',
+                    'date': '',
+                    'bookType': ''
+                };
+            },
+
+            /**
+             * education 리스트 변경
+             */
+            changeEducationList: function changeEducationList(keyword, educationResultList) {
+                var self = this;
+                self.educationList = [];
+                var index = 0;
+
+                if (educationResultList != null) {
+                    for (var _iterator3 = educationResultList, _isArray3 = Array.isArray(_iterator3), _i3 = 0, _iterator3 = _isArray3 ? _iterator3 : _iterator3[Symbol.iterator]();;) {
+                        var _ref3;
+
+                        if (_isArray3) {
+                            if (_i3 >= _iterator3.length) break;
+                            _ref3 = _iterator3[_i3++];
+                        } else {
+                            _i3 = _iterator3.next();
+                            if (_i3.done) break;
+                            _ref3 = _i3.value;
+                        }
+
+                        var result = _ref3;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.educationList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * contents 리스트 변경
+             */
+            changeContentList: function changeContentList(keyword, contentResult) {
+                var self = this;
+                self.contentList = [];
+                var index = 0;
+
+                if (contentResult != null) {
+                    for (var _iterator4 = contentResult, _isArray4 = Array.isArray(_iterator4), _i4 = 0, _iterator4 = _isArray4 ? _iterator4 : _iterator4[Symbol.iterator]();;) {
+                        var _ref4;
+
+                        if (_isArray4) {
+                            if (_i4 >= _iterator4.length) break;
+                            _ref4 = _iterator4[_i4++];
+                        } else {
+                            _i4 = _iterator4.next();
+                            if (_i4.done) break;
+                            _ref4 = _i4.value;
+                        }
+
+                        var result = _ref4;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.contentList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * 하이라이트 표시
+             */
+            replaceHighlightWord: function replaceHighlightWord(str, highlightKeyword) {
+                var replaceHighlightKeyword = highlightKeyword.replace(/[^a-z0-9가-힣_ ]/gi, '');
+                var regEx = new RegExp(replaceHighlightKeyword, "gi");
+                str = str.replace(regEx, function (a) {
+                    return '<span class="keysel">' + a + '</span>';
+                });
+                return str;
+            },
+
+            /**
+             * 검색 버튼 클릭 시
+             * @param e
+             */
+            clickSearch: function clickSearch(e) {
+                if (!this.keyword || this.keyword.length === 0) {
+                    alert("검색어를 입력하세요");
+                    $("#keyword_str").focus();
+                    e.preventDefault();
+                } else {
+                    location.href = "/search/search_list.html?keyword=" + this.keyword;
+                }
+            },
+
+            /**
+             * 인기 검색어 클릭시
+             * @param book
+             */
+            clickPopularKeyword: function clickPopularKeyword(book) {
+                var searchKeyword = book.bookName;
+                location.href = "/search/search_list.html?keyword=" + searchKeyword;
+            },
+
+            /**
+             * 책 검색어 클릭시 책 상세로 이동
+             * @param book
+             */
+            clickBookKeyword: function clickBookKeyword(book) {
+                location.href = "/store/books/look.php?p_code=" + book.link;
+            },
+
+            /**
+             * 교육 클릭시 교육 상세로 이동
+             * @param education
+             */
+            clickEducationKeyword: function clickEducationKeyword(education) {
+                location.href = "/store/education/edu_view.html?p_code=" + education.link;
+            },
+
+            /**
+             * 컨텐츠 클릭시 컨텐츠 상세로 이동
+             * @param contents
+             */
+            clickContentKeyword: function clickContentKeyword(content) {
+                location.href = "/channel/category/category_view.html?cms_code=" + content.link;
+            }
+        }
+    });
+</script>
+<!-- //메인 검색 및 카테고리 영역 -->
+<SCRIPT LANGUAGE="JavaScript">
+
+  function Cart(strMode) {
+
+    var m_idx = "";
+    var p_code = "B5471691739";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){
+        if(strMode=='cart') { 
+          if(result ==1) { 
+            $('#cartmsg').show();
+            $('#cartmsg2').hide();
+            add_cart_layer_open('layer_add_cart');
+          } else if(result==0) {
+            $('#cartmsg2').show();
+            $('#cartmsg').hide();
+            add_cart_layer_open('layer_add_cart');
+            return;
+          }
+        }  else {
+          location.href="/myhanbit/cart.html";
+        }
+      }          
+    });            
+  }  
+
+  // 견본도서 장바구니 담기. by coffin. 2017-04-12
+  function Cart_p(strMode) {
+    var m_idx = "";
+    var p_code = "B5471691739";
+    var ea = 1;
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+
+    $.ajax({
+      type : "post",
+      url : "/academy/professor/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){      
+        if(strMode=='cart') { 
+          location.href='/academy/professor/cart.html';
+        }  else {
+          location.href='/academy/professor/cart.html';
+        }
+      }          
+    });            
+  }  
+
+  function Wishlist() {
+
+    var m_idx = "";
+    var p_code = "B5471691739";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    var comment = "";
+
+    if(m_idx =="") {
+      alert('로그인이 필요한 서비스 입니다.');
+      document.location.href='/member/login.html';
+      return;
+    }
+
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addWishlist.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt,"comment":comment},
+      dataType : "text",
+      success : function(result, status){
+        if(result ==1) { 
+          alert("해당 상품을 위시리스트에 담았습니다");
+          return;
+        } else if(result==0) {
+          alert("이미 위시리스트에 추가된 상품입니다.");
+          return;
+        }
+      }
+    });            
+  }  
+
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT
+  --------------------------------------------------------------- */  
+  //리뷰 팝업요청 버튼 
+  function review_start(){  
+    var m_idx = '';
+    var re_chk_num = '0';    
+    
+    if(!m_idx) { 
+      alert("로그인후 리뷰 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }  
+      
+    if(re_chk_num<1){
+      review_layer_open('layer_review');
+      $('#hbr_content_review').html('<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>');
+      return;
+    }else{
+      alert('리뷰등록은 도서당 한번만 가능합니다.');
+      return;
+    }
+  }  
+  
+  //리뷰 등록 취소 버튼    
+  function frm_reset(){    
+    $('.review_layer').fadeOut();    
+  }  
+
+
+  //리뷰등록  처리 버튼
+  function review_proc(str,idx){      
+    
+    document.getElementById("hbr_content").value = myeditor.outputBodyHTML();        
+
+    if(!$.trim($("#hbr_title").val()).length) {
+      alert("리뷰제목을 입력해주세요"); $("#hbr_title").focus();return;
+    }    
+
+    if(!$.trim($("#hbr_score").val()).length) {
+      alert("별점 평가를 선택해주세요"); $("#hbr_score").focus();return;
+    }
+    
+          
+    if($("#hbr_content").val().length <= 13) {
+      alert("리뷰내용을 입력해주세요"); $("#hbr_content").focus();return;
+    }      
+    
+    var type_str      =  str;  
+    var hbr_idx       =  idx;    
+    var fk_p_code    = $("#fk_p_code").val();  
+    var fk_m_idx      = $("#fk_m_idx").val();  
+    var hbr_type     = $("#hbr_type").val();            
+    var hbr_title      = $("#hbr_title").val();  
+    var hbr_score    = $("#hbr_score").val();  
+    var hbr_content   = $("#hbr_content").val();  
+
+    var result_postdata= {  
+        type_str    :   type_str,
+        hbr_idx      :  hbr_idx,
+        fk_p_code   :   fk_p_code,
+        fk_m_idx     :   fk_m_idx,
+        hbr_type     :  hbr_type,
+        hbr_title    :   hbr_title,        
+        hbr_score   :   hbr_score,
+        hbr_content :   hbr_content    
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addReview.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){                
+        if(data  >0){                              
+          $('.review_layer').fadeOut();  
+          //location.reload();
+          var currentUrl = window.location.href.split('&');                  
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=review';
+          //location.href='/store/books/look.php?p_code=B5471691739&tid=review';                  
+        }            
+      }
+    });
+  }  
+
+  //리뷰 수정, 삭제
+  function review_frm_proc(str,idx,n){
+
+    if(str =="redel"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }
+    var result_postdata= {  str : str, idx:idx}    
+    var result_url = "/inc/inc_store_layer_popup_review_ajax.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){            
+
+        if(str == "redel" && data ==1 ){
+          alert("리뷰가 삭제되었습니다.");              
+          location.reload();
+          //location.href="/store/books/look.php?p_code=$p_code#review_tab";
+          
+        }else{
+          $("#review_popup_div").html("");        
+          $("#review_popup_div").html(data);        
+          review_layer_open('layer_review');
+        }
+      }         
+    });  
+    
+  }
+      
+  //리뷰 댓글 리스트  ::  리뷰 idx , div_num
+  function comment_list(idx,n){      
+    //alert(idx+"="+n)
+    var result_postdata= {  hbr_idx : idx, div_n:n}    
+    var result_url = "/store/rev_comm_list.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){          
+        $("#comment_div_"+n).html(data);        
+      }         
+    });          
+  }    
+  
+  //등록, 수정, 삭제    ::  처리 str , 리뷰 div_num , 리뷰 idx , 댓글 div_num,  댓글 idx
+  function comment_proc( str ,div_n, idx , div2_n ,re_idx){      
+    var fk_hbr_idx     = idx;    
+    var fk_m_idx     = $("#fk_m_idx").val();        
+    var comment    = $("#comment_"+div_n).val();                
+    var hbrc_idx     = re_idx;
+    
+    if(!fk_m_idx) { 
+      alert("로그인후 댓글을 작성 하실수있습니다.");
+      document.location.href='/member/login.html';
+      return;  
+    }    
+    if(str == "del"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }else if(str == "ins"||str == "mod"){    
+      if(!comment){
+        alert("내용을  입력해주세요.");      
+        $("#comment_"+div_n).focus(); return;  
+      }
+    }
+            
+    var result_postdata= {            
+      str:str,            
+      div_n:div_n,    
+      fk_hbr_idx : fk_hbr_idx,  
+      fk_m_idx : fk_m_idx,  
+      comment:comment,    
+      hbrc_idx:hbrc_idx,
+      div2_n:div2_n
+    }    
+    var result_url = "/store/rev_comm_proc.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){      
+        if(str == "mod_f"){          
+          $("#re_"+div_n+"_"+div2_n).html("");
+          $("#re_"+div_n+"_"+div2_n).html(data);
+        }else{
+          //var ment = data.trim();
+          alert(data.trim());  
+          comment_list( fk_hbr_idx,div_n); //댓글 리스트          
+        }          
+      }         
+    });            
+  }    
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT
+  --------------------------------------------------------------- */  
+  //오탈자 리스트     
+  function misprint_get_list(str){    
+    var p_code     = 'B5471691739';          
+    var conf      = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();  
+    if(!str)str = "page";    
+    
+    //정렬
+    if(str == "page"){    
+      if( p_sort_type == "DE"){ p_sort_type = "A";
+      }else if( p_sort_type == "" ||  p_sort_type == "A"){  p_sort_type = "DE";
+      }      
+      r_sort_type = "";
+    }
+    if(str == "regdt"){    
+      if( r_sort_type == "DE"){ r_sort_type = "A";
+      }else if(  r_sort_type == "" ||r_sort_type == "A"){  r_sort_type = "DE";
+      }
+      p_sort_type = "";    
+    }                  
+    $("#p_sort_type").val(p_sort_type);
+    $("#r_sort_type").val(r_sort_type);
+    //alert(p_sort_type+"=="+r_sort_type);
+            
+    $.ajax({
+      type : "post",
+      url : "/inc/inc_store_detail_misprint_ajaxList.php",
+      data:{  fk_p_code:p_code , conf :conf , p_sort_type : p_sort_type , r_sort_type:r_sort_type },          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){      
+        $("#misprint_con_div").html("");
+        //$("#misprint_con_div").html(data);            
+        $(".misprint_list").eq(0).html(data);            
+        $(".misprint_list").eq(1).html(data);            
+      }
+    });            
+  }
+  
+  //오탈자 팝업요청 버튼 
+  function misprint_start(){    
+    var m_idx = '';  
+    if(!m_idx) { 
+      alert("로그인 후 오탈자 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }    
+    misprint_layer_open('layer_misprint');return;    
+  }  
+  
+  //오탈자 등록 취소 버튼    
+  function misprint_reset(){    
+    $('.misprint_layer').fadeOut();    
+  }  
+
+  //오탈자등록  처리 버튼
+  function misprint_proc(str,idx){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+    
+    $("#err_info").val( myeditor_err.outputBodyHTML());            
+    
+    var type_str        =  str;          
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var err_type        = $("#err_type option:selected").val();      
+    var err_p_version    = "";  
+    var err_p_page      = $("#err_p_page").val();       
+    var err_location    = $("#err_location").val();   
+    var err_info        = $("#err_info").val();   
+    var err_file        = $("#err_file").val();                                                                  
+                
+                    
+    if($("#err_type option:selected").val() =="") {
+      alert("구분을선택해주세요");$("#err_type").focus();return;
+    }
+    
+    if($(":checkbox[name='err_p_version[]']:checked").length < 1) {
+      alert("상품버전을 선택해주세요");$("#err_p_version").focus();return;
+    }
+          
+    if(!err_p_page) {
+      alert("페이지를 입력해주세요");$("#err_p_page").focus();return;
+    }      
+    
+    if(!err_location) {
+      alert("위치정보를 입력해주세요");$("#err_location").focus();return;
+    }  
+        
+    var err_info_len = $("#err_info").val().length;    
+    if(err_info_len <20) {
+      alert("내용을 입력해주세요");$("#err_info").focus();return;
+    }                
+  
+    err_p_version = "";
+    $('input:checkbox[name="err_p_version[]"]').each(function() {         
+      if(this.checked){
+        err_p_version+=','+$(this).val();      
+      }                    
+     });     
+    err_p_version = err_p_version.substring(1,err_p_version.length);         
+            
+    var result_postdata= {  
+         type_str        :  type_str,
+         fk_m_idx        :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         err_type        :  err_type,        
+         err_p_version    :  err_p_version,  
+         err_p_page      :   err_p_page,      
+         err_location      :  err_location,          
+         err_info        :  err_info,    
+         err_file          :  err_file              
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addMisprint.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){  
+        if(data  >0){    
+          $('.misprint_layer').fadeOut();      
+          var currentUrl = window.location.href.split('&');        
+          
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=misprint';
+          //location.href='/store/books/look.php?p_code=B5471691739&tid=misprint';                  
+          //location.reload(true);
+        }            
+      }
+    });  
+  }    
+  
+  //오탈자 인쇄하기
+  function misprint_print(){      
+    var p_code       = 'B5471691739';          
+    var conf        = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();      
+    
+    //var sort_type;    
+    //if(p_sort_type)sort_type = p_sort_type ;
+    //if(r_sort_type)sort_type = r_sort_type ;
+        
+    var url_full = "/store/books/misprint_view.html?fk_p_code="+p_code+"&conf="+conf+"&p_sort_type="+p_sort_type+"&r_sort_type="+r_sort_type;      
+    
+    var openNewWindow = window.open("about:blank");
+        openNewWindow.location.href = url_full;                
+  }
+              
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+  function book_auth(){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+          
+    var fk_m_idx      = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var buy_date      = $("#buy_date").val();      
+    var buy_site        = $("#buy_site").val();      
+    var add_code      = $("#add_code").val();                                                                                
+          
+    if(!buy_site) {
+      alert("구입처를 선택해주세요");$("#buy_site").focus();return;
+    }  
+
+    if(!buy_date) {
+      alert("구입일을 입력해주세요");$("#buy_date").focus();return;
+    }          
+    
+    if(!add_code) {
+      alert("부가기호를 입력해주세요");$("#add_code").focus();return;
+    }  
+    
+    $("#cfrm").submit();
+    
+    /*    
+    var result_postdata= {  
+         fk_m_idx      :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         buy_date      :  buy_date,        
+         buy_site        :  buy_site,  
+         add_code      :   add_code,          
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addBookauth.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){          
+        if(data  >0){                        
+          $('.certification_layer').fadeOut();      
+          location.reload(true);
+        }            
+      }
+    });  
+    */
+  }
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+
+</SCRIPT>
+
+<!-- Contents -->
+<div id="container">
+  <!-- 상단 광고 배너 -->
+  <!--
+<div class="docu_title" style="margin-top:4px;text-align:center;padding:4px;font-weight:bold;background-color:#52AEE1;border:2px solid #000;">
+<a href="http://www.hanbit.co.kr/event/current/current_event_view.html?hbe_idx=129" alt="한빛비즈 회원가입 이벤트" class="hvr-glow" style="width:100%;padding:4px;color:#000000;letter-spacing:-1px;">회원가입이벤트 :: 한빛비즈 스페셜 멤버로 초대합니다! (이메일 수신동의, '한빛비즈' 관심브랜드 체크시 최대 5,000점 마일리지 적립)</a>
+</div> -->  <!-- //상단 광고 배너 -->
+  <!-- 카테고리 상세 wrap -->
+  <div class="store_view_wrap">
+    <div class="store_view_wrap_l">
+      <!-- 책 정보 -->
+            <div class="store_view_area">
+        <div class="store_product_box">
+          <div class="store_product_box_img">
+                        <img src="/data/books/B5471691739_l.jpg" alt="" class="thumb" />
+                      </div>
+          <div class="store_product_box_btn"><a href="javascript:;" onclick="javascript:openPreviewFlip('http://online.fliphtml5.com/hkuy/embe/','PREVIEW');return false;">미리보기</a></div>
+        </div>
+        
+        <div class="store_product_info_box">
+          <h3>IT CookBook, 쉽게 배우는 운영체제</h3>
+          <p class="stit"></p>
+          
+          <div class="info_area">
+            <div class="info_ico">
+              <p class="ico_a">한빛아카데미</p>
+                              <p class="ico_book1">집필서</p>
+                            
+                              <p class="ico_shopping1">판매중</p>
+                            
+            </div>
+            
+            <div class="sns_ico">
+              <span class="ico_facebook"><a href="http://www.facebook.com/share.php?u=http://www.hanbit.co.kr/store/books/look.php?p_code=B5471691739" target="_blank">페이스북 퍼가기</a></span>
+              <span class="ico_google"><a href="https://plus.google.com/share?url=http://www.hanbit.co.kr/store/books/look.php?p_code=B5471691739" target="_blank">구글+ 퍼가기</a></span>
+              <span class="ico_twitter"><a href="http://twitter.com/share?text=IT+CookBook%2C+%EC%89%BD%EA%B2%8C+%EB%B0%B0%EC%9A%B0%EB%8A%94+%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C&url=http://www.hanbit.co.kr/store/books/look.php?p_code=B5471691739" target="_blank">트위터 퍼가기</a></span>
+            </div>
+          </div>
+          
+          <ul class="info_list">
+                          <li><strong>저자 : </strong><span>조성호 </span></li>
+                                    <li><strong>출간 : </strong><span>2018-06-30</span></li>
+            <li><strong>페이지 : </strong><span>616 쪽</span></li>
+            <li><strong>ISBN : </strong><span>9791156644071</span></li>
+                        <li><strong>물류코드 :</strong><span>4407</span></li>
+                        
+            
+            
+          </ul>
+
+                    <div style="border:1px solid #dddddd;background-color:#f9f9f9;line-height:130%;padding:6px;margin-bottom:10px;color:#a01025;font-size:12px;letter-spacing:-1px;">
+                        본 도서는 대학 강의용 교재로 개발되었으므로 연습문제 해답은 제공하지 않습니다.
+                    </div>
+                    
+                    
+          <div class="tag_area"><span>TAG : </span><a href='/search/search_list.html?ptype=B&keyword=운영체제'>운영체제</a> ,<a href='/search/search_list.html?ptype=B&keyword=Operating Systems'>Operating Systems</a> ,<a href='/search/search_list.html?ptype=B&keyword=OS'>OS</a> </div>  
+          <div class="step_area ico_step2">
+            <span> 초급 </span>
+            <span><strong>초중급</strong></span>
+            <span> 중급 </span>
+            <span> 중고급 </span>
+            <span> 고급 </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- //책 정보 -->
+      
+      <!-- 별점 및 좋아요 -->
+      					
+			<script>
+
+			$(function() {
+				$('.store_grade_star').raty({
+					readOnly: true,
+					score: 0,
+					starHalf   : '/academy/images/star_l-half.png',
+					starOff    : '/academy/images/star_l-off.png',
+					starOn     : '/academy/images/star_l-on.png'
+				});
+				
+			});
+			</script>	
+            
+            
+            <div class="store_like_area">
+				<div class="store_grade"><div class="store_grade_star"></div><span>0점 (0명)</span></div>
+				<div class="store_like"><span>좋아요 : </span><font id="likescore">9</font></div>
+			</div>      <!-- //별점 및 좋아요 -->
+      
+      <!-- 버튼 -->
+      <div class="store_btn_area">
+        <div class="btn_review"><a href="javascript:;" onClick="review_start()">리뷰쓰기</a></div>
+        <div class="btn_like_ok" ><a href="javascript:setLike('B5471691739','');">좋아요</a></div>
+        <div class="btn_misprint"><a href="javascript:;" onClick="misprint_start()">오탈자 등록</a></div>
+                            <div class="btn_certification"><a href="javascript:alert('로그인 후 이용가능한 서비스입니다.');">도서인증</a></div>
+                        </div>
+            <!-- //버튼 -->
+      <!-- 하단 컨텐츠 -->
+      <div class="store_detail_area">
+        <!-- 텝메뉴 -->
+        <script>
+        $(function() {
+          $( ".detial_tabs" ).tabs();
+        });
+        </script>
+        
+        <div class="detial_tabs">
+          <ul>          
+            <li onclick="javascript:hb_show_tabs('0');"><a href="javascript:;">전체</a></li>
+              
+            <li onclick="javascript:hb_show_tabs('1');"><a href="javascript:;">책소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('2');"><a href="javascript:;">저자소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('3');"><a href="javascript:;">목차</a></li>
+
+                                  
+            <li onclick="javascript:hb_show_tabs('5');"><a href="javascript:;">독자리뷰</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('6');"><a href="javascript:;">오탈자 보기</a></li>
+                      
+            
+                        <li onclick="javascript:hb_show_tabs('8');"><a href="javascript:;">추천도서</a></li> 
+                      </ul>                
+          
+          <!-- 책소개 -->
+                                            <div id="tabs_1">
+                          <p class="detail_tit" style="display:none;">책소개</p>
+                            		<div id="" class="detail_conbox hanbit_edit_view">
+			<p>
+								<b>명쾌한 비유와 사례로 쉽게 배우는</b>
+</p>
+<p>
+								<b>운영체제의 구조와 원리</b>
+</p>
+<p>&nbsp;</p>
+<p>컴퓨터 관련 학과 학생을 대상으로 운영체제의 구조와 원리를 설명한 책입니다. 주요 개념은 일상생활의 사례를 통해 쉽게 이해하고, 개념 간의 관계는 다양한 그림과 표로 명확히 정리할 수 있습니다. 20년 가까이 강의해온 저자의 내공이 고스란히 녹아 있어 복잡하고 어려운 내용이지만 차근차근 공부할 수 있습니다.</p>
+<p>&nbsp;</p>
+<p style="text-align: center">
+								<img style="width: 733px; height: 1868px" alt="상세이미지_쉽게배우는운영체제.jpg" src="http://www.hanbit.co.kr/data/editor/20180702144046_svrdvqoq.jpg" />
+</p>
+<p>&nbsp;</p>						
+		</div>                        </div>
+                              <!-- //책소개 -->
+  
+          <!-- 저자소개 -->
+                                            <div id="tabs_2">                          
+                          <p class="detail_tit" style="display:none;">저자소개</p>
+                                        <div id="" class="detail_conbox">
+              <!-- 저자 소개 -->
+                                <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">조성호</p>                  
+                    <p>중학교 때 아버지에게 애플 II 컴퓨터를 선물 받은 것을 계기로 한국외국어대학교 전산학과에 진학한 후 고려대학교 컴퓨터학과에서 석사와 박사 학위를 취득했다. 기계만 보면 직접 만져보고 뜯어봐야 직성이 풀린다. 또 컴퓨터, 사진, 자동차, 음악 등에 관심이 많으며, 프로그램으로 무언가 만드는 일을 좋아한다. 2002년에는 신소프트웨어 대상 정보통신부 장관상을 받아 프로그래밍 실력을 인정받기도 했다. 현재 한신대학교 정보통신학부 교수로 재직 중이며, 강의와 기술 평가 보고서 작성 작업을 열정적으로 하고 있다. 저서로는 『쉽게 배우는 운영체제』(한빛아카데미, 2018)이 있다.&nbsp;</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                <div class="related_pro_box">
+                                  <p class="rel_tit">관련상품</p>
+                  <div class="rel_pro">
+                    <p>책 &amp; eBook</p>
+                    <ul>
+                                              <li><span>IT CookBook, 초연결 사회를 위한 컴퓨터 개론</span><a href="/store/books/look.php?p_code=B5719967617">바로가기 &gt;</a></li>
+                                              <li><span>IT CookBook, 스크래치로 배우는 컴퓨팅 사고</span><a href="/store/books/look.php?p_code=B4364942864">바로가기 &gt;</a></li>
+                                          </ul>
+                  </div>
+                                                    </div>
+                                            <!-- //관련상품 -->
+
+              <!-- 역자 소개 -->    
+                            <!-- //역자 소개 -->              
+            </div>
+                        </div>
+                              <!-- //저자소개 -->
+  
+          <!-- 목차 -->
+                                            <div id="tabs_3">
+                          <p class="detail_tit" style="display:none;">목차</p>
+                            						<div id="" class="detail_conbox hanbit_edit_view">
+							<p><p>Part 01 운영체제와 컴퓨터</p>
+<p>&nbsp;</p>
+<p>CHAPTER 01 운영체제의 개요&nbsp;</p>
+<p>01 운영체제 소개&nbsp;</p>
+<p>02 운영체제의 역사</p>
+<p>03 운영체제의 구조</p>
+<p>04 [심화학습] 운영체제의 종류와 역사&nbsp;</p>
+<p>요약/연습문제</p>
+<p>&nbsp;</p>
+<p>CHAPTER 02 컴퓨터의 구조와 성능 향상&nbsp;</p>
+<p>01 컴퓨터의 기본 구성&nbsp;</p>
+<p>02 CPU와 메모리&nbsp;</p>
+<p>03 컴퓨터 성능 향상 기술&nbsp;</p>
+<p>04 병렬 처리&nbsp;</p>
+<p>05 [심화학습] 무어의 법칙과 암달의 법칙&nbsp;</p>
+<p>요약/연습문제&nbsp;</p>
+<p>&nbsp;</p>
+<p>Part 02 프로세스 관리</p>
+<p>&nbsp;</p>
+<p>CHAPTER 03 프로세스와 스레드&nbsp;</p>
+<p>01 프로세스의 개요&nbsp;</p>
+<p>02 프로세스 제어 블록과 문맥 교환&nbsp;</p>
+<p>03 프로세스의 연산&nbsp;</p>
+<p>04 스레드&nbsp;</p>
+<p>05 [심화학습] 동적 할당 영역과 시스템 호출&nbsp;</p>
+<p>요약/연습문제</p>
+<p>&nbsp;</p>
+<p>CHAPTER 04 CPU 스케줄링&nbsp;</p>
+<p>01 스케줄링의 개요&nbsp;</p>
+<p>02 스케줄링 시 고려 사항&nbsp;</p>
+<p>03 다중 큐&nbsp;</p>
+<p>04 스케줄링 알고리즘&nbsp;</p>
+<p>05 [심화학습] 인터럽트 처리&nbsp;</p>
+<p>요약/연습문제&nbsp;</p>
+<p>&nbsp;</p>
+<p>CHAPTER 05 프로세스 동기화&nbsp;</p>
+<p>01 프로세스 간 통신&nbsp;</p>
+<p>02 공유 자원과 임계구역&nbsp;</p>
+<p>03 임계구역 해결 방법&nbsp;</p>
+<p>04 [심화학습] 파일, 파이프, 소켓 프로그래밍&nbsp;</p>
+<p>요약/연습문제&nbsp;</p>
+<p>&nbsp;</p>
+<p>CHAPTER 06 교착 상태&nbsp;</p>
+<p>01 교착 상태의 개요&nbsp;</p>
+<p>02 교착 상태 필요조건</p>
+<p>03 교착 상태 해결 방법&nbsp;</p>
+<p>04 [심화학습] 다중 자원과 교착 상태 검출&nbsp;</p>
+<p>요약/연습문제&nbsp;</p>
+<p>&nbsp;</p>
+<p>Part 03 메모리 관리</p>
+<p>&nbsp;</p>
+<p>CHAPTER 07 물리 메모리 관리&nbsp;</p>
+<p>01 메모리 관리의 개요&nbsp;</p>
+<p>02 메모리 주소&nbsp;</p>
+<p>03 단일 프로그래밍 환경에서의 메모리 할당&nbsp;</p>
+<p>04 다중 프로그래밍 환경에서의 메모리 할당&nbsp;</p>
+<p>05 [심화학습] 컴파일과 메모리 관리&nbsp;</p>
+<p>요약/연습문제</p>
+<p>&nbsp;</p>
+<p>CHAPTER 08 가상 메모리의 기초&nbsp;</p>
+<p>01 가상 메모리의 개요&nbsp;</p>
+<p>02 페이징 기법&nbsp;</p>
+<p>03 세그먼테이션 기법&nbsp;</p>
+<p>04 세그먼테이션-페이징 혼용 기법&nbsp;</p>
+<p>05 [심화학습] 캐시 매핑 기법&nbsp;</p>
+<p>요약/연습문제</p>
+<p>&nbsp;</p>
+<p>CHAPTER 09 가상 메모리 관리&nbsp;</p>
+<p>01 요구 페이징&nbsp;</p>
+<p>02 페이지 교체 알고리즘&nbsp;</p>
+<p>03 스레싱과 프레임 할당&nbsp;</p>
+<p>04 [심화학습] 프레임 관련 이슈&nbsp;</p>
+<p>요약/연습문제&nbsp;</p>
+<p>&nbsp;</p>
+<p>Part 04 저장장치 관리</p>
+<p>&nbsp;</p>
+<p>CHAPTER 10 입출력 시스템과 저장장치&nbsp;</p>
+<p>01 입출력 시스템&nbsp;</p>
+<p>02 디스크 장치&nbsp;</p>
+<p>03 디스크 스케줄링&nbsp;</p>
+<p>04 RAID&nbsp;</p>
+<p>05 [심화학습] 하드웨어의 규격과 발전&nbsp;</p>
+<p>요약/연습문제&nbsp;</p>
+<p>&nbsp;</p>
+<p>CHAPTER 11 파일 시스템&nbsp;</p>
+<p>01 파일과 파일 시스템&nbsp;</p>
+<p>02 디렉터리의 구조&nbsp;</p>
+<p>03 디스크 파일 할당&nbsp;</p>
+<p>04 [심화학습] 유닉스 파일의 특징&nbsp;</p>
+<p>요약/연습문제</p>
+<p>&nbsp;</p>
+<p>Part 05 분산 시스템</p>
+<p>&nbsp;</p>
+<p>CHAPTER 12 네트워크와 분산 시스템&nbsp;</p>
+<p>01 네트워크와 인터넷&nbsp;</p>
+<p>02 분산 시스템&nbsp;</p>
+<p>03 [심화학습] 분산 시스템의 고가용성&nbsp;</p>
+<p>요약/연습문제</p>
+<p>&nbsp;</p>
+<p>주요 용어 정리&nbsp;</p></p>
+						</div>                        </div>
+                              <!-- //목차 -->
+  
+          <!-- 출판사리뷰 -->
+                              <!-- //출판사리뷰 -->
+  
+          <!-- 독자리뷰 -->
+          
+                     
+                                           
+                        <div id="tabs_5" ><a id="review_tab" ></a>                       
+                            <p class="detail_tit" style="display:none;">독자리뷰</p>
+                                                                       
+            <div id="" class="detail_conbox" >
+              <div class="detail_review_area">
+                <div class="detail_btn right"><a href="javascript:;" onclick="review_start();">리뷰 쓰기</a></div>
+                
+                <ul>
+                                    
+                  <li class="article hide"><div class="review_li" style="text-align:center; padding:20px 0; background-color:#fbfbfb;">첫번째 리뷰어가 되어주세요. </div></li>
+                  
+                                    
+                                  </ul>
+              </div>
+            </div>                          
+                        </div>
+                                      
+          <!-- //독자리뷰 -->
+  
+          <!-- 오탈자 보기 -->
+                                            <div id="tabs_6"><a id="misprint_tab" ></a>
+                          <p class="detail_tit" style="display:none;">오탈자 보기</p>
+                            		 					
+						<div id="" class="detail_conbox"  >
+							<div class="detail_btn right"><a href="/errata/view.html?isbn=9791156644071" target="_blank">(구 홈페이지 / 2016년 5월 이전) 오탈자보기</a> <a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+							<!--a href="/store/books/misprint_view.html" target="_blank"-->
+							<input type="hidden" name="p_sort_type" id="p_sort_type"  value="">
+							<input type="hidden" name="r_sort_type" id="r_sort_type"  value="">
+							
+							
+							<div id="misprint_con_div" class="misprint_list"><!--  오탈자 리스트 --></div>
+							
+							<!-- 오탈자 등록 버튼-->
+							<div class="detail_btn right"><a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+						</div>
+						<script>
+							$(function() { misprint_get_list();  });	 //오탈자 리스트 호출	
+						</script>
+                        </div>
+                              <!-- //오탈자 보기 -->
+  
+          <!-- 부록/예제소스 -->
+                    <!-- //부록/예제소스 -->
+  
+          <!-- 추천도서 -->
+                    <div id="tabs_8">
+            <p class="detail_tit" style="display:none;">추천도서</p>
+            						<div id="" class="detail_conbox">
+							<!-- 추천도서 리스트 -->
+							<div class="recomm_book_list_area">
+								<ul>
+										
+									<li class="recomm_book_list">
+										<div class="view_box">
+											<span class="view_box_block">
+												<span class="img_hidden_a"><!-- 미디어일경우 끝에 알파벳 m -->
+													<span class="pop_quick_menu">
+														<a href="/store/books/look.php?p_code=B4601735413"><img src="http://www.hanbit.co.kr/images/common/icon_view_detail.png" alt="상세보기" />
+															</a><a href="javascript:;" onClick="addCart('B4601735413','','1','');"><img src="http://www.hanbit.co.kr/images/common/icon_add_cart.png" alt="장바구니 담기" /></a>
+													</span>
+													<span class="price">\32,000</span>
+													<span class="star_rate"></span>
+													<span style="display:none;"></span>
+													<span class="pop_quick_bg" onClick="location='/store/books/look.php?p_code=B4601735413'"></span>
+												</span>
+												<!-- ebook이 도서인 경우 -->
+												<img src="/data/books/B4601735413_m.jpg" alt="" class="thumb"/>
+											</span>
+											<div class="info">
+												<p class="book_tit"><a href="/store/books/look.php?p_code=B4601735413">IT CookBook, 운영체제론 : Operating Systems, 3rd Ed</a></p>
+												<p class="book_writer">하비 디텔 , 폴 디텔 , 데이빗 쇼픈스 </p>
+											</div>
+										</div>
+									</li>
+										
+									<li class="recomm_book_list">
+										<div class="view_box">
+											<span class="view_box_block">
+												<span class="img_hidden_a"><!-- 미디어일경우 끝에 알파벳 m -->
+													<span class="pop_quick_menu">
+														<a href="/store/books/look.php?p_code=B3239422381"><img src="http://www.hanbit.co.kr/images/common/icon_view_detail.png" alt="상세보기" />
+															</a><a href="javascript:;" onClick="addCart('B3239422381','','1','');"><img src="http://www.hanbit.co.kr/images/common/icon_add_cart.png" alt="장바구니 담기" /></a>
+													</span>
+													<span class="price">\27,000</span>
+													<span class="star_rate"></span>
+													<span style="display:none;"></span>
+													<span class="pop_quick_bg" onClick="location='/store/books/look.php?p_code=B3239422381'"></span>
+												</span>
+												<!-- ebook이 도서인 경우 -->
+												<img src="/data/books/B3239422381_m.jpg" alt="" class="thumb"/>
+											</span>
+											<div class="info">
+												<p class="book_tit"><a href="/store/books/look.php?p_code=B3239422381">IT CookBook, 운영체제&#40;개정3판&#41;</a></p>
+												<p class="book_writer">구현회 </p>
+											</div>
+										</div>
+									</li>
+																
+								</ul>								
+							</div>
+							<!-- 추천도서 리스트 -->							
+						</div>
+          </div>
+                    <!-- //추천도서 -->
+        </div>
+        <!-- //텝메뉴 -->
+      </div>
+      <!-- //하단 컨텐츠 -->
+    </div>
+
+    <div class="store_payment_area">
+      <!-- 결재 정보 -->
+                  <fieldset>
+        <legend>결재하기</legend>
+        <!-- 2차 상품이 있는 경우 -->
+
+        
+                
+
+        <!-- 2차 상품이 없는 책 일 경우 -->
+                <label class="payment_box curr">
+          <p><span class="pbl">정가 : </span><span class="pbr"><del>28,000원</del></span></p>
+          <p><span class="pbl"><strong>판매가 : </strong></span><span class="pbr"><strong>28,000</strong>원<span>(0% off)</span></span></p>
+          <p><span class="pbl">마일리지 : </span><span class="pbr">840점 (3%)</span></p>
+        </label>
+                
+        <!-- 2차 상품이 없는 eBook 일 경우 -->
+        
+        <!-- 2차 상품이 없고 무료인 eBook 일 경우-->
+        
+                <!-- 소득공제 유무 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span style="color:#00AFA0;">&#149; 문화비 소득공제 가능</span></div>
+        </div>
+        <!-- //소득공제 유무 -->
+        
+        <!-- 배송료 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span>&#149; 배송료 : </span>0원<a href="javascript:;" onClick="view_hover('shopping_charge_open','','show')"><img src="http://www.hanbit.co.kr/images/store/ico_question.gif" alt="배송료란?" /></a></div>
+          
+          <div id="shopping_charge_open" class="shopping_charge_open">
+            <p class="tit">배송료 안내</p>
+            <ul>
+              <li>책, 아이템 등 상품을 3만원 이상 구매시 무료배송</li>
+              <li>브론즈, 실버, 골드회원이 주문하신 경우 무료배송</li>
+            </ul>
+            <p>무료배송 상품을 포함하여 주문하신 경우에는 구매금액에 관계없이 무료로 배송해 드립니다.</p>
+            <a href="javascript:;" onClick="view_hover('shopping_charge_open','','hide')"><img src="http://www.hanbit.co.kr/images/store/btn_shipping_charge.png" alt="닫기" /></a>
+          </div>
+        </div>
+        <!-- //배송료 -->
+
+        <input type="hidden" name="p_type_kind" id="p_type_kind"  value="B">
+        <!-- 결재버튼 -->
+
+                <label>
+          <button name="btnAddCart" id="btnAddCart" type="button" value="장바구니" class="btn_baket" onClick="Cart('cart');">장바구니</button>
+        </label>
+        <label>
+          <button name="" type="submit" value="위시리스트" class="btn_wish" onClick="Wishlist();">위시리스트</button>
+        </label>
+                
+                <label>
+          <button name="btnBuy" id="btnBuy" type="submit" value="구매하기" class="btn_buy" onClick="Cart('buy');"> 구매하기</button>
+        </label>
+                
+        
+        
+                <!-- //결재버튼 -->
+      </fieldset>
+      
+            <!-- //결재 정보 -->
+      
+      <!-- 관련 사이트 -->
+            <!-- //관련 사이트 -->
+    </div>
+
+  </div>
+  <!-- //카테고리 상세 wrap -->
+  
+  <!-- 레이어 팝업 - 리뷰쓰기 -->
+  
+	
+	<div id="review_popup_div" >
+		<div class="review_layer">					
+			<div class="bg"></div>
+			<div class="review_pop-layer" id="layer_review">												
+				<div class="pop-container">
+					<div class="pop-conts">																		
+						<!--content //-->
+						<form id="frm"  name="frm"  method="post" enctype="multipart/form-data">
+						<input type="hidden" name="fk_p_code" id="fk_p_code" value="B5471691739">	
+						<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">						
+						<input type="hidden" name="hbr_score" id="hbr_score" value="">
+						
+						<p class="tit">리뷰쓰기</p>
+						<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+						
+						<div class="layer_scroll">
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										IT CookBook, 쉽게 배우는 운영체제									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>제목 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="hbr_title" id="hbr_title" class="i_text1" value="">	
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									
+									<div class="i_tit"><span>* </span>별점평가</div>
+									<div class="i_con">							
+										<script>
+										$.fn.raty.defaults.path = "http://www.hanbit.co.kr";
+										$(function() {
+											$('#default').raty({
+												click: function(score, evt) { $("#hbr_score").val(score);}										
+											});
+										});
+										</script>											
+										<div id="default" style="margin-top:5px;"></div>
+										<div class="highlight"><pre><span class="nt"><div></div></span></pre></div>
+									</div>
+								</div>
+				
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con" id="hbc_cont_div">
+										<label >																
+											<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>				
+											<script type="text/javascript">
+											var myeditor = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor.inputForm = 'hbr_content'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor.useBold = false;
+											myeditor.run(); // 에디터를 실행합니다.
+											</script>																						
+											
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+							
+							<p class="note_tit">* 리뷰 작성시 유의사항</p>
+							<p class="note_txt">글이나 이미지/사진 저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 게시물은 이용약관 및 관련법률에 의해 제재를 받을 수 있습니다.</p>
+							<p class="note_txt">
+								1. 특히 뉴스/언론사 기사를 전문 또는 부분적으로 '허락없이' 갖고 와서는 안됩니다 (출처를 밝히는 경우에도 안됨).<br />
+								2. 저작권자의 허락을 받지 않은 콘텐츠의 무단 사용은 저작권자의 권리를 침해하는 행위로, 이에 대한 법적 책임을 지게 될 수 있습니다.
+							</p>
+							
+							<div class="btn_layer_default">
+								<label><button id="proc_btn" name="proc_btn" type="button" value="" class="btn_blue" onclick="review_proc('re_ins','');">등록</button></label>
+								<label><button id="reset_btn" name="reset_btn" type="button" value="" class="btn_white" onclick="frm_reset();">취소</button></label>
+							</div>
+						</div>
+
+						</form> 
+						<!--// content-->					
+					</div>
+				</div>											
+			</div>			
+		</div>			
+	</div>			  <!-- //레이어 팝업 - 리뷰쓰기 -->
+  
+  <!-- 레이어 팝업 - 오탈자등록 -->
+  	
+	<div class="misprint_layer">
+		<div class="bg"></div>
+		<div class="misprint_pop-layer" id="layer_misprint">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">오탈자 등록</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<form id="err_input_frm"  name="err_input_frm"  method="post" enctype="multipart/form-data">
+							<input type="hidden" name="fk_p_code" id="fk_p_code" value="B5471691739">	
+							<input type="hidden" name="fk_isbn" id="fk_isbn" value="">	
+							<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">														
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										IT CookBook, 쉽게 배우는 운영체제									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>구분 :</div>
+									<div class="i_con">
+										<label>
+											<select id="err_type" name="err_type" class="i_select">	
+												<option value="" selected>오탈자 유형 선택</option>	
+												<option value="G">내용 오류/확인 요청</option>	
+												<option value="P">주요 기술 오류(로직/코드)</option>	
+												<option value="E">오자/탈자, 띄어쓰기 오류</option>												
+											</select>	
+										</label>
+									</div>
+		
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>상품 버전</div>
+									<div class="i_con">
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="종이책"><span>종이책</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="PDF"><span>PDF</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="ePub"><span>ePub</span></span>
+										<!--<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="Mobi"><span>Mobi</span></span>-->
+									</div>
+								</div>
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>페이지 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_p_page" id="err_p_page" class="i_text2" onkeyup="this.value=number_filter(this.value);" ><span>숫자로만 입력해주세요.</span>
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>위치정보 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_location" id="err_location" class="i_text1">	
+										</label>
+									</div>
+								</div>							
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con">
+										<label>
+											<textarea name="err_info" id="err_info" class="i_textarea"></textarea>	
+											<script type="text/javascript">
+											var myeditor_err = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor_err.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor_err.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor_err.inputForm = 'err_info'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor_err.useBold = false;
+											myeditor_err.run(); // 에디터를 실행합니다.
+											</script>		
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+						</form>
+					
+						<div class="btn_layer_default">
+							<label>
+								<button name="" type="submit" value="" class="btn_blue" onclick="misprint_proc('ins','');">등록</button>
+							</label>
+							<label>
+								<button name="" type="submit" value="" class="btn_white" onclick="misprint_reset();">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	  <!-- //레이어 팝업 - 오탈자등록 -->
+
+  <!-- 레이어 팝업 - 도서인증 -->
+  
+<link rel="stylesheet" href="/css/jquery-ui.css">
+
+<!--
+<style>
+.ui-datepicker {
+	width: 280px;
+	padding:0;
+	display: none;
+	background:#fff;
+	border:4px solid #333;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: 10px 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 5px;
+	width: 1.8em;
+	height: 1.8em;
+	font-size:13px;
+	cursor:pointer;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	text-decoration:underline;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	left: 210px;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin:0;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width:;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width:;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+.ui-datepicker .ui-widget-content {
+    background: #999 none;
+}
+
+</style>
+-->
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript">
+ $(function() {    
+	$("#buy_date").datepicker({ maxDate: '0'  });
+ });
+
+</script>
+	<form name="cfrm" id="cfrm" method="post" action="/store/ajax.addBookauth.php">
+	<input type="hidden" name="fk_p_code" id="fk_p_code" value="B5471691739">	
+	<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">		
+	<div class="certification_layer">
+		<div class="bg"></div>
+		<div class="certification_pop-layer" id="layer_certification">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">도서 인증</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<div class="layer_con_box">
+							<fieldset>
+							<div class="lp_register_li">
+								<div class="i_tit">도서명<span>* </span></div>
+								<div class="i_con">IT CookBook, 쉽게 배우는 운영체제</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입처<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<select id="buy_site" name="buy_site" class="i_select">	
+											<option value="" selected>선택하세요.</option>	
+											<option value="교보문고">교보문고</option>
+											<option value="예스24">예스24</option>
+											<option value="알라딘">알라딘</option>
+											<option value="반디앤루니스">반디앤루니스</option>
+											<option value="영풍문고">영풍문고</option>
+											<option value="한빛 웹사이트">한빛 웹사이트</option>
+											<option value="기타서점">기타서점</option>
+										</select>	
+									</label>
+								</div>
+	
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입일<span>* </span></div>
+								<div class="i_con">
+									<!-- 달력 -->
+									<label><input class="i_text2" id="buy_date" name="buy_date" type="text" value=""  /></label>
+									<label><button name="btnBuyDate" id="btnBuyDate" type="button" value="검색" class="i_car">달력</button></label>
+									<!-- //달력 -->
+								</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">부가기호<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<input type="text" name="add_code" id="add_code" class="i_text2">	
+									</label>
+								</div>
+							</div>
+							<div class="barcode_img">
+								<img src="http://www.hanbit.co.kr/images/common/rs_barcode_ban.png" alt="부가기호 안내" />
+							</div>
+							</fieldset>
+						</div>
+						<p class="txt">* 회원가입후 도서인증을 하시면 마일리지 500점을 드립니다.</p>
+						<p class="txt">* 한빛 웹사이트에서 구입한 도서는 자동 인증됩니다.</p>
+						<p class="txt">* 도서인증은 일 3권, 월 10권, 년 50권으로 제한됩니다.</p>
+						<p class="txt">* 절판도서,  eBook 등 일부 도서는 도서인증이 제한됩니다.</p>
+						
+						<div class="btn_layer_default">
+							<label>
+								<!--<button name="btnBookauth1" type="submit" class="btn_blue">등록</button>-->
+								<button name="btnBookauth1" type="button" class="btn_blue" onclick='book_auth();'>등록</button>
+							</label>
+							<label>
+								<button name="btnBookauth2" type="button" value="" class="btn_white">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+<SCRIPT LANGUAGE="JavaScript">
+<!--	
+	$("#btnBuyDate").click(function() {					
+		$('#buy_date').datepicker('show');
+	});		
+
+//-->
+</SCRIPT>  <!-- //레이어 팝업 - 도서인증 -->
+  
+  <!-- 레이어 팝업 - 카트 담기 -->
+  	<div class="add_cart_layer">
+		<div class="bg"></div>
+		<div class="add_cart_pop-layer" id="layer_add_cart">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close.png" width="38" height="38" alt="닫기" /></a></div>
+					<p class="ctxt"><span id='cartmsg'>해당 상품을 장바구니에 담았습니다.</span><span id='cartmsg2'>이미 장바구니에 추가된 상품입니다.</span><br />장바구니로 이동하시겠습니까?</p>
+					<div class="btn_layer">
+						<a href="/myhanbit/cart.html">장바구니<br />이동</a> <!-- #juha -->
+						<!--<a href="javascript:;" onClick="$('.add_cart_layer').hide();">쇼핑<br />계속</a>-->
+						<a class="cbtn" href="javascript:;" onClick="">쇼핑<br />계속</a>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>  <!-- //레이어 팝업 - 카트 담기 -->
+</div>
+<!-- //Contents -->
+<script>
+
+//focus 강제지정
+/*
+$(document).ready(function() 
+document.getElementById("container").addEventListener("click", function() {
+   $("#wrap_gnb").focus();
+});
+*/
+
+//숫자만 입력
+function number_filter(str_value){
+  return str_value.replace(/[^0-9]/gi, ""); 
+}
+  
+function hb_show_tabs(t_num){        
+  //alert(t_num);
+  var t_max = 9;
+  for(var t=1; t <t_max; t++){    
+    if(t_num ==0){
+      $("#tabs_"+t).show();
+      $(".detail_tit").css({"display":"block"});
+    }else{      
+      if(t==t_num){ 
+        $("#tabs_"+t).show();
+        $(".detail_tit").css({"display":"none"});      
+      }else{
+        $("#tabs_"+t).hide();    
+      }
+    }
+  }
+  
+}
+
+var tid= "";
+if(tid=="review"){  
+  hb_show_tabs(5);
+  document.getElementById("review_tab").scrollIntoView();
+  
+}else if(tid=="misprint"){  
+  hb_show_tabs(6);
+  document.getElementById("misprint_tab").scrollIntoView();
+
+}else if(tid=="exam"){  
+  hb_show_tabs(7);
+  document.getElementById("exam_tab").scrollIntoView();
+  
+}else{
+  hb_show_tabs(0);
+}
+
+/*
+$(document).ready(function() {
+  location.hash="#hanbit_network";
+  setTimeout(function(){
+      $('#wrap_gnb').focus();    
+      removeHash();
+  }, 100);
+});
+*/
+
+//해쉬 태그로 포커스 이동후 해쉬 제거
+function removeHash () { 
+    var scrollV, scrollH, loc = window.location;
+    if ("pushState" in history)
+        history.pushState("", document.title, loc.pathname + loc.search);
+    else {
+        // Prevent scrolling by storing the page's current scroll offset
+        scrollV = document.body.scrollTop;
+        scrollH = document.body.scrollLeft;
+
+        loc.hash = "";
+
+        // Restore the scroll offset, should be flicker free
+        document.body.scrollTop = scrollV;
+        document.body.scrollLeft = scrollH;
+    }
+}
+</script><!-- Footer -->
+<footer>
+  <!-- 공지사항 -->
+  <div class="foot_notice">
+      </div>
+  <!-- //공지사항 -->
+  
+  <div class="foot_contents">
+    <!-- 하단 메뉴 -->
+    <div class="foot_menu">
+      <!-- added by coffin -->
+            <ul>
+        <li><a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">회사소개</a>(<a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">KOR</a> | <a href="http://www.hanbit.co.kr/publisher/index.html?lang=e" target="_blank">ENG</a>) &#149; <a href="http://www.hanbit.co.kr/publisher/contact.html?lang=k" target="_blank">약도</a></li>
+        <li><a href="http://www.hanbit.co.kr/publisher/write.html" target="_blank">기획 및 원고 모집</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/use_agreement.html">이용약관</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/privacy_policy.html"><strong>개인정보취급방침</strong></a></li>
+        <li><a href="http://www.hanbit.co.kr/sitemap/sitemap.html">사이트맵</a></li>
+      </ul>
+          </div>
+    <!-- //하단 메뉴 -->
+
+    <!-- SNS -->
+    <div class="foot_sns">
+            
+      <ul>
+        <li class="foot_facebook"><a href="https://www.facebook.com/hanbitmedia" target="_blank"><span>페이스북</span></a></li>
+        <!-- <li class="foot_googleplus"><a href="https://plus.google.com/u/0/+HanbitCoKr/posts" target="_blank"><span>구글플러스</span></a></li> -->
+        <li class="foot_twitter"><a href="https://twitter.com/hanbit" target="_blank"><span>트위터</span></a></li>
+        <li class="foot_youtube"><a href="https://www.youtube.com/user/HanbitMedia93" target="_blank"><span>유튜브</span></a></li>
+        <li class="foot_bolg"><a href="http://blog.hanbit.co.kr/" target="_blank"><span>블로그</span></a></li>
+        <li class="foot_naverpost"><a href="https://m.post.naver.com/hanbitstory" target="_blank"><span>네이버포스트</span></a></li>
+      </ul>
+      
+      
+        <fieldset class="foot_srch">
+          <legend>하단 검색영역</legend>
+          <input title="검색어" class="foot_srch_keyword" accesskey="s" type="text" value=""  id="foot_keyword_str" style="font-size:16px;">
+          <input type="button" alt="" class="foot_srch_btn" onclick="foot_sch_smit();" style="cursor: pointer;">
+        </fieldset>
+
+      
+      <script>
+        // 검색 리스트  
+        $(document).ready(function() {       
+          $('#foot_keyword_str').keyup(function(e) {
+            if (e.keyCode == 13) 
+              foot_sch_smit();
+          });        
+        });
+
+        function foot_sch_smit(){            
+          var foot_keyword_str = $("#foot_keyword_str").val();      
+          var searchUrl = "/search/search_list.html?keyword="+foot_keyword_str;
+
+          if(!foot_keyword_str){
+            alert("검색어를 입력해주세요");
+            $("#foot_keyword_str").focus();
+          }else{
+            location.href = searchUrl;
+          }
+        }
+      </script>  
+      
+    </div>
+    <!-- //SNS -->
+    
+    <!-- 한빛 정보 -->
+    <div class="foot_about">
+      <div class="foot_about_area">
+        
+
+        <p><strong>한빛미디어㈜ &#149; 한빛아카데미㈜ &#149; 한빛비즈㈜</strong></p>
+        <p>(03785) 서울 서대문구 연희로2길 62</p>
+        <p>EMAIL : support@hanbit.co.kr</p>
+        <p>대표이사 : 김태헌</p>
+        <p>사업자등록번호 : 220-81-05665 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208105665" target="_blank">[확인]</a></p>
+        <p>통신판매업신고 : 2017-서울서대문-0671호</p>
+        <p>호스팅제공자 : (주)누리호스팅</p>
+        
+
+      </div>
+    </div>
+    <!-- //한빛 정보 -->
+  </div>
+  
+  <div class="copyright">&copy;1993-2020 Hanbit Publishing Network, Inc. All rights reserved.</div>
+</footer>
+<!-- //푸터 -->
+<div class="foot_download_btn"><a href="http://www.hanbit.co.kr/support/supplement_list.html">자료실</a></div>
+
+<!-- 공통 JS 호출 -->
+<script type="text/javascript" src="/js/common.js"></script>
+<!-- //공통 JS 호출 -->
+
+</body>
+</html>

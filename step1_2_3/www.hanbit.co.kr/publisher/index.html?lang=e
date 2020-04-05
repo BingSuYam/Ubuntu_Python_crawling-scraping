@@ -1,0 +1,575 @@
+<!DOCTYPE html >
+<html lang="ko">
+<head>
+<!--[if lte IE 8]>
+<script>
+  location.replace('/support/explorer_upgrade.html');
+</script>
+<![endif]-->
+<meta charset="utf-8"/>
+<title>한빛출판네트워크 :: 더 나은 세상을 위한 아시아 출판 네트워크</title>
+<link rel="shortcut icon"href="/images/common/hanbit.ico"> 
+<meta name="keywords" content="책,전자책,ebook,출판사,동영상,콘텐츠,강의,자격증,대학교재" />
+<meta name="description" content="출판사, IT전문서, 대학교재, 경제경영, 어린이/유아, 실용/여행, 전자책" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="stylesheet" type="text/css" href="/publisher/css/main_e.css?20200313" />
+<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script src="/publisher/js/main2.js" type="text/javascript"></script>
+<script src="/publisher/js/jquery.touchSlider.js" type="text/javascript"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47080738-1', 'hanbit.co.kr');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics -->
+</head>
+<body>
+<header>
+  <!-- GNB -->
+  <nav>
+    <script type="text/javascript">
+    // 마우스 오버 이벤트
+    function view_hover() {
+      var i,p,v,obj,args=view_hover.arguments;
+      for (i=0; i<(args.length-2); i+=3) 
+      with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+      if (obj.style) { obj=obj.style; v=(v=='show')?'block':(v=='hide')?'none':v; }
+      obj.display=v; }
+    }
+    </script>
+    
+    <!-- top menu -->
+    <div class="pub_topmenu">
+	<ul class="top_brand">
+		<li><a href="http://www.hanbit.co.kr/index.html" name="hanbit_network"><span>HOME</span></a></li>
+		<li><a href="http://www.hanbit.co.kr/media/">Hanbit Media</a></li>
+		<li><a href="http://www.hanbit.co.kr/academy/">Hanbit Academy</a></li>
+		<li><a href="http://www.hanbit.co.kr/biz/">Hanbit Biz</a></li>
+		<li><a href="http://www.hanbit.co.kr/life/">Hanbit Life</a></li>
+		<li><a href="http://www.hanbit.co.kr/edu/">Hanbit Edu</a></li>
+		<li><a href="http://www.hanbit.co.kr/realtime/">Realtime</a></li>
+		<li><a href="http://www.hanbit.co.kr/textbook/">Textbook</a></li>
+		<li><a href="http://www.hanbit.co.kr/rent/">Hanbit Rent Service</a></li>
+	</ul>
+</div>
+    <!-- //top menu -->
+    
+    <div class="gnb_area">
+      <div class="gnb_menu">
+        <div class="m_btn_menu" id="m_menu_btn"><a href="javascript:;" onClick="view_hover('m_menu_list','','show','m_menu_btn2','','show','m_lang_list','','hide','m_lang_btn2','','hide')" class="green01">MENU</a></div>
+        <h1 class="green"><a href="/publisher/index.html">한빛출판네트워크</a></h1>
+        <div class="m_btn_lang" id="m_lang_btn"><a href="javascript:;" onClick="view_hover('m_menu_list','','hide','m_menu_btn2','','hide','m_lang_list','','show','m_lang_btn2','','show')" class="green01">LANGUGE</a></div>
+      </div>
+      
+      <div class="lang_area"><span>English</span>
+        <div class="m_btn_close2" id="m_lang_btn2"><a href="javascript:;" onClick="view_hover('m_menu_list','','hide','m_menu_btn2','','hide','m_lang_list','','hide','m_lang_btn2','','hide')">CLOSE</a></div>
+        <ul id="m_lang_list">
+          <li class="f">English</li>
+          <li><a href="/publisher/index.html?lang=k" class="">한국어</a></li>
+          <li><a href="/publisher/index.html?lang=e" class="curr">English</a></li>
+          <!--
+          <li><a href="/publisher/index.html?lang=c" class="">中国语</a></li>
+          <li><a href="/publisher/index.html?lang=j" class="">日本語</a></li>
+          -->
+        </ul>
+      </div>
+      
+      <div class="menu_area green">
+        <div class="m_btn_close" id="m_menu_btn2"><a href="javascript:;" onClick="view_hover('m_menu_list','','hide','m_menu_btn2','','hide','m_lang_list','','hide','m_lang_btn2','','hide')">CLOSE</a></div>
+        <ul id="m_menu_list">
+          <li><a href="/publisher/index.html?lang=e" class="curr">ABOUT</a></li>
+          <li><a href="/publisher/write.html?lang=e" class="">WRITE WITH US</a></li>
+          <li><a href="/publisher/career.html?lang=e" class="">CAREER</a></li>
+          <li><a href="/publisher/contact.html?lang=e" class="">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+	<div class="bg01"></div>
+  </nav>
+  <!-- //GNB -->
+</header>
+
+<section class="main_section_cont">
+
+  <!-- 비전, 핵심가치 -->
+  <article class="main_bg" id="main_s01">
+	<p class="main_txt1"><span class="tet_wh"><span class="tet_green">A publication network of Asia</span> for a better world</span></p>
+	<div class="section_wrap">
+		<ul>
+		  <li class="main_box">
+			<div class="main_box_item">
+				<a href="javascript:;" onClick="vision_layer_open('layer_vision');return false;">
+					<span class="d_t">
+						<span class="d_c">
+							<span class="main_box_txt2"><span class="text_br">We dream and</span><span class="text_br">work as a team with passion.</span></span>
+							<span class="main_box_txt3"><span class="text_br">We believe in the value and future of publication.</span><span class="text_br">Our dream is one mosaic consisting</span>of every one of our members' dreams.</span>
+							<div class="main_box_wrap01">
+								<span class="main_box_icon01"><img src="/publisher/images/main_visual_icon_01.png"></span>
+								<span class="main_box_plus"><img src="/publisher/images/main_plus_icon.png" alt="더보기"></span>
+							</div>
+						</span>
+					</span>
+				</a>
+			</div>
+		  </li>
+		  <li class="main_box">
+			<div class="main_box_item">
+				<a href="javascript:;" onClick="vision_layer_open('layer_vision');return false;">
+					<span class="d_t">
+						<span class="d_c">
+							<span class="main_box_txt2"><span class="text_br">We stay true</span><span class="text_br">to our own principles.</span></span>
+							<span class="main_box_txt3"><span class="text_br">Our fundamental beliefs come from our readers.</span><span class="text_br">We always remember how difficult</span>it is to follow these fundamental beliefs.</span>
+							<div class="main_box_wrap02">
+								<span class="main_box_icon02"><img src="/publisher/images/main_visual_icon_02.png"></span>
+								<span class="main_box_plus"><img src="/publisher/images/main_plus_icon.png" alt="더보기"></span>
+							</div>
+						</span>
+					</span>
+				</a>
+			</div>
+		  </li>
+		  <li class="main_box">
+			<div class="main_box_item">
+				<a href="javascript:;" onClick="vision_layer_open('layer_vision');return false;">
+					<span class="d_t">
+						<span class="d_c">
+							<span class="main_box_txt2"><span class="text_br">We strive for sustainable</span><span class="text_br">and continuous growth.</span></span>
+							<span class="main_box_txt3"><span class="text_br"> We struggle to grow constantly with integrity.</span><span class="text_br">We believe that a sustainable growth could only be achieved</span>when team members participate in collective development and share common interests.</span>
+							<div class="main_box_wrap02">
+								<span class="main_box_icon03"><img src="/publisher/images/main_visual_icon_03.png"></span>
+								<span class="main_box_plus"><img src="/publisher/images/main_plus_icon.png" alt="더보기"></span>
+							</div>
+						</span>
+					</span>
+				</a>
+			</div>
+		  </li>
+		</ul>
+	</div>
+  </article>
+  
+  <!-- 사장님 인사말 -->
+  <article class="main_section_02" id="main_s02">
+    <div class="main_area">
+      <div class="ms02_txt_l" id="ms02_txt_l">
+    		<p class="ms02_txt_pl">For the past 27 years, there is one philosophy<br />
+			<span class="txt_bgreen">I kept close to heart was to publish a book that readers will trust.</span><br /> 
+			To take each step with care and publishs with sincerity.<br />
+			It may not always have been enough, but I believe we have made it<br />
+			this far because the integrity of our philosophy has been recognized by our readers.<br />
+			I would like to take this opportunity to convey my deep-rooted gratitude for our readers.<br />
+			I would also like to thank all the authors and translators for sharing their extensive knowledge through our books<br />
+			<span class="txt_bgreen">To answer to your love and support, Hanbit will strive to develop as a better publication than we have been in the last decades.</span></p>
+    		<p class="ms02_txt_p2"><span class="ms02_txt_s1">We strive to be</span>
+			<ul class="ms02_txt_u">
+			<li><span>A publication that readers can trust regardless timeless time</span></li>
+			<li><span>A publication that we ourselves love and value; a company with dignity and a healthy publication culture</span></li>
+			<li><span>A publication that reaches beyond Korea, Asia, out to the world</span></li>
+			</ul>
+			<span class="ms02_txt_s2">We always publish each and every book with our vision and the belief that we can keep our promises with our readers.
+			Thank you for your interest in our Company, our brands and our books.</span></p>
+    		<p class="ms02_txt_p3">Tae-Heon Kim, CEO</p>
+      </div>
+    </div>
+  </article>
+      
+      <div class="vision_layer" style="display:none;">
+        <div class="bg"></div>
+        <div class="vision_pop-layer" id="layer_vision">
+          <div class="pop-container">
+            <div class="pop-conts">
+              <!--content //-->
+              <p class="tit">VISION 2023</p>
+              <div class="close"><a class="cbtn" href="javascript:;"><img src="/images/common/icon_close2.png" alt="닫기" /></a></div>
+  
+              <div class="pop_vision">
+                <p class="title">A publication network of Asia</p>
+                <p class="title"><strong>for a better world</strong></p>
+                
+                <p class="stit">Details</p>
+                
+                <div class="box">
+                  <div class="l">We dream and work as a team with passion</div>
+                  <dl>
+                    <dt>&#149; We believe in the value and future of publication.<br />&#149; Our dream is one mosaic consisting of every one of our members' dreams.</dt>
+                    <dd></dd>
+                    <dd></dd>
+                    <dd></dd>
+                    <dd></dd>
+                  </dl>
+                </div>
+                
+                <div class="box">
+                  <div class="l">We stay true to our own principles.</div>
+                  <dl>
+                    <dt>&#149; Our fundamental beliefs come from our readers.<br />&#149; We always remember how difficult it is to follow these fundamental beliefs.</dt>
+                    <dd></dd>
+                    <dd></dd>
+                    <dd></dd>
+                    <dd></dd>
+                  </dl>
+                </div>
+                
+                <div class="box">
+                  <div class="l">We strive for sustainable and continuous growth.</div>
+                  <dl>
+                    <dt>&#149; We struggle to grow constantly with integrity.<br />&#149; We believe that a sustainable growth could only be achieved when team members participate in collective development and share common interests.</dt>
+                    <dd></dd>
+                    <dd></dd>
+                    <dd></dd>
+                    <dd></dd>
+                  </dl>
+                </div>
+                <!--
+                <p class="stit">english</p>
+                <div class="l2"><strong>english</strong> <span>english</span></div>
+                -->
+              </div>            
+              <!--// content-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- //비전 -->
+  
+  <!-- 브랜드소개 -->
+  <article class="main_section_04" id="main_s04">
+    <script>
+    $(function() {
+    $( "#tabs" ).tabs();
+    });
+    </script>
+    
+    <div id="tabs">
+      <!-- 한빛미디어 -->
+      <div id="tabs-1" class="ms04_tabbox">
+        <div class="ms04_img"><img src="/publisher/images/ms03_img_media.jpg" alt="" /></div>
+        <div class="ms04_txt">
+          <p class="txt1">IT world opened through books</p>
+          <p class="txt2">With a motto of the 'IT world opened through books', Hanbit Media has been introducing publications for IT professionals such as programming, computer engineering, IT essay, Make (magazine), eBook(RealTime), as well as instructional and practical computer guides as OA, graphic related publications for non-professionals.</p>
+          <div class="ms04_btn"><a href="/media/info/info.html" class="media">Hanbit Media <span>&gt;</span></a></div>
+        </div>
+      </div>
+      <!-- //한빛미디어 -->
+      
+      <!-- 한빛아카데미 -->
+      <div id="tabs-2" class="ms04_tabbox">
+        <div class="ms04_img"><img src="/publisher/images/ms03_img_academy.jpg" alt="" /></div>
+        <div class="ms04_txt">
+          <p class="txt1">For effective teaching and learning experience!</p>
+          <p class="txt2">IT and Engineering textbooks for university students. Hanbit Academy is publishing various university textbooks with expert authors in Korea. </p>
+          <div class="ms04_btn"><a href="/academy/info/info.html" class="academy">Hanbit Academy <span>&gt;</span></a></div>
+        </div>
+      </div>
+      <!-- //한빛아카데미 -->
+      
+      <!-- 한빛비즈 -->
+      <div id="tabs-3" class="ms04_tabbox">
+        <div class="ms04_img"><img src="/publisher/images/ms03_img_biz.jpg" alt="" /></div>
+        <div class="ms04_txt">
+          <p class="txt1">A book made by honest people</p>
+          <p class="txt2">Through 'I am new series' and 'Right Now' series for beginners in business, we publish books that present a path to be a master of economy, business management and financial investment.</p>
+          <div class="ms04_btn"><a href="/biz/info/info.html" class="biz">Hanbit Biz <span>&gt;</span></a></div>
+        </div>
+      </div>
+      <!-- //한빛비즈 -->
+      
+      <!-- 한빛라이프 -->
+      <div id="tabs-4" class="ms04_tabbox">
+        <div class="ms04_img"><img src="/publisher/images/ms03_img_life.jpg" alt="" /></div>
+        <div class="ms04_txt">
+          <p class="txt1">Our book is light on your life</p>
+          <p class="txt2">As an imprint of Hanbit Media, Hanbit life publishes books that can brightly shed light on all of us.</p>
+          <div class="ms04_btn"><a href="/life/info/info.html" class="life">Hanbit Life <span>&gt;</span></a></div>
+        </div>
+      </div>
+      <!-- //한빛라이프 -->
+      
+      <!-- 한빛에듀 -->
+      <div id="tabs-5" class="ms04_tabbox">
+        <div class="ms04_img"><img src="/publisher/images/ms03_img_edu.jpg" alt="" /></div>
+        <div class="ms04_txt">
+          <p class="txt1">Books written in the heart of a mother</p>
+          <p class="txt2">Hanbit Edu is specialized in publishing books, designed to learn educational benefits, for preschoolers and elementary schoolers in the areas of mathematics, science, learning logical thinking, fine arts and entertainments as well as general interest titles.</p>
+          <div class="ms04_btn"><a href="/edu/info/info.html" class="edu">Hanbit Edu <span>&gt;</span></a></div>
+        </div>
+      </div>
+      <!-- //한빛에듀 -->
+
+      <!-- Realtime -->
+      <div id="tabs-6" class="ms04_tabbox">
+        <div class="ms04_img"><img src="/publisher/images/ms03_img_realtime.jpg" alt="" /></div>
+        <div class="ms04_txt">
+          <p class="txt1">Only for computer programmer eBook</p>
+          <p class="txt2">As an imprint of Hanbit Media, RealTime publishes an e-Book that delivers the actionable knowledge, key skills, core information of fast-changing emerging technologies for IT professionals.</p>
+          <div class="ms04_btn"><a href="/realtime/info/info.html" class="realtime">RealTime eBook <span>&gt;</span></a></div>
+        </div>
+      </div>
+      <!-- //Realtime -->
+      
+      <!-- Make -->
+      <!-- <div id="tabs-7" class="ms04_tabbox">
+        <div class="ms04_img"><img src="/publisher/images/ms03_img_make.jpg" alt="" /></div>
+        <div class="ms04_txt">
+          <p class="txt1">DIY Projects and Ideas for Makers</p>
+          <p class="txt2">As an exclusive partner of Maker Media in the Korea, Hanbit Media publishes Hareware & Tech DIY books, Make magazine, well as organizes Maker Faire Seoul under the license of Maker Media.</p>
+          <div class="ms04_btn"><a href="/make/info/info.html" class="make">Make: <span>&gt;</span></a></div>
+        </div>
+      </div> -->
+      <!-- //Make -->
+      
+      <div class="tab_bg">
+        <ul>
+          <li><a href="#tabs-1" class="tab_media">한빛미디어</a></li>
+          <li><a href="#tabs-2" class="tab_academy">한빛아카데미</a></li>
+          <li><a href="#tabs-3" class="tab_biz">한빛비즈</a></li>
+          <li><a href="#tabs-4" class="tab_life">한빛라이프</a></li>
+          <li><a href="#tabs-5" class="tab_edu">한빛에듀</a></li>
+          <li><a href="#tabs-6" class="tab_realtime">Realtime</a></li>
+          <!-- <li><a href="#tabs-7" class="tab_make">Make:</a></li> -->
+          
+        </ul>
+      </div>
+    </div>
+  </article>
+  <!-- 브랜드소개 -->
+  
+  <!-- 연혁 -->
+  
+
+  <article class="main_section_05" id="main_s05">
+    <div class="ms05_txt01">
+      <h2>Our History</h2>
+      <div class="history_details">
+        <ul class="history_detail_list">
+          <!-- 2019 -->
+          <li>
+            <div class="year mt36">2019</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; Hosted DevGround 2019 conference<br />&#149; Hanbit Media published the best selling <Study Alone> series<br />&#149; Hanbit Biz published the best selling <~ in Cartoon> series and  <Evolution of Insects in Cartoons> named as Science Book of the Year by APCTP (Asia Pacific Center for Theoretical Physics</p>
+            </div>
+          </li>
+                    
+          <!-- 2018 -->
+          <li>
+            <div class="year mt36">2018</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; Launched Rental service about Hanbit facilities<br />&#149; Launched Realtime Web Book service<br />&#149; 『Mom's speaking practice』, 『Principles』 selected as bestseller</p>
+            </div>
+          </li>
+
+          <!-- 2017 -->
+          <li>
+            <div class="year mt36">2017</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; Moved new office Hanbit Building<br />&#149; Hanbit Academy published 『Middle School Information Textbook』<br />&#149; Awarded for the 2017 publisher of the year from Korea Publisher Society</p>
+            </div>
+          </li>
+
+          <!-- 2016 -->
+          <li>
+            <div class="year mt36">2016</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; Hosted 'Maker Faire Seoul 2016'<br />&#149; Hosted Conference on 'I am a programmer 2016'.<br />&#149; 『Broad and Shallow Knowledge of intellectual Conversations』 sold more than a million copies.</p>
+            </div>
+          </li>
+
+          <!-- 2015 -->
+          <li>
+            <div class="year mt36">2015</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; Hosted 'RT:FM 2015', 'Maker Faire Seoul 2015'<br />&#149; Hosted 'RT:FM', Conference on 'I am a programmer'<br />&#149; 『Broad and Shallow Knowledge of intellectual Conversations』 sold more than half million copies within a year</p>
+            </div>
+          </li>
+
+          <!-- 2014 -->
+          <li>
+            <div class="year mt36">2014</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; 『Effective Baby Feeding & Sleeping Timetable』, 『EAT MOVE SLEEP』 selected as best health and parenting book by the Ministry of Health and Welfare<br />&#149; Hanbit Academy published 『Essential of Electronic Circuitss』<br />&#149; Hanbit Biz Published the best selling book 『Broad and Shallow Knowledge of intellectual Conversations』</p>
+            </div>
+          </li>
+
+          <!-- 2013 -->
+          <li>
+            <div class="year mt36">2013</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; Established Hanbit Academy (January 8th)<br />&#149; Launched Hanbit Life<br />&#149; 『Library of the 40 Somethings』, 『Start Studying World Economy Now』 selected as best liberal arts book by the Ministry of Culture and Tourism</p>
+            </div>
+          </li>
+
+          <!-- 2012 -->
+          <li>
+            <div class="year mt53">2012</div>
+            <div class="year_img mt53"></div>
+            <div>
+            <p class="year_list">&#149; Published 『The Tasty Series』, 『MSE Series』<br />&#149; Hosted 'RT:FM', 'Maker Faire Seoul'<br />&#149; Launched Hanbit eBook Real Time<br />&#149; 『Liberal Arts Library of the Economist』 selected as book of the month by Korean Publication Ethics Commission</p>
+            </div>
+          </li>
+
+          <!-- 2011 -->
+          <li>
+            <div class="year">2011</div>
+            <div class="year_img"></div>
+            <div>
+            <p class="year_list">&#149; Published 『Make Magazine』</p>
+            </div>
+          </li>
+
+          <!-- 2010 -->
+          <li>
+            <div class="year mt36">2010</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; 『Mastering Android Programming』 selected as bestseller<br />&#149; Published 『Mobile Series』<br />&#149; Launched  readers comunnity 'The Hanbit Readers'</p>
+            </div>
+          </li>
+
+          <!-- 2009 -->
+          <li>
+            <div class="year mt">2009</div>
+            <div class="year_img mt"></div>
+            <div>
+            <p class="year_list">&#149; Published 『The Acceptance Series』<br />&#149; Published 100th book of 『IT CookBook Series』</p>
+            </div>
+          </li>
+
+          <!-- 2008 -->
+          <li>
+            <div class="year mt53">2008</div>
+            <div class="year_img mt53"></div>
+            <div>
+            <p class="year_list">&#149; Established Hanbit Biz (January 3rd)<br />&#149; Moved new office building(May 3rd)<br />&#149; Published 『IT CookBook for beginner series』<br />&#149; 『Start Studying Foreign Exchange Rates Now』 selected as bestseller</p>
+            </div>
+          </li>
+
+          <!-- 2007 -->
+          <li>
+            <div class="year mt">2007</div>
+            <div class="year_img mt"></div>
+            <div>
+            <p class="year_list">&#149; Certified as an Innovation SME<br />&#149; Published 『Blog2Book Series』</p>
+            </div>
+          </li>
+
+          <!-- 2006 -->
+          <li>
+            <div class="year">2006</div>
+            <div class="year_img"></div>
+            <div>
+            <p class="year_list">&#149; 『Good Photographic Compositions for Good Photos』 selected as best seller</p>
+            </div>
+          </li>
+
+          <!-- 2005 -->
+          <li>
+            <div class="year mt36">2005</div>
+            <div class="year_img mt36"></div>
+            <div>
+            <p class="year_list">&#149; Published 『Stimulate Your Brain Series』, 『Skills for the Workplace Series』<br />&#149; Published 『The Family Tree House Series』<br />&#149; 『Microsoft Excel 2003 for the Workplace』 selected as best seller</p>
+            </div>
+          </li>
+
+          <!-- 2004 -->
+          <li>
+            <div class="year">2004</div>
+            <div class="year_img"></div>
+            <div>
+            <p class="year_list">&#149; Exported publication rights for 『3D Game Programming』, 『Online Game Server Programming』</p>
+            </div>
+          </li>
+
+          <!-- 2003 -->
+          <li>
+            <div class="year mt">2003</div>
+            <div class="year_img mt"></div>
+            <div>
+            <p class="year_list">&#149; Published 『IT CookBook Series』<br />&#149; Innovated the university textbooks market with the publication of differentiated content</p>
+            </div>
+          </li>
+
+          <!-- 2002 -->
+          <li>
+            <div class="year mt">2002</div>
+            <div class="year_img mt"></div>
+            <div>
+            <p class="year_list">&#149; Published 『IT EXPERT series』, 『IT Baek Du Dae Gwan series』<br />&#149; Innovated the IT book market with new domestic books</p>
+            </div>
+          </li>
+
+          <!-- 1999 -->
+          <li>
+            <div class="year">1999</div>
+            <div class="year_img"></div>
+            <div>
+            <p class="year_list">&#149; Launched Hanbit Media website</p>
+            </div>
+          </li>
+
+          <!-- 1997 -->
+          <li>
+            <div class="year mt">1997</div>
+            <div class="year_img mt"></div>
+            <div>
+            <p class="year_list">&#149; Established a contract with U.S.' O'Reilly and a Korean distributor and translator<br />&#149; Published the first Korean version of O'Reilly's 『Web Master in a Nutshell』</p>
+            </div>
+          </li>
+
+          <!-- 1996 -->
+          <li>
+            <div class="year">1996</div>
+            <div class="year_img"></div>
+            <div>
+            <p class="year_list">&#149; Published 『Korean Office 95 for Beginners』, 『Korean Windows 95 for Beginners』</p>
+            </div>
+          </li>
+
+          <!-- 1993 -->
+          <li>
+            <div class="year">1993</div>
+            <div class="year_img"></div>
+            <div>
+            <p class="year_list">&#149; Founded Hanbit Media (March 19th)</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    <!-- Footer -->
+    <div id="footer_main"><span class="copyright">©1993-2020 Hanbit Publishing Network. All rights reserved.</span></div>
+    <!-- //Footer -->
+  </article>
+  <!-- //연혁 -->
+</section>
+<!-- //콘텐츠 -->
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+window.onload = function() {
+  $('.main_box').stop().animate({"top":"50%","opacity":"1"}, { queue : true , duration : 1000 , easing : 'easeOutQuart'});
+  $('.main_box_txt1').stop().delay(400).animate({"top":"0px","opacity":"1"}, { queue : true , duration : 1000 , easing : 'easeOutQuart'});
+  $('.main_box_txt2').stop().delay(800).animate({"top":"0px","opacity":"1"}, { queue : true , duration : 1000 , easing : 'easeOutQuart'});
+  //$('.scene02_06').stop().delay(100).animate({"opacity":"1","top":"383px"}, { queue : true , duration : interval_time , easing : 'easeOutExpo'});
+}
+</script>
+</body>
+</html>
+
+
+

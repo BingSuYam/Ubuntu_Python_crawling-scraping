@@ -1,0 +1,3046 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!--[if lte IE 8]>
+<script>
+  location.replace('/support/explorer_upgrade.html');
+</script>
+<![endif]-->
+<meta charset="utf-8"/>
+<title>만들면서 배우는 프로그레시브 웹 앱</title>
+<link rel="shortcut icon" href="http://www.hanbit.co.kr/images/common/hanbit.ico"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="만들면서 배우는 프로그레시브 웹 앱"/>
+<meta property="og:description" content="이 책은 네이티브 앱의 장점과 웹의 낮은 진입 장벽이라는 두 가지 장점을 모두 지닌 차세대 웹 기술, 프로그레시브 웹 앱&#40;Progressive Web App, PWA&#41;의 구현 방법을 다룬 책이다."/>  
+<meta property="og:image" content="http://www.hanbit.co.kr/data/ebook/E2915620212_m.jpg"/>
+<meta property="og:url" content="http://www.hanbit.co.kr/store/books/look.php?p_code=E2915620212"/>
+<link rel="canonical" href="http://www.hanbit.co.kr/store/books/look.php?p_code=E2915620212" />
+<meta name="keywords" content="책,전자책,ebook,출판사,동영상,콘텐츠,강의,자격증,대학교재" />
+<meta name="description" content="이 책은 네이티브 앱의 장점과 웹의 낮은 진입 장벽이라는 두 가지 장점을 모두 지닌 차세대 웹 기술, 프로그레시브 웹 앱&#40;Progressive Web App, PWA&#41;의 구현 방법을 다룬 책이다." />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="viewport" content="width=1260">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="naver-site-verification" content="01c29ed1852aecca7a48ac0c3e0869627bc512d8"/>
+<!-- <meta name="naver-site-verification" content="823ff8b8e7e3eb396c310703c2bbd731f48c1d9b"/> -->
+<link rel="stylesheet" href="/css/common.css?20190625102532" />
+<link href="/css/hover.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="/js/jquery.raty.css" />
+<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/jquery.event.drag-1.5.min.js"></script>
+<script type="text/javascript" src="/js/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="/js/jquery.raty.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/lib/cheditor/cheditor.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript" src="/js/engine.js"></script>
+<script type="text/javascript" src="/js/vue.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47080738-1', 'hanbit.co.kr');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '406459623338891');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=406459623338891&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Kakao Pixel Code -->
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+  kakaoPixel('3011392806152551233').pageView();
+  kakaoPixel('3011392806152551233').viewContent({
+    id: 'E2915620212'
+  });
+</script>
+<!-- //Kakao Pixel Code -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9D5PM3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<link rel="stylesheet" href="/css/layout-hanbit.css?20191130" />
+<link rel="stylesheet" href="/css/layout-member.css" />
+<link rel="stylesheet" href="/css/layout-network.css" />
+<link rel="stylesheet" href="/css/layout-store.css" />
+<link rel="stylesheet" href="/css/layout-myhanbit.css" />
+<link rel="stylesheet" href="/css/layout-event.css" />
+<!-- 메뉴 바로가기 -->
+<div id="quick_skip_menu">
+  <a href="#gnb" onclick="document.getElementById('gnb').tabIndex = -1;document.getElementById('gnb').focus();return false;"><span>메뉴 바로가기</span></a>
+  <a href="#top_search" onclick="view_hover('main_search_area','','show'), document.getElementById('top_search').tabIndex = -1;document.getElementById('top_search').focus();return false;"><span>검색 및 카테고리 바로가기</span></a>
+    <a href="#container" onclick="document.getElementById('container').tabIndex = -1;document.getElementById('container').focus();return false;"><span>본문 바로가기</span></a>
+  </div>
+<!-- //메뉴 바로가기 -->
+
+<!-- header -->
+<header>
+  <!-- top menu -->
+  	<nav>
+		<div id="wrap_nav">
+			<ul class="top_brand">
+				<li><a href="http://www.hanbit.co.kr/index.html" name="hanbit_network"><span>HOME</span></a></li>
+				<li><a href="http://www.hanbit.co.kr/media/">한빛미디어</a></li>
+				<li><a href="http://www.hanbit.co.kr/academy/">한빛아카데미</a></li>
+				<li><a href="http://www.hanbit.co.kr/biz/">한빛비즈</a></li>
+				<li><a href="http://www.hanbit.co.kr/life/">한빛라이프</a></li>
+				<li><a href="http://www.hanbit.co.kr/edu/">한빛에듀</a></li>
+				<li><a href="http://www.hanbit.co.kr/realtime/">리얼타임</a></li>
+				<li><a href="http://www.hanbit.co.kr/textbook/" target="_blank">한빛정보교과서</a></li>
+        <li><a href="http://www.hanbit.co.kr/rent/" target="_blank">한빛대관서비스</a></li>
+			</ul>
+			
+			<ul class="top_menu">
+                        	<li><a href="https://www.hanbit.co.kr/member/login.html" class="login">로그인</a></li>
+				<li><a href="https://www.hanbit.co.kr/member/member_agree.html" class="join">회원가입</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/myhanbit.html" class="myhanbit">마이한빛</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/cart.html" class="cart">장바구니</a></li>
+            				<!-- <li class="top_menu_store"><a href="http://www.hanbit.co.kr/store/store_submain.html">STORE</a></li> -->
+			</ul>
+		</div>
+	</nav>  <!-- //top menu -->
+
+  <div id="wrap_gnb">
+    <!-- logo -->
+    <h1><a href="http://www.hanbit.co.kr/index.html">한빛출판네트워크</a></h1>
+    <!-- //logo -->
+
+    <!-- Menu -->
+    <div id="gnb" name="gnb">
+      <ul>
+        <li><a href="http://www.hanbit.co.kr/brand/brand_submain.html" class="">BRAND</a></li>
+        <li><a href="http://www.hanbit.co.kr/channel/channel_submain.html" class="">Channel.H</a></li>
+        <li><a href="http://www.hanbit.co.kr/store/store_submain.html" class="curr">STORE</a></li>
+        <li><a href="http://www.hanbit.co.kr/support/help_info.html" class="">SUPPORT</a></li>
+        <li><a href="http://www.hanbit.co.kr/event/current/current_event_list.html" class="">EVENT</a></li>
+        
+        <li id="top_search" class="search"><a href="javascript:;" onClick="view_hover('main_search_area','','show'); $('#keyword_str').focus();"><span>SERACH</span></a></li>
+      </ul>
+    </div>
+    <!-- //Menu -->
+    
+    <!-- lnb -->
+    <div class="lnb" style="top:92px;">
+      <div class="lnb_area">
+      <!-- BRAND -->
+            <ul class="lnb_depth1_category">
+        <li onmouseover="view_hover('category_store','','show')" onMouseOut="view_hover('category_store','','hide')"><a href="#" onFocus="view_hover('category_store','','show')" class="gnb_category">카테고리</a>
+          <ul id="category_store">
+
+                          <li onmouseover="view_hover('category_store1','','show')" onMouseOut="view_hover('category_store1','','hide')"><a href="/store/books/category_list.html?cate_cd=001" onFocus="view_hover('category_store1','','show')">IT/모바일</a>
+                <ul id="category_store1">
+                              <li><a href="/store/books/category_list.html?cate_cd=001001">프로그래밍</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001002">웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001003">모바일/스마트기기</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001013">데이터베이스</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001005">운영체제</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001014">하드웨어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001015">시스템/네트워크</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001016">보안</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001009">비즈니스/문화</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001010">게임</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001017">IT에세이</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001012">자격증</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001018">인공지능/데이터과학</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store2','','show')" onMouseOut="view_hover('category_store2','','hide')"><a href="/store/books/category_list.html?cate_cd=002" onFocus="view_hover('category_store2','','show')">MAKE</a>
+                <ul id="category_store2">
+                              <li><a href="/store/books/category_list.html?cate_cd=002001">Make 매거진</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=002002">Make 프로젝트 북</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store3','','show')" onMouseOut="view_hover('category_store3','','hide')"><a href="/store/books/category_list.html?cate_cd=003" onFocus="view_hover('category_store3','','show')">IT활용</a>
+                <ul id="category_store3">
+                              <li><a href="/store/books/category_list.html?cate_cd=003001">오피스/OA</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003002">그래픽/멀티미디어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003003">사진/예술</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003004">컴퓨터입문/IT교양</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store4','','show')" onMouseOut="view_hover('category_store4','','hide')"><a href="/store/books/category_list.html?cate_cd=004" onFocus="view_hover('category_store4','','show')">대학교재</a>
+                <ul id="category_store4">
+                              <li><a href="/store/books/category_list.html?cate_cd=004007">컴퓨터공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004008">정보통신/전기/전자</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004003">수학/과학/공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004004">프로그래밍/웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004005">그래픽/디자인</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004006">OA/활용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004009">수험서/자격증</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store5','','show')" onMouseOut="view_hover('category_store5','','hide')"><a href="/store/books/category_list.html?cate_cd=006" onFocus="view_hover('category_store5','','show')">실용서</a>
+                <ul id="category_store5">
+                              <li><a href="/store/books/category_list.html?cate_cd=006001">취미/실용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006002">여행</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006003">건강</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006004">유아/육아</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store6','','show')" onMouseOut="view_hover('category_store6','','hide')"><a href="/store/books/category_list.html?cate_cd=007" onFocus="view_hover('category_store6','','show')">경제/경영/인문</a>
+                <ul id="category_store6">
+                              <li><a href="/store/books/category_list.html?cate_cd=007001">경제/경영</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007002">자기계발</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007003">인문/교양</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007004">마케팅</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007005">에세이</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store7','','show')" onMouseOut="view_hover('category_store7','','hide')"><a href="/store/books/category_list.html?cate_cd=008" onFocus="view_hover('category_store7','','show')">유아/어린이/초등</a>
+                <ul id="category_store7">
+                              <li><a href="/store/books/category_list.html?cate_cd=008001">4~6세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008002">5~7세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008003">예비초등</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008004">초등교과연계 1~12영역</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008005">초등 전학년</a></li>      
+              </ul></li>            
+          <!-- 항상 노출 메뉴 -->          
+          <li class="gnb_category_series"><a href="http://www.hanbit.co.kr/store/books/series_list.html">시리즈</a></li>
+          <li class="gnb_category_reservations"><a href="http://www.hanbit.co.kr/store/books/reservations_list.html">예약도서</a></li>
+          <!--
+          <li class="gnb_category_full"><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li>
+          -->
+          <!--/li-->
+        </ul>
+      </ul>
+      <!--/li-->        
+      <!--/ul-->
+
+      <ul class="lnb_depth1">
+        <li><a href="http://www.hanbit.co.kr/store/books/new_book_list.html">새로나온 책</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/bestseller_list.html">베스트셀러</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/education/edu_list.html">교육</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/item/item_list.html">Item &amp; Maker Shed</a></li>
+      </ul>
+      
+      <!-- SUPPORT -->
+          </div>
+    </div>
+    <!--// lnb -->
+  </div>
+</header>
+<!-- //header -->
+
+<!-- 메인 검색 및 카테고리 영역 -->
+<div id="main_search_area" class="fixed" style="display:none;">
+  <div class="msa_wrap">
+
+    <!-- 검색 -->
+    <div class="msa_srch_wrap">
+      <form onsubmit="return false;">
+      <fieldset class="msa_srch_field">
+        <legend>한빛출판네트워크 검색</legend>
+        <input title="검색어" autocomplete="off" class="srch_keyword" accesskey="s" type="text" name="keyword_str" id="keyword_str" v-model="keyword" @input="typeKeyword">
+        <input type="submit" class="srch_btn" style="cursor:pointer;" @click="clickSearch">
+      </fieldset>
+      </form>
+    </div>
+    <!-- //검색 -->
+
+    <!-- ① 인기검색어 -->
+    <div class="msa_srch_polular" v-if="showPopularKeyword === true">
+      <h2 class="tit">인기 검색어 <span>(최근 1개월간)</span></h2>
+        <div class="popula_box">
+          <ul class="left">
+            <li v-for="keyword in leftPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li v-for="keyword in rightPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <!-- ① 인기검색어 -->
+
+    <!-- ② 검색결과/검색서제스쳔 -->
+    <div class="msa_srch_suggestion" v-if="showPopularKeyword === false">
+      <div class="sugg_left" v-if="bookList.length !== 0">
+        <h3 class="tit">BOOK</h3>
+        <ul class="books_list">
+          <li v-for="book in bookList" @mouseover="mouseOverBook(book.id)"><a @click="clickBookKeyword(book)"><p v-html="book.name"></p></a></li>
+        </ul>
+      </div>
+
+      <div class="sugg_right">
+        <div class="sugg_book" v-if="bookList.length !== 0">
+          <table class="sugg_book_detail">
+            <tr>
+              <td class="cover">
+                <a @click="clickBookKeyword(bookSummary)">
+                  <img :src="bookSummary.imgUrl" class="b_cover">
+                </a>
+              </td>
+              <td class="draft">
+                <a @click="clickBookKeyword(bookSummary)" class="b_title"><strong v-html="bookSummary.originName"></strong></a>
+                <p class="b_int">
+                {{ bookSummary.author }} 지음<br />
+                {{ bookSummary.publishingCompany }} | {{ bookSummary.date }}
+                </p>
+                <p class="b_type">
+                <span>{{ bookSummary.bookType }}</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="sugg_edu" v-if="educationList.length !== 0">
+          <h3 class="tit">EDUCATION</h3>
+          <ul class="edu_list">
+            <li v-for="education in educationList">&#149; <a @click="clickEducationKeyword(education)"><span v-html="education.title"></span></a></li>
+          </ul>
+        </div>
+
+        <div class="sugg_cont" v-if="contentList.length !== 0">
+          <h3 class="tit">CONTENTS</h3>
+          <ul class="cont_list">
+            <li v-for="content in contentList">&#149; <a @click="clickContentKeyword(content)"><span v-html="content.title"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //② 검색결과/검색서제스쳔 -->
+
+  <!-- 닫기 -->
+  <div class="msa_wrap_close">
+    <a href="javascript:;" onclick="view_hover('main_search_area','','hide')">닫기</a>
+  </div>
+  <!-- //닫기 -->
+
+  </div>
+</div>
+
+<!-- old // 구현시 필요없으면 삭제해도 됩니다.
+<script type="text/javascript">
+  function sch_smit(){
+    if(!$.trim($("#keyword_str").val()).length) {
+      alert("검색어를 입력해주세요");
+      $("#keyword_str").focus();
+      return false;
+    }else{
+      $("#gnbsearchfrm").attr("action","/search/search_list.html");
+      $("#gnbsearchfrm").submit(); 
+    }
+  }
+</script>
+-->
+
+<script type="text/javascript">
+    "use strict";
+
+    var common_top_search_vue = new Vue({
+        el: '#main_search_area',
+        data: {
+            //검색엔진 URL
+            searchProxyURL: "https://search.hanbit.co.kr",
+            //인기 검색어 show 여부
+            showPopularKeyword: true,
+            //사용자 검색 키워드
+            keyword: '',
+            //인기 검색어 리스트
+            popularKeywordList: [],
+            // 인기 검색어 리스트 (왼쪽)
+            leftPopularKeywordList: [],
+            // 인기 검색어 리스트 (오른쪽)
+            rightPopularKeywordList: [],
+            // 자동완성에서의 책 리스트
+            bookList: [],
+            // 자동완성에서의 책 정보
+            bookSummary: {
+                'imgUrl': '',
+                'link': '',
+                'name': '',
+                'author': '',
+                'publishingCompany': '',
+                'date': '',
+                'bookType': ''
+            },
+            //에듀케이션 리스트
+            educationList: [],
+            //컨텐츠 리스트
+            contentList: []
+        },
+        created: function created() {
+            // 인기 검색어 조회
+            this.getPopularKeyword();
+        },
+        methods: {
+            /**
+             * 사용자가 검색 키워드를 입력할때 발생하는 이벤트
+             */
+            typeKeyword: function typeKeyword() {
+                var self = this;
+                var keyword = $("#keyword_str").val();
+
+                if (keyword.length !== 0) {
+                    //자동완성어
+                    this.findAutocompleteResult(keyword);
+                } else {
+                    //인기검색어
+                    self.showPopularKeyword = true;
+                }
+            },
+
+            /**
+             * 인기검색어 조회
+             */
+            getPopularKeyword: function getPopularKeyword() {
+                var self = this;
+                this.popularKeywordList = [];
+                $.get(this.searchProxyURL + "/querylog/popularKeyword").done(function (data) {
+                    if (data != null) {
+                        self.drawPopularKeyword(data);
+                    }
+                });
+            },
+
+            /**
+             * 인기 검색어 그리기
+             */
+            drawPopularKeyword: function drawPopularKeyword(popularBooks) {
+                var self = this;
+                popularBooks.forEach(function (item) {
+                    var popularBook = {
+                        bookName: item.keyword
+                    };
+                    self.popularKeywordList.push(popularBook);
+                });
+                var number = 0;
+
+                for (var _iterator = this.popularKeywordList, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
+                    var _ref;
+
+                    if (_isArray) {
+                        if (_i >= _iterator.length) break;
+                        _ref = _iterator[_i++];
+                    } else {
+                        _i = _iterator.next();
+                        if (_i.done) break;
+                        _ref = _i.value;
+                    }
+
+                    var keyword = _ref;
+                    number = number + 1;
+                    keyword.number = number.toString().length < 2 ? "0" + number : number;
+
+                    if (number > 5) {
+                        keyword.direction = "right";
+                        self.rightPopularKeywordList.push(keyword);
+                    } else {
+                        keyword.direction = "left";
+
+                        if (number < 4) {
+                            keyword.bold = 'active';
+                        }
+
+                        self.leftPopularKeywordList.push(keyword);
+                    }
+                }
+            },
+
+            /**
+             * 자동완성 검색 결과
+             */
+            findAutocompleteResult: function findAutocompleteResult(keyword) {
+                var self = this;
+                var param = {
+                    q: keyword,
+                    types: "education,book,contents",
+                    fq: keyword
+                };
+                $.post(this.searchProxyURL + "/autocomplete/search", param).done(function (data) {
+                    if (data != null) {
+                        var bookResult = data.booksResults;
+                        self.changeBookList(keyword, bookResult);
+                        var contentResult = data.contentsResults;
+                        self.changeContentList(keyword, contentResult);
+                        var educationResult = data.educationResults;
+                        self.changeEducationList(keyword, educationResult);
+                    }
+                });
+                this.showPopularKeyword = false;
+            },
+
+            /**
+             * 자동완성어에서 BOOK 부분에서 마우스를 올렸을 시에 발생하는 이벤트
+             * @param bookId
+             */
+            mouseOverBook: function mouseOverBook(bookId) {
+                var currentBook = this.bookList.filter(function (book) {
+                    return book.id === bookId;
+                });
+                this.changeBookSummary(currentBook[0]);
+            },
+
+            /**
+             * 책 소개 변경
+             * @param book
+             */
+            changeBookSummary: function changeBookSummary(book) {
+                if (book !== {}) {
+                    this.bookSummary.name = book.name;
+                    this.bookSummary.originName = book.originName;
+                    this.bookSummary.author = book.author;
+                    this.bookSummary.bookType = book.bookType;
+                    this.bookSummary.imgUrl = book.imgUrl;
+                    this.bookSummary.link = book.link;
+                    this.bookSummary.publishingCompany = book.publishingCompany;
+                    this.bookSummary.date = book.date;
+                    this.bookSummary.bookType = book.bookType;
+                }
+            },
+
+            /**
+             * BOOK 리스트 변경
+             */
+            changeBookList: function changeBookList(keyword, bookResultList) {
+                var self = this;
+                self.bookList = [];
+                var index = 0;
+
+                if (bookResultList != null) {
+                    for (var _iterator2 = bookResultList, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : _iterator2[Symbol.iterator]();;) {
+                        var _ref2;
+
+                        if (_isArray2) {
+                            if (_i2 >= _iterator2.length) break;
+                            _ref2 = _iterator2[_i2++];
+                        } else {
+                            _i2 = _iterator2.next();
+                            if (_i2.done) break;
+                            _ref2 = _i2.value;
+                        }
+
+                        var result = _ref2;
+
+                        if (index < 10) {
+                            var book = {};
+                            book.id = result.code;
+                            book.originName = result.title;
+                            book.name = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            book.link = result.code;
+                            book.imgUrl = self.getBookImageURL(result.code);
+                            book.author = result.author;
+                            book.publishingCompany = result.brand;
+                            book.date = result.pubDate;
+                            book.bookType = result.bookType;
+                            self.bookList.push(book); //책 미리보기 변경
+
+                            self.changeBookSummary(self.bookList[0]);
+                        }
+                    }
+                } else {
+                    self.initBookSummary();
+                }
+            },
+
+            /**
+             * 책 이미지 주소 가져오기
+             */
+            getBookImageURL: function getBookImageURL(bookCode) {
+                var imgURL;
+
+                if (bookCode.substr(0, 1) === "E") {
+                    imgURL = '/data/ebook/' + bookCode + '_m.jpg';
+                } else {
+                    imgURL = '/data/books/' + bookCode + "_m.jpg";
+                }
+
+                return imgURL;
+            },
+
+            /**
+             * 검색 결과가 없을 경우 책 미리보기 초기화
+             */
+            initBookSummary: function initBookSummary() {
+                this.bookSummary = {
+                    'imgUrl': '',
+                    'link': '',
+                    'name': '',
+                    'author': '',
+                    'publishingCompany': '',
+                    'date': '',
+                    'bookType': ''
+                };
+            },
+
+            /**
+             * education 리스트 변경
+             */
+            changeEducationList: function changeEducationList(keyword, educationResultList) {
+                var self = this;
+                self.educationList = [];
+                var index = 0;
+
+                if (educationResultList != null) {
+                    for (var _iterator3 = educationResultList, _isArray3 = Array.isArray(_iterator3), _i3 = 0, _iterator3 = _isArray3 ? _iterator3 : _iterator3[Symbol.iterator]();;) {
+                        var _ref3;
+
+                        if (_isArray3) {
+                            if (_i3 >= _iterator3.length) break;
+                            _ref3 = _iterator3[_i3++];
+                        } else {
+                            _i3 = _iterator3.next();
+                            if (_i3.done) break;
+                            _ref3 = _i3.value;
+                        }
+
+                        var result = _ref3;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.educationList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * contents 리스트 변경
+             */
+            changeContentList: function changeContentList(keyword, contentResult) {
+                var self = this;
+                self.contentList = [];
+                var index = 0;
+
+                if (contentResult != null) {
+                    for (var _iterator4 = contentResult, _isArray4 = Array.isArray(_iterator4), _i4 = 0, _iterator4 = _isArray4 ? _iterator4 : _iterator4[Symbol.iterator]();;) {
+                        var _ref4;
+
+                        if (_isArray4) {
+                            if (_i4 >= _iterator4.length) break;
+                            _ref4 = _iterator4[_i4++];
+                        } else {
+                            _i4 = _iterator4.next();
+                            if (_i4.done) break;
+                            _ref4 = _i4.value;
+                        }
+
+                        var result = _ref4;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.contentList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * 하이라이트 표시
+             */
+            replaceHighlightWord: function replaceHighlightWord(str, highlightKeyword) {
+                var replaceHighlightKeyword = highlightKeyword.replace(/[^a-z0-9가-힣_ ]/gi, '');
+                var regEx = new RegExp(replaceHighlightKeyword, "gi");
+                str = str.replace(regEx, function (a) {
+                    return '<span class="keysel">' + a + '</span>';
+                });
+                return str;
+            },
+
+            /**
+             * 검색 버튼 클릭 시
+             * @param e
+             */
+            clickSearch: function clickSearch(e) {
+                if (!this.keyword || this.keyword.length === 0) {
+                    alert("검색어를 입력하세요");
+                    $("#keyword_str").focus();
+                    e.preventDefault();
+                } else {
+                    location.href = "/search/search_list.html?keyword=" + this.keyword;
+                }
+            },
+
+            /**
+             * 인기 검색어 클릭시
+             * @param book
+             */
+            clickPopularKeyword: function clickPopularKeyword(book) {
+                var searchKeyword = book.bookName;
+                location.href = "/search/search_list.html?keyword=" + searchKeyword;
+            },
+
+            /**
+             * 책 검색어 클릭시 책 상세로 이동
+             * @param book
+             */
+            clickBookKeyword: function clickBookKeyword(book) {
+                location.href = "/store/books/look.php?p_code=" + book.link;
+            },
+
+            /**
+             * 교육 클릭시 교육 상세로 이동
+             * @param education
+             */
+            clickEducationKeyword: function clickEducationKeyword(education) {
+                location.href = "/store/education/edu_view.html?p_code=" + education.link;
+            },
+
+            /**
+             * 컨텐츠 클릭시 컨텐츠 상세로 이동
+             * @param contents
+             */
+            clickContentKeyword: function clickContentKeyword(content) {
+                location.href = "/channel/category/category_view.html?cms_code=" + content.link;
+            }
+        }
+    });
+</script>
+<!-- //메인 검색 및 카테고리 영역 -->
+<SCRIPT LANGUAGE="JavaScript">
+
+  function Cart(strMode) {
+
+    var m_idx = "";
+    var p_code = "E2915620212";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){
+        if(strMode=='cart') { 
+          if(result ==1) { 
+            $('#cartmsg').show();
+            $('#cartmsg2').hide();
+            add_cart_layer_open('layer_add_cart');
+          } else if(result==0) {
+            $('#cartmsg2').show();
+            $('#cartmsg').hide();
+            add_cart_layer_open('layer_add_cart');
+            return;
+          }
+        }  else {
+          location.href="/myhanbit/cart.html";
+        }
+      }          
+    });            
+  }  
+
+  // 견본도서 장바구니 담기. by coffin. 2017-04-12
+  function Cart_p(strMode) {
+    var m_idx = "";
+    var p_code = "E2915620212";
+    var ea = 1;
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+
+    $.ajax({
+      type : "post",
+      url : "/academy/professor/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){      
+        if(strMode=='cart') { 
+          location.href='/academy/professor/cart.html';
+        }  else {
+          location.href='/academy/professor/cart.html';
+        }
+      }          
+    });            
+  }  
+
+  function Wishlist() {
+
+    var m_idx = "";
+    var p_code = "E2915620212";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    var comment = "";
+
+    if(m_idx =="") {
+      alert('로그인이 필요한 서비스 입니다.');
+      document.location.href='/member/login.html';
+      return;
+    }
+
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addWishlist.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt,"comment":comment},
+      dataType : "text",
+      success : function(result, status){
+        if(result ==1) { 
+          alert("해당 상품을 위시리스트에 담았습니다");
+          return;
+        } else if(result==0) {
+          alert("이미 위시리스트에 추가된 상품입니다.");
+          return;
+        }
+      }
+    });            
+  }  
+
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT
+  --------------------------------------------------------------- */  
+  //리뷰 팝업요청 버튼 
+  function review_start(){  
+    var m_idx = '';
+    var re_chk_num = '0';    
+    
+    if(!m_idx) { 
+      alert("로그인후 리뷰 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }  
+      
+    if(re_chk_num<1){
+      review_layer_open('layer_review');
+      $('#hbr_content_review').html('<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>');
+      return;
+    }else{
+      alert('리뷰등록은 도서당 한번만 가능합니다.');
+      return;
+    }
+  }  
+  
+  //리뷰 등록 취소 버튼    
+  function frm_reset(){    
+    $('.review_layer').fadeOut();    
+  }  
+
+
+  //리뷰등록  처리 버튼
+  function review_proc(str,idx){      
+    
+    document.getElementById("hbr_content").value = myeditor.outputBodyHTML();        
+
+    if(!$.trim($("#hbr_title").val()).length) {
+      alert("리뷰제목을 입력해주세요"); $("#hbr_title").focus();return;
+    }    
+
+    if(!$.trim($("#hbr_score").val()).length) {
+      alert("별점 평가를 선택해주세요"); $("#hbr_score").focus();return;
+    }
+    
+          
+    if($("#hbr_content").val().length <= 13) {
+      alert("리뷰내용을 입력해주세요"); $("#hbr_content").focus();return;
+    }      
+    
+    var type_str      =  str;  
+    var hbr_idx       =  idx;    
+    var fk_p_code    = $("#fk_p_code").val();  
+    var fk_m_idx      = $("#fk_m_idx").val();  
+    var hbr_type     = $("#hbr_type").val();            
+    var hbr_title      = $("#hbr_title").val();  
+    var hbr_score    = $("#hbr_score").val();  
+    var hbr_content   = $("#hbr_content").val();  
+
+    var result_postdata= {  
+        type_str    :   type_str,
+        hbr_idx      :  hbr_idx,
+        fk_p_code   :   fk_p_code,
+        fk_m_idx     :   fk_m_idx,
+        hbr_type     :  hbr_type,
+        hbr_title    :   hbr_title,        
+        hbr_score   :   hbr_score,
+        hbr_content :   hbr_content    
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addReview.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){                
+        if(data  >0){                              
+          $('.review_layer').fadeOut();  
+          //location.reload();
+          var currentUrl = window.location.href.split('&');                  
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=review';
+          //location.href='/store/books/look.php?p_code=E2915620212&tid=review';                  
+        }            
+      }
+    });
+  }  
+
+  //리뷰 수정, 삭제
+  function review_frm_proc(str,idx,n){
+
+    if(str =="redel"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }
+    var result_postdata= {  str : str, idx:idx}    
+    var result_url = "/inc/inc_store_layer_popup_review_ajax.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){            
+
+        if(str == "redel" && data ==1 ){
+          alert("리뷰가 삭제되었습니다.");              
+          location.reload();
+          //location.href="/store/books/look.php?p_code=$p_code#review_tab";
+          
+        }else{
+          $("#review_popup_div").html("");        
+          $("#review_popup_div").html(data);        
+          review_layer_open('layer_review');
+        }
+      }         
+    });  
+    
+  }
+      
+  //리뷰 댓글 리스트  ::  리뷰 idx , div_num
+  function comment_list(idx,n){      
+    //alert(idx+"="+n)
+    var result_postdata= {  hbr_idx : idx, div_n:n}    
+    var result_url = "/store/rev_comm_list.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){          
+        $("#comment_div_"+n).html(data);        
+      }         
+    });          
+  }    
+  
+  //등록, 수정, 삭제    ::  처리 str , 리뷰 div_num , 리뷰 idx , 댓글 div_num,  댓글 idx
+  function comment_proc( str ,div_n, idx , div2_n ,re_idx){      
+    var fk_hbr_idx     = idx;    
+    var fk_m_idx     = $("#fk_m_idx").val();        
+    var comment    = $("#comment_"+div_n).val();                
+    var hbrc_idx     = re_idx;
+    
+    if(!fk_m_idx) { 
+      alert("로그인후 댓글을 작성 하실수있습니다.");
+      document.location.href='/member/login.html';
+      return;  
+    }    
+    if(str == "del"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }else if(str == "ins"||str == "mod"){    
+      if(!comment){
+        alert("내용을  입력해주세요.");      
+        $("#comment_"+div_n).focus(); return;  
+      }
+    }
+            
+    var result_postdata= {            
+      str:str,            
+      div_n:div_n,    
+      fk_hbr_idx : fk_hbr_idx,  
+      fk_m_idx : fk_m_idx,  
+      comment:comment,    
+      hbrc_idx:hbrc_idx,
+      div2_n:div2_n
+    }    
+    var result_url = "/store/rev_comm_proc.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){      
+        if(str == "mod_f"){          
+          $("#re_"+div_n+"_"+div2_n).html("");
+          $("#re_"+div_n+"_"+div2_n).html(data);
+        }else{
+          //var ment = data.trim();
+          alert(data.trim());  
+          comment_list( fk_hbr_idx,div_n); //댓글 리스트          
+        }          
+      }         
+    });            
+  }    
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT
+  --------------------------------------------------------------- */  
+  //오탈자 리스트     
+  function misprint_get_list(str){    
+    var p_code     = 'E2915620212';          
+    var conf      = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();  
+    if(!str)str = "page";    
+    
+    //정렬
+    if(str == "page"){    
+      if( p_sort_type == "DE"){ p_sort_type = "A";
+      }else if( p_sort_type == "" ||  p_sort_type == "A"){  p_sort_type = "DE";
+      }      
+      r_sort_type = "";
+    }
+    if(str == "regdt"){    
+      if( r_sort_type == "DE"){ r_sort_type = "A";
+      }else if(  r_sort_type == "" ||r_sort_type == "A"){  r_sort_type = "DE";
+      }
+      p_sort_type = "";    
+    }                  
+    $("#p_sort_type").val(p_sort_type);
+    $("#r_sort_type").val(r_sort_type);
+    //alert(p_sort_type+"=="+r_sort_type);
+            
+    $.ajax({
+      type : "post",
+      url : "/inc/inc_store_detail_misprint_ajaxList.php",
+      data:{  fk_p_code:p_code , conf :conf , p_sort_type : p_sort_type , r_sort_type:r_sort_type },          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){      
+        $("#misprint_con_div").html("");
+        //$("#misprint_con_div").html(data);            
+        $(".misprint_list").eq(0).html(data);            
+        $(".misprint_list").eq(1).html(data);            
+      }
+    });            
+  }
+  
+  //오탈자 팝업요청 버튼 
+  function misprint_start(){    
+    var m_idx = '';  
+    if(!m_idx) { 
+      alert("로그인 후 오탈자 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }    
+    misprint_layer_open('layer_misprint');return;    
+  }  
+  
+  //오탈자 등록 취소 버튼    
+  function misprint_reset(){    
+    $('.misprint_layer').fadeOut();    
+  }  
+
+  //오탈자등록  처리 버튼
+  function misprint_proc(str,idx){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+    
+    $("#err_info").val( myeditor_err.outputBodyHTML());            
+    
+    var type_str        =  str;          
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var err_type        = $("#err_type option:selected").val();      
+    var err_p_version    = "";  
+    var err_p_page      = $("#err_p_page").val();       
+    var err_location    = $("#err_location").val();   
+    var err_info        = $("#err_info").val();   
+    var err_file        = $("#err_file").val();                                                                  
+                
+                    
+    if($("#err_type option:selected").val() =="") {
+      alert("구분을선택해주세요");$("#err_type").focus();return;
+    }
+    
+    if($(":checkbox[name='err_p_version[]']:checked").length < 1) {
+      alert("상품버전을 선택해주세요");$("#err_p_version").focus();return;
+    }
+          
+    if(!err_p_page) {
+      alert("페이지를 입력해주세요");$("#err_p_page").focus();return;
+    }      
+    
+    if(!err_location) {
+      alert("위치정보를 입력해주세요");$("#err_location").focus();return;
+    }  
+        
+    var err_info_len = $("#err_info").val().length;    
+    if(err_info_len <20) {
+      alert("내용을 입력해주세요");$("#err_info").focus();return;
+    }                
+  
+    err_p_version = "";
+    $('input:checkbox[name="err_p_version[]"]').each(function() {         
+      if(this.checked){
+        err_p_version+=','+$(this).val();      
+      }                    
+     });     
+    err_p_version = err_p_version.substring(1,err_p_version.length);         
+            
+    var result_postdata= {  
+         type_str        :  type_str,
+         fk_m_idx        :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         err_type        :  err_type,        
+         err_p_version    :  err_p_version,  
+         err_p_page      :   err_p_page,      
+         err_location      :  err_location,          
+         err_info        :  err_info,    
+         err_file          :  err_file              
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addMisprint.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){  
+        if(data  >0){    
+          $('.misprint_layer').fadeOut();      
+          var currentUrl = window.location.href.split('&');        
+          
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=misprint';
+          //location.href='/store/books/look.php?p_code=E2915620212&tid=misprint';                  
+          //location.reload(true);
+        }            
+      }
+    });  
+  }    
+  
+  //오탈자 인쇄하기
+  function misprint_print(){      
+    var p_code       = 'E2915620212';          
+    var conf        = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();      
+    
+    //var sort_type;    
+    //if(p_sort_type)sort_type = p_sort_type ;
+    //if(r_sort_type)sort_type = r_sort_type ;
+        
+    var url_full = "/store/books/misprint_view.html?fk_p_code="+p_code+"&conf="+conf+"&p_sort_type="+p_sort_type+"&r_sort_type="+r_sort_type;      
+    
+    var openNewWindow = window.open("about:blank");
+        openNewWindow.location.href = url_full;                
+  }
+              
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+  function book_auth(){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+          
+    var fk_m_idx      = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var buy_date      = $("#buy_date").val();      
+    var buy_site        = $("#buy_site").val();      
+    var add_code      = $("#add_code").val();                                                                                
+          
+    if(!buy_site) {
+      alert("구입처를 선택해주세요");$("#buy_site").focus();return;
+    }  
+
+    if(!buy_date) {
+      alert("구입일을 입력해주세요");$("#buy_date").focus();return;
+    }          
+    
+    if(!add_code) {
+      alert("부가기호를 입력해주세요");$("#add_code").focus();return;
+    }  
+    
+    $("#cfrm").submit();
+    
+    /*    
+    var result_postdata= {  
+         fk_m_idx      :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         buy_date      :  buy_date,        
+         buy_site        :  buy_site,  
+         add_code      :   add_code,          
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addBookauth.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){          
+        if(data  >0){                        
+          $('.certification_layer').fadeOut();      
+          location.reload(true);
+        }            
+      }
+    });  
+    */
+  }
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+
+</SCRIPT>
+
+<!-- Contents -->
+<div id="container">
+  <!-- 상단 광고 배너 -->
+  <!--
+<div class="docu_title" style="margin-top:4px;text-align:center;padding:4px;font-weight:bold;background-color:#52AEE1;border:2px solid #000;">
+<a href="http://www.hanbit.co.kr/event/current/current_event_view.html?hbe_idx=129" alt="한빛비즈 회원가입 이벤트" class="hvr-glow" style="width:100%;padding:4px;color:#000000;letter-spacing:-1px;">회원가입이벤트 :: 한빛비즈 스페셜 멤버로 초대합니다! (이메일 수신동의, '한빛비즈' 관심브랜드 체크시 최대 5,000점 마일리지 적립)</a>
+</div> -->  <!-- //상단 광고 배너 -->
+  <!-- 카테고리 상세 wrap -->
+  <div class="store_view_wrap">
+    <div class="store_view_wrap_l">
+      <!-- 책 정보 -->
+            <div class="store_view_area">
+        <div class="store_product_box">
+          <div class="store_product_box_img">
+                        <img src="/data/ebook/E2915620212_l.jpg" alt="" class="thumb" />
+                      </div>
+          <div class="store_product_box_btn"><a href="javascript:;" onclick="javascript:openPreviewFlip('http://preview2.hanbit.co.kr/books/gxoe','PREVIEW');return false;">미리보기</a></div>
+        </div>
+        
+        <div class="store_product_info_box">
+          <h3>만들면서 배우는 프로그레시브 웹 앱</h3>
+          <p class="stit">사용자 경험을 극대화하는 차세대 웹 앱 기술</p>
+          
+          <div class="info_area">
+            <div class="info_ico">
+              <p class="ico_r">리얼타임 eBook </p>
+                              <p class="ico_book2">번역서</p>
+                            
+                              <p class="ico_shopping1">판매중</p>
+                            
+            </div>
+            
+            <div class="sns_ico">
+              <span class="ico_facebook"><a href="http://www.facebook.com/share.php?u=http://www.hanbit.co.kr/store/books/look.php?p_code=E2915620212" target="_blank">페이스북 퍼가기</a></span>
+              <span class="ico_google"><a href="https://plus.google.com/share?url=http://www.hanbit.co.kr/store/books/look.php?p_code=E2915620212" target="_blank">구글+ 퍼가기</a></span>
+              <span class="ico_twitter"><a href="http://twitter.com/share?text=%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C+%EB%B0%B0%EC%9A%B0%EB%8A%94+%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C+%EC%9B%B9+%EC%95%B1&url=http://www.hanbit.co.kr/store/books/look.php?p_code=E2915620212" target="_blank">트위터 퍼가기</a></span>
+            </div>
+          </div>
+          
+          <ul class="info_list">
+                          <li><strong>저자 : </strong><span>탈 아터(Tal Ater) </span></li>
+                                    <li><strong>번역 : </strong><span>한민주 , 양찬석 </span></li>
+                        <li><strong>출간 : </strong><span>2019-04-20</span></li>
+            <li><strong>페이지 : </strong><span>368 쪽</span></li>
+            <li><strong>ISBN : </strong><span>9791162248744</span></li>
+                        
+            
+            
+          </ul>
+
+                    
+                    
+          <div class="tag_area"><span>TAG : </span><a href='/search/search_list.html?ptype=B&keyword=프로그레시브 웹 앱'>프로그레시브 웹 앱</a> ,<a href='/search/search_list.html?ptype=B&keyword=Progressive Web App'>Progressive Web App</a> ,<a href='/search/search_list.html?ptype=B&keyword=PWA'>PWA</a> ,<a href='/search/search_list.html?ptype=B&keyword=웹 개발'>웹 개발</a> ,<a href='/search/search_list.html?ptype=B&keyword=웹 보안'>웹 보안</a> ,<a href='/search/search_list.html?ptype=B&keyword=웹 브라우저'>웹 브라우저</a> ,<a href='/search/search_list.html?ptype=B&keyword=서비스 워커'>서비스 워커</a> ,<a href='/search/search_list.html?ptype=B&keyword=HTML'>HTML</a> ,<a href='/search/search_list.html?ptype=B&keyword=Ajax'>Ajax</a> ,<a href='/search/search_list.html?ptype=B&keyword=Indexed DB'>Indexed DB</a> ,<a href='/search/search_list.html?ptype=B&keyword=자바스크립트'>자바스크립트</a> ,<a href='/search/search_list.html?ptype=B&keyword=홈페이지 개발'>홈페이지 개발</a> ,<a href='/search/search_list.html?ptype=B&keyword=모바일'>모바일</a> </div>  
+          <div class="step_area ico_step3">
+            <span> 초급 </span>
+            <span> 초중급 </span>
+            <span><strong>중급</strong></span>
+            <span> 중고급 </span>
+            <span> 고급 </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- //책 정보 -->
+      
+      <!-- 별점 및 좋아요 -->
+      					
+			<script>
+
+			$(function() {
+				$('.store_grade_star').raty({
+					readOnly: true,
+					score: 4.7,
+					starHalf   : '/realtime/images/star_l-half.png',
+					starOff    : '/realtime/images/star_l-off.png',
+					starOn     : '/realtime/images/star_l-on.png'
+				});
+				
+			});
+			</script>	
+            
+            
+            <div class="store_like_area">
+				<div class="store_grade"><div class="store_grade_star"></div><span>4.7점 (6명)</span></div>
+				<div class="store_like"><span>좋아요 : </span><font id="likescore">9</font></div>
+			</div>      <!-- //별점 및 좋아요 -->
+      
+      <!-- 버튼 -->
+      <div class="store_btn_area">
+        <div class="btn_review"><a href="javascript:;" onClick="review_start()">리뷰쓰기</a></div>
+        <div class="btn_like_ok" ><a href="javascript:setLike('E2915620212','');">좋아요</a></div>
+        <div class="btn_misprint"><a href="javascript:;" onClick="misprint_start()">오탈자 등록</a></div>
+              </div>
+            <!-- //버튼 -->
+      <!-- 하단 컨텐츠 -->
+      <div class="store_detail_area">
+        <!-- 텝메뉴 -->
+        <script>
+        $(function() {
+          $( ".detial_tabs" ).tabs();
+        });
+        </script>
+        
+        <div class="detial_tabs">
+          <ul>          
+            <li onclick="javascript:hb_show_tabs('0');"><a href="javascript:;">전체</a></li>
+              
+            <li onclick="javascript:hb_show_tabs('1');"><a href="javascript:;">책소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('2');"><a href="javascript:;">저자소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('3');"><a href="javascript:;">목차</a></li>
+
+                        <li onclick="javascript:hb_show_tabs('4');"><a href="javascript:;">출판사리뷰</a></li>
+                                   
+            <li onclick="javascript:hb_show_tabs('5');"><a href="javascript:;">독자리뷰</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('6');"><a href="javascript:;">오탈자 보기</a></li>
+                      
+            
+                        <li onclick="javascript:hb_show_tabs('8');"><a href="javascript:;">추천도서</a></li> 
+                      </ul>                
+          
+          <!-- 책소개 -->
+                                            <div id="tabs_1">
+                          <p class="detail_tit" style="display:none;">책소개</p>
+                            		<div id="" class="detail_conbox hanbit_edit_view">
+			<p>
+				<b>서비스 워커, 인덱스드 DB의 개념부터 적용까지!</b>
+</p>
+<p>
+				<b>프로그레시브 웹 앱을 위한 안내서</b>
+</p>
+<p>&nbsp;</p>
+<p>이 책은 네이티브 앱의 장점과 웹의 낮은 진입 장벽이라는 두 가지 장점을 모두 지닌 차세대 웹 기술, 프로그레시브 웹 앱(Progressive Web App, PWA)의 구현 방법을 다룬 책이다. 프로그레시브 웹 앱 기술을 활용해 가상으로 만든 호텔의 웹사이트를 개선하고 다양한 기능을 추가하는 과정이 상세히 수록돼 있다. 기존의 웹 개발 기술을 활용해 최신 프로그레시브 웹 앱의 구현 방법을 배우고 싶거나, 프로그레시브 웹 앱에 관심이 많다면 이 책의 내용을 차근차근 따라 해보자. 이 책이 훌륭한 길잡이가 되어 줄 것이다.</p>
+<p>&nbsp;</p>
+<p>
+				<b>어떤 독자를 위한 책인가?&nbsp;</b>
+</p><ul>
+	<li>웹 앱 및 하이브리드 앱 개발을 시작하려는 분&nbsp;</li>			
+	<li>웹 표준 언어로 가볍게 웹 앱을 구현하고 싶은 분</li>			
+	<li>네이티브 앱 외에는 개발해 본 적이 없는 분</li>			
+	<li>프로그레시브 웹 앱에 관심이 많거나 배우고 싶은 분</li>
+</ul>
+<p>&nbsp;</p>						
+		</div>                        </div>
+                              <!-- //책소개 -->
+  
+          <!-- 저자소개 -->
+                                            <div id="tabs_2">                          
+                          <p class="detail_tit" style="display:none;">저자소개</p>
+                                        <div id="" class="detail_conbox">
+              <!-- 저자 소개 -->
+                                <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">탈 아터&#40;Tal Ater&#41;</p>                  
+                    <p>탈 아터는 20년 이상 경력의 개발자, 컨설턴트, 사업가입니다. 클라이언트, 서버, 제품을 개발했고, R&D 부서와 제품 부서를 관리했습니다. 저자는 오픈 소스 커뮤니티에 열정을 가지고 활발하게 참여하고 있습니다. 저자가 구현한 유명한 서비스 워커(Service Worker)와 스피치 레코그니션(Speech Recognition) 라이브러리 등 커뮤니티에 공유된 여러 가지 오픈 소스는 수백만 명의 사람들이 매일 사용하고 있습니다. 저자는 웹 개발, 제품 개발, 보안, 오픈 소스에 대하여 광범위하게 글을 쓰고 강연을 해왔습니다. 저자의 업적과 연구는 포브스, 뉴욕타임스, BBC 등 언론에 대대적으로 보도되었습니다.</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                            <!-- //관련상품 -->
+
+              <!-- 역자 소개 -->    
+                              <div class="author_box">
+                  <div class="author_pic">
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                            
+                    <span class="tit_author">역자</span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">한민주</p>                  
+                    삼성전자 무선사업부에서 개발자로, 유엔난민기구에서 디지털 담당자로, 웹 개발 프로젝트 매니저로 일했다. 서로의 전문성과 다양성을 존중하는 문화를 함께 만들어 나가고자 한다. 순수한 호기심이 가득하고 서로의 지식과 경험을 기꺼이 나누는 개발자 문화를 사랑한다.
+<p>&nbsp;</p>                  </div>
+                </div>
+                              <div class="author_box">
+                  <div class="author_pic">
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                            
+                    <span class="tit_author">역자</span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">양찬석</p>                  
+                    <p>안드로이드 초창기부터 모바일 앱 개발 관련 일을 해왔습니다. 현재는 구글 코리아에서 한국의 앱 개발자들이 더 좋은 앱을 만들어 더 많은 이익을 얻을 수 있도록 돕는 역할을 하고 있습니다. 개발자들 사이에서 정보와 경험을 공유하는 문화를 존중하고 다양한 개발 커뮤니티 활동에 참여하는 것을 즐깁니다.</p>                  </div>
+                </div>
+                            <!-- //역자 소개 -->              
+            </div>
+                        </div>
+                              <!-- //저자소개 -->
+  
+          <!-- 목차 -->
+                                            <div id="tabs_3">
+                          <p class="detail_tit" style="display:none;">목차</p>
+                            						<div id="" class="detail_conbox hanbit_edit_view">
+							<p><p>&nbsp;chapter 1 프로그레시브 웹 앱 소개&nbsp;</p>
+<p>__1.1 웹의 역습&nbsp;</p>
+<p>__1.2 오늘날의 모바일 환경&nbsp;</p>
+<p>__1.3 프로그레시브 웹 앱의 장점&nbsp;</p>
+<p>__1.4 탭, 웹 그리고 서비스 워커&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 2 당신의 첫 번째 서비스 워커&nbsp;</p>
+<p>__2.1 샘플 프로젝트 구성하기&nbsp;</p>
+<p>__2.2 고담 임페리얼 호텔에 오신 것을 환영합니다&nbsp;</p>
+<p>__2.3 코드 알아가기&nbsp;</p>
+<p>__2.4 현재의 오프라인 사용자 경험&nbsp;</p>
+<p>__2.5 첫 번째 서비스 워커 만들기&nbsp;</p>
+<p>__2.6 점진적 향상이란?&nbsp;</p>
+<p>__2.7 HTTPS와 서비스 워커&nbsp;</p>
+<p>__2.8 웹에서 콘텐츠 가져오기&nbsp;</p>
+<p>__2.9 오프라인 요청 감지하기&nbsp;</p>
+<p>__2.10 HTML Response 생성하기&nbsp;</p>
+<p>__2.11 서비스 워커의 범위(Scope) 이해하기&nbsp;</p>
+<p>__2.12 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 3 캐시 스토리지 API&nbsp;</p>
+<p>__3.1 CacheStorage란 무엇인가&nbsp;</p>
+<p>__3.2 언제 캐시할지 결정하기&nbsp;</p>
+<p>__3.3 CacheStorage에 요청 저장하기&nbsp;</p>
+<p>__3.4 CacheStorage로부터 요청 받아오기&nbsp;</p>
+<p>__3.5 샘플 앱에서 캐싱하기&nbsp;</p>
+<p>__3.6 각각의 요청에 올바른 응답 매칭하기&nbsp;</p>
+<p>__3.7 HTTP 캐싱과 HTTP 헤더&nbsp;</p>
+<p>__3.8 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 4 서비스 워커 생명주기와 캐시 관리&nbsp;</p>
+<p>__4.1 서비스 워커의 생명주기&nbsp;</p>
+<p>__4.2 서비스 워커의 수명과 waitUntil의 중요성&nbsp;</p>
+<p>__4.3 서비스 워커 업데이트하기&nbsp;</p>
+<p>__4.4 캐시를 관리해야 하는 이유&nbsp;</p>
+<p>__4.5 캐시 관리 및 이전 캐시 제거&nbsp;</p>
+<p>__4.6 캐싱된 response를 다시 사용하기&nbsp;</p>
+<p>__4.7 올바른 헤더 캐싱을 제공하기 위한 서버 설정&nbsp;</p>
+<p>__4.8 개발자 도구&nbsp;</p>
+<p>__4.9 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 5 ‘오프라인 우선’을 받아들이기&nbsp;</p>
+<p>__5.1 오프라인 우선이란 무엇입니까?&nbsp;</p>
+<p>__5.2 일반적인 캐싱 패턴&nbsp;</p>
+<p>__5.3 믹스 앤 매치, 새 패턴 생성하기&nbsp;</p>
+<p>__5.4 캐싱 전략 세우기&nbsp;</p>
+<p>__5.5 캐싱 전략 구현하기&nbsp;</p>
+<p>__5.6 어플리케이션 쉘 아키텍처&nbsp;</p>
+<p>__5.7 앱 셸 구현하기&nbsp;</p>
+<p>__5.8 목표 달성&nbsp;</p>
+<p>__5.9 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 6 IndexedDB로 로컬에 데이터 저장하기&nbsp;</p>
+<p>__6.1 IndexedDB란?&nbsp;</p>
+<p>__6.2 IndexedDB 사용하기&nbsp;</p>
+<p>__6.3 SQL Ninja를 위한 IndexedDB&nbsp;</p>
+<p>__6.4 IndexedDB 실제로 적용하기&nbsp;</p>
+<p>__6.5 프로미스를 활용한 데이터베이스&nbsp;</p>
+<p>__6.6 IndexedDB 관리&nbsp;</p>
+<p>__6.7 서비스 워커에서 IndexedDB 사용하기&nbsp;</p>
+<p>__6.8 IndexedDB 에코시스템&nbsp;</p>
+<p>__6.9 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 7 백그라운드 동기화를 통한 오프라인 기능 보장&nbsp;</p>
+<p>__7.1 백그라운드 동기화는 어떻게 작동하는가&nbsp;</p>
+<p>__7.2 The SyncManager&nbsp;</p>
+<p>__7.3 동기화 이벤트로 데이터 넘기기&nbsp;</p>
+<p>__7.4 앱에 백그라운드 동기화 추가하기&nbsp;</p>
+<p>__7.5 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 8 메시지를 통한 서비스 워커와 페이지 간의 커뮤니케이션&nbsp;</p>
+<p>__8.1 윈도우에서 서비스 워커로 메시지 보내기&nbsp;</p>
+<p>__8.2 서비스 워커에서 열려있는 모든 윈도우로 메시지 보내기&nbsp;</p>
+<p>__8.3 서비스 워커에서 특정 윈도우로 메시지 보내기&nbsp;</p>
+<p>__8.4 MessageChannel로 커뮤니케이션 채널을 열어두기&nbsp;</p>
+<p>__8.5 윈도우 간 통신하기&nbsp;</p>
+<p>__8.6 동기화 이벤트에서 페이지로 메시지 보내기&nbsp;</p>
+<p>__8.7 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 9 인스톨 가능한 웹 앱으로 홈 화면 차지하기&nbsp;</p>
+<p>__9.1 인스톨 가능한 웹 앱&nbsp;</p>
+<p>__9.2 브라우저가 ‘앱 설치 배너’를 언제 표시할지 결정하는 방법&nbsp;</p>
+<p>__9.3 웹 앱 매니페스트의 구조&nbsp;</p>
+<p>__9.4 다양한 플랫폼 호환성 고려하기&nbsp;</p>
+<p>__9.5 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 10 사용자에게 푸시 알림 보내기&nbsp;</p>
+<p>__10.1 푸시 알림의 생애&nbsp;</p>
+<p>__10.2 알림 생성하기&nbsp;</p>
+<p>__10.3 푸시 이벤트 구독하기&nbsp;</p>
+<p>__10.4 서버에서 푸시 이벤트 전송하기&nbsp;</p>
+<p>__10.5 푸시 이벤트 수신하고 알림 표시하기&nbsp;</p>
+<p>__10.6 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 11 프로그레시브 웹 앱 UX&nbsp;</p>
+<p>__11.1 우아함과 신뢰&nbsp;</p>
+<p>__11.2 서비스 워커에서 상태정보 알려주기&nbsp;</p>
+<p>__11.3 프로그레시브 UI KITT로 커뮤니케이션하기&nbsp;</p>
+<p>__11.4 프로그레시브 웹 앱의 일반적인 메시지&nbsp;</p>
+<p>__11.5 올바른 단어 선택&nbsp;</p>
+<p>__11.6 사용자에게 명확히 설명하기&nbsp;</p>
+<p>__11.7 프로그레시브 웹 앱 디자인&nbsp;</p>
+<p>__11.8 설치 프롬프트 책임지기&nbsp;</p>
+<p>__11.9 RAIL로 성능 측정 및 성능 목표 설정하기&nbsp;</p>
+<p>__11.10 정리&nbsp;</p>
+<p>&nbsp;</p>
+<p>chapter 12 PWA의 미래&nbsp;</p>
+<p>__12.1 Payment Request API로 결제 수락하기&nbsp;</p>
+<p>__12.2 Credential Management API로 사용자 관리하기&nbsp;</p>
+<p>__12.3 WebGL을 사용한 Real-Time Graphics&nbsp;</p>
+<p>__12.4 음성 인식 지원을 위한 첨단 API&nbsp;</p>
+<p>__12.5 WebVR을 통한 브라우저 내 가상 현실&nbsp;</p>
+<p>__12.6 앱에서 앱으로 쉽게 공유하기&nbsp;</p>
+<p>__12.7 매끄러운 미디어 재생 UI&nbsp;</p>
+<p>__12.8 다가올 위대한 시대&nbsp;</p>
+<p>&nbsp;</p>
+<p>부록A 서비스 워커 : ES2015 적용하기&nbsp;</p>
+<p>부록B 전면 광고를 싫어하는 이유&nbsp;</p>
+<p>부록C CORS vs NO-CORS</p></p>
+						</div>                        </div>
+                              <!-- //목차 -->
+  
+          <!-- 출판사리뷰 -->
+                                            <div id="tabs_4">                          
+                          <p class="detail_tit" style="display:none;">출판사리뷰</p>
+                             						<div id="" class="detail_conbox hanbit_edit_view">
+							<p><p>
+				<b>차세대 웹 기술, 프로그레시브 웹 앱&nbsp;</b>
+</p>
+<p>&nbsp;</p>
+<p>프로그레시브 웹 앱(Progreesive Web App, PWA)은 네이티브 앱과 웹의 장점을 모두 지닌 새로운 종류의 웹 앱이다. 쉽게 말해 앱처럼 작동하는 웹이라고 볼 수 있다. 웹을 앱처럼 사용할 수 있기 때문에 사용자 입장에서는 굳이 앱을 설치하지 않아도 되며, 다양한 플랫폼에 간단히 이식이 가능하고, 오프라인에서도 사용할 수 있는 등 다양한 장점으로 차세대 웹 기술로도 손꼽힌다.</p>
+<p>&lt;만들면서 배우는 프로그레시브 웹 앱&gt;에서는 프로그레시브 웹 앱 기술을 활용하여 가상으로 만든 ‘고담 임페리얼 호텔’의 웹사이트를 직접 개선해본다. 이 과정을 직접 따라하면서 프로그레시브 웹 앱의 구현 방법을 익힐 수 있다.</p>
+<p>&lt;만들면서 배우는 프로그레시브 웹 앱&gt;은 다른 누구보다도 개발자를 위한 책이다. 독자에게 HTML과 자바스크립트 웹 개발에 대한 기본적인 이해가 있는 가정 하에 쓰여졌으며, 기존의 웹 개발 기술을 활용해 프로그레시브 웹 앱을 구현하고 싶은 독자에게 특히 유용한 지침서가 되어 줄 것이다.&nbsp;</p></p>
+						</div>                         
+                        </div>
+                              <!-- //출판사리뷰 -->
+  
+          <!-- 독자리뷰 -->
+          
+                     
+                                           
+                        <div id="tabs_5" ><a id="review_tab" ></a>                       
+                            <p class="detail_tit" style="display:none;">독자리뷰</p>
+                                                                       
+            <div id="" class="detail_conbox" >
+              <div class="detail_review_area">
+                <div class="detail_btn right"><a href="javascript:;" onclick="review_start();">리뷰 쓰기</a></div>
+                
+                <ul>
+                                                      <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="6991">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>bre***</strong><span>l</span>2019-06-13</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+1).raty({
+                              readOnly: true,
+                              score: 4,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate1"></div>
+                        <div class="tit">PWA를 이해할 수 있는 최적의 입문서</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>
+	<span style="box-sizing: border-box; font-weight: 700">1.생소한 기술에 대한 개념 설명</span>
+</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>&nbsp; &nbsp; 프로그래시브 웹 앱에라는 기술에 대해 개발자라면 들어본사람도 있을 것이고, 처음 들어본 사람도 있을 것입니다.</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>이 책에서는 이 기술에 대한 개념에 대해 앞부분에서 잘 설명해 주고 있습니다. 왜 이 기술을 도입해야하는지? 어떤 사람,&nbsp;</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>또는 어떤 기업이 이 기술을 사용하는데 도움이 되는 것인지에대해서 설명하고 있습니다.</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>그리고 대략적인 동작 방식도 그림을 이용하여 설명하므로, 초심자가 이해하기에 적합합니다.</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>&nbsp;</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>&nbsp;</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>
+	<span style="box-sizing: border-box; font-weight: 700">2. 샘플 프로젝트의 제공</span>
+</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>&nbsp; &nbsp; 이 책의 제목에 '만들면서 배우는' 이라는 문구에서 처럼 실제로 샘플 프로젝트를 만들면서 설명을 하고 있기 때문에,</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>일반적인 간략한 예시만 제공하는 서적들 보다는 좀더 구체적이고, 직설적으로 기술에 대해 설명을 하고 있습니다.</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>이 책에서는 '고담 임페리얼 호텔' 이라는 가상의 사이트를 PWA로 만드는 과정을 거치게 됩니다. 그래서 이 책을 모두</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>탐독하였을 때 즉시 작동하는 웹앱이 만들어 지게 됩니다. 처음 기술을 접한 사람도 손쉽게 예제를 통해 기술을 이해하기가</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>쉽다고 생각합니다.</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>두가지의 큰 특징에대해 설명하였습니다. PWA에 대해 깊지는 않지만, 그래도 짧은 시간안에 개념을 이해하고, 개발을 해볼 수 있다는</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>점에서 좋은 책이라고 생각합니다.&nbsp; 아쉬운 점을 꼽자면, PWA가 자바스크립트로 개발되기 때문에, 기본적으로 자바스크립트에 대한</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>이해가 있어야 됩니다. 책에서도 언급하고 있지만, ES2015에 대해 좀더 알아볼 것을 권장하고 있습니다. 따라서 개발을 처음 접하는</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>초급자, 또는 자바스크립트를 사용해 보지 않은 사람은 먼저 자바스크립트를 공부한 후에 이 책을 봐야되는 단점이 있습니다.</p>
+<p style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8'>그 외에는 책 두께도 적절하고 손쉽게 읽기 좋은 책이었습니다.</p>
+<p>
+	<br style='box-sizing: border-box; color: #555555; font-family: "Malgun Gothic", "맑은 고딕", 굴림, gulim, 돋움, dotum, "Microsoft NeoGothic", "Droid sans", sans-serif; font-size: 14px; background-color: #f8f8f8' /><br />
+</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_1"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('6991','1');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="6959">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>linu***</strong><span>l</span>2019-06-09</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+2).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate2"></div>
+                        <div class="tit">만들면서 배우는 프로그레시브 웹 앱 : 실습을 통해 배우는 PWA</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><span style="font-size: 14px">	
+	<div style="-en-clipboard: true">
+				<span style="font-size: 14px">프로그레시브 웹 앱(Progressive Web Apps, PWA)이란 무엇일까?</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">2016년에 구글에서 발표한 미래의 웹 기술이다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">웹에 관한 기술들은 나날이 새로이 발전하고 있다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">그 영역 또한 PC에서 모바일, 이제는 IoT까지 점점 더 넓어지고 있다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">그렇다면 이 모든 디바이스에 맞는 최적화된 서비스를 제공해야 할까?</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">PC는 웹으로, 모바일은 앱으로?</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">하루가 다르게 변화는 기술과 서비스를 따라잡기에는 너무나 많은 기회비용이 소요된다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">그래서 PWA는 이 둘을 한꺼번에 처리할 수 있는 기술을 제공하고 있다.</span>	
+	</div>	
+	<div>
+		<span style="font-size: 14px">&nbsp;</span>
+	</div>	
+	<p>
+				<img style="width: 400px; height: 488px" alt="pwa.jpg" src="http://www.hanbit.co.kr/data/editor/20190609235250_glzdtbab.jpg" />	
+	</p>	
+	<p>
+		<span style="font-size: 14px">&nbsp;</span>
+	</p>	
+	<div>
+		<span style="font-size: 14px">&nbsp;</span>
+	</div>	
+	<div>
+				<span style="font-size: 14px">PWA의 서비스 장점은 이미 많이 알려져 있다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">그렇다면 기술적으로 개발하는 난이도는 어떨까?</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">이 책 '만들면서 배우는 프로그레시브 웹 앱'은 정말 쉽게 서비스를 뚝딱 만들 수 있음을 보여준다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">너무 쉽고 흥미진진하다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">직접 실습을 통해 차이점을 확인하고, 중간중간에 있는 팁이나 유의사항은 개발시 오류를 줄일 수 있게 해 준다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">Html, 자바스크립트를 다룰 수 있는 개발자라면 누구나 쉽게 도전할 수 있다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">생소했던 서비스워커와 웹 앱 매니페스트가 무엇인지, 어떻게 사용되는지를 직접 실습을 통해 확실히 이해할 수 있었다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">웹을 개발하면서 아쉬웠던 앱의 기능들을 이렇게도 쓸 수 있다는 것이 신기하고도 놀랍게 느껴진다.</span>	
+	</div>	
+	<div>
+		<span style="font-size: 14px">&nbsp;</span>
+	</div>	
+	<div>
+				<span style="font-size: 14px">푸쉬는 당연히 지원하고 심지어 오프라인에서도 작동될 수 있도록 할 수 있다는 것이 가장 매력적으로 느껴졌다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">말로만 듣던 PWA의 장점들을 직접 이렇게 실습으로 확인하니 보다 더 믿음이 생겼다.</span>	
+	</div>	
+	<div>
+		<span style="font-size: 14px">&nbsp;</span>
+	</div>	
+	<div>
+				<span style="font-size: 14px">브라우저 문제로 인해 PC파트에서는 모두 적용하기 어렵겠지만, 모바일 분야는 모두 PWA로 바꿔도 좋을 듯 하다.</span>	
+	</div>	
+	<div>
+				<span style="font-size: 14px">개인적으로 진행하고 있는 프로젝트에서 모바일 웹과 앱을 동시에 개발하는 것을 생각하고 있는데, PWA를 제안해 볼 예정이다.</span>	
+	</div>	
+	<div>
+		<span style="font-size: 14px">&nbsp;</span>
+	</div>	
+	<div>
+				<span style="font-size: 14px">PWA를 처음 접하는 독자들에게는, 이론이 아닌 실습을 통해 직접 확인하고 싶은 개발자들에게 정말 좋은 가이드가 될 책이다.</span>	
+	</div></span>
+<p>
+	<span style="font-size: 14px">&nbsp;</span>
+</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_2"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('6959','2');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="6932">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>yoonhok***</strong><span>l</span>2019-06-09</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+3).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate3"></div>
+                        <div class="tit">그다지 흠을 발견하기 어려운 책이네요</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p class="se-text-paragraph se-text-paragraph-align-center " id="SE-69793ec5-bd80-4ac7-aed8-2f8d0a46c408" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-b0d399a4-b6a3-4179-9846-fbd2e2070893" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">우선 책 크기가 작습니다. </span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-2ae53cc1-bd7a-4210-9499-9904373d0b93" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-50e88b0f-cbe2-4ce9-bd17-8b35d5d1ce6f" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">가볍게 한 손으로 잡고 볼 수 있습니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-8f577b55-3c0a-400b-a449-96f63931eac2" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-aa203d7e-ea39-45aa-bc10-d1fca54bbb66" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">​</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-1d149044-4a9a-43d4-ad67-a6f6cf6c9c6b" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-a43f12ad-a47c-4cab-bf6f-055f36412a1b" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">기술 번역서를 보게 되면 가장 불안한 요소가 번역 퀄리티인데요.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-32b0a1ab-9957-4640-ab2e-34afeb57052e" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-ea7b3599-4613-4ea1-b8a2-0c94205f902d" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">일부 번역서는 정말 떨어지는 번역 퀄리티에 결국 원서를 찾게 만드는 책도 있는데,</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-7c8048e1-9d6c-4c06-a87e-1f812b629c23" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-0fe16465-0d9e-413b-ba9a-7aa9ea70dbfb" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">이 책은 다행히 그런 걱정은 하지 않아도 됩니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-d0d7286f-5a98-4c34-9b2e-2f9e026e1d33" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-c67fdaec-367b-4cf3-8eda-f451e5942a71" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">구글러 양찬석님이 번역가로 참여했다는 점이 인상적이네요.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-239cd94c-b412-4587-b49f-71daba718f4d" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-e9764b3d-ec04-4c87-a774-a02e46c14ae9" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">​</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-2f4e9679-cb70-4eed-9476-f55aa14fc84a" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-d7041ece-d056-458c-86a6-d3268013ab45" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">또 다른 장점으로,</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-cae2b915-ae1e-4a04-a41f-938247a2c0c6" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-37b7d800-c13c-42be-b095-d390873da466" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">도서에 사용되는 코드가 github에 올라와 있다는 점입니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-1708ffa0-b780-40cd-8299-7e2a73065892" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-76f4edb8-72af-4fa1-a228-a9b7f2d423e7" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">그냥 코드 업로드해놓은 것이 전부가 아니라,</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-bdf310de-3a9e-4f2d-b7ed-b31885b34072" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-ffa6d435-00fa-42de-95a8-c7ec9e7f4a11" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">각 chapter 별로 branch를 만들어 놔서</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-6697db34-db68-48e3-9ee8-30cf6a0143cc" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-cc7d4603-b375-4980-898f-7631bc41d43b" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">새로운 chapter를 시작할 때 그에 맞는 branch를 다시 당겨오면 되기 때문에</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-51a1128c-93da-40a2-b7d8-e14001e801e7" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-264b249b-9f46-49bf-a52c-7d70fe404fed" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">도서의 코드를 못 따라갈 일이 없습니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-d03f65da-3174-4638-87a5-033036e094e5" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-f63f5321-07e6-488b-bbd7-b025417cf5fa" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">​</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-4c84bd70-b5c4-4e83-b194-76b228f67b34" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-2e023362-4a5d-4d13-af22-36a80801a556" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">시중의 몇몇 책들 중에는 분명 책에 적힌대로 따라 했는데</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-586d2bfd-924f-4a8e-9869-f34834d24ece" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-7097bb23-236c-4036-8110-e77b04f2356e" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">잘 안되서 삽질하는 경우가 있잖아요?</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-5d84cad6-dd50-4f2f-a817-0c52423a9ce3" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-a06c05d9-7785-4d7c-a871-aea85de7fe61" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">이 책을 보면서 그럴 일은 없을 겁니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-9c33c4f3-5f6d-4c2a-b00c-ef0e3b237806" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-5744e719-20f7-4a4c-860a-e3033ad80a62" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">뭔가 이상하면, 그냥 branch를 당겨오세요 ㅎㅎ</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-14fa1a72-a101-49db-a348-746a2cfbda38" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-4f8a3c20-7af1-483a-9813-b6c2f56848c7" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">​</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align-center " id="SE-e5bbaed2-b338-4b0e-b298-57ac797e3cfc" style="text-align: left; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; background-color: #ffffff">
+	<span class="se-fs- se-ff-   " id="SE-56342086-a0a3-4a2d-b1fc-f111a67b75c5" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 15px; line-height: inherit; vertical-align: baseline">전반적으로 흠을 찾아보기 힘든 좋은 책이었습니다.</span>
+</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_3"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('6932','3');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="6908">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>kyungla***</strong><span>l</span>2019-06-09</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+4).raty({
+                              readOnly: true,
+                              score: 4,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate4"></div>
+                        <div class="tit">[도서리뷰] 만들면서 배우는 프로그레시브 웹 앱</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>
+	<img src="http://www.hanbit.co.kr/data/editor/20190609023614_wiuzwklf.jpg" alt="SAM_7710.JPG" style="width: 800px; height: 533px" />
+</p>
+<p>&nbsp;</p>
+<div>
+	<span>약 2주 동안 만들면서 배우는 프로그레시브 웹 앱을 읽었습니다.</span>
+</div>
+<div>
+	<span>그리고 오늘 점심에는 프로그레시브 웹 앱 코드랩을 다녀왔고요.</span>
+</div>
+<div>
+	<span>아마 프로그레시브 웹 앱이란 제목으로 검색을 하시는 분들은 프론트 엔드 쪽 개발자이면서, 최신 웹 개발에 관심이 많은 분이라 생각됩니다.</span>
+</div>
+<div>
+	<span>한국에서는 아직도 프로그레시브 웹 앱의 관심이 낮은 편이니까요.</span>
+</div>
+<p>&nbsp;</p>
+<div>
+	<span>저도 그렇습니다. 차세대 웹 앱 기술이란 말을 듣고 궁금해 하다가, 이번에 제대로 공부하고 있으니까요.</span>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20190609023615_tarfcckx.jpg" alt="SAM_7711.JPG" style="width: 800px; height: 533px" />
+</p>
+<p>&nbsp;</p>
+<div>
+	<span>한글로 된 책이 시중에 별로 없습니다.</span>
+</div>
+<div>
+	<span>그래서, 유투브나 블로그등도 찾아보았지만, 현 시점에서는 이 책만큼 분량적으로나 내용의 깊이에 있어서 나은 것이 없어보입니다.</span>
+</div>
+<div>
+	<span>이 책은 단순히 프로그레시브 웹 앱을 따라하기 수준에서 만든 책은 아니지 싶습니다.</span>
+</div>
+<div>
+	<span>오늘 코드랩에서는 단순히 복사 및 붙여넣기 수준으로 웹 앱으로 변화하는 정도에서 맛만 보는 시간이었습니다. 이런 코드랩들이 프로그레시브 웹 앱을 접해보고 공부할지, 어느정도해야 할지 알려주는 시금석 같은 시간들이라고 봅니다.</span>
+</div>
+<div>
+	<span>이 책의 목차를 보면, 이 책이 하나의 프로그레시브 웹 앱을 완성하는 과정이 어떻게 이루어져야 하는지(공부는 어떻게 해야 하는지) 알려줍니다.</span>
+</div>
+<div>
+	<span>저자의 웹 앱의 이론적 설명과 그 구현체인 코드가 적절하게 잘 섞여 있습니다.</span>
+</div>
+<div>
+	<span>오프라인 우선 정책과 생명주기가 왜 중요한지, 전체를 관통하는 주제인지 책을 읽다가 보면 알 수가 있습니다.</span>
+</div>
+<div>
+	<span>단순하게 적용하려면 매니페스트와 서비스워커로 홈화면 다운로드하고 푸시알림 보내는 소스 코드만 삽입해도 훌륭한 프로그레시브 웹앱이 됩니다.</span>
+</div>
+<div>
+	<span>그러나, 이 책에서 제시하는 다양한 구현 방식은 우리 회사들이(개발자) 접하고 있는 다양한 문제 상황에서 어떤 것을 더 우선시 하는 것이 바람직한가에 대한 의문점을 던져둡니다.</span>
+</div>
+<p>&nbsp;</p>
+<div>
+	<span>캐시 관리가 먼저인지, 네트워크 연결이 먼저인지...</span>
+</div>
+<p>&nbsp;</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20190609023617_riiukgkn.jpg" alt="SAM_7712.JPG" style="width: 800px; height: 533px" />
+</p>
+<p>&nbsp;</p>
+<div>
+	<span>오늘 코드랩 실습때 소스 코드 몇 줄 붙이고, 훌륭한 웹 앱을 완성했는데,</span>
+</div>
+<div>
+	<span>사실 자신의 웹에 제대로 구현하려면, 한줄 한줄 소스 코드를 이해하고, 적용 여부를 결정해야 합니다. 그러기에는 코드랩 설명이 부족한 면이 있었는데,</span>
+</div>
+<div>
+	<span>이 책은 매우 상세하게 소스코드를 설명하고 있습니다. 앞에 내용이 점진적으로 뒤에서도 사용되므로, 뒤로 갈수록 어렵고 내용도 많아집니다.</span>
+</div>
+<div>
+	<span>그리고, 자바스크립트 과정을 초급 - 중급 - 고급으로 나누고, 웹 앱을 고급 정도로 보면, 중급 정도에서 프로미스랑 이벤트, 돔, 윈도우에 관한 내용은 먼저 숙지하는 편이 좋을 것 같습니다. 아니면, 웹 앱으로 고치면서 블로그 등을 많이 찾아다니면서 공부하셔야 합니다. 책에서는 이 정도 내용은 다 안다고 생각하고 설명이 되어 있지 않습니다.</span>
+</div>
+<p>&nbsp;</p>
+<div>
+	<span>저도 자바스크립트 초급 문법 정도 실력에서 이 책을 봤는데, 이해가 안가서, 다시 찾아볼 내용들을 많이 메모하고 있습니다.</span>
+</div>
+<p>&nbsp;</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20190609023619_quwepkex.jpg" alt="SAM_7713.JPG" style="width: 800px; height: 533px" />
+</p>
+<p>&nbsp;</p>
+<p>앞서 이야기한 매니페스트의 구조도 매우 상세하게 하나하나 설명하고 있습니다.</p>
+<p>&nbsp;</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20190609023621_tefxtpsp.jpg" alt="SAM_7714.JPG" style="width: 800px; height: 533px" />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div>
+	<span>이 책을 관통하고 있는 핵심 주제가 제가 생각할 때는 생명주기가 아닐까 생각합니다. 어느 시점에서 서비스워커를 어떻게 사용할지가 핵심이니까요.</span>
+</div>
+<p>&nbsp;</p>
+<div>
+	<span>생명주기 이야기는 자바 공부할 때 좀 봤는데, 자바스크립트에서는 처음 봤거든요. 각 생명주기에서 네트워크, 로컬 저장소, 캐시 등과 어우러져 다양한 방법을 책에서 제시합니다. 처음 보면 좀 어려운 주제일 수 있으나, 고객들이 원하는 서비스 접점이라 꼭 읽어보시고 고민하셨으면 좋겠습니다.</span>
+</div>
+<div>&nbsp;</div>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20190609023623_hbxtnzoz.jpg" alt="SAM_7715.JPG" style="width: 800px; height: 533px" />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div>
+	<span>코드랩에서는 중간중간에 다 건너뛰고 핵심사항으로 하나의 웹 앱을 만들었는데, 이 책은 순차적으로 각 사항에서 함수를 제시하고, 문제점과 더불어 새로운 함수로 해결하고, 그것을 다시 엎는 작업을 많이 합니다. 그래서 마지막에서 여러가지를 고려한 단순한 서비스워커가 되면서, 결론은 그냥 따라하기랑 비슷한 수준으로 만들어내지만, 그 과정에서 많은 것을 배우도록 만들어 놓았습니다.</span>
+</div>
+<div>
+	<span>그리고 앱 수준으로 접근할 수 있도록, 결제 api도 개선하는 등 최신 기술들이 나오고 있습니다.</span>
+</div>
+<p>&nbsp;</p>
+<div>
+	<span>웹을 하시면서 앱 수준의 기술이 부럽거나, 적용하고 싶거나, 고객의 요구가 있을 때, 그때 프로그레시브 웹 앱을 살펴보세요. 앱 만큼은 아니지만, 비스니스 측면에서 필수요소 몇 가지는 매우 간단하게 구현할 수 있습니다. 어쩌면 앱보다 더 쉽게 접근할 수도 있고요. 웹을 한다, 자바스크립트를 한다라는 말이 앞으로 서비스워커를 어떻게 더 잘 다룰 수 있느냐로 변해갈 것 같습니다.</span>
+</div>
+<p>&nbsp;</p>
+<div>
+	<span>오늘 naver의 강사님 말씀이라면, 제가 볼때 이 책 수준으로 다룰수 있는 뛰어난 인재는 현재 한국에서 몇 명 밖에 없지 않을까 싶습니다. 근데, 이 기술(방향성)이 앞으로 많이 사용되어질 것이라는 것은 책을 읽으면서 더욱 강하게 들었습니다. 우아하고 신뢰받는 현대적인 당신의 홈페이지를 만들어보세요.</span>
+</div>
+<p>&nbsp;</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_4"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('6908','4');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="6886">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>minamil***</strong><span>l</span>2019-06-08</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+5).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate5"></div>
+                        <div class="tit">PWA 입문자라면!? 꼭 읽어 보시길 바랍니다</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>
+	PWA<sup>Progressive Web App&nbsp;</sup>관련 책을 읽기 시작했는데 흘려들었던 Service Worker,&nbsp;IndexedDB에 대해 조금 알 수 있었습니다.
+</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>&nbsp;</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>이제 입문하기 시작한 입장에서 봤을 때, 어떤 이유에서건 오프라인 상태에서 서비스에 접속하려는 사람에게 접속 불가 메시지를 보여주는 것보다는 개발자가 제어 가능한 캐시를 활용해서 좀 더 꾸며진(친화적인) 페이지가 제공 가능하다는 것을 이해할 수 있었습니다.</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>&nbsp;</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>오프라인이기 때문에 당연한 상태일 수 있지만, 당연하기에 그 부분에서 차별성을 둔다는 것은 서비스 차원에서도 필요한 내용이라 여겨졌습니다. PWA가 그저 단순하게 오프라인에서도 사용할 수 있게끔 도와주는 기술이라는 것만으로 이해하고 있던 저에게는 참 많은 공부가 되는 부분이었습니다. 원서인 O'Reilly의 책들이 대체로 그렇듯이 책의 구성이 잘 되어 있다는 인상을 받았으며 개인적으로는 번역도 어색한 부분을 접하지는 못했던 것 같습니다. 하나의 프로젝트를 통해서 프로그레시브 웹 앱을 경험해 보면서 차근차근 익혀 볼 수 있는 유익한 시간이었습니다.</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>&nbsp;</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>책의 전반부를 읽고 나니 서비스 워커의 훌륭한 기능을 잘 익혀두고 싶다는 욕심이 생겼고 공부를 계속해서 관여하는 프로젝트에서 제대로 활용할 수 있는 수준까지 이해도를 높이고 싶다는 생각이 들었습니다.</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>&nbsp;</p><figure class="imageblock alignCenter" style='margin: 0px auto 20px; max-width: 100%; clear: both; display: table; position: relative; text-align: center; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>
+	<span data-url="https://k.kakaocdn.net/dn/EEaCM/btqvVRSVxXS/KXhydsJvsH3lEttLj2oRLk/img.png" data-lightbox="lightbox" data-alt="" style="cursor: pointer"><img src="https://k.kakaocdn.net/dn/EEaCM/btqvVRSVxXS/KXhydsJvsH3lEttLj2oRLk/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FEEaCM%2FbtqvVRSVxXS%2FKXhydsJvsH3lEttLj2oRLk%2Fimg.png" data-filename="blob" style="border: 0px; max-width: 100%; display: inline-block; width: 0px; margin: 0px; height: auto" alt="" /></span>
+</figure>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>&nbsp;</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>전반부의 기초적인 부분만 활용하더라도 프로젝트에서 많은 도움이 되지 않을까 하는 생각도 들었습니다. 웹이나 앱의 프론트엔드에 관여하고 있다면 누구나 한 번씩은 읽어보는 것이 좋을 것이라 여겨졌습니다.</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>&nbsp;</p>
+<p style='padding: 0px; font-family: "Spoqa Han Sans", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", sans-serif'>100% 개인적인 취향의 문제입니다만, 번역서에도 책 표지에 대한 라이선스가 있는 건가요? 굳이 새로 작업하는 수고가 필요한지는 잘 모르겠네요.</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_5"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('6886','5');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="6833">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>dragm***</strong><span>l</span>2019-05-30</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+6).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate6"></div>
+                        <div class="tit">오프라인 환경 걱정이 없는 한국 개발자분들도 읽으셔야 합니다. 'ㅅ'&#41;</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><div class="se-component se-text se-l-default" id="SE-f80a06c1-789d-4129-9cba-12967265e52a" data-compid="SE-f80a06c1-789d-4129-9cba-12967265e52a">
+	<div class="se-component-content">
+		<div class="se-drop-indicator" data-unitid="" data-compid="SE-f80a06c1-789d-4129-9cba-12967265e52a" data-direction="top">
+			<div class="se-section se-section-text se-l-default">
+				<div id="SE-a22c92a4-8f60-465a-91f7-f43701a6e02a" class="se-module se-module-text __se-unit">
+					<p id="SE-816823e7-4d84-4694-83f6-e04e378b3283" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-8ea3ea84-84eb-4466-8153-19ece82ecf6f" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>인터넷 속도가 너무나 빠른데다 가까운 스타벅스에 커피 주문 안 하고 들어가서 몰래 앉아 wifi 를 사용할 수 있어서 전혀 Offline 상황을 걱정할 필요가 없는 한국에 살긴 하지만 외국에 나가서 이제 슬슬 나의 날개를 활짝 펼치고 연봉도 억수로 많이 벌고 싶은 21세기 </span><span id="SE-b428a610-e8e6-4b68-8300-2ff58d1423b0" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'><strike>소년</strike></span><span id="SE-80b37eb6-59f2-42d5-b4e2-ed130692a6ea" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'> 개발자들이 반드시 관심을 가져야 할 PWA 라는 주제를 다룬 책이 </span><span id="SE-6663f168-01aa-4402-ab58-687df7946833" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'><strike>이제서야</strike></span><span id="SE-6d0b3035-7b81-4545-a754-73f4f0baabe2" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'> 드디어 한국에도 출판되었다.</span>					
+					</p>					
+					<p id="SE-816823e7-4d84-4694-83f6-e04e378b3283" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">&nbsp;</p>					
+					<p id="SE-613729c2-9606-49e0-96cb-a27b46af5255" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-549a984b-77e3-4eb4-a1c0-dcfe14b4381d" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>'번역서' 인 관계로 한글로 읽을 수 있다는 점이 당연하지만 번역자에게 감사하며, </span>					
+					</p>					
+					<p id="SE-47656789-31a1-4b5b-b447-f6e39e9f197b" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-4753d95e-7808-41b9-ae46-9c59aede5447" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>이 주제에 관심이 있는 내가 기쁘다는 것이 중요한 것이다. 'ㅅ') 후후.</span>					
+					</p>					
+					<p id="SE-9b13efc3-4e1b-4e2e-a3c1-d0a5da4f3f37" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-1d752409-0406-4842-8d74-d3507fd071c0" class="se-ff-nanumgothic se-fs11 __se-node" style='color: #00a84b; font-family: "맑은 고딕", "Malgun Gothic"'><strike><span style='font-family: "맑은 고딕", "Malgun Gothic"'>// 그리고, 나도 얼른 외국에 취업하고 싶다.</span></strike></span>					
+					</p>					
+					<p id="SE-55f9f50b-6a30-49c0-b71a-3df3d33a29c1" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-4b31cf42-42ff-4f0a-a0d1-c1f3d7c25b3a" data-compid="SE-4b31cf42-42ff-4f0a-a0d1-c1f3d7c25b3a">
+	<div class="se-component-content">
+		<div class="se-drop-indicator" data-unitid="" data-compid="SE-4b31cf42-42ff-4f0a-a0d1-c1f3d7c25b3a" data-direction="top">
+			<div class="se-section se-section-text se-l-default">
+				<div id="SE-d42a3963-ab63-4e63-be0e-b5ec15142f00" class="se-module se-module-text __se-unit">
+					<p id="SE-8be60075-e51b-4e22-89cb-2bde4112696f" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-b9b8db31-ca16-4f75-8c1a-20b97947d496" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>사실... 왜 이제서야 출간되었나요.</span>					
+					</p>					
+					<p id="SE-f599daa5-6919-4791-8956-28a35b1fbdb2" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-b5a39151-56d0-4dbd-96a0-955deeb8e59c" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>PWA 에 대한 정보는 구글 Web Fundamentals 웹사이트에 널려 있어서 현기증 난단 말이예요.</span>					
+					</p>					
+					<p id="SE-eabaf0a4-2c93-4ed5-96b7-eb13b9bb5ae7" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-b187ba21-6970-4f81-9181-31b97f09ee3e" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>거기서 이리저리 웹서핑하다가 파도에 휩쓸려 굴러다니다 보면 관련 정보는 충분히 얻을 수 있다.</span>					
+					</p>					
+					<p id="SE-eabaf0a4-2c93-4ed5-96b7-eb13b9bb5ae7" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">&nbsp;</p>					
+					<p id="SE-75c98d67-434a-4751-8238-ca4c4344fb9a" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-a868e386-b632-40b5-89b9-10412b4a16ed" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>문제는 하나의 앱을 직접 만들면서 PWA 를 적용해보는 튜토리얼이 중요한 것인데,</span>					
+					</p>					
+					<p id="SE-4ad8885b-a3ad-4ea6-bb3c-eb27fc9a59be" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-ca10437b-6744-4fb3-87fc-5ad37dd572e5" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>이 책은 그러한 면에서 충분한 트레이닝을 제공한다.</span>					
+					</p>					
+					<p id="SE-4ad8885b-a3ad-4ea6-bb3c-eb27fc9a59be" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">&nbsp;</p>					
+					<p id="SE-4cb36d6a-8770-416d-aeb3-9ee3217d269a" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-64ae4a7d-7f35-48eb-ae96-b5d2a996756a" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'> </span>					
+					</p>					
+					<p id="SE-98b7ce8f-247d-4baa-a2d8-2adb234464be" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-667d965c-f9d4-4ebf-8689-e1b10d5e6764" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>도서 저자(번역자)의 설명은 충분히 쉽고 자세하다. 'ㅅ') </span>					
+					</p>					
+					<p id="SE-99f1e2f7-c8e7-482a-b9e9-4ce64eaf7e9d" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-0a85c7ae-637f-4650-85b6-5d4264d48506" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>짜루짜루 진짜루.</span>					
+					</p>					
+					<p id="SE-99f1e2f7-c8e7-482a-b9e9-4ce64eaf7e9d" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">&nbsp;</p>					
+					<p id="SE-8598fb5f-60b5-4df1-832e-9cc62aa92d6e" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-a90abba4-a7f2-4b5b-9f1a-abeae60635e8" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>특히 주요하게 다루는 서비스워커, 캐싱 전략, IndexedDB 를 다루는 부분은 Front-end 개발자 누구라도 한번쯤 읽어볼만한 주제라고 할 수 있으므로, 일독을 권한다. </span><span id="SE-cf8f0c99-ea18-4f2e-941d-3cd400a99d80" class="se-ff-nanumgothic se-fs11 __se-node" style='color: #00a84b; font-family: "맑은 고딕", "Malgun Gothic"'>// 사실은 이것도 몇년 전에 나온 주제들이라는 것이 함정... 'ㅅ') 쿨럭.</span>					
+					</p>					
+					<p id="SE-e8e45683-ef30-402e-b1fc-78a1e507c625" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">&nbsp;</p>					
+					<p id="SE-dae3b553-1fa8-4bc4-b895-0a88f4fde0d4" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+						<span style='font-family: "맑은 고딕", "Malgun Gothic"'>.</span>
+					</p>					
+					<p id="SE-dae3b553-1fa8-4bc4-b895-0a88f4fde0d4" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">&nbsp;</p>					
+					<p id="SE-74c375b4-af2d-4296-8915-763bcda8fe00" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-7ac6a647-79ef-4eb5-846c-14d8c901baef" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>고민고민하지 말라고 이효리 누나는 말했지만, 고민하며 책을 번역해주신 '양찬석' 님께 감사드립니다.</span>					
+					</p>					
+					<p id="SE-ea2d15cc-b943-4002-a22b-692e770fa59e" class="se-text-paragraph se-text-paragraph-align-left" style="line-height: 1.8">
+												<span id="SE-f209ac4e-b2f4-43ad-847e-907647d3b906" class="se-ff-nanumgothic se-fs11 __se-node" style='font-family: "맑은 고딕", "Malgun Gothic"'>덕분에 재밌는 책 잘 읽었습니다. 'ㅅ')b</span>					
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_6"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('6833','6');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                    
+
+                                    
+                                  </ul>
+              </div>
+            </div>                          
+                        </div>
+                                      
+          <!-- //독자리뷰 -->
+  
+          <!-- 오탈자 보기 -->
+                                            <div id="tabs_6"><a id="misprint_tab" ></a>
+                          <p class="detail_tit" style="display:none;">오탈자 보기</p>
+                            		 					
+						<div id="" class="detail_conbox"  >
+							<div class="detail_btn right"><a href="/errata/view.html?isbn=9791162248744" target="_blank">(구 홈페이지 / 2016년 5월 이전) 오탈자보기</a> <a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+							<!--a href="/store/books/misprint_view.html" target="_blank"-->
+							<input type="hidden" name="p_sort_type" id="p_sort_type"  value="">
+							<input type="hidden" name="r_sort_type" id="r_sort_type"  value="">
+							
+							
+							<div id="misprint_con_div" class="misprint_list"><!--  오탈자 리스트 --></div>
+							
+							<!-- 오탈자 등록 버튼-->
+							<div class="detail_btn right"><a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+						</div>
+						<script>
+							$(function() { misprint_get_list();  });	 //오탈자 리스트 호출	
+						</script>
+                        </div>
+                              <!-- //오탈자 보기 -->
+  
+          <!-- 부록/예제소스 -->
+                    <!-- //부록/예제소스 -->
+  
+          <!-- 추천도서 -->
+                    <div id="tabs_8">
+            <p class="detail_tit" style="display:none;">추천도서</p>
+            						<div id="" class="detail_conbox">
+							<!-- 추천도서 리스트 -->
+							<div class="recomm_book_list_area">
+								<ul>
+										
+									<li class="recomm_book_list">
+										<div class="view_box">
+											<span class="view_box_block">
+												<span class="img_hidden_r"><!-- 미디어일경우 끝에 알파벳 m -->
+													<span class="pop_quick_menu">
+														<a href="/store/books/look.php?p_code=E2111484583"><img src="http://www.hanbit.co.kr/images/common/icon_view_detail.png" alt="상세보기" />
+															</a><a href="javascript:;" onClick="addCart('E2111484583','','1','');"><img src="http://www.hanbit.co.kr/images/common/icon_add_cart.png" alt="장바구니 담기" /></a>
+													</span>
+													<span class="price">\13,000</span>
+													<span class="star_rate"></span>
+													<span style="display:none;"></span>
+													<span class="pop_quick_bg" onClick="location='/store/books/look.php?p_code=E2111484583'"></span>
+												</span>
+												<!-- ebook이 도서인 경우 -->
+												<img src="/data/ebook/E2111484583_m.jpg" alt="" class="thumb"/>
+											</span>
+											<div class="info">
+												<p class="book_tit"><a href="/store/books/look.php?p_code=E2111484583">실전비급 엘라스틱 스택 6.4</a></p>
+												<p class="book_writer">김동우 , 김흥래 , 권택환 , 박진현 , 최용호 , 황희정 </p>
+											</div>
+										</div>
+									</li>
+										
+									<li class="recomm_book_list">
+										<div class="view_box">
+											<span class="view_box_block">
+												<span class="img_hidden_r"><!-- 미디어일경우 끝에 알파벳 m -->
+													<span class="pop_quick_menu">
+														<a href="/store/books/look.php?p_code=E1000467446"><img src="http://www.hanbit.co.kr/images/common/icon_view_detail.png" alt="상세보기" />
+															</a><a href="javascript:;" onClick="addCart('E1000467446','','1','');"><img src="http://www.hanbit.co.kr/images/common/icon_add_cart.png" alt="장바구니 담기" /></a>
+													</span>
+													<span class="price">\21,000</span>
+													<span class="star_rate"></span>
+													<span style="display:none;"></span>
+													<span class="pop_quick_bg" onClick="location='/store/books/look.php?p_code=E1000467446'"></span>
+												</span>
+												<!-- ebook이 도서인 경우 -->
+												<img src="/data/ebook/E1000467446_m.jpg" alt="" class="thumb"/>
+											</span>
+											<div class="info">
+												<p class="book_tit"><a href="/store/books/look.php?p_code=E1000467446">실전비급 아파치 루씬 7</a></p>
+												<p class="book_writer">김동우 , 김흥래 , 권택환 , 박진현 , 최용호 , 황희정 </p>
+											</div>
+										</div>
+									</li>
+										
+									<li class="recomm_book_list">
+										<div class="view_box">
+											<span class="view_box_block">
+												<span class="img_hidden_r"><!-- 미디어일경우 끝에 알파벳 m -->
+													<span class="pop_quick_menu">
+														<a href="/store/books/look.php?p_code=E9650022874"><img src="http://www.hanbit.co.kr/images/common/icon_view_detail.png" alt="상세보기" />
+															</a><a href="javascript:;" onClick="addCart('E9650022874','','1','');"><img src="http://www.hanbit.co.kr/images/common/icon_add_cart.png" alt="장바구니 담기" /></a>
+													</span>
+													<span class="price">\12,000</span>
+													<span class="star_rate"></span>
+													<span style="display:none;"></span>
+													<span class="pop_quick_bg" onClick="location='/store/books/look.php?p_code=E9650022874'"></span>
+												</span>
+												<!-- ebook이 도서인 경우 -->
+												<img src="/data/ebook/E9650022874_m.jpg" alt="" class="thumb"/>
+											</span>
+											<div class="info">
+												<p class="book_tit"><a href="/store/books/look.php?p_code=E9650022874">데이터를 부탁해 : 세상을 움직이는 데이터의 힘</a></p>
+												<p class="book_writer">전익진 </p>
+											</div>
+										</div>
+									</li>
+										
+									<li class="recomm_book_list">
+										<div class="view_box">
+											<span class="view_box_block">
+												<span class="img_hidden_r"><!-- 미디어일경우 끝에 알파벳 m -->
+													<span class="pop_quick_menu">
+														<a href="/store/books/look.php?p_code=E5547012988"><img src="http://www.hanbit.co.kr/images/common/icon_view_detail.png" alt="상세보기" />
+															</a><a href="javascript:;" onClick="addCart('E5547012988','','1','');"><img src="http://www.hanbit.co.kr/images/common/icon_add_cart.png" alt="장바구니 담기" /></a>
+													</span>
+													<span class="price">\13,600</span>
+													<span class="star_rate"></span>
+													<span style="display:none;"></span>
+													<span class="pop_quick_bg" onClick="location='/store/books/look.php?p_code=E5547012988'"></span>
+												</span>
+												<!-- ebook이 도서인 경우 -->
+												<img src="/data/ebook/E5547012988_m.jpg" alt="" class="thumb"/>
+											</span>
+											<div class="info">
+												<p class="book_tit"><a href="/store/books/look.php?p_code=E5547012988">데이터 인문학 : 세상을 바꾼 역사 속 데이터 이야기</a></p>
+												<p class="book_writer">김택우 </p>
+											</div>
+										</div>
+									</li>
+																
+								</ul>								
+							</div>
+							<!-- 추천도서 리스트 -->							
+						</div>
+          </div>
+                    <!-- //추천도서 -->
+        </div>
+        <!-- //텝메뉴 -->
+      </div>
+      <!-- //하단 컨텐츠 -->
+    </div>
+
+    <div class="store_payment_area">
+      <!-- 결재 정보 -->
+                  <fieldset>
+        <legend>결재하기</legend>
+        <!-- 2차 상품이 있는 경우 -->
+
+                <label class="payment_box ">
+          <input name="pay_choice" id="pay_choice"type="radio" value="E" class="i_radio">
+          <span class="tit">eBook <span>PDF  </span></span>
+          <p><span class="pbl">정가 : </span><span class="pbr"><del>21,600원</del></span></p>
+          <p><span class="pbl"><strong>판매가 : </strong></span><span class="pbr"><strong>19,440</strong>원<span>(10% off)</span></span></p>
+          <p><span class="pbl">마일리지 : </span><span class="pbr">1,080점 (5%)</span></p>
+        </label>
+                <label class="payment_box">
+          <input name="pay_choice" id="pay_choice" type="radio" value="B" class="i_radio">
+          <span class="tit">Print</span>
+          <p><span class="pbl">정가 : </span><span class="pbr"><del>27,000원</del></span></p>
+          <p><span class="pbl"><strong>판매가 : </strong></span><span class="pbr"><strong>24,300</strong>원<span>(10% off)</span></span></p>
+          <p><span class="pbl">마일리지 : </span><span class="pbr">1,350점 (5%)</span></p>
+        </label>
+          <label class="payment_box">
+            <input name="pay_choice" id="pay_choice" type="radio" value="BE" class="i_radio">
+            <span class="tit">Print + eBook</span>
+            <p><span class="pbl">정가 : </span><span class="pbr"><del>48,600원</del></span></p>
+            <p><span class="pbl"><strong>판매가 : </strong></span><span class="pbr"><strong>43,740</strong>원<span>(10% off)</span></span></p>
+            <p><span class="pbl">마일리지 : </span><span class="pbr">2,430점 (5%)</span></p>
+          </label>
+                
+                
+
+        <!-- 2차 상품이 없는 책 일 경우 -->
+                
+        <!-- 2차 상품이 없는 eBook 일 경우 -->
+        
+        <!-- 2차 상품이 없고 무료인 eBook 일 경우-->
+        
+                <!-- 소득공제 유무 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span style="color:#00AFA0;">&#149; 문화비 소득공제 가능</span></div>
+        </div>
+        <!-- //소득공제 유무 -->
+        
+        <!-- 배송료 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span>&#149; 배송료 : </span>0원<a href="javascript:;" onClick="view_hover('shopping_charge_open','','show')"><img src="http://www.hanbit.co.kr/images/store/ico_question.gif" alt="배송료란?" /></a></div>
+          
+          <div id="shopping_charge_open" class="shopping_charge_open">
+            <p class="tit">배송료 안내</p>
+            <ul>
+              <li>책, 아이템 등 상품을 3만원 이상 구매시 무료배송</li>
+              <li>브론즈, 실버, 골드회원이 주문하신 경우 무료배송</li>
+            </ul>
+            <p>무료배송 상품을 포함하여 주문하신 경우에는 구매금액에 관계없이 무료로 배송해 드립니다.</p>
+            <a href="javascript:;" onClick="view_hover('shopping_charge_open','','hide')"><img src="http://www.hanbit.co.kr/images/store/btn_shipping_charge.png" alt="닫기" /></a>
+          </div>
+        </div>
+        <!-- //배송료 -->
+
+        <input type="hidden" name="p_type_kind" id="p_type_kind"  value="EB">
+        <!-- 결재버튼 -->
+
+                <label>
+          <button name="btnAddCart" id="btnAddCart" type="button" value="장바구니" class="btn_baket" onClick="Cart('cart');">장바구니</button>
+        </label>
+        <label>
+          <button name="" type="submit" value="위시리스트" class="btn_wish" onClick="Wishlist();">위시리스트</button>
+        </label>
+                
+                <label>
+          <button name="btnBuy" id="btnBuy" type="submit" value="구매하기" class="btn_buy" onClick="Cart('buy');"> 구매하기</button>
+        </label>
+                
+        
+        
+                <!-- //결재버튼 -->
+      </fieldset>
+      
+            <!-- //결재 정보 -->
+      
+      <!-- 관련 사이트 -->
+            <!-- //관련 사이트 -->
+    </div>
+
+  </div>
+  <!-- //카테고리 상세 wrap -->
+  
+  <!-- 레이어 팝업 - 리뷰쓰기 -->
+  
+	
+	<div id="review_popup_div" >
+		<div class="review_layer">					
+			<div class="bg"></div>
+			<div class="review_pop-layer" id="layer_review">												
+				<div class="pop-container">
+					<div class="pop-conts">																		
+						<!--content //-->
+						<form id="frm"  name="frm"  method="post" enctype="multipart/form-data">
+						<input type="hidden" name="fk_p_code" id="fk_p_code" value="E2915620212">	
+						<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">						
+						<input type="hidden" name="hbr_score" id="hbr_score" value="">
+						
+						<p class="tit">리뷰쓰기</p>
+						<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+						
+						<div class="layer_scroll">
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										만들면서 배우는 프로그레시브 웹 앱									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>제목 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="hbr_title" id="hbr_title" class="i_text1" value="">	
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									
+									<div class="i_tit"><span>* </span>별점평가</div>
+									<div class="i_con">							
+										<script>
+										$.fn.raty.defaults.path = "http://www.hanbit.co.kr";
+										$(function() {
+											$('#default').raty({
+												click: function(score, evt) { $("#hbr_score").val(score);}										
+											});
+										});
+										</script>											
+										<div id="default" style="margin-top:5px;"></div>
+										<div class="highlight"><pre><span class="nt"><div></div></span></pre></div>
+									</div>
+								</div>
+				
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con" id="hbc_cont_div">
+										<label >																
+											<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>				
+											<script type="text/javascript">
+											var myeditor = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor.inputForm = 'hbr_content'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor.useBold = false;
+											myeditor.run(); // 에디터를 실행합니다.
+											</script>																						
+											
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+							
+							<p class="note_tit">* 리뷰 작성시 유의사항</p>
+							<p class="note_txt">글이나 이미지/사진 저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 게시물은 이용약관 및 관련법률에 의해 제재를 받을 수 있습니다.</p>
+							<p class="note_txt">
+								1. 특히 뉴스/언론사 기사를 전문 또는 부분적으로 '허락없이' 갖고 와서는 안됩니다 (출처를 밝히는 경우에도 안됨).<br />
+								2. 저작권자의 허락을 받지 않은 콘텐츠의 무단 사용은 저작권자의 권리를 침해하는 행위로, 이에 대한 법적 책임을 지게 될 수 있습니다.
+							</p>
+							
+							<div class="btn_layer_default">
+								<label><button id="proc_btn" name="proc_btn" type="button" value="" class="btn_blue" onclick="review_proc('re_ins','');">등록</button></label>
+								<label><button id="reset_btn" name="reset_btn" type="button" value="" class="btn_white" onclick="frm_reset();">취소</button></label>
+							</div>
+						</div>
+
+						</form> 
+						<!--// content-->					
+					</div>
+				</div>											
+			</div>			
+		</div>			
+	</div>			  <!-- //레이어 팝업 - 리뷰쓰기 -->
+  
+  <!-- 레이어 팝업 - 오탈자등록 -->
+  	
+	<div class="misprint_layer">
+		<div class="bg"></div>
+		<div class="misprint_pop-layer" id="layer_misprint">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">오탈자 등록</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<form id="err_input_frm"  name="err_input_frm"  method="post" enctype="multipart/form-data">
+							<input type="hidden" name="fk_p_code" id="fk_p_code" value="E2915620212">	
+							<input type="hidden" name="fk_isbn" id="fk_isbn" value="">	
+							<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">														
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										만들면서 배우는 프로그레시브 웹 앱									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>구분 :</div>
+									<div class="i_con">
+										<label>
+											<select id="err_type" name="err_type" class="i_select">	
+												<option value="" selected>오탈자 유형 선택</option>	
+												<option value="G">내용 오류/확인 요청</option>	
+												<option value="P">주요 기술 오류(로직/코드)</option>	
+												<option value="E">오자/탈자, 띄어쓰기 오류</option>												
+											</select>	
+										</label>
+									</div>
+		
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>상품 버전</div>
+									<div class="i_con">
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="종이책"><span>종이책</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="PDF"><span>PDF</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="ePub"><span>ePub</span></span>
+										<!--<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="Mobi"><span>Mobi</span></span>-->
+									</div>
+								</div>
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>페이지 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_p_page" id="err_p_page" class="i_text2" onkeyup="this.value=number_filter(this.value);" ><span>숫자로만 입력해주세요.</span>
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>위치정보 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_location" id="err_location" class="i_text1">	
+										</label>
+									</div>
+								</div>							
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con">
+										<label>
+											<textarea name="err_info" id="err_info" class="i_textarea"></textarea>	
+											<script type="text/javascript">
+											var myeditor_err = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor_err.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor_err.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor_err.inputForm = 'err_info'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor_err.useBold = false;
+											myeditor_err.run(); // 에디터를 실행합니다.
+											</script>		
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+						</form>
+					
+						<div class="btn_layer_default">
+							<label>
+								<button name="" type="submit" value="" class="btn_blue" onclick="misprint_proc('ins','');">등록</button>
+							</label>
+							<label>
+								<button name="" type="submit" value="" class="btn_white" onclick="misprint_reset();">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	  <!-- //레이어 팝업 - 오탈자등록 -->
+
+  <!-- 레이어 팝업 - 도서인증 -->
+  
+<link rel="stylesheet" href="/css/jquery-ui.css">
+
+<!--
+<style>
+.ui-datepicker {
+	width: 280px;
+	padding:0;
+	display: none;
+	background:#fff;
+	border:4px solid #333;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: 10px 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 5px;
+	width: 1.8em;
+	height: 1.8em;
+	font-size:13px;
+	cursor:pointer;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	text-decoration:underline;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	left: 210px;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin:0;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width:;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width:;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+.ui-datepicker .ui-widget-content {
+    background: #999 none;
+}
+
+</style>
+-->
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript">
+ $(function() {    
+	$("#buy_date").datepicker({ maxDate: '0'  });
+ });
+
+</script>
+	<form name="cfrm" id="cfrm" method="post" action="/store/ajax.addBookauth.php">
+	<input type="hidden" name="fk_p_code" id="fk_p_code" value="E2915620212">	
+	<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">		
+	<div class="certification_layer">
+		<div class="bg"></div>
+		<div class="certification_pop-layer" id="layer_certification">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">도서 인증</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<div class="layer_con_box">
+							<fieldset>
+							<div class="lp_register_li">
+								<div class="i_tit">도서명<span>* </span></div>
+								<div class="i_con">만들면서 배우는 프로그레시브 웹 앱</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입처<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<select id="buy_site" name="buy_site" class="i_select">	
+											<option value="" selected>선택하세요.</option>	
+											<option value="교보문고">교보문고</option>
+											<option value="예스24">예스24</option>
+											<option value="알라딘">알라딘</option>
+											<option value="반디앤루니스">반디앤루니스</option>
+											<option value="영풍문고">영풍문고</option>
+											<option value="한빛 웹사이트">한빛 웹사이트</option>
+											<option value="기타서점">기타서점</option>
+										</select>	
+									</label>
+								</div>
+	
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입일<span>* </span></div>
+								<div class="i_con">
+									<!-- 달력 -->
+									<label><input class="i_text2" id="buy_date" name="buy_date" type="text" value=""  /></label>
+									<label><button name="btnBuyDate" id="btnBuyDate" type="button" value="검색" class="i_car">달력</button></label>
+									<!-- //달력 -->
+								</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">부가기호<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<input type="text" name="add_code" id="add_code" class="i_text2">	
+									</label>
+								</div>
+							</div>
+							<div class="barcode_img">
+								<img src="http://www.hanbit.co.kr/images/common/rs_barcode_ban.png" alt="부가기호 안내" />
+							</div>
+							</fieldset>
+						</div>
+						<p class="txt">* 회원가입후 도서인증을 하시면 마일리지 500점을 드립니다.</p>
+						<p class="txt">* 한빛 웹사이트에서 구입한 도서는 자동 인증됩니다.</p>
+						<p class="txt">* 도서인증은 일 3권, 월 10권, 년 50권으로 제한됩니다.</p>
+						<p class="txt">* 절판도서,  eBook 등 일부 도서는 도서인증이 제한됩니다.</p>
+						
+						<div class="btn_layer_default">
+							<label>
+								<!--<button name="btnBookauth1" type="submit" class="btn_blue">등록</button>-->
+								<button name="btnBookauth1" type="button" class="btn_blue" onclick='book_auth();'>등록</button>
+							</label>
+							<label>
+								<button name="btnBookauth2" type="button" value="" class="btn_white">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+<SCRIPT LANGUAGE="JavaScript">
+<!--	
+	$("#btnBuyDate").click(function() {					
+		$('#buy_date').datepicker('show');
+	});		
+
+//-->
+</SCRIPT>  <!-- //레이어 팝업 - 도서인증 -->
+  
+  <!-- 레이어 팝업 - 카트 담기 -->
+  	<div class="add_cart_layer">
+		<div class="bg"></div>
+		<div class="add_cart_pop-layer" id="layer_add_cart">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close.png" width="38" height="38" alt="닫기" /></a></div>
+					<p class="ctxt"><span id='cartmsg'>해당 상품을 장바구니에 담았습니다.</span><span id='cartmsg2'>이미 장바구니에 추가된 상품입니다.</span><br />장바구니로 이동하시겠습니까?</p>
+					<div class="btn_layer">
+						<a href="/myhanbit/cart.html">장바구니<br />이동</a> <!-- #juha -->
+						<!--<a href="javascript:;" onClick="$('.add_cart_layer').hide();">쇼핑<br />계속</a>-->
+						<a class="cbtn" href="javascript:;" onClick="">쇼핑<br />계속</a>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>  <!-- //레이어 팝업 - 카트 담기 -->
+</div>
+<!-- //Contents -->
+<script>
+
+//focus 강제지정
+/*
+$(document).ready(function() 
+document.getElementById("container").addEventListener("click", function() {
+   $("#wrap_gnb").focus();
+});
+*/
+
+//숫자만 입력
+function number_filter(str_value){
+  return str_value.replace(/[^0-9]/gi, ""); 
+}
+  
+function hb_show_tabs(t_num){        
+  //alert(t_num);
+  var t_max = 9;
+  for(var t=1; t <t_max; t++){    
+    if(t_num ==0){
+      $("#tabs_"+t).show();
+      $(".detail_tit").css({"display":"block"});
+    }else{      
+      if(t==t_num){ 
+        $("#tabs_"+t).show();
+        $(".detail_tit").css({"display":"none"});      
+      }else{
+        $("#tabs_"+t).hide();    
+      }
+    }
+  }
+  
+}
+
+var tid= "";
+if(tid=="review"){  
+  hb_show_tabs(5);
+  document.getElementById("review_tab").scrollIntoView();
+  
+}else if(tid=="misprint"){  
+  hb_show_tabs(6);
+  document.getElementById("misprint_tab").scrollIntoView();
+
+}else if(tid=="exam"){  
+  hb_show_tabs(7);
+  document.getElementById("exam_tab").scrollIntoView();
+  
+}else{
+  hb_show_tabs(0);
+}
+
+/*
+$(document).ready(function() {
+  location.hash="#hanbit_network";
+  setTimeout(function(){
+      $('#wrap_gnb').focus();    
+      removeHash();
+  }, 100);
+});
+*/
+
+//해쉬 태그로 포커스 이동후 해쉬 제거
+function removeHash () { 
+    var scrollV, scrollH, loc = window.location;
+    if ("pushState" in history)
+        history.pushState("", document.title, loc.pathname + loc.search);
+    else {
+        // Prevent scrolling by storing the page's current scroll offset
+        scrollV = document.body.scrollTop;
+        scrollH = document.body.scrollLeft;
+
+        loc.hash = "";
+
+        // Restore the scroll offset, should be flicker free
+        document.body.scrollTop = scrollV;
+        document.body.scrollLeft = scrollH;
+    }
+}
+</script><!-- Footer -->
+<footer>
+  <!-- 공지사항 -->
+  <div class="foot_notice">
+      </div>
+  <!-- //공지사항 -->
+  
+  <div class="foot_contents">
+    <!-- 하단 메뉴 -->
+    <div class="foot_menu">
+      <!-- added by coffin -->
+            <ul>
+        <li><a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">회사소개</a>(<a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">KOR</a> | <a href="http://www.hanbit.co.kr/publisher/index.html?lang=e" target="_blank">ENG</a>) &#149; <a href="http://www.hanbit.co.kr/publisher/contact.html?lang=k" target="_blank">약도</a></li>
+        <li><a href="http://www.hanbit.co.kr/publisher/write.html" target="_blank">기획 및 원고 모집</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/use_agreement.html">이용약관</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/privacy_policy.html"><strong>개인정보취급방침</strong></a></li>
+        <li><a href="http://www.hanbit.co.kr/sitemap/sitemap.html">사이트맵</a></li>
+      </ul>
+          </div>
+    <!-- //하단 메뉴 -->
+
+    <!-- SNS -->
+    <div class="foot_sns">
+            
+      <ul>
+        <li class="foot_facebook"><a href="https://www.facebook.com/hanbitmedia" target="_blank"><span>페이스북</span></a></li>
+        <!-- <li class="foot_googleplus"><a href="https://plus.google.com/u/0/+HanbitCoKr/posts" target="_blank"><span>구글플러스</span></a></li> -->
+        <li class="foot_twitter"><a href="https://twitter.com/hanbit" target="_blank"><span>트위터</span></a></li>
+        <li class="foot_youtube"><a href="https://www.youtube.com/user/HanbitMedia93" target="_blank"><span>유튜브</span></a></li>
+        <li class="foot_bolg"><a href="http://blog.hanbit.co.kr/" target="_blank"><span>블로그</span></a></li>
+        <li class="foot_naverpost"><a href="https://m.post.naver.com/hanbitstory" target="_blank"><span>네이버포스트</span></a></li>
+      </ul>
+      
+      
+        <fieldset class="foot_srch">
+          <legend>하단 검색영역</legend>
+          <input title="검색어" class="foot_srch_keyword" accesskey="s" type="text" value=""  id="foot_keyword_str" style="font-size:16px;">
+          <input type="button" alt="" class="foot_srch_btn" onclick="foot_sch_smit();" style="cursor: pointer;">
+        </fieldset>
+
+      
+      <script>
+        // 검색 리스트  
+        $(document).ready(function() {       
+          $('#foot_keyword_str').keyup(function(e) {
+            if (e.keyCode == 13) 
+              foot_sch_smit();
+          });        
+        });
+
+        function foot_sch_smit(){            
+          var foot_keyword_str = $("#foot_keyword_str").val();      
+          var searchUrl = "/search/search_list.html?keyword="+foot_keyword_str;
+
+          if(!foot_keyword_str){
+            alert("검색어를 입력해주세요");
+            $("#foot_keyword_str").focus();
+          }else{
+            location.href = searchUrl;
+          }
+        }
+      </script>  
+      
+    </div>
+    <!-- //SNS -->
+    
+    <!-- 한빛 정보 -->
+    <div class="foot_about">
+      <div class="foot_about_area">
+        
+
+        <p><strong>한빛미디어㈜ &#149; 한빛아카데미㈜ &#149; 한빛비즈㈜</strong></p>
+        <p>(03785) 서울 서대문구 연희로2길 62</p>
+        <p>EMAIL : support@hanbit.co.kr</p>
+        <p>대표이사 : 김태헌</p>
+        <p>사업자등록번호 : 220-81-05665 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208105665" target="_blank">[확인]</a></p>
+        <p>통신판매업신고 : 2017-서울서대문-0671호</p>
+        <p>호스팅제공자 : (주)누리호스팅</p>
+        
+
+      </div>
+    </div>
+    <!-- //한빛 정보 -->
+  </div>
+  
+  <div class="copyright">&copy;1993-2020 Hanbit Publishing Network, Inc. All rights reserved.</div>
+</footer>
+<!-- //푸터 -->
+<div class="foot_download_btn"><a href="http://www.hanbit.co.kr/support/supplement_list.html">자료실</a></div>
+
+<!-- 공통 JS 호출 -->
+<script type="text/javascript" src="/js/common.js"></script>
+<!-- //공통 JS 호출 -->
+
+</body>
+</html>

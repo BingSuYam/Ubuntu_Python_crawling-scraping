@@ -1,0 +1,224 @@
+<!DOCTYPE html >
+<html lang="ko">
+<head>
+<!--[if lte IE 8]>
+<script>
+  location.replace('/support/explorer_upgrade.html');
+</script>
+<![endif]-->
+<meta charset="utf-8"/>
+<title>한빛출판네트워크 :: 더 나은 세상을 위한 아시아 출판 네트워크</title>
+<link rel="shortcut icon"href="/images/common/hanbit.ico"> 
+<meta name="keywords" content="책,전자책,ebook,출판사,동영상,콘텐츠,강의,자격증,대학교재" />
+<meta name="description" content="출판사, IT전문서, 대학교재, 경제경영, 어린이/유아, MAKE, 실용/여행, 전자책, 인터넷 강의" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="/publisher/css/main_k.css" />
+<!-- <script src="/publisher/js/main.js" type="text/javascript"></script> -->
+<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script src="/publisher/js/jquery.touchSlider.js" type="text/javascript"></script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47080738-1', 'hanbit.co.kr');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics -->
+</head>
+
+<body>
+
+<header>
+	<!-- GNB -->
+	<nav>
+		<script type="text/javascript">
+		// 마우스 오버 이벤트
+		function view_hover() {
+		  var i,p,v,obj,args=view_hover.arguments;
+		  for (i=0; i<(args.length-2); i+=3) 
+		  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+			if (obj.style) { obj=obj.style; v=(v=='show')?'block':(v=='hide')?'none':v; }
+			obj.display=v; }
+		}
+		</script>
+		
+		<!-- top menu -->
+		<div class="pub_topmenu">
+	<ul class="top_brand">
+		<li><a href="http://www.hanbit.co.kr/index.html" name="hanbit_network"><span>HOME</span></a></li>
+		<li><a href="http://www.hanbit.co.kr/media/">한빛미디어</a></li>
+		<li><a href="http://www.hanbit.co.kr/academy/">한빛아카데미</a></li>
+		<li><a href="http://www.hanbit.co.kr/biz/">한빛비즈</a></li>
+		<li><a href="http://www.hanbit.co.kr/life/">한빛라이프</a></li>
+		<li><a href="http://www.hanbit.co.kr/edu/">한빛에듀</a></li>
+		<li><a href="http://www.hanbit.co.kr/realtime/">리얼타임</a></li>
+		<li><a href="http://www.hanbit.co.kr/textbook/">한빛정보교과서</a></li>
+		<li><a href="http://www.hanbit.co.kr/rent/">한빛대관서비스</a></li>
+	</ul>
+</div>
+		<!-- //top menu -->
+		
+		<div class="gnb_area">
+			<div class="gnb_menu">
+				<div class="m_btn_menu" id="m_menu_btn"><a href="javascript:;" onClick="view_hover('m_menu_list','','show','m_menu_btn2','','show','m_lang_list','','hide','m_lang_btn2','','hide')" class="green">MENU</a></div>
+				<h1 class="green"><a href="/publisher/index.html">한빛출판네트워크</a></h1>
+				<div class="m_btn_lang" id="m_lang_btn"><a href="javascript:;" onClick="view_hover('m_menu_list','','hide','m_menu_btn2','','hide','m_lang_list','','show','m_lang_btn2','','show')" class="green">LANGUGE</a></div>
+			</div>
+			<div class="lang_area green"><span>한국어</span>
+				<div class="m_btn_close2" id="m_lang_btn2"><a href="javascript:;" onClick="view_hover('m_menu_list','','hide','m_menu_btn2','','hide','m_lang_list','','hide','m_lang_btn2','','hide')">CLOSE</a></div>
+				<ul id="m_lang_list">
+					<li class="f">한국어</li>
+					<li><a href="/publisher/index.html?lang=k" class="curr">한국어</a></li>
+					<li><a href="/publisher/index.html?lang=e" class="">English</a></li>
+					<!--
+					<li><a href="/publisher/index.html?lang=c" class="">中国语</a></li>
+					<li><a href="/publisher/index.html?lang=j" class="">日本語</a></li>
+					-->
+				</ul>
+			</div>
+			
+			<div class="menu_area green">
+				<div class="m_btn_close" id="m_menu_btn2"><a href="javascript:;" onClick="view_hover('m_menu_list','','hide','m_menu_btn2','','hide','m_lang_list','','hide','m_lang_btn2','','hide')">CLOSE</a></div>
+				<ul id="m_menu_list">
+					<li><a href="/publisher/index.html?lang=k" class="">ABOUT</a></li>
+					<li><a href="/publisher/write.html?lang=k" class="">WRITE WITH US</a></li>
+					<li><a href="/publisher/career.html?lang=k" class="">CAREER</a></li>
+					<li><a href="/publisher/contact.html?lang=k" class="curr">CONTACT</a></li>
+				</ul>
+			</div>	
+		</div>
+		<div class="bg01"></div>
+	</nav>
+	<!-- //GNB -->
+</header>
+  
+<!-- 콘텐츠 -->
+<div class="main_section_cont">
+  <!-- 위치 및 연락처 -->
+  <section>
+    <!-- 오시는 길 -->
+    <article class="contact_section_01">
+      <div class="section_01_wrap">
+
+        <div class="con_box">
+          <div class="con_txt">
+            <h3 class="media">한빛미디어(주)</h3>
+            <p><span>주소</span> : (03785) 서울 서대문구 연희로2길 62</p>
+            <p><span>전화</span> : 02-325-0384, <span>팩스</span> : 02-325-9697</p>
+          </div>
+        </div>
+        
+        <div class="con_box">
+          <div class="con_txt">
+            <h3 class="academy">한빛아카데미(주)</h3>
+            <p><span>주소</span> : (03785) 서울 서대문구 연희로2길 62 2층</p>
+            <p><span>전화</span> : 02-336-7112, <span>팩스</span> : 02-336-7199</p>
+          </div>
+        </div>
+        
+        <div class="con_box">
+          <div class="con_txt">
+            <h3 class="biz">한빛비즈(주)</h3>
+            <p><span>주소</span> : (03785) 서울 서대문구 연희로2길 62 4층</p>
+            <p><span>전화</span> : 02-325-5506, <span>팩스</span> : 02-326-1566</p>
+          </div>
+        </div>
+
+        <div class="con_nav">
+          <div class="con_txt">
+            <p class="tit">오시는 길</p>
+            <p>
+          <!-- 다음 지도 API -->
+          <div class="view_map_box">
+            <div id="map3" style="" class="view_map"></div>
+            <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f4e688c7d2a9c133980135cea85abdd4"></script>
+            <script>
+              var container = document.getElementById('map3');
+              var options = {
+                center: new daum.maps.LatLng(37.559239, 126.927836),
+                level: 3
+              };
+              var map3 = new daum.maps.Map(container, options);
+              var markerPosition3  = new daum.maps.LatLng(37.559239, 126.927836);
+
+              // 마커를 생성합니다
+              var marker3 = new daum.maps.Marker({
+                position: markerPosition3
+              });
+              
+              // 마커가 지도 위에 표시되도록 설정합니다
+              marker3.setMap(map3);
+            </script>
+          </div>
+         <!-- //다음 지도 API -->
+            </p>
+            <p>&nbsp;</p>
+
+            <p><span>1) 지하철 이용시</span><br />공항철도, 2호선 홍대입구역 하차 후 4번 출구 또는 5번 출구에서 5분 소요.</p>
+            <p>&nbsp;</p>
+            <p><span>2) 자동차 이용시</span><br />
+<b>① 합정역/홍대입구역 방향에서 오실 때 :</b><br />
+<img src='/publisher/images/map1.jpg' align='left' style='padding:0 10px;'>
+홍대입구역에서 신촌역 방면으로 가는 동교동 삼거리에서 신호 대기하였다가(2차선 좌회선 차선을 이용),
+좌회전 신호시 유시티불가마 건물 옆골목 오르막 길로 50m 올라와서 우회전.
+<br clear='all'>
+<br />
+<b>② 신촌역 방향에서 오실 때 :</b><br />
+<img src='/publisher/images/map2.jpg' align='left' style='padding:0 10px;'>
+신촌역에서 홍대입구역 방면으로 900m 직진 후, 동교동 삼거리를 가기 전 유시티불가마 건물 옆골목에서 1시 방향에 있는 오르막 길로 50m 올라와서 우회전.
+<br clear='all'>
+</p>
+
+          </div>
+        </div>
+
+      </div>
+    </article>
+    
+    <!-- 제휴안내 -->
+    <article class="contact_section_02">
+      <div class="section_02_wrap">
+        <h2>한빛과 함께 성공적인<br />비즈니스 모델을 만들고 싶은 분들을 모두 환영합니다.</h2>
+        <p class="txt">한빛과 제휴를 원하시면 사업제안서(회사소개, 제안배경, 사업내용, 당사와의<br />협력부분)를 이메일로 보내주시기 바랍니다.</p>
+        
+        <div class="con_box">
+          <h2>제휴문의 분야</h2>
+          <dl>
+            <dt>영업마케팅 문의</dt>
+            <dd>영업마케팅부 박상용 부장</dd>
+            <dd>02-2128-8749</dd>
+            <dd>sypark@hanbit.co.kr</dd>
+          </dl>
+          <dl>
+            <dt class="view_web">온라인 마케팅/제휴<br />프로모션 문의</dt>
+            <dt class="view_mobile">온라인 마케팅/제휴 프로모션 문의</dt>
+            <dd>마케팅팀 송경석 차장</dd>
+            <dd>02-2128-8745</dd>
+            <dd>ksong@hanbit.co.kr</dd>
+          </dl>
+          <dl>
+            <dt class="view_web">신규사업 및 콘텐츠<br />제휴 문의</dt>
+            <dt class="view_mobile">신규사업 및 콘텐츠 제휴 문의</dt>
+            <dd>IT기획운영팀 송관 부장</dd>
+            <dd>02-2128-8712</dd>
+            <dd>webmaster@hanbit.co.kr</dd>
+          </dl>
+        </div>
+      </div>
+    </article>
+  </section>
+  <!-- //위치 및 연락처 -->
+  
+	<!-- Footer -->
+	<div id="footer_sub"><span class="copyright">©1993-2020 Hanbit Publishing Network. All rights reserved.</span></div>
+	<!-- //Footer -->
+</div>
+<!-- //콘텐츠 -->
+
+</body>
+</html>

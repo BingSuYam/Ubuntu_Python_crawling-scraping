@@ -1,0 +1,2552 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!--[if lte IE 8]>
+<script>
+  location.replace('/support/explorer_upgrade.html');
+</script>
+<![endif]-->
+<meta charset="utf-8"/>
+<title>줄리아를 생각하다</title>
+<link rel="shortcut icon" href="http://www.hanbit.co.kr/images/common/hanbit.ico"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="줄리아를 생각하다"/>
+<meta property="og:description" content="줄리아는 수치해석 및 계산과학용으로 개발되어 파이썬 상위호환 언어라 불릴 정도로 속도가 빠르고 문법도 우아한 언어다."/>  
+<meta property="og:image" content="http://www.hanbit.co.kr/data/books/B3156242562_m.jpg"/>
+<meta property="og:url" content="http://www.hanbit.co.kr/store/books/look.php?p_code=B3156242562"/>
+<link rel="canonical" href="http://www.hanbit.co.kr/store/books/look.php?p_code=B3156242562" />
+<meta name="keywords" content="책,전자책,ebook,출판사,동영상,콘텐츠,강의,자격증,대학교재" />
+<meta name="description" content="줄리아는 수치해석 및 계산과학용으로 개발되어 파이썬 상위호환 언어라 불릴 정도로 속도가 빠르고 문법도 우아한 언어다." />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="viewport" content="width=1260">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="naver-site-verification" content="01c29ed1852aecca7a48ac0c3e0869627bc512d8"/>
+<!-- <meta name="naver-site-verification" content="823ff8b8e7e3eb396c310703c2bbd731f48c1d9b"/> -->
+<link rel="stylesheet" href="/css/common.css?20190625102532" />
+<link href="/css/hover.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="/js/jquery.raty.css" />
+<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/jquery.event.drag-1.5.min.js"></script>
+<script type="text/javascript" src="/js/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="/js/jquery.raty.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/lib/cheditor/cheditor.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript" src="/js/engine.js"></script>
+<script type="text/javascript" src="/js/vue.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47080738-1', 'hanbit.co.kr');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '406459623338891');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=406459623338891&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Kakao Pixel Code -->
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+  kakaoPixel('3011392806152551233').pageView();
+  kakaoPixel('3011392806152551233').viewContent({
+    id: 'B3156242562'
+  });
+</script>
+<!-- //Kakao Pixel Code -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9D5PM3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<link rel="stylesheet" href="/css/layout-hanbit.css?20191130" />
+<link rel="stylesheet" href="/css/layout-member.css" />
+<link rel="stylesheet" href="/css/layout-network.css" />
+<link rel="stylesheet" href="/css/layout-store.css" />
+<link rel="stylesheet" href="/css/layout-myhanbit.css" />
+<link rel="stylesheet" href="/css/layout-event.css" />
+<!-- 메뉴 바로가기 -->
+<div id="quick_skip_menu">
+  <a href="#gnb" onclick="document.getElementById('gnb').tabIndex = -1;document.getElementById('gnb').focus();return false;"><span>메뉴 바로가기</span></a>
+  <a href="#top_search" onclick="view_hover('main_search_area','','show'), document.getElementById('top_search').tabIndex = -1;document.getElementById('top_search').focus();return false;"><span>검색 및 카테고리 바로가기</span></a>
+    <a href="#container" onclick="document.getElementById('container').tabIndex = -1;document.getElementById('container').focus();return false;"><span>본문 바로가기</span></a>
+  </div>
+<!-- //메뉴 바로가기 -->
+
+<!-- header -->
+<header>
+  <!-- top menu -->
+  	<nav>
+		<div id="wrap_nav">
+			<ul class="top_brand">
+				<li><a href="http://www.hanbit.co.kr/index.html" name="hanbit_network"><span>HOME</span></a></li>
+				<li><a href="http://www.hanbit.co.kr/media/">한빛미디어</a></li>
+				<li><a href="http://www.hanbit.co.kr/academy/">한빛아카데미</a></li>
+				<li><a href="http://www.hanbit.co.kr/biz/">한빛비즈</a></li>
+				<li><a href="http://www.hanbit.co.kr/life/">한빛라이프</a></li>
+				<li><a href="http://www.hanbit.co.kr/edu/">한빛에듀</a></li>
+				<li><a href="http://www.hanbit.co.kr/realtime/">리얼타임</a></li>
+				<li><a href="http://www.hanbit.co.kr/textbook/" target="_blank">한빛정보교과서</a></li>
+        <li><a href="http://www.hanbit.co.kr/rent/" target="_blank">한빛대관서비스</a></li>
+			</ul>
+			
+			<ul class="top_menu">
+                        	<li><a href="https://www.hanbit.co.kr/member/login.html" class="login">로그인</a></li>
+				<li><a href="https://www.hanbit.co.kr/member/member_agree.html" class="join">회원가입</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/myhanbit.html" class="myhanbit">마이한빛</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/cart.html" class="cart">장바구니</a></li>
+            				<!-- <li class="top_menu_store"><a href="http://www.hanbit.co.kr/store/store_submain.html">STORE</a></li> -->
+			</ul>
+		</div>
+	</nav>  <!-- //top menu -->
+
+  <div id="wrap_gnb">
+    <!-- logo -->
+    <h1><a href="http://www.hanbit.co.kr/index.html">한빛출판네트워크</a></h1>
+    <!-- //logo -->
+
+    <!-- Menu -->
+    <div id="gnb" name="gnb">
+      <ul>
+        <li><a href="http://www.hanbit.co.kr/brand/brand_submain.html" class="">BRAND</a></li>
+        <li><a href="http://www.hanbit.co.kr/channel/channel_submain.html" class="">Channel.H</a></li>
+        <li><a href="http://www.hanbit.co.kr/store/store_submain.html" class="curr">STORE</a></li>
+        <li><a href="http://www.hanbit.co.kr/support/help_info.html" class="">SUPPORT</a></li>
+        <li><a href="http://www.hanbit.co.kr/event/current/current_event_list.html" class="">EVENT</a></li>
+        
+        <li id="top_search" class="search"><a href="javascript:;" onClick="view_hover('main_search_area','','show'); $('#keyword_str').focus();"><span>SERACH</span></a></li>
+      </ul>
+    </div>
+    <!-- //Menu -->
+    
+    <!-- lnb -->
+    <div class="lnb" style="top:92px;">
+      <div class="lnb_area">
+      <!-- BRAND -->
+            <ul class="lnb_depth1_category">
+        <li onmouseover="view_hover('category_store','','show')" onMouseOut="view_hover('category_store','','hide')"><a href="#" onFocus="view_hover('category_store','','show')" class="gnb_category">카테고리</a>
+          <ul id="category_store">
+
+                          <li onmouseover="view_hover('category_store1','','show')" onMouseOut="view_hover('category_store1','','hide')"><a href="/store/books/category_list.html?cate_cd=001" onFocus="view_hover('category_store1','','show')">IT/모바일</a>
+                <ul id="category_store1">
+                              <li><a href="/store/books/category_list.html?cate_cd=001001">프로그래밍</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001002">웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001003">모바일/스마트기기</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001013">데이터베이스</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001005">운영체제</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001014">하드웨어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001015">시스템/네트워크</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001016">보안</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001009">비즈니스/문화</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001010">게임</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001017">IT에세이</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001012">자격증</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001018">인공지능/데이터과학</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store2','','show')" onMouseOut="view_hover('category_store2','','hide')"><a href="/store/books/category_list.html?cate_cd=002" onFocus="view_hover('category_store2','','show')">MAKE</a>
+                <ul id="category_store2">
+                              <li><a href="/store/books/category_list.html?cate_cd=002001">Make 매거진</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=002002">Make 프로젝트 북</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store3','','show')" onMouseOut="view_hover('category_store3','','hide')"><a href="/store/books/category_list.html?cate_cd=003" onFocus="view_hover('category_store3','','show')">IT활용</a>
+                <ul id="category_store3">
+                              <li><a href="/store/books/category_list.html?cate_cd=003001">오피스/OA</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003002">그래픽/멀티미디어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003003">사진/예술</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003004">컴퓨터입문/IT교양</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store4','','show')" onMouseOut="view_hover('category_store4','','hide')"><a href="/store/books/category_list.html?cate_cd=004" onFocus="view_hover('category_store4','','show')">대학교재</a>
+                <ul id="category_store4">
+                              <li><a href="/store/books/category_list.html?cate_cd=004007">컴퓨터공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004008">정보통신/전기/전자</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004003">수학/과학/공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004004">프로그래밍/웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004005">그래픽/디자인</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004006">OA/활용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004009">수험서/자격증</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store5','','show')" onMouseOut="view_hover('category_store5','','hide')"><a href="/store/books/category_list.html?cate_cd=006" onFocus="view_hover('category_store5','','show')">실용서</a>
+                <ul id="category_store5">
+                              <li><a href="/store/books/category_list.html?cate_cd=006001">취미/실용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006002">여행</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006003">건강</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006004">유아/육아</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store6','','show')" onMouseOut="view_hover('category_store6','','hide')"><a href="/store/books/category_list.html?cate_cd=007" onFocus="view_hover('category_store6','','show')">경제/경영/인문</a>
+                <ul id="category_store6">
+                              <li><a href="/store/books/category_list.html?cate_cd=007001">경제/경영</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007002">자기계발</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007003">인문/교양</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007004">마케팅</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007005">에세이</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store7','','show')" onMouseOut="view_hover('category_store7','','hide')"><a href="/store/books/category_list.html?cate_cd=008" onFocus="view_hover('category_store7','','show')">유아/어린이/초등</a>
+                <ul id="category_store7">
+                              <li><a href="/store/books/category_list.html?cate_cd=008001">4~6세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008002">5~7세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008003">예비초등</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008004">초등교과연계 1~12영역</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008005">초등 전학년</a></li>      
+              </ul></li>            
+          <!-- 항상 노출 메뉴 -->          
+          <li class="gnb_category_series"><a href="http://www.hanbit.co.kr/store/books/series_list.html">시리즈</a></li>
+          <li class="gnb_category_reservations"><a href="http://www.hanbit.co.kr/store/books/reservations_list.html">예약도서</a></li>
+          <!--
+          <li class="gnb_category_full"><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li>
+          -->
+          <!--/li-->
+        </ul>
+      </ul>
+      <!--/li-->        
+      <!--/ul-->
+
+      <ul class="lnb_depth1">
+        <li><a href="http://www.hanbit.co.kr/store/books/new_book_list.html">새로나온 책</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/bestseller_list.html">베스트셀러</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/education/edu_list.html">교육</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/item/item_list.html">Item &amp; Maker Shed</a></li>
+      </ul>
+      
+      <!-- SUPPORT -->
+          </div>
+    </div>
+    <!--// lnb -->
+  </div>
+</header>
+<!-- //header -->
+
+<!-- 메인 검색 및 카테고리 영역 -->
+<div id="main_search_area" class="fixed" style="display:none;">
+  <div class="msa_wrap">
+
+    <!-- 검색 -->
+    <div class="msa_srch_wrap">
+      <form onsubmit="return false;">
+      <fieldset class="msa_srch_field">
+        <legend>한빛출판네트워크 검색</legend>
+        <input title="검색어" autocomplete="off" class="srch_keyword" accesskey="s" type="text" name="keyword_str" id="keyword_str" v-model="keyword" @input="typeKeyword">
+        <input type="submit" class="srch_btn" style="cursor:pointer;" @click="clickSearch">
+      </fieldset>
+      </form>
+    </div>
+    <!-- //검색 -->
+
+    <!-- ① 인기검색어 -->
+    <div class="msa_srch_polular" v-if="showPopularKeyword === true">
+      <h2 class="tit">인기 검색어 <span>(최근 1개월간)</span></h2>
+        <div class="popula_box">
+          <ul class="left">
+            <li v-for="keyword in leftPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li v-for="keyword in rightPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <!-- ① 인기검색어 -->
+
+    <!-- ② 검색결과/검색서제스쳔 -->
+    <div class="msa_srch_suggestion" v-if="showPopularKeyword === false">
+      <div class="sugg_left" v-if="bookList.length !== 0">
+        <h3 class="tit">BOOK</h3>
+        <ul class="books_list">
+          <li v-for="book in bookList" @mouseover="mouseOverBook(book.id)"><a @click="clickBookKeyword(book)"><p v-html="book.name"></p></a></li>
+        </ul>
+      </div>
+
+      <div class="sugg_right">
+        <div class="sugg_book" v-if="bookList.length !== 0">
+          <table class="sugg_book_detail">
+            <tr>
+              <td class="cover">
+                <a @click="clickBookKeyword(bookSummary)">
+                  <img :src="bookSummary.imgUrl" class="b_cover">
+                </a>
+              </td>
+              <td class="draft">
+                <a @click="clickBookKeyword(bookSummary)" class="b_title"><strong v-html="bookSummary.originName"></strong></a>
+                <p class="b_int">
+                {{ bookSummary.author }} 지음<br />
+                {{ bookSummary.publishingCompany }} | {{ bookSummary.date }}
+                </p>
+                <p class="b_type">
+                <span>{{ bookSummary.bookType }}</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="sugg_edu" v-if="educationList.length !== 0">
+          <h3 class="tit">EDUCATION</h3>
+          <ul class="edu_list">
+            <li v-for="education in educationList">&#149; <a @click="clickEducationKeyword(education)"><span v-html="education.title"></span></a></li>
+          </ul>
+        </div>
+
+        <div class="sugg_cont" v-if="contentList.length !== 0">
+          <h3 class="tit">CONTENTS</h3>
+          <ul class="cont_list">
+            <li v-for="content in contentList">&#149; <a @click="clickContentKeyword(content)"><span v-html="content.title"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //② 검색결과/검색서제스쳔 -->
+
+  <!-- 닫기 -->
+  <div class="msa_wrap_close">
+    <a href="javascript:;" onclick="view_hover('main_search_area','','hide')">닫기</a>
+  </div>
+  <!-- //닫기 -->
+
+  </div>
+</div>
+
+<!-- old // 구현시 필요없으면 삭제해도 됩니다.
+<script type="text/javascript">
+  function sch_smit(){
+    if(!$.trim($("#keyword_str").val()).length) {
+      alert("검색어를 입력해주세요");
+      $("#keyword_str").focus();
+      return false;
+    }else{
+      $("#gnbsearchfrm").attr("action","/search/search_list.html");
+      $("#gnbsearchfrm").submit(); 
+    }
+  }
+</script>
+-->
+
+<script type="text/javascript">
+    "use strict";
+
+    var common_top_search_vue = new Vue({
+        el: '#main_search_area',
+        data: {
+            //검색엔진 URL
+            searchProxyURL: "https://search.hanbit.co.kr",
+            //인기 검색어 show 여부
+            showPopularKeyword: true,
+            //사용자 검색 키워드
+            keyword: '',
+            //인기 검색어 리스트
+            popularKeywordList: [],
+            // 인기 검색어 리스트 (왼쪽)
+            leftPopularKeywordList: [],
+            // 인기 검색어 리스트 (오른쪽)
+            rightPopularKeywordList: [],
+            // 자동완성에서의 책 리스트
+            bookList: [],
+            // 자동완성에서의 책 정보
+            bookSummary: {
+                'imgUrl': '',
+                'link': '',
+                'name': '',
+                'author': '',
+                'publishingCompany': '',
+                'date': '',
+                'bookType': ''
+            },
+            //에듀케이션 리스트
+            educationList: [],
+            //컨텐츠 리스트
+            contentList: []
+        },
+        created: function created() {
+            // 인기 검색어 조회
+            this.getPopularKeyword();
+        },
+        methods: {
+            /**
+             * 사용자가 검색 키워드를 입력할때 발생하는 이벤트
+             */
+            typeKeyword: function typeKeyword() {
+                var self = this;
+                var keyword = $("#keyword_str").val();
+
+                if (keyword.length !== 0) {
+                    //자동완성어
+                    this.findAutocompleteResult(keyword);
+                } else {
+                    //인기검색어
+                    self.showPopularKeyword = true;
+                }
+            },
+
+            /**
+             * 인기검색어 조회
+             */
+            getPopularKeyword: function getPopularKeyword() {
+                var self = this;
+                this.popularKeywordList = [];
+                $.get(this.searchProxyURL + "/querylog/popularKeyword").done(function (data) {
+                    if (data != null) {
+                        self.drawPopularKeyword(data);
+                    }
+                });
+            },
+
+            /**
+             * 인기 검색어 그리기
+             */
+            drawPopularKeyword: function drawPopularKeyword(popularBooks) {
+                var self = this;
+                popularBooks.forEach(function (item) {
+                    var popularBook = {
+                        bookName: item.keyword
+                    };
+                    self.popularKeywordList.push(popularBook);
+                });
+                var number = 0;
+
+                for (var _iterator = this.popularKeywordList, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
+                    var _ref;
+
+                    if (_isArray) {
+                        if (_i >= _iterator.length) break;
+                        _ref = _iterator[_i++];
+                    } else {
+                        _i = _iterator.next();
+                        if (_i.done) break;
+                        _ref = _i.value;
+                    }
+
+                    var keyword = _ref;
+                    number = number + 1;
+                    keyword.number = number.toString().length < 2 ? "0" + number : number;
+
+                    if (number > 5) {
+                        keyword.direction = "right";
+                        self.rightPopularKeywordList.push(keyword);
+                    } else {
+                        keyword.direction = "left";
+
+                        if (number < 4) {
+                            keyword.bold = 'active';
+                        }
+
+                        self.leftPopularKeywordList.push(keyword);
+                    }
+                }
+            },
+
+            /**
+             * 자동완성 검색 결과
+             */
+            findAutocompleteResult: function findAutocompleteResult(keyword) {
+                var self = this;
+                var param = {
+                    q: keyword,
+                    types: "education,book,contents",
+                    fq: keyword
+                };
+                $.post(this.searchProxyURL + "/autocomplete/search", param).done(function (data) {
+                    if (data != null) {
+                        var bookResult = data.booksResults;
+                        self.changeBookList(keyword, bookResult);
+                        var contentResult = data.contentsResults;
+                        self.changeContentList(keyword, contentResult);
+                        var educationResult = data.educationResults;
+                        self.changeEducationList(keyword, educationResult);
+                    }
+                });
+                this.showPopularKeyword = false;
+            },
+
+            /**
+             * 자동완성어에서 BOOK 부분에서 마우스를 올렸을 시에 발생하는 이벤트
+             * @param bookId
+             */
+            mouseOverBook: function mouseOverBook(bookId) {
+                var currentBook = this.bookList.filter(function (book) {
+                    return book.id === bookId;
+                });
+                this.changeBookSummary(currentBook[0]);
+            },
+
+            /**
+             * 책 소개 변경
+             * @param book
+             */
+            changeBookSummary: function changeBookSummary(book) {
+                if (book !== {}) {
+                    this.bookSummary.name = book.name;
+                    this.bookSummary.originName = book.originName;
+                    this.bookSummary.author = book.author;
+                    this.bookSummary.bookType = book.bookType;
+                    this.bookSummary.imgUrl = book.imgUrl;
+                    this.bookSummary.link = book.link;
+                    this.bookSummary.publishingCompany = book.publishingCompany;
+                    this.bookSummary.date = book.date;
+                    this.bookSummary.bookType = book.bookType;
+                }
+            },
+
+            /**
+             * BOOK 리스트 변경
+             */
+            changeBookList: function changeBookList(keyword, bookResultList) {
+                var self = this;
+                self.bookList = [];
+                var index = 0;
+
+                if (bookResultList != null) {
+                    for (var _iterator2 = bookResultList, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : _iterator2[Symbol.iterator]();;) {
+                        var _ref2;
+
+                        if (_isArray2) {
+                            if (_i2 >= _iterator2.length) break;
+                            _ref2 = _iterator2[_i2++];
+                        } else {
+                            _i2 = _iterator2.next();
+                            if (_i2.done) break;
+                            _ref2 = _i2.value;
+                        }
+
+                        var result = _ref2;
+
+                        if (index < 10) {
+                            var book = {};
+                            book.id = result.code;
+                            book.originName = result.title;
+                            book.name = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            book.link = result.code;
+                            book.imgUrl = self.getBookImageURL(result.code);
+                            book.author = result.author;
+                            book.publishingCompany = result.brand;
+                            book.date = result.pubDate;
+                            book.bookType = result.bookType;
+                            self.bookList.push(book); //책 미리보기 변경
+
+                            self.changeBookSummary(self.bookList[0]);
+                        }
+                    }
+                } else {
+                    self.initBookSummary();
+                }
+            },
+
+            /**
+             * 책 이미지 주소 가져오기
+             */
+            getBookImageURL: function getBookImageURL(bookCode) {
+                var imgURL;
+
+                if (bookCode.substr(0, 1) === "E") {
+                    imgURL = '/data/ebook/' + bookCode + '_m.jpg';
+                } else {
+                    imgURL = '/data/books/' + bookCode + "_m.jpg";
+                }
+
+                return imgURL;
+            },
+
+            /**
+             * 검색 결과가 없을 경우 책 미리보기 초기화
+             */
+            initBookSummary: function initBookSummary() {
+                this.bookSummary = {
+                    'imgUrl': '',
+                    'link': '',
+                    'name': '',
+                    'author': '',
+                    'publishingCompany': '',
+                    'date': '',
+                    'bookType': ''
+                };
+            },
+
+            /**
+             * education 리스트 변경
+             */
+            changeEducationList: function changeEducationList(keyword, educationResultList) {
+                var self = this;
+                self.educationList = [];
+                var index = 0;
+
+                if (educationResultList != null) {
+                    for (var _iterator3 = educationResultList, _isArray3 = Array.isArray(_iterator3), _i3 = 0, _iterator3 = _isArray3 ? _iterator3 : _iterator3[Symbol.iterator]();;) {
+                        var _ref3;
+
+                        if (_isArray3) {
+                            if (_i3 >= _iterator3.length) break;
+                            _ref3 = _iterator3[_i3++];
+                        } else {
+                            _i3 = _iterator3.next();
+                            if (_i3.done) break;
+                            _ref3 = _i3.value;
+                        }
+
+                        var result = _ref3;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.educationList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * contents 리스트 변경
+             */
+            changeContentList: function changeContentList(keyword, contentResult) {
+                var self = this;
+                self.contentList = [];
+                var index = 0;
+
+                if (contentResult != null) {
+                    for (var _iterator4 = contentResult, _isArray4 = Array.isArray(_iterator4), _i4 = 0, _iterator4 = _isArray4 ? _iterator4 : _iterator4[Symbol.iterator]();;) {
+                        var _ref4;
+
+                        if (_isArray4) {
+                            if (_i4 >= _iterator4.length) break;
+                            _ref4 = _iterator4[_i4++];
+                        } else {
+                            _i4 = _iterator4.next();
+                            if (_i4.done) break;
+                            _ref4 = _i4.value;
+                        }
+
+                        var result = _ref4;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.contentList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * 하이라이트 표시
+             */
+            replaceHighlightWord: function replaceHighlightWord(str, highlightKeyword) {
+                var replaceHighlightKeyword = highlightKeyword.replace(/[^a-z0-9가-힣_ ]/gi, '');
+                var regEx = new RegExp(replaceHighlightKeyword, "gi");
+                str = str.replace(regEx, function (a) {
+                    return '<span class="keysel">' + a + '</span>';
+                });
+                return str;
+            },
+
+            /**
+             * 검색 버튼 클릭 시
+             * @param e
+             */
+            clickSearch: function clickSearch(e) {
+                if (!this.keyword || this.keyword.length === 0) {
+                    alert("검색어를 입력하세요");
+                    $("#keyword_str").focus();
+                    e.preventDefault();
+                } else {
+                    location.href = "/search/search_list.html?keyword=" + this.keyword;
+                }
+            },
+
+            /**
+             * 인기 검색어 클릭시
+             * @param book
+             */
+            clickPopularKeyword: function clickPopularKeyword(book) {
+                var searchKeyword = book.bookName;
+                location.href = "/search/search_list.html?keyword=" + searchKeyword;
+            },
+
+            /**
+             * 책 검색어 클릭시 책 상세로 이동
+             * @param book
+             */
+            clickBookKeyword: function clickBookKeyword(book) {
+                location.href = "/store/books/look.php?p_code=" + book.link;
+            },
+
+            /**
+             * 교육 클릭시 교육 상세로 이동
+             * @param education
+             */
+            clickEducationKeyword: function clickEducationKeyword(education) {
+                location.href = "/store/education/edu_view.html?p_code=" + education.link;
+            },
+
+            /**
+             * 컨텐츠 클릭시 컨텐츠 상세로 이동
+             * @param contents
+             */
+            clickContentKeyword: function clickContentKeyword(content) {
+                location.href = "/channel/category/category_view.html?cms_code=" + content.link;
+            }
+        }
+    });
+</script>
+<!-- //메인 검색 및 카테고리 영역 -->
+<SCRIPT LANGUAGE="JavaScript">
+
+  function Cart(strMode) {
+
+    var m_idx = "";
+    var p_code = "B3156242562";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){
+        if(strMode=='cart') { 
+          if(result ==1) { 
+            $('#cartmsg').show();
+            $('#cartmsg2').hide();
+            add_cart_layer_open('layer_add_cart');
+          } else if(result==0) {
+            $('#cartmsg2').show();
+            $('#cartmsg').hide();
+            add_cart_layer_open('layer_add_cart');
+            return;
+          }
+        }  else {
+          location.href="/myhanbit/cart.html";
+        }
+      }          
+    });            
+  }  
+
+  // 견본도서 장바구니 담기. by coffin. 2017-04-12
+  function Cart_p(strMode) {
+    var m_idx = "";
+    var p_code = "B3156242562";
+    var ea = 1;
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+
+    $.ajax({
+      type : "post",
+      url : "/academy/professor/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){      
+        if(strMode=='cart') { 
+          location.href='/academy/professor/cart.html';
+        }  else {
+          location.href='/academy/professor/cart.html';
+        }
+      }          
+    });            
+  }  
+
+  function Wishlist() {
+
+    var m_idx = "";
+    var p_code = "B3156242562";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    var comment = "";
+
+    if(m_idx =="") {
+      alert('로그인이 필요한 서비스 입니다.');
+      document.location.href='/member/login.html';
+      return;
+    }
+
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addWishlist.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt,"comment":comment},
+      dataType : "text",
+      success : function(result, status){
+        if(result ==1) { 
+          alert("해당 상품을 위시리스트에 담았습니다");
+          return;
+        } else if(result==0) {
+          alert("이미 위시리스트에 추가된 상품입니다.");
+          return;
+        }
+      }
+    });            
+  }  
+
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT
+  --------------------------------------------------------------- */  
+  //리뷰 팝업요청 버튼 
+  function review_start(){  
+    var m_idx = '';
+    var re_chk_num = '0';    
+    
+    if(!m_idx) { 
+      alert("로그인후 리뷰 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }  
+      
+    if(re_chk_num<1){
+      review_layer_open('layer_review');
+      $('#hbr_content_review').html('<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>');
+      return;
+    }else{
+      alert('리뷰등록은 도서당 한번만 가능합니다.');
+      return;
+    }
+  }  
+  
+  //리뷰 등록 취소 버튼    
+  function frm_reset(){    
+    $('.review_layer').fadeOut();    
+  }  
+
+
+  //리뷰등록  처리 버튼
+  function review_proc(str,idx){      
+    
+    document.getElementById("hbr_content").value = myeditor.outputBodyHTML();        
+
+    if(!$.trim($("#hbr_title").val()).length) {
+      alert("리뷰제목을 입력해주세요"); $("#hbr_title").focus();return;
+    }    
+
+    if(!$.trim($("#hbr_score").val()).length) {
+      alert("별점 평가를 선택해주세요"); $("#hbr_score").focus();return;
+    }
+    
+          
+    if($("#hbr_content").val().length <= 13) {
+      alert("리뷰내용을 입력해주세요"); $("#hbr_content").focus();return;
+    }      
+    
+    var type_str      =  str;  
+    var hbr_idx       =  idx;    
+    var fk_p_code    = $("#fk_p_code").val();  
+    var fk_m_idx      = $("#fk_m_idx").val();  
+    var hbr_type     = $("#hbr_type").val();            
+    var hbr_title      = $("#hbr_title").val();  
+    var hbr_score    = $("#hbr_score").val();  
+    var hbr_content   = $("#hbr_content").val();  
+
+    var result_postdata= {  
+        type_str    :   type_str,
+        hbr_idx      :  hbr_idx,
+        fk_p_code   :   fk_p_code,
+        fk_m_idx     :   fk_m_idx,
+        hbr_type     :  hbr_type,
+        hbr_title    :   hbr_title,        
+        hbr_score   :   hbr_score,
+        hbr_content :   hbr_content    
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addReview.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){                
+        if(data  >0){                              
+          $('.review_layer').fadeOut();  
+          //location.reload();
+          var currentUrl = window.location.href.split('&');                  
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=review';
+          //location.href='/store/books/look.php?p_code=B3156242562&tid=review';                  
+        }            
+      }
+    });
+  }  
+
+  //리뷰 수정, 삭제
+  function review_frm_proc(str,idx,n){
+
+    if(str =="redel"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }
+    var result_postdata= {  str : str, idx:idx}    
+    var result_url = "/inc/inc_store_layer_popup_review_ajax.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){            
+
+        if(str == "redel" && data ==1 ){
+          alert("리뷰가 삭제되었습니다.");              
+          location.reload();
+          //location.href="/store/books/look.php?p_code=$p_code#review_tab";
+          
+        }else{
+          $("#review_popup_div").html("");        
+          $("#review_popup_div").html(data);        
+          review_layer_open('layer_review');
+        }
+      }         
+    });  
+    
+  }
+      
+  //리뷰 댓글 리스트  ::  리뷰 idx , div_num
+  function comment_list(idx,n){      
+    //alert(idx+"="+n)
+    var result_postdata= {  hbr_idx : idx, div_n:n}    
+    var result_url = "/store/rev_comm_list.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){          
+        $("#comment_div_"+n).html(data);        
+      }         
+    });          
+  }    
+  
+  //등록, 수정, 삭제    ::  처리 str , 리뷰 div_num , 리뷰 idx , 댓글 div_num,  댓글 idx
+  function comment_proc( str ,div_n, idx , div2_n ,re_idx){      
+    var fk_hbr_idx     = idx;    
+    var fk_m_idx     = $("#fk_m_idx").val();        
+    var comment    = $("#comment_"+div_n).val();                
+    var hbrc_idx     = re_idx;
+    
+    if(!fk_m_idx) { 
+      alert("로그인후 댓글을 작성 하실수있습니다.");
+      document.location.href='/member/login.html';
+      return;  
+    }    
+    if(str == "del"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }else if(str == "ins"||str == "mod"){    
+      if(!comment){
+        alert("내용을  입력해주세요.");      
+        $("#comment_"+div_n).focus(); return;  
+      }
+    }
+            
+    var result_postdata= {            
+      str:str,            
+      div_n:div_n,    
+      fk_hbr_idx : fk_hbr_idx,  
+      fk_m_idx : fk_m_idx,  
+      comment:comment,    
+      hbrc_idx:hbrc_idx,
+      div2_n:div2_n
+    }    
+    var result_url = "/store/rev_comm_proc.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){      
+        if(str == "mod_f"){          
+          $("#re_"+div_n+"_"+div2_n).html("");
+          $("#re_"+div_n+"_"+div2_n).html(data);
+        }else{
+          //var ment = data.trim();
+          alert(data.trim());  
+          comment_list( fk_hbr_idx,div_n); //댓글 리스트          
+        }          
+      }         
+    });            
+  }    
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT
+  --------------------------------------------------------------- */  
+  //오탈자 리스트     
+  function misprint_get_list(str){    
+    var p_code     = 'B3156242562';          
+    var conf      = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();  
+    if(!str)str = "page";    
+    
+    //정렬
+    if(str == "page"){    
+      if( p_sort_type == "DE"){ p_sort_type = "A";
+      }else if( p_sort_type == "" ||  p_sort_type == "A"){  p_sort_type = "DE";
+      }      
+      r_sort_type = "";
+    }
+    if(str == "regdt"){    
+      if( r_sort_type == "DE"){ r_sort_type = "A";
+      }else if(  r_sort_type == "" ||r_sort_type == "A"){  r_sort_type = "DE";
+      }
+      p_sort_type = "";    
+    }                  
+    $("#p_sort_type").val(p_sort_type);
+    $("#r_sort_type").val(r_sort_type);
+    //alert(p_sort_type+"=="+r_sort_type);
+            
+    $.ajax({
+      type : "post",
+      url : "/inc/inc_store_detail_misprint_ajaxList.php",
+      data:{  fk_p_code:p_code , conf :conf , p_sort_type : p_sort_type , r_sort_type:r_sort_type },          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){      
+        $("#misprint_con_div").html("");
+        //$("#misprint_con_div").html(data);            
+        $(".misprint_list").eq(0).html(data);            
+        $(".misprint_list").eq(1).html(data);            
+      }
+    });            
+  }
+  
+  //오탈자 팝업요청 버튼 
+  function misprint_start(){    
+    var m_idx = '';  
+    if(!m_idx) { 
+      alert("로그인 후 오탈자 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }    
+    misprint_layer_open('layer_misprint');return;    
+  }  
+  
+  //오탈자 등록 취소 버튼    
+  function misprint_reset(){    
+    $('.misprint_layer').fadeOut();    
+  }  
+
+  //오탈자등록  처리 버튼
+  function misprint_proc(str,idx){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+    
+    $("#err_info").val( myeditor_err.outputBodyHTML());            
+    
+    var type_str        =  str;          
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var err_type        = $("#err_type option:selected").val();      
+    var err_p_version    = "";  
+    var err_p_page      = $("#err_p_page").val();       
+    var err_location    = $("#err_location").val();   
+    var err_info        = $("#err_info").val();   
+    var err_file        = $("#err_file").val();                                                                  
+                
+                    
+    if($("#err_type option:selected").val() =="") {
+      alert("구분을선택해주세요");$("#err_type").focus();return;
+    }
+    
+    if($(":checkbox[name='err_p_version[]']:checked").length < 1) {
+      alert("상품버전을 선택해주세요");$("#err_p_version").focus();return;
+    }
+          
+    if(!err_p_page) {
+      alert("페이지를 입력해주세요");$("#err_p_page").focus();return;
+    }      
+    
+    if(!err_location) {
+      alert("위치정보를 입력해주세요");$("#err_location").focus();return;
+    }  
+        
+    var err_info_len = $("#err_info").val().length;    
+    if(err_info_len <20) {
+      alert("내용을 입력해주세요");$("#err_info").focus();return;
+    }                
+  
+    err_p_version = "";
+    $('input:checkbox[name="err_p_version[]"]').each(function() {         
+      if(this.checked){
+        err_p_version+=','+$(this).val();      
+      }                    
+     });     
+    err_p_version = err_p_version.substring(1,err_p_version.length);         
+            
+    var result_postdata= {  
+         type_str        :  type_str,
+         fk_m_idx        :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         err_type        :  err_type,        
+         err_p_version    :  err_p_version,  
+         err_p_page      :   err_p_page,      
+         err_location      :  err_location,          
+         err_info        :  err_info,    
+         err_file          :  err_file              
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addMisprint.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){  
+        if(data  >0){    
+          $('.misprint_layer').fadeOut();      
+          var currentUrl = window.location.href.split('&');        
+          
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=misprint';
+          //location.href='/store/books/look.php?p_code=B3156242562&tid=misprint';                  
+          //location.reload(true);
+        }            
+      }
+    });  
+  }    
+  
+  //오탈자 인쇄하기
+  function misprint_print(){      
+    var p_code       = 'B3156242562';          
+    var conf        = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();      
+    
+    //var sort_type;    
+    //if(p_sort_type)sort_type = p_sort_type ;
+    //if(r_sort_type)sort_type = r_sort_type ;
+        
+    var url_full = "/store/books/misprint_view.html?fk_p_code="+p_code+"&conf="+conf+"&p_sort_type="+p_sort_type+"&r_sort_type="+r_sort_type;      
+    
+    var openNewWindow = window.open("about:blank");
+        openNewWindow.location.href = url_full;                
+  }
+              
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+  function book_auth(){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+          
+    var fk_m_idx      = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var buy_date      = $("#buy_date").val();      
+    var buy_site        = $("#buy_site").val();      
+    var add_code      = $("#add_code").val();                                                                                
+          
+    if(!buy_site) {
+      alert("구입처를 선택해주세요");$("#buy_site").focus();return;
+    }  
+
+    if(!buy_date) {
+      alert("구입일을 입력해주세요");$("#buy_date").focus();return;
+    }          
+    
+    if(!add_code) {
+      alert("부가기호를 입력해주세요");$("#add_code").focus();return;
+    }  
+    
+    $("#cfrm").submit();
+    
+    /*    
+    var result_postdata= {  
+         fk_m_idx      :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         buy_date      :  buy_date,        
+         buy_site        :  buy_site,  
+         add_code      :   add_code,          
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addBookauth.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){          
+        if(data  >0){                        
+          $('.certification_layer').fadeOut();      
+          location.reload(true);
+        }            
+      }
+    });  
+    */
+  }
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+
+</SCRIPT>
+
+<!-- Contents -->
+<div id="container">
+  <!-- 상단 광고 배너 -->
+  <!--
+<div class="docu_title" style="margin-top:4px;text-align:center;padding:4px;font-weight:bold;background-color:#52AEE1;border:2px solid #000;">
+<a href="http://www.hanbit.co.kr/event/current/current_event_view.html?hbe_idx=129" alt="한빛비즈 회원가입 이벤트" class="hvr-glow" style="width:100%;padding:4px;color:#000000;letter-spacing:-1px;">회원가입이벤트 :: 한빛비즈 스페셜 멤버로 초대합니다! (이메일 수신동의, '한빛비즈' 관심브랜드 체크시 최대 5,000점 마일리지 적립)</a>
+</div> -->  <!-- //상단 광고 배너 -->
+  <!-- 카테고리 상세 wrap -->
+  <div class="store_view_wrap">
+    <div class="store_view_wrap_l">
+      <!-- 책 정보 -->
+            <div class="store_view_area">
+        <div class="store_product_box">
+          <div class="store_product_box_img">
+                        <img src="/data/books/B3156242562_l.jpg" alt="" class="thumb" />
+                      </div>
+          <div class="store_product_box_btn"><a href="javascript:;" onclick="javascript:openPreviewFlip('http://preview2.hanbit.co.kr/books/eflb','PREVIEW');return false;">미리보기</a></div>
+        </div>
+        
+        <div class="store_product_info_box">
+          <h3>줄리아를 생각하다</h3>
+          <p class="stit">데이터 과학자를 위한 최적의 프로그래밍 언어</p>
+          
+          <div class="info_area">
+            <div class="info_ico">
+              <p class="ico_m">한빛미디어</p>
+                              <p class="ico_book2">번역서</p>
+                            
+                              <p class="ico_shopping1">판매중</p>
+                            
+            </div>
+            
+            <div class="sns_ico">
+              <span class="ico_facebook"><a href="http://www.facebook.com/share.php?u=http://www.hanbit.co.kr/store/books/look.php?p_code=B3156242562" target="_blank">페이스북 퍼가기</a></span>
+              <span class="ico_google"><a href="https://plus.google.com/share?url=http://www.hanbit.co.kr/store/books/look.php?p_code=B3156242562" target="_blank">구글+ 퍼가기</a></span>
+              <span class="ico_twitter"><a href="http://twitter.com/share?text=%EC%A4%84%EB%A6%AC%EC%95%84%EB%A5%BC+%EC%83%9D%EA%B0%81%ED%95%98%EB%8B%A4&url=http://www.hanbit.co.kr/store/books/look.php?p_code=B3156242562" target="_blank">트위터 퍼가기</a></span>
+            </div>
+          </div>
+          
+          <ul class="info_list">
+                          <li><strong>저자 : </strong><span>벤 로언스 , 앨런 다우니 </span></li>
+                                    <li><strong>번역 : </strong><span>송한별 </span></li>
+                        <li><strong>출간 : </strong><span>2020-04-06</span></li>
+            <li><strong>페이지 : </strong><span>384 쪽</span></li>
+            <li><strong>ISBN : </strong><span>9791162242575</span></li>
+                        <li><strong>물류코드 :</strong><span>10257</span></li>
+                        
+            
+            
+          </ul>
+
+                    
+                    
+          <div class="tag_area"><span>TAG : </span><a href='/search/search_list.html?ptype=B&keyword=파이썬'>파이썬</a> ,<a href='/search/search_list.html?ptype=B&keyword=데이터과학'>데이터과학</a> ,<a href='/search/search_list.html?ptype=B&keyword=프로그래밍언어'>프로그래밍언어</a> ,<a href='/search/search_list.html?ptype=B&keyword=julia'>julia</a> ,<a href='/search/search_list.html?ptype=B&keyword=python'>python</a> ,<a href='/search/search_list.html?ptype=B&keyword=data'>data</a> </div>  
+          <div class="step_area ico_step2">
+            <span> 초급 </span>
+            <span><strong>초중급</strong></span>
+            <span> 중급 </span>
+            <span> 중고급 </span>
+            <span> 고급 </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- //책 정보 -->
+      
+      <!-- 별점 및 좋아요 -->
+      					
+			<script>
+
+			$(function() {
+				$('.store_grade_star').raty({
+					readOnly: true,
+					score: 0,
+					starHalf   : '/media/images/star_l-half.png',
+					starOff    : '/media/images/star_l-off.png',
+					starOn     : '/media/images/star_l-on.png'
+				});
+				
+			});
+			</script>	
+            
+            
+            <div class="store_like_area">
+				<div class="store_grade"><div class="store_grade_star"></div><span>0점 (0명)</span></div>
+				<div class="store_like"><span>좋아요 : </span><font id="likescore">0</font></div>
+			</div>      <!-- //별점 및 좋아요 -->
+      
+      <!-- 버튼 -->
+      <div class="store_btn_area">
+        <div class="btn_review"><a href="javascript:;" onClick="review_start()">리뷰쓰기</a></div>
+        <div  class="btn_like"><a href="javascript:setLike('B3156242562','');">좋아요</a></div>
+        <div class="btn_misprint"><a href="javascript:;" onClick="misprint_start()">오탈자 등록</a></div>
+                            <div class="btn_certification"><a href="javascript:alert('로그인 후 이용가능한 서비스입니다.');">도서인증</a></div>
+                        </div>
+            <!-- //버튼 -->
+      <!-- 하단 컨텐츠 -->
+      <div class="store_detail_area">
+        <!-- 텝메뉴 -->
+        <script>
+        $(function() {
+          $( ".detial_tabs" ).tabs();
+        });
+        </script>
+        
+        <div class="detial_tabs">
+          <ul>          
+            <li onclick="javascript:hb_show_tabs('0');"><a href="javascript:;">전체</a></li>
+              
+            <li onclick="javascript:hb_show_tabs('1');"><a href="javascript:;">책소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('2');"><a href="javascript:;">저자소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('3');"><a href="javascript:;">목차</a></li>
+
+                                  
+            <li onclick="javascript:hb_show_tabs('5');"><a href="javascript:;">독자리뷰</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('6');"><a href="javascript:;">오탈자 보기</a></li>
+                      
+            
+                      </ul>                
+          
+          <!-- 책소개 -->
+                                            <div id="tabs_1">
+                          <p class="detail_tit" style="display:none;">책소개</p>
+                            		<div id="" class="detail_conbox hanbit_edit_view">
+			<p>
+		<b>고성능 범용 프로그래밍 언어 줄리아로 프로그래밍 입문하기&nbsp;</b>
+</p>
+<p>&nbsp;</p>
+<p>줄리아는 수치해석 및 계산과학용으로 개발되어 파이썬 상위호환 언어라 불릴 정도로 속도가 빠르고 문법도 우아한 언어다. 이 책은 줄리아 문법부터 시작해 프로그래밍 개념과 디버깅 기법, 인터페이스 설계와 자료구조까지 독자를 안내한다. 장마다 제공하는 연습 문제로 배운 프로그래밍 개념을 실습하며 배울 수 있다. 1.0 이후 안정화된 줄리아 버전을 사용하는, 가장 제대로 된 줄리아 가이드북이자 프로그래밍 입문서</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+		<b>주요 내용</b>
+</p><ul>
+	<li>기초적인 언어 문법과 구문</li>	
+	<li>간결한 정의로 프로그래밍 개념 설명</li>	
+	<li>값, 변수, 문장, 함수, 자료구조를 점진적으로 설명</li>	
+	<li>파일과 데이터베이스 다루는 법</li>	
+	<li>자료형, 메서드, 다중 디스패치</li>	
+	<li>구문/실행/의미 오류를 찾는 디버깅 기법</li>	
+	<li>인터페이스 설계와 자료구조 사례 연구</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+		<b>[출판사 리뷰]</b>
+</p>
+<p>&nbsp;</p>
+<p>
+		<b>데이터 과학자를 위한 파이썬 상위호환 고성능 언어 줄리아를 만나다&nbsp;</b>
+</p>
+<p>&nbsp;</p>
+<p>데이터 과학에는 ‘두 언어 문제’라는 게 있다고 합니다. 로직을 짜며 프로토타이핑할 때는 고수준 언어(파이썬)를 쓰다가도 성능이 아주 중요한 부분이나 프로덕션 단계에서는 어쩔 수 없이 저수준 언어(C)를 써야 한다는 문제입니다. 수치해석 및 계산과학용으로 개발된 고성능 범용 언어 줄리아는 이런 문제를 해결할 수 있는 유일한 언어입니다.&nbsp;</p>
+<p>&nbsp;</p>
+<p>수학 교수인 저자 벤 로언스는 이러한 줄리아의 매력에 빠져 프로그래밍에 입문하는 학생들에게 줄리아를 추천해왔고 이렇게 책까지 쓰게 되었습니다. 안정화된 1.0 이후 줄리아를 기준으로 기초적인 프로그래밍 개념을 살펴보며 디버깅 기법, 인터페이스 설계, 자료구조 등 점진적으로 고급 주제로 나아갑니다. 장마다 연습 문제를 제공하므로 배운 프로그래밍 개념을 실습하고 체득할 수 있습니다.&nbsp;</p>
+<p>&nbsp;</p>
+<p>흔히 파이썬이 의사 코드와 가까우므로 프로그래밍 입문에 적합하다고 하지만, 줄리아를 써보면 파이썬은 아무것도 아니란 걸 알게 될 겁니다. 아예 수학기호를 이용해 수식을 쓰듯 코드를 작성할 수 있으니까요. 이러한 줄리아의 장점을 백배 살려, 검증된 프로그래밍 입문서(『씽크 파이썬』)의 포맷을 그대로 사용해 집필한 책입니다. 줄리아라는 언어에 흥미가 있는 데이터 과학자와 개발자는 물론, 이제 막 프로그래밍에 처음 입문하려는 사람 모두에게 이 책을 추천합니다.&nbsp;</p>						
+		</div>                        </div>
+                              <!-- //책소개 -->
+  
+          <!-- 저자소개 -->
+                                            <div id="tabs_2">                          
+                          <p class="detail_tit" style="display:none;">저자소개</p>
+                                        <div id="" class="detail_conbox">
+              <!-- 저자 소개 -->
+                                <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">벤 로언스</p>                  
+                    <p>벨기에 로열 밀리터리 아카데미(RMA)의 수학 교수. 뢰번 가톨릭 대학교(KU Leuven)에서 공학박사 학위를 땄다. 속도를 위해 다른 저수준 언어를 추가로 쓸 필요가 없다는 점에 매력을 느껴 줄리아를 전파하고 있다.</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                              <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">앨런 다우니</p>                  
+                    <p>프랭클린 W. 올린 공과대학교의 컴퓨터공학 교수. 웰즐리 칼리지와 콜비 칼리지, 캘리포니아 대학교 버클리에서 강의했다. 캘리포니아 대학교 버클리에서 컴퓨터공학 박사 학위를 땄다. 집필한 책으로 『씽크 파이썬』(길벗, 2017), 『파이썬을 활용한 베이지안 통계』(2014, 한빛미디어), 『Think Stats』(2013, 한빛미디어) 등이 있다.</p>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                            <!-- //관련상품 -->
+
+              <!-- 역자 소개 -->    
+                              <div class="author_box">
+                  <div class="author_pic">
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                            
+                    <span class="tit_author">역자</span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">송한별</p>                  
+                    <p>서울대학교 수학과를 졸업했고, 다음커뮤니케이션, 카카오게임즈 등을 거쳐 현재는 카카오뱅크에서 기술전략 업무를 담당하고 있다.</p>                  </div>
+                </div>
+                            <!-- //역자 소개 -->              
+            </div>
+                        </div>
+                              <!-- //저자소개 -->
+  
+          <!-- 목차 -->
+                                            <div id="tabs_3">
+                          <p class="detail_tit" style="display:none;">목차</p>
+                            						<div id="" class="detail_conbox hanbit_edit_view">
+							<p><p>
+		<b>CHAPTER 1 프로그램의 길</b>
+</p>
+<p>1.1 프로그램이란 무엇인가</p>
+<p>1.2 줄리아 실행하기</p>
+<p>1.3 첫 번째 프로그램</p>
+<p>1.4 산술 연산자</p>
+<p>1.5 값과 자료형</p>
+<p>1.6 형식언어와 자연언어</p>
+<p>1.7 디버깅</p>
+<p>1.8 용어집</p>
+<p>1.9 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 2 변수, 표현식, 문장</b>
+</p>
+<p>2.1 할당문</p>
+<p>2.2 변수명</p>
+<p>2.3 표현식과 문장</p>
+<p>2.4 스크립트 모드</p>
+<p>2.5 연산자 우선순위</p>
+<p>2.6 문자열 연산자</p>
+<p>2.7 주석</p>
+<p>2.8 디버깅</p>
+<p>2.9 용어집</p>
+<p>2.10 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 3 함수</b>
+</p>
+<p>3.1 함수 호출</p>
+<p>3.2 수학 함수</p>
+<p>3.3 합성</p>
+<p>3.4 새로운 함수 만들기</p>
+<p>3.5 정의와 사용</p>
+<p>3.6 실행 흐름</p>
+<p>3.7 매개변수와 인수</p>
+<p>3.8 변수와 매개변수의 지역성</p>
+<p>3.9 스택 도식</p>
+<p>3.10 유익 함수와 void 함수</p>
+<p>3.11 왜 함수를 쓰나요?</p>
+<p>3.12 디버깅</p>
+<p>3.13 용어집</p>
+<p>3.14 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 4 사례 연구: 인터페이스 디자인</b>
+</p>
+<p>4.1 거북이</p>
+<p>4.2 단순 반복</p>
+<p>4.3 연습 문제&nbsp;</p>
+<p>4.4 캡슐화&nbsp;</p>
+<p>4.5 일반화</p>
+<p>4.6 인터페이스 디자인</p>
+<p>4.7 리팩터링</p>
+<p>4.8 개발 계획</p>
+<p>4.9 문서화 문자열</p>
+<p>4.10 디버깅</p>
+<p>4.11 용어집</p>
+<p>4.12 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 5 조건과 재귀</b>
+</p>
+<p>5.1 몫 연산과 나머지 연산</p>
+<p>5.2 논리 표현식</p>
+<p>5.3 논리 연산자</p>
+<p>5.4 조건부 실행</p>
+<p>5.5 대체 실행</p>
+<p>5.6 연쇄 조건문</p>
+<p>5.7 중첩 조건문&nbsp;</p>
+<p>5.8 재귀</p>
+<p>5.9 재귀 함수의 스택 도식</p>
+<p>5.10 무한 재귀&nbsp;</p>
+<p>5.11 키보드 입력</p>
+<p>5.12 디버깅</p>
+<p>5.13 용어집</p>
+<p>5.14 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 6 유익 함수</b>
+</p>
+<p>6.1 결괏값</p>
+<p>6.2 점진적 개발</p>
+<p>6.3 합성&nbsp;</p>
+<p>6.4 불리언 함수</p>
+<p>6.5 재귀 심화</p>
+<p>6.6 믿음의 도약&nbsp;</p>
+<p>6.7 추가 예제&nbsp;</p>
+<p>6.8 자료형 검사</p>
+<p>6.9 디버깅</p>
+<p>6.10 용어집</p>
+<p>6.11 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 7 반복</b>
+</p>
+<p>7.1 재할당</p>
+<p>7.2 변수 갱신</p>
+<p>7.3 while 문</p>
+<p>7.4 break</p>
+<p>7.5 continue</p>
+<p>7.6 제곱근 구하기&nbsp;</p>
+<p>7.7 알고리즘&nbsp;</p>
+<p>7.8 디버깅</p>
+<p>7.9 용어집</p>
+<p>7.10 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 8 문자열</b>
+</p>
+<p>8.1 문자</p>
+<p>8.2 문자열은 순열</p>
+<p>8.3 length</p>
+<p>8.4 순회</p>
+<p>8.5 문자열 조각</p>
+<p>8.6 문자열은 불변</p>
+<p>8.7 문자열 보간</p>
+<p>8.8 탐색</p>
+<p>8.9 루프와 계수</p>
+<p>8.10 문자열 라이브러리</p>
+<p>8.11 ∈ 연산자</p>
+<p>8.12 문자열 비교&nbsp;</p>
+<p>8.13 디버깅</p>
+<p>8.14 용어집</p>
+<p>8.15 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 9 사례 연구: 단어로 놀기&nbsp;</b>
+</p>
+<p>9.1 단어 목록 읽기&nbsp;</p>
+<p>9.2 연습 문제&nbsp;</p>
+<p>9.3 검색&nbsp;</p>
+<p>9.4 인덱스가 있는 루프&nbsp;</p>
+<p>9.5 디버깅</p>
+<p>9.6 용어집</p>
+<p>9.7 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 10 배열&nbsp;</b>
+</p>
+<p>10.1 배열은 순열</p>
+<p>10.2 배열은 가변</p>
+<p>10.3 배열 순회하기&nbsp;</p>
+<p>10.4 배열 자르기&nbsp;</p>
+<p>10.5 배열 라이브러리&nbsp;</p>
+<p>10.6 맵, 필터, 리듀스&nbsp;</p>
+<p>10.7 도트 연산자</p>
+<p>10.8 원소의 삭제(추가)&nbsp;</p>
+<p>10.9 배열과 문자열&nbsp;</p>
+<p>10.10 객체와 값&nbsp;</p>
+<p>10.11 별명</p>
+<p>10.12 배열 인수&nbsp;</p>
+<p>10.13 디버깅</p>
+<p>10.14 용어집</p>
+<p>10.15 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 11 딕셔너리</b>
+</p>
+<p>11.1 딕셔너리는 사상&nbsp;</p>
+<p>11.2 딕셔너리 활용: 계수기 모음</p>
+<p>11.3 루프와 딕셔너리&nbsp;</p>
+<p>11.4 역조회&nbsp;</p>
+<p>11.5 딕셔너리와 배열</p>
+<p>11.6 메모</p>
+<p>11.7 전역 변수&nbsp;</p>
+<p>11.8 디버깅</p>
+<p>11.9 용어집</p>
+<p>11.10 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 12 튜플</b>
+</p>
+<p>12.1 튜플은 불변</p>
+<p>12.2 튜플 할당</p>
+<p>12.3 반환값으로서의 튜플</p>
+<p>12.4 가변 길이 인수 튜플&nbsp;</p>
+<p>12.5 배열과 튜플</p>
+<p>12.6 딕셔너리와 튜플</p>
+<p>12.7 순열의 순열</p>
+<p>12.8 디버깅</p>
+<p>12.9 용어집&nbsp;</p>
+<p>12.10 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 13 사례 연구: 자료구조 선택하기</b>
+</p>
+<p>13.1 단어 빈도 분석&nbsp;</p>
+<p>13.2 난수&nbsp;</p>
+<p>13.3 단어 히스토그램</p>
+<p>13.4 가장 흔한 단어들</p>
+<p>13.5 선택적 매개변수</p>
+<p>13.6 딕셔너리에 대한 차집합</p>
+<p>13.7 무작위 단어</p>
+<p>13.8 마르코프 분석</p>
+<p>13.9 자료구조</p>
+<p>13.10 디버깅</p>
+<p>13.11 용어집&nbsp;</p>
+<p>13.12 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 14 파일</b>
+</p>
+<p>14.1 지속성&nbsp;</p>
+<p>14.2 읽기와 쓰기</p>
+<p>14.3 쓰기 서식&nbsp;</p>
+<p>14.4 파일명과 경로&nbsp;</p>
+<p>14.5 예외 처리</p>
+<p>14.6 데이터베이스</p>
+<p>14.7 직렬화&nbsp;</p>
+<p>14.8 명령 객체</p>
+<p>14.9 모듈</p>
+<p>14.10 디버깅</p>
+<p>14.11 용어집</p>
+<p>14.12 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 15 구조체와 객체&nbsp;</b>
+</p>
+<p>15.1 복합 자료형</p>
+<p>15.2 구조체는 불변</p>
+<p>15.3 가변 구조체</p>
+<p>15.4 직사각형</p>
+<p>15.5 인수로 쓰이는 인스턴스</p>
+<p>15.6 반환값으로서의 인스턴스</p>
+<p>15.7 복사&nbsp;</p>
+<p>15.8 디버깅</p>
+<p>15.9 용어집&nbsp;</p>
+<p>15.10 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 16 구조체와 함수</b>
+</p>
+<p>16.1 시간</p>
+<p>16.2 순수 함수</p>
+<p>16.3 변경자</p>
+<p>16.4 시제품 만들기 vs 계획하기</p>
+<p>16.5 디버깅</p>
+<p>16.6 용어집</p>
+<p>16.7 연습 문제&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 17 다중 디스패치</b>
+</p>
+<p>17.1 자료형 선언&nbsp;</p>
+<p>17.2 메서드&nbsp;</p>
+<p>17.3 추가 예시&nbsp;</p>
+<p>17.4 생성자&nbsp;</p>
+<p>17.5 show 함수</p>
+<p>17.6 연산자 오버로딩</p>
+<p>17.7 다중 디스패치</p>
+<p>17.8 제네릭 프로그래밍&nbsp;</p>
+<p>17.9 인터페이스와 구현</p>
+<p>17.10 디버깅</p>
+<p>17.11 용어집</p>
+<p>17.12 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 18 하위 유형화&nbsp;</b>
+</p>
+<p>18.1 카드</p>
+<p>18.2 전역 변수</p>
+<p>18.3 카드 비교</p>
+<p>18.4 유닛 테스트&nbsp;</p>
+<p>18.5 덱&nbsp;</p>
+<p>18.6 더하기, 빼기, 섞기, 정렬하기</p>
+<p>18.7 추상 자료형과 하위 유형화&nbsp;</p>
+<p>18.8 추상 자료형과 함수&nbsp;</p>
+<p>18.9 자료형 도식</p>
+<p>18.10 디버깅</p>
+<p>18.11 자료 캡슐화</p>
+<p>18.12 용어집&nbsp;</p>
+<p>18.13 연습 문제</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 19 알아두면 좋은 것들: 구문 규칙</b>
+</p>
+<p>19.1 명명된 튜플</p>
+<p>19.2 함수&nbsp;</p>
+<p>19.3 블록&nbsp;</p>
+<p>19.4 흐름 제어</p>
+<p>19.5 자료형</p>
+<p>19.6 메서드&nbsp;</p>
+<p>19.7 생성자</p>
+<p>19.8 변환과 승격</p>
+<p>19.9 메타 프로그래밍</p>
+<p>19.10 빠진 값&nbsp;</p>
+<p>19.11 C, 포트란 코드 호출</p>
+<p>19.12 용어집&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 20 알아두면 좋은 것들: Base 및 표준 라이브러리</b>&nbsp;
+</p>
+<p>20.1 성능 측정</p>
+<p>20.2 컬렉션과 자료구조</p>
+<p>20.3 수학&nbsp;</p>
+<p>20.4 문자열&nbsp;</p>
+<p>20.5 배열&nbsp;</p>
+<p>20.6 인터페이스&nbsp;</p>
+<p>20.7 대화형 도구</p>
+<p>20.8 디버깅&nbsp;</p>
+<p>20.9 용어집&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+		<b>CHAPTER 21 디버깅</b>
+</p>
+<p>21.1 구문 오류</p>
+<p>21.2 실행 오류</p>
+<p>21.3 의미 오류&nbsp;</p></p>
+						</div>                        </div>
+                              <!-- //목차 -->
+  
+          <!-- 출판사리뷰 -->
+                              <!-- //출판사리뷰 -->
+  
+          <!-- 독자리뷰 -->
+          
+                     
+                                           
+                        <div id="tabs_5" ><a id="review_tab" ></a>                       
+                            <p class="detail_tit" style="display:none;">독자리뷰</p>
+                                                                       
+            <div id="" class="detail_conbox" >
+              <div class="detail_review_area">
+                <div class="detail_btn right"><a href="javascript:;" onclick="review_start();">리뷰 쓰기</a></div>
+                
+                <ul>
+                                    
+                  <li class="article hide"><div class="review_li" style="text-align:center; padding:20px 0; background-color:#fbfbfb;">첫번째 리뷰어가 되어주세요. </div></li>
+                  
+                                    
+                                  </ul>
+              </div>
+            </div>                          
+                        </div>
+                                      
+          <!-- //독자리뷰 -->
+  
+          <!-- 오탈자 보기 -->
+                                            <div id="tabs_6"><a id="misprint_tab" ></a>
+                          <p class="detail_tit" style="display:none;">오탈자 보기</p>
+                            		 					
+						<div id="" class="detail_conbox"  >
+							<div class="detail_btn right"><a href="/errata/view.html?isbn=9791162242575" target="_blank">(구 홈페이지 / 2016년 5월 이전) 오탈자보기</a> <a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+							<!--a href="/store/books/misprint_view.html" target="_blank"-->
+							<input type="hidden" name="p_sort_type" id="p_sort_type"  value="">
+							<input type="hidden" name="r_sort_type" id="r_sort_type"  value="">
+							
+							
+							<div id="misprint_con_div" class="misprint_list"><!--  오탈자 리스트 --></div>
+							
+							<!-- 오탈자 등록 버튼-->
+							<div class="detail_btn right"><a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+						</div>
+						<script>
+							$(function() { misprint_get_list();  });	 //오탈자 리스트 호출	
+						</script>
+                        </div>
+                              <!-- //오탈자 보기 -->
+  
+          <!-- 부록/예제소스 -->
+                    <!-- //부록/예제소스 -->
+  
+          <!-- 추천도서 -->
+                    <!-- //추천도서 -->
+        </div>
+        <!-- //텝메뉴 -->
+      </div>
+      <!-- //하단 컨텐츠 -->
+    </div>
+
+    <div class="store_payment_area">
+      <!-- 결재 정보 -->
+                  <fieldset>
+        <legend>결재하기</legend>
+        <!-- 2차 상품이 있는 경우 -->
+
+        
+                
+
+        <!-- 2차 상품이 없는 책 일 경우 -->
+                <label class="payment_box curr">
+          <p><span class="pbl">정가 : </span><span class="pbr"><del>30,000원</del></span></p>
+          <p><span class="pbl"><strong>판매가 : </strong></span><span class="pbr"><strong>27,000</strong>원<span>(10% off)</span></span></p>
+          <p><span class="pbl">마일리지 : </span><span class="pbr">1,500점 (5%)</span></p>
+        </label>
+                
+        <!-- 2차 상품이 없는 eBook 일 경우 -->
+        
+        <!-- 2차 상품이 없고 무료인 eBook 일 경우-->
+        
+                <!-- 소득공제 유무 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span style="color:#00AFA0;">&#149; 문화비 소득공제 가능</span></div>
+        </div>
+        <!-- //소득공제 유무 -->
+        
+        <!-- 배송료 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span>&#149; 배송료 : </span>0원<a href="javascript:;" onClick="view_hover('shopping_charge_open','','show')"><img src="http://www.hanbit.co.kr/images/store/ico_question.gif" alt="배송료란?" /></a></div>
+          
+          <div id="shopping_charge_open" class="shopping_charge_open">
+            <p class="tit">배송료 안내</p>
+            <ul>
+              <li>책, 아이템 등 상품을 3만원 이상 구매시 무료배송</li>
+              <li>브론즈, 실버, 골드회원이 주문하신 경우 무료배송</li>
+            </ul>
+            <p>무료배송 상품을 포함하여 주문하신 경우에는 구매금액에 관계없이 무료로 배송해 드립니다.</p>
+            <a href="javascript:;" onClick="view_hover('shopping_charge_open','','hide')"><img src="http://www.hanbit.co.kr/images/store/btn_shipping_charge.png" alt="닫기" /></a>
+          </div>
+        </div>
+        <!-- //배송료 -->
+
+        <input type="hidden" name="p_type_kind" id="p_type_kind"  value="B">
+        <!-- 결재버튼 -->
+
+                <label>
+          <button name="btnAddCart" id="btnAddCart" type="button" value="장바구니" class="btn_baket" onClick="Cart('cart');">장바구니</button>
+        </label>
+        <label>
+          <button name="" type="submit" value="위시리스트" class="btn_wish" onClick="Wishlist();">위시리스트</button>
+        </label>
+                
+                <label>
+          <button name="btnBuy" id="btnBuy" type="submit" value="구매하기" class="btn_buy" onClick="Cart('buy');"> 구매하기</button>
+        </label>
+                
+        
+        
+                <!-- //결재버튼 -->
+      </fieldset>
+      
+            <!-- //결재 정보 -->
+      
+      <!-- 관련 사이트 -->
+            <!-- //관련 사이트 -->
+    </div>
+
+  </div>
+  <!-- //카테고리 상세 wrap -->
+  
+  <!-- 레이어 팝업 - 리뷰쓰기 -->
+  
+	
+	<div id="review_popup_div" >
+		<div class="review_layer">					
+			<div class="bg"></div>
+			<div class="review_pop-layer" id="layer_review">												
+				<div class="pop-container">
+					<div class="pop-conts">																		
+						<!--content //-->
+						<form id="frm"  name="frm"  method="post" enctype="multipart/form-data">
+						<input type="hidden" name="fk_p_code" id="fk_p_code" value="B3156242562">	
+						<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">						
+						<input type="hidden" name="hbr_score" id="hbr_score" value="">
+						
+						<p class="tit">리뷰쓰기</p>
+						<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+						
+						<div class="layer_scroll">
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										줄리아를 생각하다									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>제목 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="hbr_title" id="hbr_title" class="i_text1" value="">	
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									
+									<div class="i_tit"><span>* </span>별점평가</div>
+									<div class="i_con">							
+										<script>
+										$.fn.raty.defaults.path = "http://www.hanbit.co.kr";
+										$(function() {
+											$('#default').raty({
+												click: function(score, evt) { $("#hbr_score").val(score);}										
+											});
+										});
+										</script>											
+										<div id="default" style="margin-top:5px;"></div>
+										<div class="highlight"><pre><span class="nt"><div></div></span></pre></div>
+									</div>
+								</div>
+				
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con" id="hbc_cont_div">
+										<label >																
+											<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>				
+											<script type="text/javascript">
+											var myeditor = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor.inputForm = 'hbr_content'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor.useBold = false;
+											myeditor.run(); // 에디터를 실행합니다.
+											</script>																						
+											
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+							
+							<p class="note_tit">* 리뷰 작성시 유의사항</p>
+							<p class="note_txt">글이나 이미지/사진 저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 게시물은 이용약관 및 관련법률에 의해 제재를 받을 수 있습니다.</p>
+							<p class="note_txt">
+								1. 특히 뉴스/언론사 기사를 전문 또는 부분적으로 '허락없이' 갖고 와서는 안됩니다 (출처를 밝히는 경우에도 안됨).<br />
+								2. 저작권자의 허락을 받지 않은 콘텐츠의 무단 사용은 저작권자의 권리를 침해하는 행위로, 이에 대한 법적 책임을 지게 될 수 있습니다.
+							</p>
+							
+							<div class="btn_layer_default">
+								<label><button id="proc_btn" name="proc_btn" type="button" value="" class="btn_blue" onclick="review_proc('re_ins','');">등록</button></label>
+								<label><button id="reset_btn" name="reset_btn" type="button" value="" class="btn_white" onclick="frm_reset();">취소</button></label>
+							</div>
+						</div>
+
+						</form> 
+						<!--// content-->					
+					</div>
+				</div>											
+			</div>			
+		</div>			
+	</div>			  <!-- //레이어 팝업 - 리뷰쓰기 -->
+  
+  <!-- 레이어 팝업 - 오탈자등록 -->
+  	
+	<div class="misprint_layer">
+		<div class="bg"></div>
+		<div class="misprint_pop-layer" id="layer_misprint">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">오탈자 등록</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<form id="err_input_frm"  name="err_input_frm"  method="post" enctype="multipart/form-data">
+							<input type="hidden" name="fk_p_code" id="fk_p_code" value="B3156242562">	
+							<input type="hidden" name="fk_isbn" id="fk_isbn" value="">	
+							<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">														
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										줄리아를 생각하다									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>구분 :</div>
+									<div class="i_con">
+										<label>
+											<select id="err_type" name="err_type" class="i_select">	
+												<option value="" selected>오탈자 유형 선택</option>	
+												<option value="G">내용 오류/확인 요청</option>	
+												<option value="P">주요 기술 오류(로직/코드)</option>	
+												<option value="E">오자/탈자, 띄어쓰기 오류</option>												
+											</select>	
+										</label>
+									</div>
+		
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>상품 버전</div>
+									<div class="i_con">
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="종이책"><span>종이책</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="PDF"><span>PDF</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="ePub"><span>ePub</span></span>
+										<!--<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="Mobi"><span>Mobi</span></span>-->
+									</div>
+								</div>
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>페이지 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_p_page" id="err_p_page" class="i_text2" onkeyup="this.value=number_filter(this.value);" ><span>숫자로만 입력해주세요.</span>
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>위치정보 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_location" id="err_location" class="i_text1">	
+										</label>
+									</div>
+								</div>							
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con">
+										<label>
+											<textarea name="err_info" id="err_info" class="i_textarea"></textarea>	
+											<script type="text/javascript">
+											var myeditor_err = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor_err.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor_err.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor_err.inputForm = 'err_info'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor_err.useBold = false;
+											myeditor_err.run(); // 에디터를 실행합니다.
+											</script>		
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+						</form>
+					
+						<div class="btn_layer_default">
+							<label>
+								<button name="" type="submit" value="" class="btn_blue" onclick="misprint_proc('ins','');">등록</button>
+							</label>
+							<label>
+								<button name="" type="submit" value="" class="btn_white" onclick="misprint_reset();">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	  <!-- //레이어 팝업 - 오탈자등록 -->
+
+  <!-- 레이어 팝업 - 도서인증 -->
+  
+<link rel="stylesheet" href="/css/jquery-ui.css">
+
+<!--
+<style>
+.ui-datepicker {
+	width: 280px;
+	padding:0;
+	display: none;
+	background:#fff;
+	border:4px solid #333;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: 10px 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 5px;
+	width: 1.8em;
+	height: 1.8em;
+	font-size:13px;
+	cursor:pointer;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	text-decoration:underline;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	left: 210px;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin:0;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width:;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width:;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+.ui-datepicker .ui-widget-content {
+    background: #999 none;
+}
+
+</style>
+-->
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript">
+ $(function() {    
+	$("#buy_date").datepicker({ maxDate: '0'  });
+ });
+
+</script>
+	<form name="cfrm" id="cfrm" method="post" action="/store/ajax.addBookauth.php">
+	<input type="hidden" name="fk_p_code" id="fk_p_code" value="B3156242562">	
+	<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">		
+	<div class="certification_layer">
+		<div class="bg"></div>
+		<div class="certification_pop-layer" id="layer_certification">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">도서 인증</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<div class="layer_con_box">
+							<fieldset>
+							<div class="lp_register_li">
+								<div class="i_tit">도서명<span>* </span></div>
+								<div class="i_con">줄리아를 생각하다</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입처<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<select id="buy_site" name="buy_site" class="i_select">	
+											<option value="" selected>선택하세요.</option>	
+											<option value="교보문고">교보문고</option>
+											<option value="예스24">예스24</option>
+											<option value="알라딘">알라딘</option>
+											<option value="반디앤루니스">반디앤루니스</option>
+											<option value="영풍문고">영풍문고</option>
+											<option value="한빛 웹사이트">한빛 웹사이트</option>
+											<option value="기타서점">기타서점</option>
+										</select>	
+									</label>
+								</div>
+	
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입일<span>* </span></div>
+								<div class="i_con">
+									<!-- 달력 -->
+									<label><input class="i_text2" id="buy_date" name="buy_date" type="text" value=""  /></label>
+									<label><button name="btnBuyDate" id="btnBuyDate" type="button" value="검색" class="i_car">달력</button></label>
+									<!-- //달력 -->
+								</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">부가기호<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<input type="text" name="add_code" id="add_code" class="i_text2">	
+									</label>
+								</div>
+							</div>
+							<div class="barcode_img">
+								<img src="http://www.hanbit.co.kr/images/common/rs_barcode_ban.png" alt="부가기호 안내" />
+							</div>
+							</fieldset>
+						</div>
+						<p class="txt">* 회원가입후 도서인증을 하시면 마일리지 500점을 드립니다.</p>
+						<p class="txt">* 한빛 웹사이트에서 구입한 도서는 자동 인증됩니다.</p>
+						<p class="txt">* 도서인증은 일 3권, 월 10권, 년 50권으로 제한됩니다.</p>
+						<p class="txt">* 절판도서,  eBook 등 일부 도서는 도서인증이 제한됩니다.</p>
+						
+						<div class="btn_layer_default">
+							<label>
+								<!--<button name="btnBookauth1" type="submit" class="btn_blue">등록</button>-->
+								<button name="btnBookauth1" type="button" class="btn_blue" onclick='book_auth();'>등록</button>
+							</label>
+							<label>
+								<button name="btnBookauth2" type="button" value="" class="btn_white">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+<SCRIPT LANGUAGE="JavaScript">
+<!--	
+	$("#btnBuyDate").click(function() {					
+		$('#buy_date').datepicker('show');
+	});		
+
+//-->
+</SCRIPT>  <!-- //레이어 팝업 - 도서인증 -->
+  
+  <!-- 레이어 팝업 - 카트 담기 -->
+  	<div class="add_cart_layer">
+		<div class="bg"></div>
+		<div class="add_cart_pop-layer" id="layer_add_cart">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close.png" width="38" height="38" alt="닫기" /></a></div>
+					<p class="ctxt"><span id='cartmsg'>해당 상품을 장바구니에 담았습니다.</span><span id='cartmsg2'>이미 장바구니에 추가된 상품입니다.</span><br />장바구니로 이동하시겠습니까?</p>
+					<div class="btn_layer">
+						<a href="/myhanbit/cart.html">장바구니<br />이동</a> <!-- #juha -->
+						<!--<a href="javascript:;" onClick="$('.add_cart_layer').hide();">쇼핑<br />계속</a>-->
+						<a class="cbtn" href="javascript:;" onClick="">쇼핑<br />계속</a>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>  <!-- //레이어 팝업 - 카트 담기 -->
+</div>
+<!-- //Contents -->
+<script>
+
+//focus 강제지정
+/*
+$(document).ready(function() 
+document.getElementById("container").addEventListener("click", function() {
+   $("#wrap_gnb").focus();
+});
+*/
+
+//숫자만 입력
+function number_filter(str_value){
+  return str_value.replace(/[^0-9]/gi, ""); 
+}
+  
+function hb_show_tabs(t_num){        
+  //alert(t_num);
+  var t_max = 9;
+  for(var t=1; t <t_max; t++){    
+    if(t_num ==0){
+      $("#tabs_"+t).show();
+      $(".detail_tit").css({"display":"block"});
+    }else{      
+      if(t==t_num){ 
+        $("#tabs_"+t).show();
+        $(".detail_tit").css({"display":"none"});      
+      }else{
+        $("#tabs_"+t).hide();    
+      }
+    }
+  }
+  
+}
+
+var tid= "";
+if(tid=="review"){  
+  hb_show_tabs(5);
+  document.getElementById("review_tab").scrollIntoView();
+  
+}else if(tid=="misprint"){  
+  hb_show_tabs(6);
+  document.getElementById("misprint_tab").scrollIntoView();
+
+}else if(tid=="exam"){  
+  hb_show_tabs(7);
+  document.getElementById("exam_tab").scrollIntoView();
+  
+}else{
+  hb_show_tabs(0);
+}
+
+/*
+$(document).ready(function() {
+  location.hash="#hanbit_network";
+  setTimeout(function(){
+      $('#wrap_gnb').focus();    
+      removeHash();
+  }, 100);
+});
+*/
+
+//해쉬 태그로 포커스 이동후 해쉬 제거
+function removeHash () { 
+    var scrollV, scrollH, loc = window.location;
+    if ("pushState" in history)
+        history.pushState("", document.title, loc.pathname + loc.search);
+    else {
+        // Prevent scrolling by storing the page's current scroll offset
+        scrollV = document.body.scrollTop;
+        scrollH = document.body.scrollLeft;
+
+        loc.hash = "";
+
+        // Restore the scroll offset, should be flicker free
+        document.body.scrollTop = scrollV;
+        document.body.scrollLeft = scrollH;
+    }
+}
+</script><!-- Footer -->
+<footer>
+  <!-- 공지사항 -->
+  <div class="foot_notice">
+      </div>
+  <!-- //공지사항 -->
+  
+  <div class="foot_contents">
+    <!-- 하단 메뉴 -->
+    <div class="foot_menu">
+      <!-- added by coffin -->
+            <ul>
+        <li><a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">회사소개</a>(<a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">KOR</a> | <a href="http://www.hanbit.co.kr/publisher/index.html?lang=e" target="_blank">ENG</a>) &#149; <a href="http://www.hanbit.co.kr/publisher/contact.html?lang=k" target="_blank">약도</a></li>
+        <li><a href="http://www.hanbit.co.kr/publisher/write.html" target="_blank">기획 및 원고 모집</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/use_agreement.html">이용약관</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/privacy_policy.html"><strong>개인정보취급방침</strong></a></li>
+        <li><a href="http://www.hanbit.co.kr/sitemap/sitemap.html">사이트맵</a></li>
+      </ul>
+          </div>
+    <!-- //하단 메뉴 -->
+
+    <!-- SNS -->
+    <div class="foot_sns">
+            
+      <ul>
+        <li class="foot_facebook"><a href="https://www.facebook.com/hanbitmedia" target="_blank"><span>페이스북</span></a></li>
+        <!-- <li class="foot_googleplus"><a href="https://plus.google.com/u/0/+HanbitCoKr/posts" target="_blank"><span>구글플러스</span></a></li> -->
+        <li class="foot_twitter"><a href="https://twitter.com/hanbit" target="_blank"><span>트위터</span></a></li>
+        <li class="foot_youtube"><a href="https://www.youtube.com/user/HanbitMedia93" target="_blank"><span>유튜브</span></a></li>
+        <li class="foot_bolg"><a href="http://blog.hanbit.co.kr/" target="_blank"><span>블로그</span></a></li>
+        <li class="foot_naverpost"><a href="https://m.post.naver.com/hanbitstory" target="_blank"><span>네이버포스트</span></a></li>
+      </ul>
+      
+      
+        <fieldset class="foot_srch">
+          <legend>하단 검색영역</legend>
+          <input title="검색어" class="foot_srch_keyword" accesskey="s" type="text" value=""  id="foot_keyword_str" style="font-size:16px;">
+          <input type="button" alt="" class="foot_srch_btn" onclick="foot_sch_smit();" style="cursor: pointer;">
+        </fieldset>
+
+      
+      <script>
+        // 검색 리스트  
+        $(document).ready(function() {       
+          $('#foot_keyword_str').keyup(function(e) {
+            if (e.keyCode == 13) 
+              foot_sch_smit();
+          });        
+        });
+
+        function foot_sch_smit(){            
+          var foot_keyword_str = $("#foot_keyword_str").val();      
+          var searchUrl = "/search/search_list.html?keyword="+foot_keyword_str;
+
+          if(!foot_keyword_str){
+            alert("검색어를 입력해주세요");
+            $("#foot_keyword_str").focus();
+          }else{
+            location.href = searchUrl;
+          }
+        }
+      </script>  
+      
+    </div>
+    <!-- //SNS -->
+    
+    <!-- 한빛 정보 -->
+    <div class="foot_about">
+      <div class="foot_about_area">
+        
+
+        <p><strong>한빛미디어㈜ &#149; 한빛아카데미㈜ &#149; 한빛비즈㈜</strong></p>
+        <p>(03785) 서울 서대문구 연희로2길 62</p>
+        <p>EMAIL : support@hanbit.co.kr</p>
+        <p>대표이사 : 김태헌</p>
+        <p>사업자등록번호 : 220-81-05665 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208105665" target="_blank">[확인]</a></p>
+        <p>통신판매업신고 : 2017-서울서대문-0671호</p>
+        <p>호스팅제공자 : (주)누리호스팅</p>
+        
+
+      </div>
+    </div>
+    <!-- //한빛 정보 -->
+  </div>
+  
+  <div class="copyright">&copy;1993-2020 Hanbit Publishing Network, Inc. All rights reserved.</div>
+</footer>
+<!-- //푸터 -->
+<div class="foot_download_btn"><a href="http://www.hanbit.co.kr/support/supplement_list.html">자료실</a></div>
+
+<!-- 공통 JS 호출 -->
+<script type="text/javascript" src="/js/common.js"></script>
+<!-- //공통 JS 호출 -->
+
+</body>
+</html>

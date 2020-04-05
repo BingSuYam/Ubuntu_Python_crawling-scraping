@@ -1,0 +1,3612 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<!--[if lte IE 8]>
+<script>
+  location.replace('/support/explorer_upgrade.html');
+</script>
+<![endif]-->
+<meta charset="utf-8"/>
+<title>맛있는 디자인 포토샵&일러스트레이터 CC 2020</title>
+<link rel="shortcut icon" href="http://www.hanbit.co.kr/images/common/hanbit.ico"> 
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="맛있는 디자인 포토샵&일러스트레이터 CC 2020"/>
+<meta property="og:description" content="그래픽 디자인에 꼭 필요한 포토샵과 일러스트레이터를 한번에, 그리고 가볍게 배울 수 있습니다. 핵심만 골라 담아 부담 없이 학습할 수 있으며, 따로따로 배우는 것보다 두 가지 프로그램을 더욱 효과적으로 익힐 수 있습니다."/>  
+<meta property="og:image" content="http://www.hanbit.co.kr/data/books/B7377025207_m.jpg"/>
+<meta property="og:url" content="http://www.hanbit.co.kr/store/books/look.php?p_code=B7377025207"/>
+<link rel="canonical" href="http://www.hanbit.co.kr/store/books/look.php?p_code=B7377025207" />
+<meta name="keywords" content="책,전자책,ebook,출판사,동영상,콘텐츠,강의,자격증,대학교재" />
+<meta name="description" content="그래픽 디자인에 꼭 필요한 포토샵과 일러스트레이터를 한번에, 그리고 가볍게 배울 수 있습니다. 핵심만 골라 담아 부담 없이 학습할 수 있으며, 따로따로 배우는 것보다 두 가지 프로그램을 더욱 효과적으로 익힐 수 있습니다." />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+<meta name="viewport" content="width=1260">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="naver-site-verification" content="01c29ed1852aecca7a48ac0c3e0869627bc512d8"/>
+<!-- <meta name="naver-site-verification" content="823ff8b8e7e3eb396c310703c2bbd731f48c1d9b"/> -->
+<link rel="stylesheet" href="/css/common.css?20190625102532" />
+<link href="/css/hover.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="/js/jquery.raty.css" />
+<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/jquery.event.drag-1.5.min.js"></script>
+<script type="text/javascript" src="/js/jquery.touchSlider.js"></script>
+<script type="text/javascript" src="/js/jquery.raty.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/lib/cheditor/cheditor.js"></script>
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript" src="/js/engine.js"></script>
+<script type="text/javascript" src="/js/vue.js"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47080738-1', 'hanbit.co.kr');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+<!-- Google Analytics -->
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '406459623338891');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=406459623338891&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Kakao Pixel Code -->
+<script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
+<script type="text/javascript">
+  kakaoPixel('3011392806152551233').pageView();
+  kakaoPixel('3011392806152551233').viewContent({
+    id: 'B7377025207'
+  });
+</script>
+<!-- //Kakao Pixel Code -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9D5PM3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<link rel="stylesheet" href="/css/layout-hanbit.css?20191130" />
+<link rel="stylesheet" href="/css/layout-member.css" />
+<link rel="stylesheet" href="/css/layout-network.css" />
+<link rel="stylesheet" href="/css/layout-store.css" />
+<link rel="stylesheet" href="/css/layout-myhanbit.css" />
+<link rel="stylesheet" href="/css/layout-event.css" />
+<!-- 메뉴 바로가기 -->
+<div id="quick_skip_menu">
+  <a href="#gnb" onclick="document.getElementById('gnb').tabIndex = -1;document.getElementById('gnb').focus();return false;"><span>메뉴 바로가기</span></a>
+  <a href="#top_search" onclick="view_hover('main_search_area','','show'), document.getElementById('top_search').tabIndex = -1;document.getElementById('top_search').focus();return false;"><span>검색 및 카테고리 바로가기</span></a>
+    <a href="#container" onclick="document.getElementById('container').tabIndex = -1;document.getElementById('container').focus();return false;"><span>본문 바로가기</span></a>
+  </div>
+<!-- //메뉴 바로가기 -->
+
+<!-- header -->
+<header>
+  <!-- top menu -->
+  	<nav>
+		<div id="wrap_nav">
+			<ul class="top_brand">
+				<li><a href="http://www.hanbit.co.kr/index.html" name="hanbit_network"><span>HOME</span></a></li>
+				<li><a href="http://www.hanbit.co.kr/media/">한빛미디어</a></li>
+				<li><a href="http://www.hanbit.co.kr/academy/">한빛아카데미</a></li>
+				<li><a href="http://www.hanbit.co.kr/biz/">한빛비즈</a></li>
+				<li><a href="http://www.hanbit.co.kr/life/">한빛라이프</a></li>
+				<li><a href="http://www.hanbit.co.kr/edu/">한빛에듀</a></li>
+				<li><a href="http://www.hanbit.co.kr/realtime/">리얼타임</a></li>
+				<li><a href="http://www.hanbit.co.kr/textbook/" target="_blank">한빛정보교과서</a></li>
+        <li><a href="http://www.hanbit.co.kr/rent/" target="_blank">한빛대관서비스</a></li>
+			</ul>
+			
+			<ul class="top_menu">
+                        	<li><a href="https://www.hanbit.co.kr/member/login.html" class="login">로그인</a></li>
+				<li><a href="https://www.hanbit.co.kr/member/member_agree.html" class="join">회원가입</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/myhanbit.html" class="myhanbit">마이한빛</a></li>
+				<li><a href="http://www.hanbit.co.kr/myhanbit/cart.html" class="cart">장바구니</a></li>
+            				<!-- <li class="top_menu_store"><a href="http://www.hanbit.co.kr/store/store_submain.html">STORE</a></li> -->
+			</ul>
+		</div>
+	</nav>  <!-- //top menu -->
+
+  <div id="wrap_gnb">
+    <!-- logo -->
+    <h1><a href="http://www.hanbit.co.kr/index.html">한빛출판네트워크</a></h1>
+    <!-- //logo -->
+
+    <!-- Menu -->
+    <div id="gnb" name="gnb">
+      <ul>
+        <li><a href="http://www.hanbit.co.kr/brand/brand_submain.html" class="">BRAND</a></li>
+        <li><a href="http://www.hanbit.co.kr/channel/channel_submain.html" class="">Channel.H</a></li>
+        <li><a href="http://www.hanbit.co.kr/store/store_submain.html" class="curr">STORE</a></li>
+        <li><a href="http://www.hanbit.co.kr/support/help_info.html" class="">SUPPORT</a></li>
+        <li><a href="http://www.hanbit.co.kr/event/current/current_event_list.html" class="">EVENT</a></li>
+        
+        <li id="top_search" class="search"><a href="javascript:;" onClick="view_hover('main_search_area','','show'); $('#keyword_str').focus();"><span>SERACH</span></a></li>
+      </ul>
+    </div>
+    <!-- //Menu -->
+    
+    <!-- lnb -->
+    <div class="lnb" style="top:92px;">
+      <div class="lnb_area">
+      <!-- BRAND -->
+            <ul class="lnb_depth1_category">
+        <li onmouseover="view_hover('category_store','','show')" onMouseOut="view_hover('category_store','','hide')"><a href="#" onFocus="view_hover('category_store','','show')" class="gnb_category">카테고리</a>
+          <ul id="category_store">
+
+                          <li onmouseover="view_hover('category_store1','','show')" onMouseOut="view_hover('category_store1','','hide')"><a href="/store/books/category_list.html?cate_cd=001" onFocus="view_hover('category_store1','','show')">IT/모바일</a>
+                <ul id="category_store1">
+                              <li><a href="/store/books/category_list.html?cate_cd=001001">프로그래밍</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001002">웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001003">모바일/스마트기기</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001013">데이터베이스</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001005">운영체제</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001014">하드웨어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001015">시스템/네트워크</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001016">보안</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001009">비즈니스/문화</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001010">게임</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001017">IT에세이</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001012">자격증</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=001018">인공지능/데이터과학</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store2','','show')" onMouseOut="view_hover('category_store2','','hide')"><a href="/store/books/category_list.html?cate_cd=002" onFocus="view_hover('category_store2','','show')">MAKE</a>
+                <ul id="category_store2">
+                              <li><a href="/store/books/category_list.html?cate_cd=002001">Make 매거진</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=002002">Make 프로젝트 북</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store3','','show')" onMouseOut="view_hover('category_store3','','hide')"><a href="/store/books/category_list.html?cate_cd=003" onFocus="view_hover('category_store3','','show')">IT활용</a>
+                <ul id="category_store3">
+                              <li><a href="/store/books/category_list.html?cate_cd=003001">오피스/OA</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003002">그래픽/멀티미디어</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003003">사진/예술</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=003004">컴퓨터입문/IT교양</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store4','','show')" onMouseOut="view_hover('category_store4','','hide')"><a href="/store/books/category_list.html?cate_cd=004" onFocus="view_hover('category_store4','','show')">대학교재</a>
+                <ul id="category_store4">
+                              <li><a href="/store/books/category_list.html?cate_cd=004007">컴퓨터공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004008">정보통신/전기/전자</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004003">수학/과학/공학</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004004">프로그래밍/웹</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004005">그래픽/디자인</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004006">OA/활용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=004009">수험서/자격증</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store5','','show')" onMouseOut="view_hover('category_store5','','hide')"><a href="/store/books/category_list.html?cate_cd=006" onFocus="view_hover('category_store5','','show')">실용서</a>
+                <ul id="category_store5">
+                              <li><a href="/store/books/category_list.html?cate_cd=006001">취미/실용</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006002">여행</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006003">건강</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=006004">유아/육아</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store6','','show')" onMouseOut="view_hover('category_store6','','hide')"><a href="/store/books/category_list.html?cate_cd=007" onFocus="view_hover('category_store6','','show')">경제/경영/인문</a>
+                <ul id="category_store6">
+                              <li><a href="/store/books/category_list.html?cate_cd=007001">경제/경영</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007002">자기계발</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007003">인문/교양</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007004">마케팅</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=007005">에세이</a></li>      
+              </ul></li>              <li onmouseover="view_hover('category_store7','','show')" onMouseOut="view_hover('category_store7','','hide')"><a href="/store/books/category_list.html?cate_cd=008" onFocus="view_hover('category_store7','','show')">유아/어린이/초등</a>
+                <ul id="category_store7">
+                              <li><a href="/store/books/category_list.html?cate_cd=008001">4~6세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008002">5~7세</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008003">예비초등</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008004">초등교과연계 1~12영역</a></li>      
+                              <li><a href="/store/books/category_list.html?cate_cd=008005">초등 전학년</a></li>      
+              </ul></li>            
+          <!-- 항상 노출 메뉴 -->          
+          <li class="gnb_category_series"><a href="http://www.hanbit.co.kr/store/books/series_list.html">시리즈</a></li>
+          <li class="gnb_category_reservations"><a href="http://www.hanbit.co.kr/store/books/reservations_list.html">예약도서</a></li>
+          <!--
+          <li class="gnb_category_full"><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li>
+          -->
+          <!--/li-->
+        </ul>
+      </ul>
+      <!--/li-->        
+      <!--/ul-->
+
+      <ul class="lnb_depth1">
+        <li><a href="http://www.hanbit.co.kr/store/books/new_book_list.html">새로나온 책</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/bestseller_list.html">베스트셀러</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/books/full_book_list.html">전체도서목록</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/education/edu_list.html">교육</a></li><span>l</span>
+        <li><a href="http://www.hanbit.co.kr/store/item/item_list.html">Item &amp; Maker Shed</a></li>
+      </ul>
+      
+      <!-- SUPPORT -->
+          </div>
+    </div>
+    <!--// lnb -->
+  </div>
+</header>
+<!-- //header -->
+
+<!-- 메인 검색 및 카테고리 영역 -->
+<div id="main_search_area" class="fixed" style="display:none;">
+  <div class="msa_wrap">
+
+    <!-- 검색 -->
+    <div class="msa_srch_wrap">
+      <form onsubmit="return false;">
+      <fieldset class="msa_srch_field">
+        <legend>한빛출판네트워크 검색</legend>
+        <input title="검색어" autocomplete="off" class="srch_keyword" accesskey="s" type="text" name="keyword_str" id="keyword_str" v-model="keyword" @input="typeKeyword">
+        <input type="submit" class="srch_btn" style="cursor:pointer;" @click="clickSearch">
+      </fieldset>
+      </form>
+    </div>
+    <!-- //검색 -->
+
+    <!-- ① 인기검색어 -->
+    <div class="msa_srch_polular" v-if="showPopularKeyword === true">
+      <h2 class="tit">인기 검색어 <span>(최근 1개월간)</span></h2>
+        <div class="popula_box">
+          <ul class="left">
+            <li v-for="keyword in leftPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+          <ul class="right">
+            <li v-for="keyword in rightPopularKeywordList">
+              <a :class="keyword.bold" @click="clickPopularKeyword(keyword)">
+                  {{ keyword.number }} {{ keyword.bookName }}
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <!-- ① 인기검색어 -->
+
+    <!-- ② 검색결과/검색서제스쳔 -->
+    <div class="msa_srch_suggestion" v-if="showPopularKeyword === false">
+      <div class="sugg_left" v-if="bookList.length !== 0">
+        <h3 class="tit">BOOK</h3>
+        <ul class="books_list">
+          <li v-for="book in bookList" @mouseover="mouseOverBook(book.id)"><a @click="clickBookKeyword(book)"><p v-html="book.name"></p></a></li>
+        </ul>
+      </div>
+
+      <div class="sugg_right">
+        <div class="sugg_book" v-if="bookList.length !== 0">
+          <table class="sugg_book_detail">
+            <tr>
+              <td class="cover">
+                <a @click="clickBookKeyword(bookSummary)">
+                  <img :src="bookSummary.imgUrl" class="b_cover">
+                </a>
+              </td>
+              <td class="draft">
+                <a @click="clickBookKeyword(bookSummary)" class="b_title"><strong v-html="bookSummary.originName"></strong></a>
+                <p class="b_int">
+                {{ bookSummary.author }} 지음<br />
+                {{ bookSummary.publishingCompany }} | {{ bookSummary.date }}
+                </p>
+                <p class="b_type">
+                <span>{{ bookSummary.bookType }}</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="sugg_edu" v-if="educationList.length !== 0">
+          <h3 class="tit">EDUCATION</h3>
+          <ul class="edu_list">
+            <li v-for="education in educationList">&#149; <a @click="clickEducationKeyword(education)"><span v-html="education.title"></span></a></li>
+          </ul>
+        </div>
+
+        <div class="sugg_cont" v-if="contentList.length !== 0">
+          <h3 class="tit">CONTENTS</h3>
+          <ul class="cont_list">
+            <li v-for="content in contentList">&#149; <a @click="clickContentKeyword(content)"><span v-html="content.title"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //② 검색결과/검색서제스쳔 -->
+
+  <!-- 닫기 -->
+  <div class="msa_wrap_close">
+    <a href="javascript:;" onclick="view_hover('main_search_area','','hide')">닫기</a>
+  </div>
+  <!-- //닫기 -->
+
+  </div>
+</div>
+
+<!-- old // 구현시 필요없으면 삭제해도 됩니다.
+<script type="text/javascript">
+  function sch_smit(){
+    if(!$.trim($("#keyword_str").val()).length) {
+      alert("검색어를 입력해주세요");
+      $("#keyword_str").focus();
+      return false;
+    }else{
+      $("#gnbsearchfrm").attr("action","/search/search_list.html");
+      $("#gnbsearchfrm").submit(); 
+    }
+  }
+</script>
+-->
+
+<script type="text/javascript">
+    "use strict";
+
+    var common_top_search_vue = new Vue({
+        el: '#main_search_area',
+        data: {
+            //검색엔진 URL
+            searchProxyURL: "https://search.hanbit.co.kr",
+            //인기 검색어 show 여부
+            showPopularKeyword: true,
+            //사용자 검색 키워드
+            keyword: '',
+            //인기 검색어 리스트
+            popularKeywordList: [],
+            // 인기 검색어 리스트 (왼쪽)
+            leftPopularKeywordList: [],
+            // 인기 검색어 리스트 (오른쪽)
+            rightPopularKeywordList: [],
+            // 자동완성에서의 책 리스트
+            bookList: [],
+            // 자동완성에서의 책 정보
+            bookSummary: {
+                'imgUrl': '',
+                'link': '',
+                'name': '',
+                'author': '',
+                'publishingCompany': '',
+                'date': '',
+                'bookType': ''
+            },
+            //에듀케이션 리스트
+            educationList: [],
+            //컨텐츠 리스트
+            contentList: []
+        },
+        created: function created() {
+            // 인기 검색어 조회
+            this.getPopularKeyword();
+        },
+        methods: {
+            /**
+             * 사용자가 검색 키워드를 입력할때 발생하는 이벤트
+             */
+            typeKeyword: function typeKeyword() {
+                var self = this;
+                var keyword = $("#keyword_str").val();
+
+                if (keyword.length !== 0) {
+                    //자동완성어
+                    this.findAutocompleteResult(keyword);
+                } else {
+                    //인기검색어
+                    self.showPopularKeyword = true;
+                }
+            },
+
+            /**
+             * 인기검색어 조회
+             */
+            getPopularKeyword: function getPopularKeyword() {
+                var self = this;
+                this.popularKeywordList = [];
+                $.get(this.searchProxyURL + "/querylog/popularKeyword").done(function (data) {
+                    if (data != null) {
+                        self.drawPopularKeyword(data);
+                    }
+                });
+            },
+
+            /**
+             * 인기 검색어 그리기
+             */
+            drawPopularKeyword: function drawPopularKeyword(popularBooks) {
+                var self = this;
+                popularBooks.forEach(function (item) {
+                    var popularBook = {
+                        bookName: item.keyword
+                    };
+                    self.popularKeywordList.push(popularBook);
+                });
+                var number = 0;
+
+                for (var _iterator = this.popularKeywordList, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
+                    var _ref;
+
+                    if (_isArray) {
+                        if (_i >= _iterator.length) break;
+                        _ref = _iterator[_i++];
+                    } else {
+                        _i = _iterator.next();
+                        if (_i.done) break;
+                        _ref = _i.value;
+                    }
+
+                    var keyword = _ref;
+                    number = number + 1;
+                    keyword.number = number.toString().length < 2 ? "0" + number : number;
+
+                    if (number > 5) {
+                        keyword.direction = "right";
+                        self.rightPopularKeywordList.push(keyword);
+                    } else {
+                        keyword.direction = "left";
+
+                        if (number < 4) {
+                            keyword.bold = 'active';
+                        }
+
+                        self.leftPopularKeywordList.push(keyword);
+                    }
+                }
+            },
+
+            /**
+             * 자동완성 검색 결과
+             */
+            findAutocompleteResult: function findAutocompleteResult(keyword) {
+                var self = this;
+                var param = {
+                    q: keyword,
+                    types: "education,book,contents",
+                    fq: keyword
+                };
+                $.post(this.searchProxyURL + "/autocomplete/search", param).done(function (data) {
+                    if (data != null) {
+                        var bookResult = data.booksResults;
+                        self.changeBookList(keyword, bookResult);
+                        var contentResult = data.contentsResults;
+                        self.changeContentList(keyword, contentResult);
+                        var educationResult = data.educationResults;
+                        self.changeEducationList(keyword, educationResult);
+                    }
+                });
+                this.showPopularKeyword = false;
+            },
+
+            /**
+             * 자동완성어에서 BOOK 부분에서 마우스를 올렸을 시에 발생하는 이벤트
+             * @param bookId
+             */
+            mouseOverBook: function mouseOverBook(bookId) {
+                var currentBook = this.bookList.filter(function (book) {
+                    return book.id === bookId;
+                });
+                this.changeBookSummary(currentBook[0]);
+            },
+
+            /**
+             * 책 소개 변경
+             * @param book
+             */
+            changeBookSummary: function changeBookSummary(book) {
+                if (book !== {}) {
+                    this.bookSummary.name = book.name;
+                    this.bookSummary.originName = book.originName;
+                    this.bookSummary.author = book.author;
+                    this.bookSummary.bookType = book.bookType;
+                    this.bookSummary.imgUrl = book.imgUrl;
+                    this.bookSummary.link = book.link;
+                    this.bookSummary.publishingCompany = book.publishingCompany;
+                    this.bookSummary.date = book.date;
+                    this.bookSummary.bookType = book.bookType;
+                }
+            },
+
+            /**
+             * BOOK 리스트 변경
+             */
+            changeBookList: function changeBookList(keyword, bookResultList) {
+                var self = this;
+                self.bookList = [];
+                var index = 0;
+
+                if (bookResultList != null) {
+                    for (var _iterator2 = bookResultList, _isArray2 = Array.isArray(_iterator2), _i2 = 0, _iterator2 = _isArray2 ? _iterator2 : _iterator2[Symbol.iterator]();;) {
+                        var _ref2;
+
+                        if (_isArray2) {
+                            if (_i2 >= _iterator2.length) break;
+                            _ref2 = _iterator2[_i2++];
+                        } else {
+                            _i2 = _iterator2.next();
+                            if (_i2.done) break;
+                            _ref2 = _i2.value;
+                        }
+
+                        var result = _ref2;
+
+                        if (index < 10) {
+                            var book = {};
+                            book.id = result.code;
+                            book.originName = result.title;
+                            book.name = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            book.link = result.code;
+                            book.imgUrl = self.getBookImageURL(result.code);
+                            book.author = result.author;
+                            book.publishingCompany = result.brand;
+                            book.date = result.pubDate;
+                            book.bookType = result.bookType;
+                            self.bookList.push(book); //책 미리보기 변경
+
+                            self.changeBookSummary(self.bookList[0]);
+                        }
+                    }
+                } else {
+                    self.initBookSummary();
+                }
+            },
+
+            /**
+             * 책 이미지 주소 가져오기
+             */
+            getBookImageURL: function getBookImageURL(bookCode) {
+                var imgURL;
+
+                if (bookCode.substr(0, 1) === "E") {
+                    imgURL = '/data/ebook/' + bookCode + '_m.jpg';
+                } else {
+                    imgURL = '/data/books/' + bookCode + "_m.jpg";
+                }
+
+                return imgURL;
+            },
+
+            /**
+             * 검색 결과가 없을 경우 책 미리보기 초기화
+             */
+            initBookSummary: function initBookSummary() {
+                this.bookSummary = {
+                    'imgUrl': '',
+                    'link': '',
+                    'name': '',
+                    'author': '',
+                    'publishingCompany': '',
+                    'date': '',
+                    'bookType': ''
+                };
+            },
+
+            /**
+             * education 리스트 변경
+             */
+            changeEducationList: function changeEducationList(keyword, educationResultList) {
+                var self = this;
+                self.educationList = [];
+                var index = 0;
+
+                if (educationResultList != null) {
+                    for (var _iterator3 = educationResultList, _isArray3 = Array.isArray(_iterator3), _i3 = 0, _iterator3 = _isArray3 ? _iterator3 : _iterator3[Symbol.iterator]();;) {
+                        var _ref3;
+
+                        if (_isArray3) {
+                            if (_i3 >= _iterator3.length) break;
+                            _ref3 = _iterator3[_i3++];
+                        } else {
+                            _i3 = _iterator3.next();
+                            if (_i3.done) break;
+                            _ref3 = _i3.value;
+                        }
+
+                        var result = _ref3;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.educationList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * contents 리스트 변경
+             */
+            changeContentList: function changeContentList(keyword, contentResult) {
+                var self = this;
+                self.contentList = [];
+                var index = 0;
+
+                if (contentResult != null) {
+                    for (var _iterator4 = contentResult, _isArray4 = Array.isArray(_iterator4), _i4 = 0, _iterator4 = _isArray4 ? _iterator4 : _iterator4[Symbol.iterator]();;) {
+                        var _ref4;
+
+                        if (_isArray4) {
+                            if (_i4 >= _iterator4.length) break;
+                            _ref4 = _iterator4[_i4++];
+                        } else {
+                            _i4 = _iterator4.next();
+                            if (_i4.done) break;
+                            _ref4 = _i4.value;
+                        }
+
+                        var result = _ref4;
+
+                        if (index < 3) {
+                            var content = {};
+                            content.title = JSON.parse(JSON.stringify(self.replaceHighlightWord(result.title, keyword)));
+                            content.link = result.code;
+                            self.contentList.push(content);
+                            index = index + 1;
+                        }
+                    }
+                }
+            },
+
+            /**
+             * 하이라이트 표시
+             */
+            replaceHighlightWord: function replaceHighlightWord(str, highlightKeyword) {
+                var replaceHighlightKeyword = highlightKeyword.replace(/[^a-z0-9가-힣_ ]/gi, '');
+                var regEx = new RegExp(replaceHighlightKeyword, "gi");
+                str = str.replace(regEx, function (a) {
+                    return '<span class="keysel">' + a + '</span>';
+                });
+                return str;
+            },
+
+            /**
+             * 검색 버튼 클릭 시
+             * @param e
+             */
+            clickSearch: function clickSearch(e) {
+                if (!this.keyword || this.keyword.length === 0) {
+                    alert("검색어를 입력하세요");
+                    $("#keyword_str").focus();
+                    e.preventDefault();
+                } else {
+                    location.href = "/search/search_list.html?keyword=" + this.keyword;
+                }
+            },
+
+            /**
+             * 인기 검색어 클릭시
+             * @param book
+             */
+            clickPopularKeyword: function clickPopularKeyword(book) {
+                var searchKeyword = book.bookName;
+                location.href = "/search/search_list.html?keyword=" + searchKeyword;
+            },
+
+            /**
+             * 책 검색어 클릭시 책 상세로 이동
+             * @param book
+             */
+            clickBookKeyword: function clickBookKeyword(book) {
+                location.href = "/store/books/look.php?p_code=" + book.link;
+            },
+
+            /**
+             * 교육 클릭시 교육 상세로 이동
+             * @param education
+             */
+            clickEducationKeyword: function clickEducationKeyword(education) {
+                location.href = "/store/education/edu_view.html?p_code=" + education.link;
+            },
+
+            /**
+             * 컨텐츠 클릭시 컨텐츠 상세로 이동
+             * @param contents
+             */
+            clickContentKeyword: function clickContentKeyword(content) {
+                location.href = "/channel/category/category_view.html?cms_code=" + content.link;
+            }
+        }
+    });
+</script>
+<!-- //메인 검색 및 카테고리 영역 -->
+<SCRIPT LANGUAGE="JavaScript">
+
+  function Cart(strMode) {
+
+    var m_idx = "";
+    var p_code = "B7377025207";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){
+        if(strMode=='cart') { 
+          if(result ==1) { 
+            $('#cartmsg').show();
+            $('#cartmsg2').hide();
+            add_cart_layer_open('layer_add_cart');
+          } else if(result==0) {
+            $('#cartmsg2').show();
+            $('#cartmsg').hide();
+            add_cart_layer_open('layer_add_cart');
+            return;
+          }
+        }  else {
+          location.href="/myhanbit/cart.html";
+        }
+      }          
+    });            
+  }  
+
+  // 견본도서 장바구니 담기. by coffin. 2017-04-12
+  function Cart_p(strMode) {
+    var m_idx = "";
+    var p_code = "B7377025207";
+    var ea = 1;
+
+    if(typeof opt =="undefined") {
+      opt = p_code.substring(0,1);
+    }
+
+    $.ajax({
+      type : "post",
+      url : "/academy/professor/ajax.addCart.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt},
+      dataType : "text",
+      success : function(result, status){      
+        if(strMode=='cart') { 
+          location.href='/academy/professor/cart.html';
+        }  else {
+          location.href='/academy/professor/cart.html';
+        }
+      }          
+    });            
+  }  
+
+  function Wishlist() {
+
+    var m_idx = "";
+    var p_code = "B7377025207";
+    var opt = $("input:radio[name=pay_choice]:checked").val();
+    var opt_size = $("input:radio[name=pay_choice]").size();
+    var ea = 1;
+    var comment = "";
+
+    if(m_idx =="") {
+      alert('로그인이 필요한 서비스 입니다.');
+      document.location.href='/member/login.html';
+      return;
+    }
+
+    if(opt_size > 0 && typeof opt =="undefined") {
+      alert("상품을 선택해 주세요");
+      return;
+    }
+    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addWishlist.php",
+      data : { "p_code":p_code,"m_idx":m_idx,"ea":ea,"opt":opt,"comment":comment},
+      dataType : "text",
+      success : function(result, status){
+        if(result ==1) { 
+          alert("해당 상품을 위시리스트에 담았습니다");
+          return;
+        } else if(result==0) {
+          alert("이미 위시리스트에 추가된 상품입니다.");
+          return;
+        }
+      }
+    });            
+  }  
+
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT
+  --------------------------------------------------------------- */  
+  //리뷰 팝업요청 버튼 
+  function review_start(){  
+    var m_idx = '';
+    var re_chk_num = '0';    
+    
+    if(!m_idx) { 
+      alert("로그인후 리뷰 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }  
+      
+    if(re_chk_num<1){
+      review_layer_open('layer_review');
+      $('#hbr_content_review').html('<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>');
+      return;
+    }else{
+      alert('리뷰등록은 도서당 한번만 가능합니다.');
+      return;
+    }
+  }  
+  
+  //리뷰 등록 취소 버튼    
+  function frm_reset(){    
+    $('.review_layer').fadeOut();    
+  }  
+
+
+  //리뷰등록  처리 버튼
+  function review_proc(str,idx){      
+    
+    document.getElementById("hbr_content").value = myeditor.outputBodyHTML();        
+
+    if(!$.trim($("#hbr_title").val()).length) {
+      alert("리뷰제목을 입력해주세요"); $("#hbr_title").focus();return;
+    }    
+
+    if(!$.trim($("#hbr_score").val()).length) {
+      alert("별점 평가를 선택해주세요"); $("#hbr_score").focus();return;
+    }
+    
+          
+    if($("#hbr_content").val().length <= 13) {
+      alert("리뷰내용을 입력해주세요"); $("#hbr_content").focus();return;
+    }      
+    
+    var type_str      =  str;  
+    var hbr_idx       =  idx;    
+    var fk_p_code    = $("#fk_p_code").val();  
+    var fk_m_idx      = $("#fk_m_idx").val();  
+    var hbr_type     = $("#hbr_type").val();            
+    var hbr_title      = $("#hbr_title").val();  
+    var hbr_score    = $("#hbr_score").val();  
+    var hbr_content   = $("#hbr_content").val();  
+
+    var result_postdata= {  
+        type_str    :   type_str,
+        hbr_idx      :  hbr_idx,
+        fk_p_code   :   fk_p_code,
+        fk_m_idx     :   fk_m_idx,
+        hbr_type     :  hbr_type,
+        hbr_title    :   hbr_title,        
+        hbr_score   :   hbr_score,
+        hbr_content :   hbr_content    
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addReview.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){                
+        if(data  >0){                              
+          $('.review_layer').fadeOut();  
+          //location.reload();
+          var currentUrl = window.location.href.split('&');                  
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=review';
+          //location.href='/store/books/look.php?p_code=B7377025207&tid=review';                  
+        }            
+      }
+    });
+  }  
+
+  //리뷰 수정, 삭제
+  function review_frm_proc(str,idx,n){
+
+    if(str =="redel"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }
+    var result_postdata= {  str : str, idx:idx}    
+    var result_url = "/inc/inc_store_layer_popup_review_ajax.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){            
+
+        if(str == "redel" && data ==1 ){
+          alert("리뷰가 삭제되었습니다.");              
+          location.reload();
+          //location.href="/store/books/look.php?p_code=$p_code#review_tab";
+          
+        }else{
+          $("#review_popup_div").html("");        
+          $("#review_popup_div").html(data);        
+          review_layer_open('layer_review');
+        }
+      }         
+    });  
+    
+  }
+      
+  //리뷰 댓글 리스트  ::  리뷰 idx , div_num
+  function comment_list(idx,n){      
+    //alert(idx+"="+n)
+    var result_postdata= {  hbr_idx : idx, div_n:n}    
+    var result_url = "/store/rev_comm_list.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){          
+        $("#comment_div_"+n).html(data);        
+      }         
+    });          
+  }    
+  
+  //등록, 수정, 삭제    ::  처리 str , 리뷰 div_num , 리뷰 idx , 댓글 div_num,  댓글 idx
+  function comment_proc( str ,div_n, idx , div2_n ,re_idx){      
+    var fk_hbr_idx     = idx;    
+    var fk_m_idx     = $("#fk_m_idx").val();        
+    var comment    = $("#comment_"+div_n).val();                
+    var hbrc_idx     = re_idx;
+    
+    if(!fk_m_idx) { 
+      alert("로그인후 댓글을 작성 하실수있습니다.");
+      document.location.href='/member/login.html';
+      return;  
+    }    
+    if(str == "del"){
+      if(!confirm(" 삭제 후 데이터는 복구되지 않습니다. \n 해당 항목을 삭제 하시겠습니까? ")){ return; }  
+    }else if(str == "ins"||str == "mod"){    
+      if(!comment){
+        alert("내용을  입력해주세요.");      
+        $("#comment_"+div_n).focus(); return;  
+      }
+    }
+            
+    var result_postdata= {            
+      str:str,            
+      div_n:div_n,    
+      fk_hbr_idx : fk_hbr_idx,  
+      fk_m_idx : fk_m_idx,  
+      comment:comment,    
+      hbrc_idx:hbrc_idx,
+      div2_n:div2_n
+    }    
+    var result_url = "/store/rev_comm_proc.php";    
+                                                    
+    $.ajax({
+      type:"post",
+      url: result_url,
+      data:result_postdata,
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success: function(data){      
+        if(str == "mod_f"){          
+          $("#re_"+div_n+"_"+div2_n).html("");
+          $("#re_"+div_n+"_"+div2_n).html(data);
+        }else{
+          //var ment = data.trim();
+          alert(data.trim());  
+          comment_list( fk_hbr_idx,div_n); //댓글 리스트          
+        }          
+      }         
+    });            
+  }    
+  /*---------------------------------------------------------------
+    리뷰 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT
+  --------------------------------------------------------------- */  
+  //오탈자 리스트     
+  function misprint_get_list(str){    
+    var p_code     = 'B7377025207';          
+    var conf      = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();  
+    if(!str)str = "page";    
+    
+    //정렬
+    if(str == "page"){    
+      if( p_sort_type == "DE"){ p_sort_type = "A";
+      }else if( p_sort_type == "" ||  p_sort_type == "A"){  p_sort_type = "DE";
+      }      
+      r_sort_type = "";
+    }
+    if(str == "regdt"){    
+      if( r_sort_type == "DE"){ r_sort_type = "A";
+      }else if(  r_sort_type == "" ||r_sort_type == "A"){  r_sort_type = "DE";
+      }
+      p_sort_type = "";    
+    }                  
+    $("#p_sort_type").val(p_sort_type);
+    $("#r_sort_type").val(r_sort_type);
+    //alert(p_sort_type+"=="+r_sort_type);
+            
+    $.ajax({
+      type : "post",
+      url : "/inc/inc_store_detail_misprint_ajaxList.php",
+      data:{  fk_p_code:p_code , conf :conf , p_sort_type : p_sort_type , r_sort_type:r_sort_type },          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){      
+        $("#misprint_con_div").html("");
+        //$("#misprint_con_div").html(data);            
+        $(".misprint_list").eq(0).html(data);            
+        $(".misprint_list").eq(1).html(data);            
+      }
+    });            
+  }
+  
+  //오탈자 팝업요청 버튼 
+  function misprint_start(){    
+    var m_idx = '';  
+    if(!m_idx) { 
+      alert("로그인 후 오탈자 등록이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }    
+    misprint_layer_open('layer_misprint');return;    
+  }  
+  
+  //오탈자 등록 취소 버튼    
+  function misprint_reset(){    
+    $('.misprint_layer').fadeOut();    
+  }  
+
+  //오탈자등록  처리 버튼
+  function misprint_proc(str,idx){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+    
+    $("#err_info").val( myeditor_err.outputBodyHTML());            
+    
+    var type_str        =  str;          
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var err_type        = $("#err_type option:selected").val();      
+    var err_p_version    = "";  
+    var err_p_page      = $("#err_p_page").val();       
+    var err_location    = $("#err_location").val();   
+    var err_info        = $("#err_info").val();   
+    var err_file        = $("#err_file").val();                                                                  
+                
+                    
+    if($("#err_type option:selected").val() =="") {
+      alert("구분을선택해주세요");$("#err_type").focus();return;
+    }
+    
+    if($(":checkbox[name='err_p_version[]']:checked").length < 1) {
+      alert("상품버전을 선택해주세요");$("#err_p_version").focus();return;
+    }
+          
+    if(!err_p_page) {
+      alert("페이지를 입력해주세요");$("#err_p_page").focus();return;
+    }      
+    
+    if(!err_location) {
+      alert("위치정보를 입력해주세요");$("#err_location").focus();return;
+    }  
+        
+    var err_info_len = $("#err_info").val().length;    
+    if(err_info_len <20) {
+      alert("내용을 입력해주세요");$("#err_info").focus();return;
+    }                
+  
+    err_p_version = "";
+    $('input:checkbox[name="err_p_version[]"]').each(function() {         
+      if(this.checked){
+        err_p_version+=','+$(this).val();      
+      }                    
+     });     
+    err_p_version = err_p_version.substring(1,err_p_version.length);         
+            
+    var result_postdata= {  
+         type_str        :  type_str,
+         fk_m_idx        :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         err_type        :  err_type,        
+         err_p_version    :  err_p_version,  
+         err_p_page      :   err_p_page,      
+         err_location      :  err_location,          
+         err_info        :  err_info,    
+         err_file          :  err_file              
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addMisprint.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){  
+        if(data  >0){    
+          $('.misprint_layer').fadeOut();      
+          var currentUrl = window.location.href.split('&');        
+          
+          //url "&" 있으면 삭제후 파라미터 추가
+          location.href = currentUrl[0]+'&tid=misprint';
+          //location.href='/store/books/look.php?p_code=B7377025207&tid=misprint';                  
+          //location.reload(true);
+        }            
+      }
+    });  
+  }    
+  
+  //오탈자 인쇄하기
+  function misprint_print(){      
+    var p_code       = 'B7377025207';          
+    var conf        = $("#confirm_type option:selected").val();        
+    var p_sort_type  = $("#p_sort_type").val();  
+    var r_sort_type    = $("#r_sort_type").val();      
+    
+    //var sort_type;    
+    //if(p_sort_type)sort_type = p_sort_type ;
+    //if(r_sort_type)sort_type = r_sort_type ;
+        
+    var url_full = "/store/books/misprint_view.html?fk_p_code="+p_code+"&conf="+conf+"&p_sort_type="+p_sort_type+"&r_sort_type="+r_sort_type;      
+    
+    var openNewWindow = window.open("about:blank");
+        openNewWindow.location.href = url_full;                
+  }
+              
+  /*---------------------------------------------------------------
+    오탈자 SCRIPT 
+  --------------------------------------------------------------- */
+
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+  function book_auth(){  
+    var fk_m_idx        = $("#fk_m_idx").val();       
+    if(!fk_m_idx) { 
+      alert("로그인 후 사용이 가능합니다.");
+      document.location.href='/member/login.html';
+      return;
+    }
+          
+    var fk_m_idx      = $("#fk_m_idx").val();       
+    var fk_p_code      = $("#fk_p_code").val();          
+    var buy_date      = $("#buy_date").val();      
+    var buy_site        = $("#buy_site").val();      
+    var add_code      = $("#add_code").val();                                                                                
+          
+    if(!buy_site) {
+      alert("구입처를 선택해주세요");$("#buy_site").focus();return;
+    }  
+
+    if(!buy_date) {
+      alert("구입일을 입력해주세요");$("#buy_date").focus();return;
+    }          
+    
+    if(!add_code) {
+      alert("부가기호를 입력해주세요");$("#add_code").focus();return;
+    }  
+    
+    $("#cfrm").submit();
+    
+    /*    
+    var result_postdata= {  
+         fk_m_idx      :  fk_m_idx,        
+         fk_p_code      :   fk_p_code,      
+         buy_date      :  buy_date,        
+         buy_site        :  buy_site,  
+         add_code      :   add_code,          
+    }                                    
+    $.ajax({
+      type : "post",
+      url : "/store/ajax.addBookauth.php",
+      data:result_postdata,          
+      contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+      success : function(data){          
+        if(data  >0){                        
+          $('.certification_layer').fadeOut();      
+          location.reload(true);
+        }            
+      }
+    });  
+    */
+  }
+  /*---------------------------------------------------------------
+    도서인증 SCRIPT
+  --------------------------------------------------------------- */  
+
+</SCRIPT>
+
+<!-- Contents -->
+<div id="container">
+  <!-- 상단 광고 배너 -->
+  <!--
+<div class="docu_title" style="margin-top:4px;text-align:center;padding:4px;font-weight:bold;background-color:#52AEE1;border:2px solid #000;">
+<a href="http://www.hanbit.co.kr/event/current/current_event_view.html?hbe_idx=129" alt="한빛비즈 회원가입 이벤트" class="hvr-glow" style="width:100%;padding:4px;color:#000000;letter-spacing:-1px;">회원가입이벤트 :: 한빛비즈 스페셜 멤버로 초대합니다! (이메일 수신동의, '한빛비즈' 관심브랜드 체크시 최대 5,000점 마일리지 적립)</a>
+</div> -->  <!-- //상단 광고 배너 -->
+  <!-- 카테고리 상세 wrap -->
+  <div class="store_view_wrap">
+    <div class="store_view_wrap_l">
+      <!-- 책 정보 -->
+            <div class="store_view_area">
+        <div class="store_product_box">
+          <div class="store_product_box_img">
+                        <img src="/data/books/B7377025207_l.jpg" alt="" class="thumb" />
+                      </div>
+          <div class="store_product_box_btn"><a href="javascript:;" onclick="javascript:openPreviewFlip('http://preview2.hanbit.co.kr/books/ggtt','PREVIEW');return false;">미리보기</a></div>
+        </div>
+        
+        <div class="store_product_info_box">
+          <h3>맛있는 디자인 포토샵&일러스트레이터 CC 2020</h3>
+          <p class="stit">누구나 쉽게 배워 제대로 써먹는 그래픽 입문서</p>
+          
+          <div class="info_area">
+            <div class="info_ico">
+              <p class="ico_m">한빛미디어</p>
+                              <p class="ico_book1">집필서</p>
+                            
+                              <p class="ico_shopping1">판매중</p>
+                            
+            </div>
+            
+            <div class="sns_ico">
+              <span class="ico_facebook"><a href="http://www.facebook.com/share.php?u=http://www.hanbit.co.kr/store/books/look.php?p_code=B7377025207" target="_blank">페이스북 퍼가기</a></span>
+              <span class="ico_google"><a href="https://plus.google.com/share?url=http://www.hanbit.co.kr/store/books/look.php?p_code=B7377025207" target="_blank">구글+ 퍼가기</a></span>
+              <span class="ico_twitter"><a href="http://twitter.com/share?text=%EB%A7%9B%EC%9E%88%EB%8A%94+%EB%94%94%EC%9E%90%EC%9D%B8+%ED%8F%AC%ED%86%A0%EC%83%B5%26%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%ED%84%B0+CC+2020&url=http://www.hanbit.co.kr/store/books/look.php?p_code=B7377025207" target="_blank">트위터 퍼가기</a></span>
+            </div>
+          </div>
+          
+          <ul class="info_list">
+                          <li><strong>저자 : </strong><span>빨간고래(박정아) , 윤이사라(포완카) </span></li>
+                                    <li><strong>출간 : </strong><span>2020-01-30</span></li>
+            <li><strong>페이지 : </strong><span>508 쪽</span></li>
+            <li><strong>ISBN : </strong><span>9791162242582</span></li>
+                        <li><strong>물류코드 :</strong><span>10258</span></li>
+                        
+            
+            
+          </ul>
+
+                    
+                    
+          <div class="tag_area"><span>TAG : </span><a href='/search/search_list.html?ptype=B&keyword=그래픽'>그래픽</a> ,<a href='/search/search_list.html?ptype=B&keyword=디자인'>디자인</a> ,<a href='/search/search_list.html?ptype=B&keyword=포토샵'>포토샵</a> ,<a href='/search/search_list.html?ptype=B&keyword=일러스트레이터'>일러스트레이터</a> ,<a href='/search/search_list.html?ptype=B&keyword=CC 2020'>CC 2020</a> ,<a href='/search/search_list.html?ptype=B&keyword=CC'>CC</a> ,<a href='/search/search_list.html?ptype=B&keyword=CS6'>CS6</a> ,<a href='/search/search_list.html?ptype=B&keyword=CS'>CS</a> ,<a href='/search/search_list.html?ptype=B&keyword=Photoshop'>Photoshop</a> ,<a href='/search/search_list.html?ptype=B&keyword=Illustrator'>Illustrator</a> ,<a href='/search/search_list.html?ptype=B&keyword=어도비'>어도비</a> ,<a href='/search/search_list.html?ptype=B&keyword=Adobe'>Adobe</a> ,<a href='/search/search_list.html?ptype=B&keyword=포토샵 배우기'>포토샵 배우기</a> ,<a href='/search/search_list.html?ptype=B&keyword=일러스트레이터 배우기'>일러스트레이터 배우기</a> ,<a href='/search/search_list.html?ptype=B&keyword=포토샵 강좌'>포토샵 강좌</a> ,<a href='/search/search_list.html?ptype=B&keyword=일러스트레이터 강좌'>일러스트레이터 강좌</a> ,<a href='/search/search_list.html?ptype=B&keyword=포토샵 독학'>포토샵 독학</a> ,<a href='/search/search_list.html?ptype=B&keyword=일러스트레이터 독학'>일러스트레이터 독학</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛있는 디자인'>맛있는 디자인</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛디'>맛디</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛디포토샵'>맛디포토샵</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛디일러스트레이터'>맛디일러스트레이터</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛디일러'>맛디일러</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛디포일'>맛디포일</a> ,<a href='/search/search_list.html?ptype=B&keyword=맛있는디자인포토샵일러스트레이터'>맛있는디자인포토샵일러스트레이터</a> </div>  
+          <div class="step_area ico_step1">
+            <span><strong>초급</strong></span>
+            <span> 초중급 </span>
+            <span> 중급 </span>
+            <span> 중고급 </span>
+            <span> 고급 </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- //책 정보 -->
+      
+      <!-- 별점 및 좋아요 -->
+      					
+			<script>
+
+			$(function() {
+				$('.store_grade_star').raty({
+					readOnly: true,
+					score: 5,
+					starHalf   : '/media/images/star_l-half.png',
+					starOff    : '/media/images/star_l-off.png',
+					starOn     : '/media/images/star_l-on.png'
+				});
+				
+			});
+			</script>	
+            
+            
+            <div class="store_like_area">
+				<div class="store_grade"><div class="store_grade_star"></div><span>5점 (5명)</span></div>
+				<div class="store_like"><span>좋아요 : </span><font id="likescore">4</font></div>
+			</div>      <!-- //별점 및 좋아요 -->
+      
+      <!-- 버튼 -->
+      <div class="store_btn_area">
+        <div class="btn_review"><a href="javascript:;" onClick="review_start()">리뷰쓰기</a></div>
+        <div class="btn_like_ok" ><a href="javascript:setLike('B7377025207','');">좋아요</a></div>
+        <div class="btn_misprint"><a href="javascript:;" onClick="misprint_start()">오탈자 등록</a></div>
+                            <div class="btn_certification"><a href="javascript:alert('로그인 후 이용가능한 서비스입니다.');">도서인증</a></div>
+                        </div>
+            <!-- //버튼 -->
+      <!-- 하단 컨텐츠 -->
+      <div class="store_detail_area">
+        <!-- 텝메뉴 -->
+        <script>
+        $(function() {
+          $( ".detial_tabs" ).tabs();
+        });
+        </script>
+        
+        <div class="detial_tabs">
+          <ul>          
+            <li onclick="javascript:hb_show_tabs('0');"><a href="javascript:;">전체</a></li>
+              
+            <li onclick="javascript:hb_show_tabs('1');"><a href="javascript:;">책소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('2');"><a href="javascript:;">저자소개</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('3');"><a href="javascript:;">목차</a></li>
+
+                                  
+            <li onclick="javascript:hb_show_tabs('5');"><a href="javascript:;">독자리뷰</a></li>
+                      
+            <li onclick="javascript:hb_show_tabs('6');"><a href="javascript:;">오탈자 보기</a></li>
+                      
+                        <li onclick="javascript:hb_show_tabs('7');"><a href="javascript:;">부록/예제소스</a></li>
+            
+                      </ul>                
+          
+          <!-- 책소개 -->
+                                            <div id="tabs_1">
+                          <p class="detail_tit" style="display:none;">책소개</p>
+                            		<div id="" class="detail_conbox hanbit_edit_view">
+			<p>
+						<b>포토샵&일러스트레이터를 제대로 배우는 가장 완벽한 레시피!</b>
+</p>
+<p>
+						<b>한 권으로, 한번에! 쉽고 빠르게 익혀 바로 써먹는 그래픽 입문서!</b>
+</p>
+<p>&nbsp;</p>
+<p>그래픽 디자인에 꼭 필요한 포토샵과 일러스트레이터를 한번에, 그리고 가볍게 배울 수 있습니다. 핵심만 골라 담아 부담 없이 학습할 수 있으며, 따로따로 배우는 것보다 두 가지 프로그램을 더욱 효과적으로 익힐 수 있습니다. 최신 버전인 CC 2020에 완벽히 대응하여 신기능을 빠르게 익힐 수 있도록 도와주며, 기능을 익히는 데 최적화된 실무 예제로 기초&핵심 기능을 더욱 쉽게 학습할 수 있습니다. 기본부터 활용법까지 완벽하게 마스터할 수 있는 3단계 학습 방법인 [기능 실습] – [한눈에 실습] – [실무 실습]의 3단계 구성은 누구나 포토샵과 일러스트레이터를 제대로 배워 바로 써먹을 수 있도록 도와줍니다.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+						<b>어떤 독자를 위한 책인가?</b>
+</p><ul>
+	<li>예비 디자이너 또는 실무에 막 입문한 신입 디자이너</li>					
+	<li>포토샵&일러스트레이터 CC 2020의 신기능을 빠르게 찾고 익히려는 1~3년 차 디자이너</li>					
+	<li>업무나 취미 등으로 포토샵&일러스트레이터를 활용하고자 하는 일반인</li>					
+	<li>포토샵&일러스트레이터를 몇 번 다뤄봤지만 기본기가 약해 실력을 쌓고 싶은 초급자</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+						<b>이 책의 특징</b>
+</p>
+<p>
+						<b>① 포토샵과 일러스트레이터를 한 권으로 학습!</b>
+</p>
+<p>그래픽 툴의 대명사인 포토샵과 일러스트레이터는 서로 긴밀하게 연결되어 있을 뿐 아니라 툴 사용법도 매우 비슷하여 각각 배우는 것보다 함께 배우는 것이 더 효과적입니다. 이 책은 그래픽 디자인에 꼭 필요한 포토샵과 일러스트레이터 기능을 한번에, 그리고 가볍게 배울 수 있도록 핵심만 골라 담아 부담 없이 학습할 수 있습니다.</p>
+<p>&nbsp;</p>
+<p>
+						<b>② 포토샵&일러스트레이터 CC 2020 최신 버전 완벽 대응!</b>
+</p>
+<p>이 책은 가장 최신 버전인 CC 2020에 완벽히 대응했습니다. 포토샵과 일러스트레이터를 더 효율적으로 다룰 수 있도록 도와주는 CC 2020 버전의 신기능을 쉽고 빠르게 학습하면서 그래픽 디자인의 기초를 탄탄히 쌓을 수 있습니다.</p>
+<p>&nbsp;</p>
+<p>
+						<b>③ 가장 완벽한 학습 방법인 3단계 구성으로 학습!</b>
+</p>
+<p>왕초보도 바로 써먹는 [기능 실습], 눈으로 봐도 쏙쏙 이해되는 [한눈에 실습], 지금 당장 활용할 수 있는 [실무 실습], 가장 완벽한 3단계 학습 구성으로 포토샵과 일러스트레이터를 제대로 배울 수 있습니다. [기능 실습]에서는 꼭 알아야 하는 기초 지식, 화면 구성, 패널과 도구 등을 살펴보고, 예제 실습 전 필요한 기본 조작과 설정 방법을 익힙니다. [한눈에 실습]에서는 기능별 예제로 프로그램의 핵심 기능을 학습합니다. 주요 기능의 사용법과 활용 과정을 한눈에 살펴보며 결과를 바로 확인할 수 있어서 기능이 쏙쏙 이해됩니다. [실무 실습]에서는 여러 개의 기능을 조합하여 하나의 완성된 예제를 만들어보며 실무 감각을 익힙니다.</p>
+<p>&nbsp;</p>
+<p>
+						<b>④ 기능 익히기에 가장 적합한 실무 예제 구성</b>
+</p>
+<p>포토샵과 일러스트레이터의 기초&핵심 기능만 제대로 익혀도 웬만한 디자인 작업은 충분히 할 수 있습니다. 모든 기능을 백과사전식으로 외우는 지루한 방식이 아니라 기능을 익히는 데 가장 적합한 실무 예제 구성으로 효과적인 학습을 할 수 있도록 도와줍니다.</p>
+<p>&nbsp;</p>
+<p style="text-align: center">
+		<img src="http://www.hanbit.co.kr/data/editor/20200128144718_flfufkcq.jpg" alt="맛있는 디자인 포토샵&일러스트레이터 CC 2020_상세페이지(700).jpg" style="width: 700px; height: 5660px" />
+</p>
+<p>&nbsp;</p>						
+		</div>                        </div>
+                              <!-- //책소개 -->
+  
+          <!-- 저자소개 -->
+                                            <div id="tabs_2">                          
+                          <p class="detail_tit" style="display:none;">저자소개</p>
+                                        <div id="" class="detail_conbox">
+              <!-- 저자 소개 -->
+                                <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">빨간고래&#40;박정아&#41;</p>                  
+                    <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>따뜻한 색감과 이야기가 있는 그림을 그리는 일러스트레이터입니다. 홍익대학교 광고멀티미디어디자인과, 이화여자대학교 일반대학원 시각정보디자인과를 졸업했습니다. UI 디자이너, 광고 디자이너로 실무를 경험하고 현재는 프리랜서 그림작가로 활동하고 있습니다. 유한킴벌리, 더페이스샵, 엔제리너스와 콜라보레이션을 했으며, 미샤 패키지, 현대자동차 사보, 엘지하우시스지인 벽지, GS건설 캘린더 등 다수의 프로젝트를 진행하였습니다. 홍익대학교에서 방학특강으로 일러스트레이터를 강의하고 있으며 저서로는 《맛있는 디자인 포토샵&일러스트레이터 CC 2020》, 《맛있는 디자인 일러스트레이터 CC 2019》, 《나도 그래요》, 《혼자 놀고 싶은 날 숨은그림 찾기》, 《컬러링 앤 더 푸드》 외 5종의 컬러링북, 《드로잉 앤 더 시티》, 《드로잉 앤 더 푸드》, 《크리에이티브 아트워크4》 등이 있습니다.</p>
+<p>&nbsp;</p><ul>
+	<li>
+				강의문의&nbsp;<a href="mailto:jaillust@naver.com" target="_blank">jaillust@naver.com</a>			
+	</li>
+	<li>
+		공식사이트&nbsp;<a href="http://www.redwhale.co.kr/" target="_blank">www.redwhale.co.kr</a>
+	</li>
+	<li>
+		인스타그램&nbsp;<a href="http://www.instagram.com/redwhale" target="_blank">www.instagram.com/redwhale</a>
+	</li>
+	<li>
+		페이스북&nbsp;<a href="http://www.facebook.com/redwhale" target="_blank">www.facebook.com/redwhale</a>
+	</li>
+	<li>
+		그라폴리오&nbsp;<a href="http://www.grafolio.com/redwhale" target="_blank">www.grafolio.com/redwhale</a>
+	</li>
+</ul>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                              <div class="author_box">
+                  <div class="author_pic">
+                    <!-- 작가 이미지 있을 경우 class pic_ok -->
+                                          <img src="http://www.hanbit.co.kr/images/store/thumb_author1.jpg" alt="" class="no" />
+                                                          
+                    <span class="tit_author">
+                    저자                    </span>
+                  </div>
+                  <div class="author_info hanbit_edit_view">
+                    <p class="txt_name">윤이사라&#40;포완카&#41;</p>                  
+                    <p>네이버 상위 0.1% 카페인 ‘포완카(포토샵 완전정복 카페)’를 17년째 운영하고 있습니다. 아모레퍼시픽 라네즈, 한국콘텐츠진흥원, 전쟁기념관 스마트 전시, 신한은행 글로벌, KTB자산운용, 한빛소프트 등과 디자인 프로젝트를 진행하였고, 《맛있는 디자인 포토샵 & 일러스트레이터 CC 2019》(한빛미디어, 2019), 《맛있는 디자인 포토샵 CC 2019》(한빛미디어, 2019), 《포토샵 완전정복》(길벗, 2016), 《디자이너’s 포토샵 무작정 따라하기》(길벗, 2009)를 집필하였습니다.</p><ul>
+	<li>
+								포완카 <a href="http://cafe.naver.com/pstutorial" target="_blank">cafe.naver.com/pstutorial</a>			
+	</li>		
+	<li>
+						이메일&nbsp;<a href="mailto:yisara5621@gmail.com" target="_blank">yisara5621@gmail.com</a>		
+	</li>
+</ul>                  </div>
+                </div>
+                <!-- //저자 소개 -->                
+                <!-- 관련상품 -->
+                                            <!-- //관련상품 -->
+
+              <!-- 역자 소개 -->    
+                            <!-- //역자 소개 -->              
+            </div>
+                        </div>
+                              <!-- //저자소개 -->
+  
+          <!-- 목차 -->
+                                            <div id="tabs_3">
+                          <p class="detail_tit" style="display:none;">목차</p>
+                            						<div id="" class="detail_conbox hanbit_edit_view">
+							<p><p>포토샵 | 쉽고 빠른 포토샵 레시피</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 01. 포토샵 CC 2020 파헤치기</b>
+</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 01. 반갑다, 포토샵 : 포토샵은 무엇이고 어디에 쓰이는가</b>
+</p>
+<p>포토샵은 어디에 쓰이나요</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 포토샵, 어떻게 생겼지 : 포토샵 실행 화면 살펴보기</b>
+</p>
+<p>포토샵 CC 2020 시작 화면</p>
+<p>포토샵 CC 2020 기본 화면</p>
+<p>[간단 실습] 어두운 작업 화면 밝게 하기</p>
+<p>도구 이름과 기능 살펴보기</p>
+<p>도구바 넓히기/좁히기</p>
+<p>[간단 실습] 나만의 도구바 설정하기</p>
+<p>패널 자세히 알아보기</p>
+<p>패널 조작하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 03. 꼭 알아야 할 그래픽 기초 지식 : 벡터, 비트맵, RGB, CMYK, 해상도, 파일 형식</b>
+</p>
+<p>벡터와 비트맵의 차이는?</p>
+<p>RGB와 CMYK 컬러 모드</p>
+<p>해상도</p>
+<p>이미지 파일 형식, 어떤 포맷으로 저장해야 할까</p>
+<p>색의 3속성</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 02. 이것만 알면 포토샵 완전 정복</b>
+</p>
+<p>
+						<b><br /></b>
+</p>
+<p>
+						<b>LESSON 01. 먼저 맛보는 포토샵 기본 기능 열여덟 가지 : 이것만 따라 해도 포토샵 완전 정복</b>
+</p>
+<p>① 이미지를 불러오는 Open</p>
+<p>② 이미지 크기를 조절하는 Image Size</p>
+<p>③ 캔버스 크기를 조절하는 Canvas Size</p>
+<p>④ 작업 화면을 100%로 보는 돋보기 도구</p>
+<p>⑤ 불필요한 부분을 제거하는 자르기 도구</p>
+<p>⑥ 화면을 옮기는 손바닥 도구</p>
+<p>⑦ 얼룩을 제거하는 스팟 복구 브러시 도구</p>
+<p>⑧ 색상을 보정하는 닷지, 번 도구</p>
+<p>⑨ 사각형 영역을 선택하는 사각형 선택 도구</p>
+<p>⑩ 여백을 자동으로 채워주는 콘텐츠 인식 채우기</p>
+<p>⑪ 색상을 추출하는 스포이트 도구</p>
+<p>⑫ 자연스럽게 색상을 채우는 그레이디언트 도구</p>
+<p>⑬ 레이어를 합성하는 블렌딩 모드&nbsp;</p>
+<p>⑭ 테두리 선을 그리는 Stroke</p>
+<p>⑮ 문자를 입력하는 문자 도구</p>
+<p>⑯ 오브젝트를 옮기는 이동 도구</p>
+<p>⑰ 오브젝트를 지우는 지우개 도구</p>
+<p>⑱ 웹용 이미지로 저장하는 Save for Web</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 파일 관리하기 : 새 작업 문서 만들고 파일 불러오기/파일 저장하고 창 닫기</b>
+</p>
+<p>[간단 실습] 새 작업 문서 만들기</p>
+<p>[간단 실습] 이미지 불러오기</p>
+<p>[간단 실습] 이미지 저장하기</p>
+<p>이미지와 캔버스 크기 조절하기</p>
+<p>[간단 실습] 이미지 크기 줄이기</p>
+<p>[한눈에 실습] 확대해도 깨지지 않게 이미지 확대하기</p>
+<p>[한눈에 실습] 캔버스 크기 조절하기</p>
+<p>[한눈에 실습] 작업 화면 닫고 포토샵 종료하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 03. 선택하기 : 다양한 방법으로 원하는 영역 선택하기</b>
+</p>
+<p>사각형, 원형으로 선택하는 선택 도구</p>
+<p>[한눈에 실습] Feather로 가장자리 부드럽게 만들기</p>
+<p>자유롭게 선택하는 올가미 도구</p>
+<p>클릭&드래그 한 번으로 선택하는 개체 선택 도구</p>
+<p>[한눈에 실습] 개체 선택 도구로 초간단 피사체 선택하기</p>
+<p>브러시로 섬세하게 선택하는 퀵 마스크 모드</p>
+<p>[한눈에 실습] 퀵 마스크 모드로 배경을 흑백으로 만들기</p>
+<p>[한눈에 실습] Color Range로 색상 영역을 한번에 바꾸기</p>
+<p>[한눈에 실습] Focus Area로 피사체와 배경 분리하기</p>
+<p>선택 영역을 수정하는 Modify</p>
+<p>정교하게 선택하는 펜 도구</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 04. 이동하기 : 선택 영역을 자유롭게 옮기기</b>
+</p>
+<p>[간단 실습] 선택 영역으로 지정한 이미지만 잘라 옮기기</p>
+<p>[간단 실습] 복제하여 옮기기</p>
+<p>[간단 실습] 서로 다른 작업 화면에 있는 이미지를 한곳으로 옮기기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 05. 변형하기, 회전하기 : 이미지를 변형, 회전, 왜곡하기</b>
+</p>
+<p>[간단 실습] 이미지 크기 조절하고 회전하기</p>
+<p>[한눈에 실습] 다양하게 이미지 왜곡하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 06. 자르기, 분할하기 : 이미지의 일부를 자르고 분할하기</b>
+</p>
+<p>[간단 실습] 이미지를 잘라내는 자르기 도구</p>
+<p>[한눈에 실습] 자르기 도구로 비뚤어진 사진 바로잡기</p>
+<p>[한눈에 실습] 원근 자르기 도구로 자르기</p>
+<p>[한눈에 실습] 분할 도구로 이미지를 한번에 자르기</p>
+<p>[한눈에 실습] 프레임 도구로 원하는 모양 이미지 마스크 만들기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 07. 그리기, 채색하기 : 자유롭게 그리고 색 채우기</b>
+</p>
+<p>손 가는 대로 그리는 브러시 도구, 연필 도구</p>
+<p>[간단 실습] 브러시 설치하기</p>
+<p>[간단 실습] 태블릿 필압을 적용하여 브러시 사용하기</p>
+<p>[간단 실습] 점선 모양의 브러시 만들기</p>
+<p>이미지를 지우고 삭제하는 지우개 도구</p>
+<p>[간단 실습] 이미지와 배경 지우기</p>
+<p>두 가지 색상을 자연스럽게 채우는 그레이디언트 도구</p>
+<p>[간단 실습] 그레이디언트로 채우기</p>
+<p>[간단 실습] 새로운 그레이디언트 만들고 등록하기</p>
+<p>[한눈에 실습] 이미지에 그레이디언트 적용하여 몽환적인 느낌 표현하기</p>
+<p>한번에 채우는 페인트 도구</p>
+<p>[간단 실습] 색상으로 채우기</p>
+<p>[간단 실습] 패턴으로 채우기</p>
+<p>색상을 선택하는 전경색/배경색</p>
+<p>[간단 실습] 전경색/배경색 지정하기</p>
+<p>다른 방법으로 전경색/배경색 지정하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 08. 리터칭, 보정하기 : 원하는 대로 이미지 보정하기</b>
+</p>
+<p>뿌옇게 하거나 선명하게, 매끈하게 보정하는 블러 도구, 샤픈 도구, 스머지 도구</p>
+<p>블러/샤픈/스머지 도구 옵션바 완전 정복</p>
+<p>어둡거나 밝게, 명도와 채도를 조절하는 닷지 도구, 번 도구, 스펀지 도구</p>
+<p>닷지/번/스펀지 도구 옵션바 완전 정복</p>
+<p>잡티를 제거하고 깨끗하게 복원하는 복구 브러시 도구</p>
+<p>스팟 복구 브러시/복구 브러시 도구 옵션바 완전 정복</p>
+<p>부드럽게 복제하는 패치 도구, 내용 인식 도구, 적목 현상 도구</p>
+<p>[한눈에 실습] 잡티가 있는 피부를 뽀얗게 보정하기</p>
+<p>[한눈에 실습] 감쪽같이 없애기</p>
+<p>특정 영역의 이미지를 복제하는 복제 도장 도구</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 09. 문자 입력하기 : 원하는 대로 문자 입력하고 속성 바꾸기</b>
+</p>
+<p>문자를 입력하는 문자 도구</p>
+<p>[간단 실습] 문자 입력하기</p>
+<p>문자 도구 옵션바와 패널 완전 정복</p>
+<p>[간단 실습] 단락 입력하기</p>
+<p>문단 패널 완전 정복</p>
+<p>문자 속성을 바꾸는 세 가지 방법</p>
+<p>문자의 굵기, 폭, 기울임을 자유자재로 변형하는 가변 글꼴</p>
+<p>[한눈에 실습] Warp Text로 문자 모양 변형하기</p>
+<p>자주 사용하는 Warp Text Style</p>
+<p>[간단 실습] 패스를 따라 흐르는 곡선 문자 만들기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 10. 벡터, 패스, 셰이프 그리기 : 섬세한 작업에 필요한 다양한 도형 그리기</b>
+</p>
+<p>벡터 방식</p>
+<p>패스로 정교하게 추출하는 펜 도구</p>
+<p>[간단 실습] 다양한 방법으로 패스 그리기</p>
+<p>[간단 실습] 펜 도구로 셰이프 만들기</p>
+<p>[간단 실습] 패스를 활용하여 이미지 소스 추출하기</p>
+<p>벡터 도형을 그리는 셰이프 도구</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 11. 원하는 대로 화면 보기 : 화면 확대, 이동, 넓게 보기</b>
+</p>
+<p>[간단 실습] 돋보기 도구로 화면 확대/축소하기</p>
+<p>[간단 실습] 손바닥 도구로 화면 이동하기</p>
+<p>손바닥 도구 옵션바와 패널 완전 정복</p>
+<p>[간단 실습] 회전 보기 도구로 화면 회전하기</p>
+<p>작업 공간을 넓게 보는 화면 편집 모드</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 12. 편하게 작업하기 : 작업 화면과 환경 설정하기</b>
+</p>
+<p>작업 편의를 위한 스포이트 도구, 눈금자 도구, 메모 도구, 카운트 도구</p>
+<p>작업 화면 설정하기</p>
+<p>[간단 실습] 나만의 작업 화면 설정하기</p>
+<p>[한눈에 실습] 포토샵 환경 설정하기</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 03. 합성의 기본, 레이어와 채널</b>
+</p>
+<p>
+						<b><br /></b>
+</p>
+<p>
+						<b>LESSON 01. 레이어의 모든 것 : 레이어 기초 이해하기</b>
+</p>
+<p>레이어 이해하기</p>
+<p>[간단 실습] 레이어 개념 이해하기</p>
+<p>레이어를 자유자재로 사용하고 관리하기</p>
+<p>[간단 실습] 레이어 선택하고 이름 바꾸기</p>
+<p>[간단 실습] 새 레이어 만들고 레이어 그룹 만들기</p>
+<p>[간단 실습] 레이어 복사하고 삭제하기</p>
+<p>[간단 실습] 레이어 순서 바꾸기</p>
+<p>[간단 실습] [Background] 레이어를 일반 레이어로 전환하기</p>
+<p>[간단 실습] 레이어 합치기</p>
+<p>[간단 실습] 레이어 숨기기</p>
+<p>[Layers] 패널</p>
+<p>[Layers] 패널 팝업 메뉴</p>
+<p>[간단 실습] 레이어 크기에 맞춰 이미지 확대하기</p>
+<p>레이어 블렌딩 모드</p>
+<p>[간단 실습] 흰색을 투명하게 하는 Multiply 모드</p>
+<p>[간단 실습] 검은색을 투명하게 하는 Screen 모드</p>
+<p>[간단 실습] 이미지 선명도를 높이는 Overlay 모드</p>
+<p>[한눈에 실습] 빛을 더 강하게 표현하는 Color Dodge 모드</p>
+<p>레이어 스타일</p>
+<p>[간단 실습] 레이어 스타일 자유자재로 활용하기</p>
+<p>레이어 마스크</p>
+<p>[간단 실습] 레이어 마스크 적용하기</p>
+<p>[간단 실습] 클리핑 마스크 적용하기</p>
+<p>조정 레이어</p>
+<p>[간단 실습] 조정 레이어 활용하기</p>
+<p>[간단 실습] 조정 레이어 다루기</p>
+<p>스마트 오브젝트</p>
+<p>[간단 실습] 스마트 오브젝트 활용하기</p>
+<p>[간단 실습] 스마트 오브젝트 레이어로 편집하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 채널의 모든 것 : 채널 기초 이해하기</b>
+</p>
+<p>채널의 중요한 역할</p>
+<p>[Channels] 패널 살펴보기</p>
+<p>[간단 실습] 색상 채널을 이용하여 채널별 보정하기</p>
+<p>[간단 실습] 컬러 모드 변경하고 채널 확인하기</p>
+<p>[간단 실습] 알파 채널을 이용하여 사진 일부만 흑백으로 만들기</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 04. 전문가처럼 보정하는 이미지 보정법과 필터</b>
+</p>
+<p>
+						<b><br /></b>
+</p>
+<p>
+						<b>LESSON 01. 전문가처럼 보정하기 : [Adjustments] 메뉴를 활용하는 다양한 방법</b>
+</p>
+<p>Adjustments 종류</p>
+<p>조정 레이어 사용하기</p>
+<p>[한눈에 실습] 1초 만에 자동으로 색상 보정하기</p>
+<p>[간단 실습] 흑백 이미지 만들기</p>
+<p>[간단 실습] 특정 톤으로 보정하기</p>
+<p>이미지를 선명하게 만들기</p>
+<p>[간단 실습] Brightness/Contrast로 밝기와 대비를 빠르게 조절하기</p>
+<p>[간단 실습] Levels로 명도 조절하기</p>
+<p>[간단 실습] Curves로 선명도가 떨어지는 이미지 보정하기</p>
+<p>[간단 실습] Shadows/Highlights로 역광 이미지 보정하기</p>
+<p>[간단 실습] Exposure로 카메라 노출 조정 보완하기</p>
+<p>[간단 실습] Hue/Saturation으로 색조, 채도, 명도를 한번에 조절하기</p>
+<p>[간단 실습] Color Balance로 색상 조절하기</p>
+<p>[간단 실습] Photo Filter로 다양한 필터 효과 내기</p>
+<p>[간단 실습] Selective Color로 특정 색상만 보정하기</p>
+<p>[간단 실습] Replace Color를 이용해 옷 색상 바꾸기</p>
+<p>[간단 실습] Posterize로 포스터 느낌 내기</p>
+<p>[간단 실습] Threshold로 이미지 단순화하기</p>
+<p>[간단 실습] Invert로 이미지 반전시키기</p>
+<p>[간단 실습] Gradient Map으로 이미지에 그레이디언트 색상 입히기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 프로 사진가처럼 이미지 보정하기 : Camera Raw 활용하기</b>
+</p>
+<p>Camera Raw 기본 화면 살펴보기</p>
+<p>[간단 실습] Camera Raw로 노출과 색상 보정하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 03. 인물 사진 필수 보정법 다섯 가지 : 꼭 알아두어야 할 SNS 사진 보정법</b>
+</p>
+<p>[간단 실습] 인물 사진 필수 보정법 ① 다리를 더 길게 만들기</p>
+<p>[간단 실습] 인물 사진 필수 보정법 ② 화이트 밸런스를 맞춰 색감 보정하기</p>
+<p>[간단 실습] 인물 사진 필수 보정법 ③ 점과 잡티 제거하기</p>
+<p>[간단 실습] 인물 사진 필수 보정법 ④ 얼굴형, 눈 크기 보정하기</p>
+<p>[간단 실습] 인물 사진 필수 보정법 ⑤ 인물의 경게선을 살려 선명하게 보정하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 04. 풍경 사진 필수 보정법 세 가지 : 2% 부족한 사진을 멋지게 완성하기</b>
+</p>
+<p>[간단 실습] 사진 필수 보정법 ① 명암 조절하기</p>
+<p>[간단 실습] 사진 필수 보정법 ② 선명도 조절하기</p>
+<p>[간단 실습] 사진 필수 보정법 ③ 원하는 색상 강조하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 05. 필터가 만드는 환상의 세계 : [Filter] 메뉴 알아보기</b>
+</p>
+<p>한 눈에 보는 필터의 모든 효과</p>
+<p>다양한 필터 효과 갤러리</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>일러스트레이터 | 쉽고 빠른 일러스트레이터 레시피</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 01. 일러스트레이터 CC 2020 파헤치기</b>
+</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 01. 반갑다, 일러스트레이터 : 일러스트레이터는 무엇이고 어디에 쓰이는가</b>
+</p>
+<p>일러스트레이터는 어디에 쓰이나요</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 일러스트레이터, 어떻게 생겼지 : 일러스트레이터 실행 화면 꼼꼼히 살펴보기</b>
+</p>
+<p>일러스트레이터 CC 2020 시작 화면</p>
+<p>일러스트레이터 CC 2020 기본 화면</p>
+<p>[간단 실습] 어두운 작업 화면 밝게 하기</p>
+<p>[간단 실습] 패널 조작하기</p>
+<p>나만의 작업 화면 설정하기</p>
+<p>[간단 실습] 작업 화면 만들어 등록하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 03. 뚝딱뚝딱, 그림을 그릴 도구 정복하기 : 일러스트레이터 CC 2020의 다양한 도구 알아두기</b>
+</p>
+<p>[간단 실습] 도구바 다루기</p>
+<p>도구 이름과 기능 살펴보기</p>
+<p>[간단 실습] 나만의 도구바 만들어 활용하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 04. 1분 1초를 아끼는 일러스트레이터 특급 활용법 : 일러스트레이터 단축키 만들기</b>
+</p>
+<p>[간단 실습] 나만의 단축키 만들기</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 02. 일러스트레이터 맛보기</b>
+</p>
+<p>
+						<b><br /></b>
+</p>
+<p>
+						<b>LESSON 01. 일러스트레이터, 이것만은 알고 넘어가자! : 일러스트레이터 시작 전 필수 지식 이해하기</b>
+</p>
+<p>RGB 모드와 CMYK 모드</p>
+<p>[간단 실습] 일러스트레이터에서 RGB, CMYK 모드 설정하기</p>
+<p>비트맵과 벡터의 차이</p>
+<p>레이어의 개념</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 일러스트레이터 첫걸음 떼기 : 파일 열고, 닫고, 저장하기</b>
+</p>
+<p>[간단 실습] 새 아트보드 만들고 저장하기</p>
+<p>[간단 실습] 파일 열고 닫기</p>
+<p>[간단 실습] 다양한 형식으로 저장하기</p>
+<p>[간단 실습] 아트보드 확대/축소하고 옮기기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 03. 아트보드 내 손 안에 있소이다! : 아트보드 자유자재로 다루기</b>
+</p>
+<p>[간단 실습] 한 파일 안에 여러 개의 아트보드 만들기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 04. 일러스트레이터 기초, 패스 파헤치기 : 패스로 선, 면 그리기</b>
+</p>
+<p>패스란 무엇인가요?</p>
+<p>[간단 실습] 직선 그리기</p>
+<p>[간단 실습] 곡선 그리기</p>
+<p>[간단 실습] 면 그리기</p>
+<p>[간단 실습] 오브젝트 선택하고 옮기기</p>
+<p>[간단 실습] 기준점 추가/삭제하기</p>
+<p>[간단 실습] 직선을 곡선으로 만들기</p>
+<p>[간단 실습] 패스 두껍게 하고 점선 만들기</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 03. 이것만 알아도 디자인이 된다</b>
+</p>
+<p>
+						<b><br /></b>
+</p>
+<p>
+						<b>LESSON 01. 패스 선택하기 : 선택 도구의 기본 조작 방법 알아보기</b>
+</p>
+<p>오브젝트를 선택하는 도구 알아보기</p>
+<p>[한눈에 실습] 선택 도구로 이동, 복제하기</p>
+<p>[한눈에 실습] 선택 도구로 수평/수직 이동, 복제하기</p>
+<p>[한눈에 실습] 선택 도구로 여러 오브젝트를 함께 선택하기</p>
+<p>[한눈에 실습] 바운딩 박스로 크기 수정하기</p>
+<p>[한눈에 실습] 각도 수정하고 바운딩 박스 재정렬하기</p>
+<p>[한눈에 실습] 직접 선택 도구로 오브젝트의 일부만 선택, 수정하기</p>
+<p>[한눈에 실습] 마술봉 도구로 선택하기</p>
+<p>[한눈에 실습] 올가미 도구로 선택하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 선과 면으로 캐릭터 그리기 : 펜 도구로 패스를 자유자재로 다루기</b>
+</p>
+<p>펜 도구와 관련 도구 알아보기</p>
+<p>[간단 실습] 새 파일 만들고 스케치 파일 불러오기</p>
+<p>[한눈에 실습] 펜 도구로 선 그리기 ①</p>
+<p>[한눈에 실습] 펜 도구로 선 그리기 ②</p>
+<p>[한눈에 실습] 펜 도구로 선 그리기 ③</p>
+<p>[한눈에 실습] 펜 도구로 면 그리기</p>
+<p>[한눈에 실습] 기준점 추가, 삭제하기</p>
+<p>[한눈에 실습] 펜 도구로 선 다시 그리기</p>
+<p>선 도구와 관련 도구 알아보기</p>
+<p>[한눈에 실습] 선 도구로 선 쉽게 그리기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 03. 패스 지우기 : 지우개 도구, 가위 도구, 칼 도구로 패스 자르고 편집하기</b>
+</p>
+<p>패스를 지우는 도구 알아보기</p>
+<p>패스를 지우고 잇는 [Anchors] 패널 알아보기</p>
+<p>[한눈에 실습] 지우개 도구로 패스 지우기</p>
+<p>[한눈에 실습] 가위 도구로 패스 끊기</p>
+<p>[한눈에 실습] 칼 도구로 패스 자르기</p>
+<p>[한눈에 실습] [Anchors] 패널로 패스 끊고 잇기</p>
+<p>
+						<b><br /></b>
+</p>
+<p>
+						<b>LESSON 04. 도형 그리기 : 도형 도구로 다양한 동물 캐릭터 얼굴 그리기</b>
+</p>
+<p>도형을 그리는 도형 도구 알아보기</p>
+<p>정확한 수치로 도형 그리기</p>
+<p>그려놓은 도형을 정확한 수치로 수정하기</p>
+<p>도형을 그리는 모양 도구 알아보기</p>
+<p>[한눈에 실습] 사각형, 원형 도구로 토끼 캐릭터 그리기</p>
+<p>[한눈에 실습] 다각형, 원형 도구로 병아리 캐릭터 그리기</p>
+<p>[한눈에 실습] 모양 도구로 고양이 캐릭터 그리기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 05. 그룹으로 패스 관리하기 : 여러 개의 패스를 하나로 묶어 효율적으로 편집하기</b>
+</p>
+<p>[간단 실습] 그룹에 대해 알아보기</p>
+<p>[간단 실습] 그룹 선택 도구 알아보기</p>
+<p>[한눈에 실습] 그룹으로 묶어 옮기고 복사하기</p>
+<p>[한눈에 실습] 그룹 선택 도구로 원하는 패스 선택하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 06. 여러 개의 패스를 정렬하기 : [Align] 패널로 패스를 정확하게 정렬하기</b>
+</p>
+<p>[Align] 패널에 대해 알아보기</p>
+<p>[간단 실습] 오브젝트의 간격 조절하기</p>
+<p>[한눈에 실습] 가로, 세로 정렬하기</p>
+<p>[한눈에 실습] 간격 동일하게 정렬하기</p>
+<p>[한눈에 실습] 아트보드를 기준으로 정렬하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 07. 패스를 합치고 나누기 : 도형 구성 도구와 [Pathfinder] 패널로 아이콘 만들기</b>
+</p>
+<p>도형 구성 도구 알아보기</p>
+<p>[Pathfinder] 패널 알아보기</p>
+<p>[한눈에 실습] 도형 구성 도구로 합치고 나누기</p>
+<p>[한눈에 실습] [Pathfinder] 패널로 패스 합치고 나누기</p>
+<p>[한눈에 실습] 선을 기준으로 면 나누기</p>
+<p>[한눈에 실습] Outline Stroke로 선을 면으로 바꾸어 합치기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 08. 패스를 회전, 반전하기 : 회전 도구와 반전 도구로 활용도 높은 문양 만들기</b>
+</p>
+<p>회전 도구와 반전 도구 알아보기</p>
+<p>정확한 수치로 회전, 반전하기</p>
+<p>[한눈에 실습] 회전 도구로 꽃잎과 풀잎 수정하기</p>
+<p>[한눈에 실습] Transform Again으로 회전을 자동 반복하기</p>
+<p>[한눈에 실습] 반전 도구로 하트 만들기</p>
+<p>[한눈에 실습] 회전 도구와 반전 도구로 눈 결정체 문양 만들기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 09. 패스의 크기, 기울기 수정하기 : 스케일 도구와 기울기 도구로 패스의 형태 수정하기</b>
+</p>
+<p>스케일 도구, 기울기 도구, 변경 도구에 대해 알아보기</p>
+<p>정확한 수치로 패스의 형태 수정하기</p>
+<p>[한눈에 실습] 스케일 도구로 정확하게 크기 수정하기</p>
+<p>[한눈에 실습] 기울기 도구로 정확하게 기울기 조절하기</p>
+<p>[한눈에 실습] 변형 도구로 곡선 만들기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 10. 일러스트레이터에서 색을 적용하는 모든 방법 : 컬러 믹서 패널, 스와치 패널과 [Color Picker], [Recolor Artwork]로 색 적용하기</b>
+</p>
+<p>컬러 믹서 패널로 색 적용하기</p>
+<p>스와치 패널로 색 적용하기</p>
+<p>스와치 패널로 패턴 적용하기</p>
+<p>[Color Picker] 알아보기</p>
+<p>[Recolor Artwork] 알아보기</p>
+<p>[간단 실습] 컬러 믹서 패널로 색 적용하기</p>
+<p>[간단 실습] 스와치 패널로 색 적용하고 등록하기</p>
+<p>[한눈에 실습] [Color Picker] 대화상자로 색 적용하기</p>
+<p>[한눈에 실습] [Recolor Artwork]로 색 수정하기</p>
+<p>[한눈에 실습] 스와치 패널로 패턴 적용하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 11. 그레이디언트를 적용하여 화려한 색 만들기 : [Gradient] 패널, 그레이디언트 도구로 여러 가지 색을 섞기</b>
+</p>
+<p>[Gradient] 패널 알아보기</p>
+<p>그레이디언트 도구 알아보기</p>
+<p>자유형 그레이디언트 알아보기</p>
+<p>[간단 실습] [Gradient] 패널로 직선 그레이디언트 적용하기</p>
+<p>[간단 실습] [Gradient] 패널로 원형 그레이디언트 적용하기</p>
+<p>[간단 실습] 그레이디언트 도구로 그레이디언트 수정하기</p>
+<p>[간단 실습] 자유형 그레이디언트로 섬세한 그레이디언트 적용하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 12. 패스를 격리하여 쉽게 수정하기 : 격리 모드를 이용하여 패스를 개별적으로 관리하기</b>
+</p>
+<p>격리 모드 알아보기</p>
+<p>[한눈에 실습] 격리 모드에서 패스 수정하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 13. 정확한 작업을 하도록 도와주는 안내선 : 룰러 가이드, 그리드를 설정하여 정확하게 작업하기</b>
+</p>
+<p>룰러 알아보기</p>
+<p>가이드 알아보기</p>
+<p>그리드 알아보기</p>
+<p>[간단 실습] 룰러, 가이드, 그리드 설정하여 정확하게 작업하기</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+						<b>CHAPTER 04. 중급 테크닉으로 실력 업그레이드하기</b>
+</p>
+<p>
+						<b><br /></b>
+</p>
+<p>
+						<b>LESSON 01. 원하는 부분만 보이게 하기 : 클리핑 마스크로 불필요한 부분 숨기고 특정 부분만 나타내기</b>
+</p>
+<p>클리핑 마스크 적용하기</p>
+<p>클리핑 마스크 수정하기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 02. 3D 입체 건물 그리기 : 원근감 격자 도구로 입체 일러스트 쉽게 그리기</b>
+</p>
+<p>원근감 격자 도구를 이용하여 건물 그리기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 03. 사진을 그림으로 바꾸기 : Image Trace를 이용하여 비트맵 이미지를 벡터 이미지로 바꾸기</b>
+</p>
+<p>비트맵 이미지를 벡터 이미지로 바꾸기</p>
+<p>Arrange의 단축키로 레이어의 순서를 바꾸기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 04. 면이 겹쳐 보이는 효과 주기 : [Transparency] 패널로 블렌딩하거나 투명도를 조절하기</b>
+</p>
+<p>혼합 모드로 합성하기</p>
+<p>투명도를 조절하여 면을 투명하게 만들기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 05. 자연스러운 선 드로잉하기 : 연필 도구로 드래그하여 낙서화 그리기</b>
+</p>
+<p>연필 도구로 선 그리고 수정하기</p>
+<p>연필 도구로 글씨 쓰기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 06. 붓으로 그린 듯한 선 느낌 내기 : 브러시 도구로 드래그하여 수작업 느낌 내기</b>
+</p>
+<p>브러시 도구로 선 그리기</p>
+<p>일반 패스에 브러시 적용하기</p>
+<p>물방울 브러시로 면 그리기</p>
+<p>복잡한 패스 단순하게 만들기</p>
+<p>&nbsp;</p>
+<p>
+						<b>LESSON 07. 글자 입력하여 이벤트 페이지 만들기 : 다양한 방식으로 글자 입력하고 수정하기</b>
+</p>
+<p>글자 입력하기</p>
+<p>글자 크기와 색 수정하기</p>
+<p>글자를 세로로 입력하기</p>
+<p>패스를 따라 흘러가는 글자 입력하기</p>
+<p>문자 손질 도구로 글자 수정하기</p>
+<p>Create Outline으로 글자를 패스로 만들어 디자인하기</p></p>
+						</div>                        </div>
+                              <!-- //목차 -->
+  
+          <!-- 출판사리뷰 -->
+                              <!-- //출판사리뷰 -->
+  
+          <!-- 독자리뷰 -->
+          
+                     
+                                           
+                        <div id="tabs_5" ><a id="review_tab" ></a>                       
+                            <p class="detail_tit" style="display:none;">독자리뷰</p>
+                                                                       
+            <div id="" class="detail_conbox" >
+              <div class="detail_review_area">
+                <div class="detail_btn right"><a href="javascript:;" onclick="review_start();">리뷰 쓰기</a></div>
+                
+                <ul>
+                                                      <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8343">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>linuxw***</strong><span>l</span>2020-03-30</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+1).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate1"></div>
+                        <div class="tit">누구나 쉽게 배우는  포토샵&일러스트레이터 교과서</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20200330083343_uogdvvxo.jpg" alt="KakaoTalk_20200330_080855180.jpg" style="width: 800px; height: 600px" />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">본 서적은일단 책의 저자분들이 굉장한 분들입니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">두 분이파트를 나누어서 집필을 하셨는데<span lang="EN-US">, </span>빨간고래<span lang="EN-US">(</span>박정아<span lang="EN-US">)</span>님은 일러스트레이터 부분을<span lang="EN-US">, </span>공동작가인 포완카<span lang="EN-US">(</span>윤이사라<span lang="EN-US">)</span>님은 포토샵 부분을 집필하셨습니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">저자 두분모두 강의<span lang="EN-US">, </span>실무<span lang="EN-US">, </span>저서 등에서 굉장한 경력과 실력이 갖춘분들이라 두 그래픽 프로그램에 관심있는 입문자라면 기대해도 좋을 것 같습니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20200330083415_xbxgxfvq.jpg" alt="KakaoTalk_20200330_080855346.jpg" style="width: 540px; height: 960px" />
+</p>
+<p>
+	<span style="font-size: 12pt">&nbsp;</span>
+</p>
+<p>&nbsp;</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">책은 컴맹이지만프로그램의 필수 기능을 빠르게 익혀서 실무에 직접 써먹을 있는 수준을 목표로 편성되어 있습니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">참고로저는 <span lang="EN-US">CC 2000 </span>버전으로 실습을 따라 했으며 <span lang="EN-US">2020</span>의몇 가지 새로운 기능은 참고만 했습니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">신기능에대한 설명은 책의 서두에 잠시 소개되고<span lang="EN-US">, </span>해당 레슨에서 자세히 다룹니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">그리고단축키 참고를 위해 유용한 섹션 <span lang="EN-US">2</span>가지를 제공합니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">포토샵<span lang="EN-US">, </span>일러스트레이터 파트의 각각 마지막에 <span lang="EN-US">“</span>실속 단축키<span lang="EN-US">” </span>소개편이 있습니다<span lang="EN-US">. </span>각각의 프로그램에서 암기한다면 작업 시간을 효과적으로줄일 수 있는 단축키를 선별하여 설명해 놓았습니다<span lang="EN-US">.</span></span><span style="font-size: 12pt">&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<v:shape id="그림_x0020_7" o:spid="_x0000_i1028" type="#_x0000_t75" style="width: 450.75pt; height: 253.5pt; visibility: visible">
+			 			<v:imagedata src="file:///C:/Users/linux/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" o:title="">
+				</v:imagedata>
+		</v:shape></span><span lang="EN-US" style="font-size: 12pt">		<o:p>
+			</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20200330083446_maualxbp.jpg" alt="KakaoTalk_20200330_080855903.jpg" style="width: 800px; height: 450px" />
+</p>
+<p>&nbsp;</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20200330083448_deiwxqwa.jpg" alt="KakaoTalk_20200330_080856105.jpg" style="width: 800px; height: 450px" />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<v:shape id="그림_x0020_8" o:spid="_x0000_i1027" type="#_x0000_t75" style="width: 450.75pt; height: 253.5pt; visibility: visible">
+			 			<v:imagedata src="file:///C:/Users/linux/AppData/Local/Temp/msohtmlclip1/01/clip_image003.jpg" o:title="">
+				</v:imagedata>
+		</v:shape></span><span lang="EN-US" style="font-size: 12pt">		<o:p>
+			</o:p></span>
+</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">또 하나<span lang="EN-US">, </span>책의 끝에 오려 붙여서 사용하는 유용한 단축키 모음도 있습니다<span lang="EN-US">. </span>만들어서책상 등에 올려 놓고 보시면 유용할 것 같습니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span><span style="font-size: 12pt">&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>
+			</o:p></span>
+</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20200330083510_ngyabcxb.jpg" alt="KakaoTalk_20200330_080856302.jpg" style="width: 800px; height: 450px" />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">책은 포토샵과일러스트레이터를 <span lang="EN-US">PART</span>별로 나누었고 각각의 파트는 <span lang="EN-US">CHAPTER</span>와기능별 세부 <span lang="EN-US">LESSION</span>으로 구성됩니다<span lang="EN-US">. CHAPTER</span>는프로그램과 그래픽에 대한 초보적인 지식 안내<span lang="EN-US">, </span>툴 사용법부터 시작해서 점점 실무에 가까운 기술적인 팁으로난이도를 놓여서 다루게 됩니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">실습에필요한 리소스<span lang="EN-US">(</span>이미지 등<span lang="EN-US">)</span>은 한빛미디어 공식 홈페이지에서내려 받아서 <span lang="EN-US">LESSION </span>별 학습에 사용하시면 됩니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span style="font-size: 12pt">마지막으로각 <span lang="EN-US">PART</span>별로 유용한 학습부분을 소개합니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">PART 01. </span><span style="font-size: 12pt">쉽고 빠른 포토샵 레시피<span lang="EN-US">			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">&lt;CHAPTER 02 - LESSION 16: </span><span style="font-size: 12pt">자르기<span lang="EN-US">, </span>분할하기<span lang="EN-US">&gt; </span>에서 이미지의 일부를 자르고 분할하는 방법에 대해 자세히 다룹니다<span lang="EN-US">. </span>보통포토샵 입문서에서 대충 다루는 부분인데 디자인 리소스를 다룰 때 필수로 알아야 하는 기능 중에 하나입니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">&lt;CHAPTER 02 - LESSION 12: </span><span style="font-size: 12pt">작업 화면과 환경설정하기<span lang="EN-US">&gt; </span>부분을참고하시면<span lang="EN-US">, </span>전문가들이 포토샵을 효율적으로 사용하기 위해 환경설정 항목을 어떻게 설정해서 사용하는지참고할 수 있습니다<span lang="EN-US">.</span></span><span style="font-size: 12pt">&nbsp;</span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<v:shape id="그림_x0020_12" o:spid="_x0000_i1025" type="#_x0000_t75" style="width: 450.75pt; height: 253.5pt; visibility: visible">
+			 			<v:imagedata src="file:///C:/Users/linux/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg" o:title="">
+				</v:imagedata>
+		</v:shape></span><span lang="EN-US" style="font-size: 12pt">		<o:p>
+			</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p>
+	<img src="http://www.hanbit.co.kr/data/editor/20200330083535_edxhmyvp.jpg" alt="KakaoTalk_20200330_080855704.jpg" style="width: 800px; height: 450px" />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">PART 02. </span><span style="font-size: 12pt">쉽고 빠른 일러스트레이터 레시피<span lang="EN-US">			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">&lt;CHAPTER 03 - LESSION 13: </span><span style="font-size: 12pt">정확한 작업을 하도록 도와주는 안내선<span lang="EN-US">&gt; </span>사실이 부분은 포토샵과 일러스트레이터 기초부분에서 심도 있게 다루어야 하는 주제이지만 난이도가 있어 입문서에서는 잘 다루지 않는데 본 서적에서는 핵심만짧게 설명이 되어 있습니다<span lang="EN-US">.			<o:p>
+				</o:p></span></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">		<o:p>&nbsp;</o:p></span>
+</p>
+<p class="MsoNormal">
+	<span lang="EN-US" style="font-size: 12pt">&lt;CHAPTER 04 – </span><span style="font-size: 12pt">중급 테크닉으로 실력 업그레이드하기<span lang="EN-US">&gt; </span>부분은 저도 초보시절에 인터넷으로해결법을 찾아서 헤매었던 주제들이기도 합니다<span lang="EN-US">.</span></span>
+</p>
+<p>&nbsp;</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_1"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8343','1');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8305">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>jjk8***</strong><span>l</span>2020-03-27</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+2).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate2"></div>
+                        <div class="tit">[맛있는 디자인 - 포토샵 & 일러스트레이터 CC 2020]</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>나에게 포토샵이라는 이름의 프로그램은 익히 들어 알고있었으나 직접 사용해보는것은 여전히 딴나라 이야기 였다. DSLR, 미러리스, 스마트폰카메라에 이르기까지 사진 찍기를 좋아하지만 막상 보정작업은 왠지 남들을 속이는 것 같다는 고정관념에 사로 잡혀 있었다. 하지만 인스타그램에 올라오는 다른 분들의 사진을 보면서 부러움의 나날을 보내길 어언...십수년을 지나서야...포토샵을 배우겠다고 한빛미디어의 [맛있는 디자인 CC 2020]시리즈 중에서 [포토샵 & 일러스트레이터 CC 2020]을 떠들어보기 시작하였다.</p>
+<p>&nbsp;</p>
+<div>
+		<img id="image_0.0208053625893016" style="width: 800px; height: 1066px" alt="20200327_230712.jpg" src="http://www.hanbit.co.kr/data/editor/20200327234453_bcfpdsps.jpg" />
+</div>
+<div>
+	<br />이 책은 네이버에서 포완카라는 카페를 17년간 운영한 분, UI디자이너와 광고디자이너, 프리랜서 그림작가로 활동중인 두분이 공동저자로 초보자를 위한 특화된 책이다. 체험판 설치에서 부터 일러스트레이터 CC 2020를 기준으로 최신 버전을 반영하여 새로운 기능도 잘정리되어 있다. 또한 실습을 위한 실무예제 파일을 홈페이지를 통하여 다운로드 및 활용 할 수 있어서 더욱 좋았다. 눈으로만 보는 책이 아니라 직접 하나하나 따라하고 익혀나가는데 촛점이 맞혀져 있는 실무서적이라고 볼 수 있다.
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+	<img id="image_0.12758144637920432" style="width: 800px; height: 1066px" alt="20200327_230733.jpg" src="http://www.hanbit.co.kr/data/editor/20200327234512_kficpaka.jpg" />
+</p>
+<p>&nbsp;</p>
+<div>우선 책이 500페이지에 달하지만 전혀 두껍지 않고 , 풀 컬러 조판으로 실습을 통한 보정 전, 후 사진을 직접 눈으로 확인 할 수 있어서 부담없이 포토샵의 세계로 입문 할 수 있다고 말할 수 있겠다. 포토샵의 파워풀하고 복잡한 기능들을 하나하나 따라하기를 통하여 정복하다보면 내가 원하는 사진을 직접 만들 수 있게되어 성취감도 있고, 어렵게만 느껴지던 포토샵을 쉽게 접할 수 있게 만들어주는게 이 책의 최대 장점이라고 생각된다. </div>
+<div>
+		<br />저 처럼 내가 만든 컨텐츠를 직접 보정과 편집을 통하여 원하는 결과물을 만들어보고 싶은, 왕초보에게 최적화된 책이며, 좋은 입문 지침서라고 생각된다. 지금부터 용기내어 [포토샵 & 일러스트레이터 CC 2020]과 함께 포토샵의 세계에 빠져보기를 권한다.
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_2"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8305','2');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8269">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>joyf***</strong><span>l</span>2020-03-27</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+3).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate3"></div>
+                        <div class="tit">초보 디자이너에게 좋은 가이드북입니다</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p class="se-text-paragraph se-text-paragraph-align- " id="SE-9ecde723-de0a-4b0b-9b52-2559e4c8e8fc" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">
+	<span class="se-fs-fs16 se-ff-system   " id="SE-99bfd103-0ddb-4dc9-ba8c-286e4e205c80" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>오늘은 한빛미디어의 맛있는 디자인 포토샵 & 이러스트레이터를 포스팅하려고 합니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-275b1297-cd34-45f2-873b-bf8711bb695f" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">
+	<span class="se-fs-fs16 se-ff-system   " id="SE-74f99b4e-4d5c-4650-847f-acb5a690e862" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>보통 컴퓨터 책은 한 가지 내용만으로 구성이 되는데 이번에 맛있는 디자인으로 두개를 한 권으로 발간했습니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-408caef3-5bd3-4195-8057-4bfb9706f7a9" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">
+	<span class="se-fs-fs16 se-ff-system   " id="SE-a42e609b-2269-44d2-8849-a66ee7846f98" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포토샵과 일러스트를 배우려고 하는 분에게는 아주 좋은 기회라고 생각되네요.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-1f816adb-6908-45cb-ab9b-6c5a13bd216c" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">
+	<span class="se-fs-fs16 se-ff-system   " id="SE-ed87c5e8-4768-45a9-874e-6d0aaa4c20d7" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>한 권의 책으로 두가지를 배울 수 있으니</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-1f816adb-6908-45cb-ab9b-6c5a13bd216c" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">&nbsp;</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-3324f1e5-f0f5-4f8f-a5d6-62bc51435c4a" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">
+	<span class="se-fs-fs16 se-ff-system   " id="SE-59295642-8b3b-470f-be1a-b434c6c0a5df" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포토샵에서 가장 많이 쓰이는 것 중에 하나가 도구일텐데요.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-1d4ac407-7964-4ef1-8d3a-97975cf8785c" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">
+	<span class="se-fs-fs16 se-ff-system   " id="SE-1eb362d3-df66-472e-8280-482d162e1bde" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>도구에 대한 설명을 자세하게 소개해 줍니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-1f816adb-6908-45cb-ab9b-6c5a13bd216c" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">&nbsp;</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-b741d650-2c7a-4ad8-8b42-f582ab7d0c30" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">
+	<span class="se-fs-fs16 se-ff-system   " id="SE-dbb235bb-878a-4638-891d-9e7ab482af63" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>그리고 다음 페이지에서는 각 도구의 서브 도구를 소개하고 그 도구가 어떻게 사용되는지 설명해 줍니다.</span>
+</p>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-b741d650-2c7a-4ad8-8b42-f582ab7d0c30" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">&nbsp;</p>
+<div class="se-component se-text se-l-default" id="SE-696cb8d2-cce1-4c83-9b1e-c431ef936e73" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-text se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-module se-module-text" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-ee5a6f1b-93d9-407a-97f4-43f78199a172" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-e36c9b8a-2aef-439b-bb78-deff29a8ef98" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>주로 포토샵으로 작업하는 사람들이 자기가 쓰는 기능만 쓰는 경우가 많이 있습니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-f9d8ed08-bee8-4c30-9059-10f236a3c82a" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-c45a7f88-03ca-4e96-8482-0edf8c7a127a" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>전문 디자이너가 아니라면요.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-408af2ea-6afb-47bb-88e5-2a7ff037ef91" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-11adfd8e-e6cf-4c2a-84aa-2d94505bf23b" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>위에 보이는 먼저 맛보는 포토샵 기본 기능 열여덟 가지는 가장 많이 쓰이는 기능을 소개합니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-6dcbbb75-f668-459e-9337-4d355eb49aa3" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-c0553a64-7a9b-40a4-af39-431af720d0c5" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포토샵을 처음 배우는 사람은 이것부터 배우셔서 포토샵을 사용하시면서 다른 기능을 익히시면 좋을 것 같아요.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-ef8cd837-b5b2-4f7d-936b-07a1a7067fde" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-5213ab91-ee82-4d34-bbd9-6332a473bbc4" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>이것만 알아도 포토샵 쓰는데 어려움이 없을 정도입니다.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-imageStrip se-imageStrip2 se-l-default" id="SE-066c2aed-7d8c-49dd-9332-2915b8a3359c" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content se-component-content-extend" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-imageStrip se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-imageStrip-container se-imageStrip-col-2" style="margin: 0px -40px; padding: 0px 5px 0px 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-family: inherit; vertical-align: baseline; position: relative; white-space: nowrap">
+				<div class="se-module se-module-image" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top; display: inline-block; box-sizing: border-box; width: 480.5px">
+					<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-8281b092-854f-4fde-9153-50f9bbee1e2e", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjVfMTIx/MDAxNTg1MTAyNjMwNTc0.0sPXbh0iqpx6w85hEbFxiz1x_d-tW7NgwvtJz_-pnIYg.2dgUdL9T8YOuMB9caCcywHdBTjWh2i3xEZFNsf904Scg.JPEG.kuyper68/1585102629587.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjVfMTIx/MDAxNTg1MTAyNjMwNTc0.0sPXbh0iqpx6w85hEbFxiz1x_d-tW7NgwvtJz_-pnIYg.2dgUdL9T8YOuMB9caCcywHdBTjWh2i3xEZFNsf904Scg.JPEG.kuyper68/1585102629587.jpg?type=w966" data-lazy-src="" data-width="664" data-height="885" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 480.5px" /></a>
+				</div>&nbsp;
+				<div class="se-module se-module-image" style="margin: 0px 0px 0px 5px; padding: 0px; border: 0px; font: inherit; vertical-align: top; display: inline-block; box-sizing: border-box; width: 480.5px">
+					<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-24392d5e-0c5a-44bd-b95a-987ee820a313", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjVfMjgy/MDAxNTg1MTAyNjMxNzkw._MepLOKU1b_-KvMBscg1LEbmOexLRsYUPwES0ur4ASsg.WeDZuaQiXnGALsNxGAii2_OJazXV95WOMa1muatcktwg.JPEG.kuyper68/1585102630840.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjVfMjgy/MDAxNTg1MTAyNjMxNzkw._MepLOKU1b_-KvMBscg1LEbmOexLRsYUPwES0ur4ASsg.WeDZuaQiXnGALsNxGAii2_OJazXV95WOMa1muatcktwg.JPEG.kuyper68/1585102630840.jpg?type=w966" data-lazy-src="" data-width="664" data-height="885" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 480.5px" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-37db2510-8d65-4a9f-af21-96eb6b7a70ee" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-text se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-module se-module-text" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-2fd03745-6495-4f93-b488-a8fc80b4b566" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-95335ac4-76ed-4917-b498-6e20865719e4" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포샤시한 이미지 만드는 분에게 좋은 가이드입니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-37451935-47e0-4ac0-9f1d-953859fe4c1c" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-9ac2c6d0-86ea-45d8-8578-8e5b767344b6" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>페더값을 통해서 사진을 예쁘게 편집할 수 있는 부분이죠.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-7405c8a1-55aa-4d2b-a100-5b1b6548a91f" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-d7f9dda2-7d09-48d9-896e-f6d4143303d7" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포토샵으로 이렇게 만들 수 있으면 기본은 한다고 생각하시면 됩니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-e5f92f3c-25d0-4e8c-935b-813d34f1ab71" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-bc133870-88ee-4c4e-ac6d-f0728ce0a0f4" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>또 안쓰면 까먹기 때문에 전문적으로 디자인을 할 분 아니라면 이런 식으로 페이지 넘기면서 자기가 원하는 부분을 학습하시는 것도 좋은 팁이 될 것 같아요.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-imageStrip se-imageStrip2 se-l-default" id="SE-ad40598b-d76f-47a1-93c5-51aec5dd1c29" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content se-component-content-extend" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-imageStrip se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-imageStrip-container se-imageStrip-col-2" style="margin: 0px -40px; padding: 0px 5px 0px 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-family: inherit; vertical-align: baseline; position: relative; white-space: nowrap">
+				<div class="se-module se-module-image" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top; display: inline-block; box-sizing: border-box; width: 480.5px">
+					<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-56cd377c-8a2b-4ccb-b553-a17ec54fa98d", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjVfMTc5/MDAxNTg1MTAyNjMyODg4.JxZUggAHRs9XjcdxN87n7Ae3h8kISOI2mIFfmABeLagg.BcHQa566zKW_HmK4wome9hN72jzJsKwVCTujLPPXfOsg.JPEG.kuyper68/1585102631921.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjVfMTc5/MDAxNTg1MTAyNjMyODg4.JxZUggAHRs9XjcdxN87n7Ae3h8kISOI2mIFfmABeLagg.BcHQa566zKW_HmK4wome9hN72jzJsKwVCTujLPPXfOsg.JPEG.kuyper68/1585102631921.jpg?type=w966" data-lazy-src="" data-width="664" data-height="885" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 480.5px" /></a>
+				</div>&nbsp;
+				<div class="se-module se-module-image" style="margin: 0px 0px 0px 5px; padding: 0px; border: 0px; font: inherit; vertical-align: top; display: inline-block; box-sizing: border-box; width: 480.5px">
+					<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-9b8a7b4e-3bd0-4f41-885d-2aa887a4eb9d", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjVfNTYg/MDAxNTg1MTAyNjM0MDAy.5sbt5PY7h6cSDLuHXz98dOYkDSHSWeHSSILQeoALqAEg.LJT1Zb6PO0CsFp_-b3RYVSIWLOQlPVVqIwZr8p1ZVf8g.JPEG.kuyper68/1585102633063.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjVfNTYg/MDAxNTg1MTAyNjM0MDAy.5sbt5PY7h6cSDLuHXz98dOYkDSHSWeHSSILQeoALqAEg.LJT1Zb6PO0CsFp_-b3RYVSIWLOQlPVVqIwZr8p1ZVf8g.JPEG.kuyper68/1585102633063.jpg?type=w966" data-lazy-src="" data-width="664" data-height="885" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 480.5px" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-bfa60e60-5bc7-4cf1-8ef8-0e4f4ed3e7d6" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-text se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-module se-module-text" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-aaafecf2-e84f-4176-bae9-3e2be6f52f2c" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-00d443d4-1d59-4511-94b4-9098297ca97f" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포토샵에서 레이어 개념을 이해해야 합니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-afb039e3-9cdb-4a8e-96b2-a6e8b5b54b7e" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-728702be-77eb-46ea-bf41-46b341bb2e16" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>레이어를 알아야 디자인의 개념을 이해할 수 있거든요.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-imageStrip se-imageStrip3 se-l-default" id="SE-0f8a0e47-889c-4aad-b7fe-a29f056ad86e" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content se-component-content-extend" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-imageStrip se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-imageStrip-container se-imageStrip-col-3" style="margin: 0px -40px; padding: 0px 10px 0px 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-family: inherit; vertical-align: baseline; position: relative; white-space: nowrap">
+				<div class="se-module se-module-image" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top; display: inline-block; box-sizing: border-box; width: 318.656px">
+					<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-15b34241-6083-42dd-8834-a9d4fb6304fb", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjVfOTAg/MDAxNTg1MTAyNjM1MTU4.Tb-QU3oba1bK-SOwEp04rf_UjyFKerJCxF1onGkEE98g.ccduRDhGm0wXGp4TLfD5WkZcTZeWFEMc1GeuSeFg4Ygg.JPEG.kuyper68/1585102634183.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjVfOTAg/MDAxNTg1MTAyNjM1MTU4.Tb-QU3oba1bK-SOwEp04rf_UjyFKerJCxF1onGkEE98g.ccduRDhGm0wXGp4TLfD5WkZcTZeWFEMc1GeuSeFg4Ygg.JPEG.kuyper68/1585102634183.jpg?type=w966" data-lazy-src="" data-width="664" data-height="885" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 318.656px" /></a>
+				</div>&nbsp;
+				<div class="se-module se-module-image" style="margin: 0px 0px 0px 5px; padding: 0px; border: 0px; font: inherit; vertical-align: top; display: inline-block; box-sizing: border-box; width: 318.656px">
+					<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-025729b2-b521-43e7-a4cc-097a043138d0", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjVfMjAy/MDAxNTg1MTAyNjM2MjUy.Nd4zKTd_1XkmlJ6C5f_lrTqMsLXE9POEnoLgBI_E6hsg.pp2VdtlhpAIi84bMMolPj77JPAjNrzKaWEzeX0npNMUg.JPEG.kuyper68/1585102635317.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjVfMjAy/MDAxNTg1MTAyNjM2MjUy.Nd4zKTd_1XkmlJ6C5f_lrTqMsLXE9POEnoLgBI_E6hsg.pp2VdtlhpAIi84bMMolPj77JPAjNrzKaWEzeX0npNMUg.JPEG.kuyper68/1585102635317.jpg?type=w966" data-lazy-src="" data-width="664" data-height="885" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 318.656px" /></a>
+				</div>&nbsp;
+				<div class="se-module se-module-image" style="margin: 0px 0px 0px 5px; padding: 0px; border: 0px; font: inherit; vertical-align: top; display: inline-block; box-sizing: border-box; width: 318.656px">
+					<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-7ea82a4a-8f25-4fa9-b858-8d3c35293188", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjVfMyAg/MDAxNTg1MTAyNjM3NTkz.td9ZPm0NCttd2vF-8A9wJAb21VPcL0s9XDpjqoTXCUYg.Z8Hg6t3rfsDyFl8ZPhje5kZ3pHX8sbfcb__39f-jL4Ug.JPEG.kuyper68/1585102636447.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjVfMyAg/MDAxNTg1MTAyNjM3NTkz.td9ZPm0NCttd2vF-8A9wJAb21VPcL0s9XDpjqoTXCUYg.Z8Hg6t3rfsDyFl8ZPhje5kZ3pHX8sbfcb__39f-jL4Ug.JPEG.kuyper68/1585102636447.jpg?type=w966" data-lazy-src="" data-width="664" data-height="885" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 318.656px" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-87be09b3-87a1-4177-92f5-81e8ffeb8ae1" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-text se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-module se-module-text" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-96897a2a-7e85-497b-8afd-d8e7599c67b4" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-2cc6023b-b3df-4ce4-9604-88818ae76731" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>레이어  블랜딩 모두입니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-3e6b6fb8-a0ef-4c47-ad64-868140a6bca1" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-9279b169-1175-421d-aa9e-28c05ee77336" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>오래동안 사용했는데, 새롭게 이해할 부분이 정말 많네요.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-8ae1cc29-0605-4f4e-b1e0-583702aab03a" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-d3c6f07d-70d3-4b74-a56e-f55bc9fa717d" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>일부 책에서 소개해 주는 않는 부분이거든요.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-c71fbe90-a975-4c5e-983e-15eaba5febad" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-d88f11de-7692-4f01-8a76-d491c6dccef4" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>새로운 것을 많이 알게 됐어요.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-image se-l-default" id="SE-ab04917b-0249-44df-9f2d-866368eb3512" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content se-component-content-normal" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-image se-l-default se-section-align-" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; max-width: 886px">
+			<div class="se-module se-module-image" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+				<a href="https://blog.naver.com/PostView.nhn?blogId=kuyper68&Redirect=View&logNo=221876610276&categoryNo=84&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=54537#" class="se-module-image-link __se_image_link __se_link" data-linktype="img" data-linkdata='{"id" : "SE-ab04917b-0249-44df-9f2d-866368eb3512", "src" : "https://postfiles.pstatic.net/MjAyMDAzMjdfMjk3/MDAxNTg1MzA4MjA5NjA0.oZ1SeqfS58sfmV3qnmF22IyGeBsDeJRhHjd2O81dTJkg.S_hGcgZUkYaRTaGn7kIVldtV8G2_L8mmMwJf1zMqWbsg.JPEG.kuyper68/SE-ab04917b-0249-44df-9f2d-866368eb3512.jpg", "linkUse" : "false", "link" : ""}' style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline" target="_blank"><img src="https://postfiles.pstatic.net/MjAyMDAzMjdfMjk3/MDAxNTg1MzA4MjA5NjA0.oZ1SeqfS58sfmV3qnmF22IyGeBsDeJRhHjd2O81dTJkg.S_hGcgZUkYaRTaGn7kIVldtV8G2_L8mmMwJf1zMqWbsg.JPEG.kuyper68/SE-ab04917b-0249-44df-9f2d-866368eb3512.jpg?type=w966" data-lazy-src="" data-width="886" data-height="664" alt="" class="se-image-resource" style="border: 0px; margin: 0px; padding: 0px; font: inherit; vertical-align: top; position: relative; width: 886px" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-47a8768e-405e-4b09-807e-bc467329d5eb" style="margin: 20px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-text se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+			<div class="se-module se-module-text" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline">
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-55f78b4a-f537-4131-95aa-d237b5e1dc1b" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-232d78ae-3e63-4525-86ab-f608f2734b16" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>블랜딩 모드를 통해서 이미지를 이렇게 이쁘게 만들 수 있답니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-5e5079ec-922b-4dca-82de-6f4e4cb41fd3" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-f5bd7a5d-3e43-4572-bb18-fe2ec4d7b8bc" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>​</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-d917896f-ec73-4c07-859b-5d59df7b42c8" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-f27684e2-e93a-41f8-ad8c-cec47c245dee" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>책 전체적인 소감은 </span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-f1a3be62-9c04-4571-ab83-267e90d3f26f" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-96345c39-2920-40df-adf2-5084a29d73b7" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포토샵 처음 배우는 분들에게 좋은 가이드를 제공해 준다고 생각합니다.</span>
+				</p>
+				<p class="se-text-paragraph se-text-paragraph-align- " id="SE-62744537-d773-41f3-add7-e5ab0f876118" style="padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: inherit; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap">
+					<span class="se-fs-fs16 se-ff-system   " id="SE-e15c60cf-38e3-4aba-9dc2-c984956f699c" style='margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 16px; line-height: inherit; font-family: HelveticaNeue, "Helvetica Neue", helvetica, AppleSDGothicNeo, arial, "malgun gothic", "맑은  고딕", sans-serif, Meiryo; vertical-align: baseline'>포토샵과 일러스트를 처음 배우는 분에게 좋은 책입니다.</span>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<p class="se-text-paragraph se-text-paragraph-align- " id="SE-b741d650-2c7a-4ad8-8b42-f582ab7d0c30" style="padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: 0px; line-height: 1.8; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; word-break: break-word; overflow-wrap: break-word; white-space: pre-wrap; color: #3d4444; background-color: #ffffff">&nbsp;</p>
+<div class="se-component se-material se-l-default" id="SE-0c62a0be-8569-4593-8372-e73a6bea4beb" style="margin: 30px 0px 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-stretch: inherit; font-size: medium; line-height: inherit; font-family: se-nanumgothic, sans-serif; vertical-align: baseline; position: relative; color: #3d4444; background-color: #ffffff">
+	<div class="se-component-content" style="margin: 0px auto; padding: 0px 40px; border: 0px; font: inherit; vertical-align: baseline; max-width: 100%">
+		<div class="se-section se-section-material se-section-align- se-l-default" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: top; max-width: 450px">
+			<a href="http://book.naver.com/bookdb/book_detail.php?bid=16122725" target="_blank" class="se-module se-module-material se-material-book " style="text-decoration-line: none; margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; display: block; position: relative; max-width: 450px; box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px 0px">
+				<div class="se-material-thumbnail" style="margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: 0px; line-height: inherit; font-family: inherit; vertical-align: baseline; overflow: hidden; z-index: 1; position: relative; background-color: #f4f4f4; width: 100px; min-height: 130px; max-height: 145px">
+					<div class="autosourcing-stub-extra" style="margin: 0px; padding: 0px; border: 0px; font: inherit; vertical-align: baseline; zoom: 1; opacity: 1">&nbsp;</div>
+				</div></a>
+		</div>
+	</div>
+</div></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_3"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8269','3');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8126">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>aso4***</strong><span>l</span>2020-03-23</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+4).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate4"></div>
+                        <div class="tit">포토샵&일러스트레이터를 알던 사람에게도 도움이 되는 책</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><p>
+	<img style="width: 800px; height: 800px" alt="포토샵사진.jpg" src="http://www.hanbit.co.kr/data/editor/20200323001805_avkdpsbg.jpg" />
+</p>
+<p>평소 포토샵과 일러스트레이터를 쓸 일이 많은데, 그럼에도 잘 모르던 기능이 많았었어요.</p>
+<p>책의 예제를 통해 다시 공부할 수 있었고, 단축키나 사진 보정 등&nbsp;다양한 기능을 알게 될 수 있었습니다!</p>
+<p>새로운 CC2020 버전에 대해 배우고 싶거나, 실무에서 자주 쓰이는 기능을 알고 싶다면 추천 합니다&nbsp;</p>
+<p>이제 막 포토샵, 일러스트레이터에 관심이 생긴 사람에게도 좋은 책일 것 같아요ㅎㅎ</p></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_4"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8126','4');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                                    <input type="hidden" id="fk_hbr_idx" name="fk_hbr_idx" value="8116">   
+                  <li class="article hide">
+                    <div class="review_li">
+                      <a class="trigger" href="javascript:;">
+                        <div class="info"><strong>ljw2***</strong><span>l</span>2020-03-21</div>
+                        <script>
+                          $(function() {    
+                            $('.star_rate'+5).raty({
+                              readOnly: true,
+                              score: 5,
+                              starHalf   : '/images/common/star_s-half.png',
+                              starOff    : '/images/common/star_s-off.png',
+                              starOn     : '/images/common/star_s-on.png'
+                            });
+                            
+                          });
+                        </script>                      
+                        <div class="star_rate5"></div>
+                        <div class="tit">처음으로 제대로 배우는 포토샵&일러스트레이터</div>
+                      </a>
+                                            
+                    </div>
+                    <div class="review_view hanbit_edit_view">
+                      <p><div class="se-component se-text se-l-default" id="SE-6b562c69-4c31-48cb-956e-f1433f8e3e30" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-text se-l-default">
+				<div id="SE-672a002f-48d6-438b-9b1a-9c36b7341cca" class="se-module se-module-text __se-unit">
+					<p id="SE-b619cd3b-97a4-481a-bd25-665e29c62ce3" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">&nbsp;</p>					
+					<p>
+												<img src="http://www.hanbit.co.kr/data/editor/20200321205829_dohnfram.jpg" alt="KakaoTalk_20200321_203349502_01.jpg" style="width: 720px; height: 960px" />					
+					</p>					
+					<p>&nbsp;</p>					
+					<p>&nbsp;</p>					
+					<p id="SE-b619cd3b-97a4-481a-bd25-665e29c62ce3" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">&nbsp;</p>					
+					<p id="SE-b619cd3b-97a4-481a-bd25-665e29c62ce3" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-ecdad126-5b1d-4886-8e0a-1c0a3c548355" class="se-ff-nanumgothic se-fs15 __se-node">#맛있는디자인포토샵&일러스트레이터CC2020</span>					
+					</p>					
+					<p id="SE-64ed3eda-e89e-4ce2-977a-25275d842a79" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-cecf01f9-c22e-4470-b4ae-8c7f57dc6263" class="se-ff-nanumgothic se-fs15 __se-node">#빨간고래</span>					
+					</p>					
+					<p id="SE-f8c14aef-da69-406c-81bf-b60401be18e6" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-abc848be-ca5f-411e-a8fd-03516916953d" class="se-ff-nanumgothic se-fs15 __se-node">#윤이사라</span>					
+					</p>					
+					<p id="SE-6184de34-e3c0-4be6-b5d5-d368c45e6786" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-2a85b134-28b6-4735-a16d-6eb472c32d28" class="se-ff-nanumgothic se-fs15 __se-node">#한빛미디어</span>					
+					</p>					
+					<p id="SE-6184de34-e3c0-4be6-b5d5-d368c45e6786" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span class="se-ff-nanumgothic se-fs15 __se-node"><br /></span>					
+					</p>					
+					<p id="SE-1026fc7b-2384-47dc-acab-178bdd080018" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">&nbsp;</p>					
+					<p id="SE-f8496b71-5496-47c2-b8a2-1ac63d65f4a7" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-672b155d-27bb-4891-ad04-bec864be5d05" class="se-ff-nanumgothic se-fs15 __se-node">난 가끔 취미로 그림을 그린다. 예전에는 손그림을 그리곤 했는데, 이제는 인터넷상에 올려야 되거나 그런 일이 자주 생긴다. 그러다 보면 단순하게 그림을 그대로 올린다기보다는 편집을 하게 되는데, 그림판으로만 사용하니 한계를 느꼈다. 그러다 포토샵이란 프로그램을 접하게 되었고, 사용해 보니 말 그대로 사진,그림 편집 소프트웨어 중에서는 최고였다. 그래서 나는 포토샵과 일러스트레이터를 더욱 심도있게 익히기 위해 이 책을 읽게 되었다.</span>					
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div>
+<div class="se-component se-image se-l-default" id="SE-d3c1c1c8-f2ab-42ac-92ba-e5b607f8ece9" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content se-component-content-normal">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-image se-l-default se-section-align-center se-is-selected se-is-block-selected" style="max-width: 527px">
+				<div id="SE-d3c1c1c8-f2ab-42ac-92ba-e5b607f8ece9" class="se-module se-module-image __se-unit se-is-selected">
+					<div class="se-drop-indicator">&nbsp;</div>				
+				</div>				
+				<div id="SE-f30887e1-2f84-4c08-afcd-4e1ddef9533d" class="se-module se-module-text __se-unit se-caption se-is-on">
+					<p id="SE-443f39bf-552c-4ca8-8fcf-767f8fd5f679" class="se-text-paragraph se-text-paragraph-align-center" style="padding: 0px">
+												<span id="SE-8c6f4282-3a26-496c-863e-64917ec5f80a" class="se-fs13 __se-node">아예 아무것도 모르는 초보자도 알 수 있도록 상세히 설명해놓았다.</span>					
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div>
+<div class="se-component se-image se-l-default" id="SE-c2178ae0-47ce-40e2-bfe8-63e6ace078b1" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content se-component-content-normal">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-image se-l-default se-section-align-center se-is-selected se-is-block-selected" style="max-width: 535px">
+				<div id="SE-c2178ae0-47ce-40e2-bfe8-63e6ace078b1" class="se-module se-module-image __se-unit se-is-selected">
+					<div class="se-drop-indicator">&nbsp;</div>				
+				</div>				
+				<div id="SE-a861ea6d-d124-4436-aec4-dc6c6d0fdc88" class="se-module se-module-text __se-unit se-caption se-is-on">
+					<p id="SE-a769f34e-4fe3-4147-82ba-f3abfcd06e1d" class="se-text-paragraph se-text-paragraph-align-center" style="padding: 0px">
+												<span id="SE-9a8aabcb-8a22-49c5-bed1-23ef672d79c1" class="se-fs13 __se-node">초보자들부터 전문가들까지 모두 참고할 만할 것 같다.</span>					
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-0396bdff-de58-4792-8796-15ba91f6e5ea" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-text se-l-default">
+				<div id="SE-c4dc86cf-1e89-4f82-b3d6-c764dbae789d" class="se-module se-module-text __se-unit">
+					<p id="SE-b465fa5e-38fb-485a-8def-13eca3bcd8ac" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-3987a333-875c-4d9c-9a47-1cea98e17ad8" class="se-ff-nanumgothic se-fs15 __se-node">사실 많은 사람들은 포토샵은 많이 들어 봤지만 일러스트레이터는 잘 못 들었을 것이다. 그래도, 어도비사 제품 중에서는 포토샵 다음으로 제일 잘 팔린다고 한다. 벡터 이미지를 주로 사용하며, 포토샵같이 '편집'보다는 '제작'에 더 치중한 소프트웨어이다. 물론 나는 그쪽 업계 종사자가 아니라서 많이 쓰진 않겠지만, 포토샵과 일러스트레이터를 조합해서 사용한다면 사진, 그림에 관련해서는 굳이 다른 소프트를 살 필요가 없는 것 같다.</span>					
+					</p>					
+					<p id="SE-5ee56b6f-0b6a-4c38-8b56-5290fcaf6f05" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">&nbsp;</p>					
+					<p id="SE-7fddd69c-095d-41c0-bbaf-14696441d2ed" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-4f1792a2-5b50-419c-a008-48373922ebc5" class="se-ff-nanumgothic se-fs15 __se-node">아래는 내가 읽으면서 꼭 필요하다고 생각했던 팁 및 기능들이다.</span>					
+					</p>					
+					<p id="SE-c06d75a5-abe8-48e5-96f4-eb8e72cf5ab8" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">&nbsp;</p>					
+					<p id="SE-eb2ca3e3-9352-49e0-9e25-8f652e14475a" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-99141111-d0e1-43b4-bc12-d0109cdaf946" class="se-ff-nanumgothic se-fs24 __se-node"><b>마스크 모드</b></span>
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div>
+<div class="se-imageStrip2 se-component se-imageStrip se-l-default se-is-selected" id="SE-7cd1ead7-0055-4c94-a12a-e9dd4c3a6b8a" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content se-component-content-extend">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-imageStrip se-l-default se-section-align-center se-is-selected se-is-block-selected">
+				<div class="se-imageStrip-container">
+					<div id="SE-74a12136-f345-4c27-9158-fd50aa08ab0b" class="se-module se-module-image __se-unit se-is-progress" style="width: 0px">
+						<div class="se-drop-indicator">
+							<div style="position: absolute; width: 1px; height: 1px">&nbsp;</div>
+						</div>					
+					</div>				
+				</div>				
+				<div id="SE-0a0ac68c-8cb8-45a1-923b-51ded7d00810" class="se-module se-module-text __se-unit se-caption se-is-on">
+					<p id="SE-c07b561a-aeff-4d1c-a8da-c9ce521d2527" class="se-text-paragraph se-text-paragraph-align-center" style="padding: 0px">
+												<span id="SE-cfc1a10e-281d-4d44-87bc-7459a9cad1f8" class="se-fs13 __se-node">사진을 편집할 시에 특정 부분만 선택해서 편집할 수 있게 만드는 툴이다.</span>					
+					</p>					
+					<p id="SE-c07b561a-aeff-4d1c-a8da-c9ce521d2527" class="se-text-paragraph se-text-paragraph-align-center" style="padding: 0px">&nbsp;&nbsp;</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-6571b1e9-7d3c-4d54-a1e9-4e3c4717287a" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-text se-l-default">
+				<div id="SE-303a0df9-f39a-4fb0-b25b-0ab1f83eb605" class="se-module se-module-text __se-unit">
+					<p id="SE-15ebd90d-786a-4e6d-99c2-5aece1c9c153" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-168a85a3-bbe1-4474-8150-1fd44062aedb" class="se-ff-nanumgothic se-fs24 __se-node"><b>레이어</b></span>					
+					</p>					
+					<p id="SE-3e2a06ab-f569-4ea2-b5c6-ad1a929954cb" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-09f0627f-912d-4499-8e8a-c5897348c17a" class="se-ff-nanumgothic se-fs16 __se-node">개인적으로 레이어만 완벽하게 다룰 줄 안다면 포토샵을 거진 안다고 생각한다.</span>					
+					</p>					
+					<p id="SE-893407a5-f9dd-42b7-b412-d4fe9dc16a92" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-21829481-4bf8-487e-afd2-ec97deaa6f4e" class="se-ff-nanumgothic se-fs16 __se-node">그만큼 중요한 요소이며, 가장 먼저 배웠으면 한다. 나도 책을 보면서 하나하나 다시 배웠다.</span>
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div>
+<div class="se-imageStrip2 se-component se-imageStrip se-l-default se-is-selected" id="SE-d147925f-76bf-45b8-a5fb-549c6e016887" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content se-component-content-extend">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-imageStrip se-l-default se-section-align-left se-is-selected se-is-block-selected">
+				<div class="se-imageStrip-container">
+					<div id="SE-57ec8d6f-a3f1-478e-857c-48a0ce5151e2" class="se-module se-module-image __se-unit se-is-progress" style="width: 0px">
+						<div class="se-drop-indicator">
+							<div style="position: absolute; width: 1px; height: 1px">
+								<div id="SE-57ec8d6f-a3f1-478e-857c-48a0ce5151e2" class="se-module se-module-image __se-unit se-is-activated" style="width: 0.484375px">
+									<div class="se-drop-indicator">&nbsp;</div>								
+								</div>							
+							</div>						
+						</div>						
+						<div class="se-state-error" style="padding-top: 0px">
+							<div class="se-state-error-detail">
+								<div class="se-state-error-text">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-758b591d-ecf6-400c-8859-f108d293a653" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-text se-l-default">
+				<div id="SE-76bdca78-4223-4666-a4b6-83e288c1e1b5" class="se-module se-module-text __se-unit">
+					<p id="SE-5fcb6d0c-6689-4d02-905a-8b83589adaa0" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-42c4e639-5b0f-4241-8d04-e5c2592468e2" class="se-ff-nanumgothic se-fs16 __se-node">이 외에도, SNS용 사진 편집을 하는 사람들을 위해, 보정, 색감 변경 등 다양한 방법들을 소개하고 있다. 요즘은 편집안하고 올리는 사진이 거의 없으니, 이런 기능들을 익혀 둔다면 도움이 될 것 같다.</span>					
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div>
+<div class="se-imageStrip2 se-component se-imageStrip se-l-default se-is-selected" id="SE-2d786e98-3436-4843-8523-e9bf3dec328b" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content se-component-content-extend">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-imageStrip se-l-default se-section-align-left se-is-selected se-is-block-selected">
+				<div class="se-imageStrip-container">
+					<div id="SE-2b572be1-dc29-4988-bc9e-07112f872c99" class="se-module se-module-image __se-unit se-is-progress" style="width: 0px">
+						<div class="se-drop-indicator">
+							<div style="position: absolute; width: 1px; height: 1px">&nbsp;</div>
+						</div>
+					</div>
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div>
+<div class="se-component se-text se-l-default" id="SE-57ba70fc-f518-4764-91f2-d429d5e22fff" style='color: #333333; font-family: "Apple SD Gothic Neo", 돋움, Tahoma, sans-serif; background-color: #ffffff'>
+	<div class="se-component-content">
+		<div class="se-drop-indicator">
+			<div class="se-section se-section-text se-l-default">
+				<div id="SE-c107ece4-de0e-4a0b-ade7-5b23d2c51e0f" class="se-module se-module-text __se-unit">
+					<p id="SE-f7f3c2d3-0da8-4fbc-9b50-b4e5f14cea99" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">&nbsp;</p>
+					<p id="SE-f7f3c2d3-0da8-4fbc-9b50-b4e5f14cea99" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">&nbsp;</p>					
+					<p id="SE-06805d86-d010-41fd-b2d8-e821ce75a7ad" class="se-text-paragraph se-text-paragraph-align-left" style="padding: 0px; line-height: 1.8">
+												<span id="SE-9ecbc526-31b2-48e7-bdfb-7e23a18733f9" class="se-ff-nanumgothic se-fs15 __se-node">책을 읽으면서 예전에 알았다가 까먹은 여러 기능들을 알 수 있었다. 특히 몇몇 기능들은 아는 것과 모르는 것의 차이가 엄청나게 커서 이때까지 뭔가 헛으로 일한 느낌이었다.&nbsp;</span>포토샵 부분을 주로 봤지만, 일러스트레이터 부분도 참 많은 팁들이 있었다. 조만간 체험판이라도 깔아서 공부해봐야 할 것 같다.
+					</p>				
+				</div>			
+			</div>		
+		</div>	
+	</div>
+</div></p>  
+                      <!-- 리뷰 idx  / div_num  -->
+                      <div class="review_repl" id="comment_div_5"><!--  댓글 리스트 rev_comm_list.php -->
+                        <script>
+                          comment_list('8116','5');
+                        </script>
+                      </div>                      
+                    </div>
+                  </li>
+                    
+
+                                    
+                                  </ul>
+              </div>
+            </div>                          
+                        </div>
+                                      
+          <!-- //독자리뷰 -->
+  
+          <!-- 오탈자 보기 -->
+                                            <div id="tabs_6"><a id="misprint_tab" ></a>
+                          <p class="detail_tit" style="display:none;">오탈자 보기</p>
+                            		 					
+						<div id="" class="detail_conbox"  >
+							<div class="detail_btn right"><a href="/errata/view.html?isbn=9791162242582" target="_blank">(구 홈페이지 / 2016년 5월 이전) 오탈자보기</a> <a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+							<!--a href="/store/books/misprint_view.html" target="_blank"-->
+							<input type="hidden" name="p_sort_type" id="p_sort_type"  value="">
+							<input type="hidden" name="r_sort_type" id="r_sort_type"  value="">
+							
+							
+							<div id="misprint_con_div" class="misprint_list"><!--  오탈자 리스트 --></div>
+							
+							<!-- 오탈자 등록 버튼-->
+							<div class="detail_btn right"><a href="javascript:misprint_print();">인쇄하기</a><a href="javascript:misprint_start();">오탈자 등록하기</a></div>
+						</div>
+						<script>
+							$(function() { misprint_get_list();  });	 //오탈자 리스트 호출	
+						</script>
+                        </div>
+                              <!-- //오탈자 보기 -->
+  
+          <!-- 부록/예제소스 -->
+                    <div id="tabs_7"><a id="exam_tab" ></a>
+            <p class="detail_tit" style="display:none;">부록/예제소스</p>
+              <div id="" class="detail_conbox">
+    <div class="table_area">
+      <div style="text-align:right;font-size:12px;letter-spacing:-1px;font-weight:bold;padding:4px;">
+      <a href="javascript:;" onclick="centerNewWin('https://docs.google.com/document/d/e/2PACX-1vSPq2pdZo44LmE7QxmIOnhEfer5m1drDVWZMSLI0WELgrmv-nGsSXQSocb2Ri-VMGNNOiv9WFyrWIkS/pub','HELP', 660,800);return false;">
+      <img src="/images/common/help_icon.png" alt="HELP" width="18" align="absmiddle">
+      구글 드라이브(<img src="/images/common/srt_google_download.png" alt="Google Drive" align="absmiddle" width="15" height="15">)에서 부록/예제소스 다운로드하는 방법 <i>- Click</i></a>
+      </div>
+      <table class="tbl_type_list" border="0" cellspacing="0" summary="부록/예제소스">
+        <caption>부록/예제소스</caption>
+        <colgroup>
+        <col width="">
+        <col width="140px">
+        <col width="120px">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">자료명</th>
+            <th scope="col">등록일</th>
+            <th scope="col" class="bdr_r">다운로드</th>
+          </tr>
+        </thead>
+        <tbody>
+  <tr>
+    <td class="b_tit"><img src="/images/common/srt_google_download.png" alt="Google Drive" width="22" align="absmiddle" border="0"> 예제소스</td>
+    <td>2020-01-28</td>
+    <td><a href="/support/supplement_survey.html?pcode=B7377025207" class="btn_dw_default" style="color:#fff;">다운로드</a></td>
+  </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+          </div>
+                    <!-- //부록/예제소스 -->
+  
+          <!-- 추천도서 -->
+                    <!-- //추천도서 -->
+        </div>
+        <!-- //텝메뉴 -->
+      </div>
+      <!-- //하단 컨텐츠 -->
+    </div>
+
+    <div class="store_payment_area">
+      <!-- 결재 정보 -->
+                  <fieldset>
+        <legend>결재하기</legend>
+        <!-- 2차 상품이 있는 경우 -->
+
+        
+                
+
+        <!-- 2차 상품이 없는 책 일 경우 -->
+                <label class="payment_box curr">
+          <p><span class="pbl">정가 : </span><span class="pbr"><del>22,000원</del></span></p>
+          <p><span class="pbl"><strong>판매가 : </strong></span><span class="pbr"><strong>19,800</strong>원<span>(10% off)</span></span></p>
+          <p><span class="pbl">마일리지 : </span><span class="pbr">1,100점 (5%)</span></p>
+        </label>
+                
+        <!-- 2차 상품이 없는 eBook 일 경우 -->
+        
+        <!-- 2차 상품이 없고 무료인 eBook 일 경우-->
+        
+                <!-- 소득공제 유무 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span style="color:#00AFA0;">&#149; 문화비 소득공제 가능</span></div>
+        </div>
+        <!-- //소득공제 유무 -->
+        
+        <!-- 배송료 -->
+        <div class="shopping_charge">
+          <div class="shopping_charge_tit"><span>&#149; 배송료 : </span>0원<a href="javascript:;" onClick="view_hover('shopping_charge_open','','show')"><img src="http://www.hanbit.co.kr/images/store/ico_question.gif" alt="배송료란?" /></a></div>
+          
+          <div id="shopping_charge_open" class="shopping_charge_open">
+            <p class="tit">배송료 안내</p>
+            <ul>
+              <li>책, 아이템 등 상품을 3만원 이상 구매시 무료배송</li>
+              <li>브론즈, 실버, 골드회원이 주문하신 경우 무료배송</li>
+            </ul>
+            <p>무료배송 상품을 포함하여 주문하신 경우에는 구매금액에 관계없이 무료로 배송해 드립니다.</p>
+            <a href="javascript:;" onClick="view_hover('shopping_charge_open','','hide')"><img src="http://www.hanbit.co.kr/images/store/btn_shipping_charge.png" alt="닫기" /></a>
+          </div>
+        </div>
+        <!-- //배송료 -->
+
+        <input type="hidden" name="p_type_kind" id="p_type_kind"  value="B">
+        <!-- 결재버튼 -->
+
+                <label>
+          <button name="btnAddCart" id="btnAddCart" type="button" value="장바구니" class="btn_baket" onClick="Cart('cart');">장바구니</button>
+        </label>
+        <label>
+          <button name="" type="submit" value="위시리스트" class="btn_wish" onClick="Wishlist();">위시리스트</button>
+        </label>
+                
+                <label>
+          <button name="btnBuy" id="btnBuy" type="submit" value="구매하기" class="btn_buy" onClick="Cart('buy');"> 구매하기</button>
+        </label>
+                
+        
+        
+                <!-- //결재버튼 -->
+      </fieldset>
+      
+            <!-- //결재 정보 -->
+      
+      <!-- 관련 사이트 -->
+            <!-- //관련 사이트 -->
+    </div>
+
+  </div>
+  <!-- //카테고리 상세 wrap -->
+  
+  <!-- 레이어 팝업 - 리뷰쓰기 -->
+  
+	
+	<div id="review_popup_div" >
+		<div class="review_layer">					
+			<div class="bg"></div>
+			<div class="review_pop-layer" id="layer_review">												
+				<div class="pop-container">
+					<div class="pop-conts">																		
+						<!--content //-->
+						<form id="frm"  name="frm"  method="post" enctype="multipart/form-data">
+						<input type="hidden" name="fk_p_code" id="fk_p_code" value="B7377025207">	
+						<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">						
+						<input type="hidden" name="hbr_score" id="hbr_score" value="">
+						
+						<p class="tit">리뷰쓰기</p>
+						<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+						
+						<div class="layer_scroll">
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										맛있는 디자인 포토샵&일러스트레이터 CC 2020									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>제목 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="hbr_title" id="hbr_title" class="i_text1" value="">	
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									
+									<div class="i_tit"><span>* </span>별점평가</div>
+									<div class="i_con">							
+										<script>
+										$.fn.raty.defaults.path = "http://www.hanbit.co.kr";
+										$(function() {
+											$('#default').raty({
+												click: function(score, evt) { $("#hbr_score").val(score);}										
+											});
+										});
+										</script>											
+										<div id="default" style="margin-top:5px;"></div>
+										<div class="highlight"><pre><span class="nt"><div></div></span></pre></div>
+									</div>
+								</div>
+				
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con" id="hbc_cont_div">
+										<label >																
+											<textarea class="i_textarea" name="hbr_content" id="hbr_content" ></textarea>				
+											<script type="text/javascript">
+											var myeditor = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor.inputForm = 'hbr_content'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor.useBold = false;
+											myeditor.run(); // 에디터를 실행합니다.
+											</script>																						
+											
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+							
+							<p class="note_tit">* 리뷰 작성시 유의사항</p>
+							<p class="note_txt">글이나 이미지/사진 저작권 등 다른 사람의 권리를 침해하거나 명예를 훼손하는 게시물은 이용약관 및 관련법률에 의해 제재를 받을 수 있습니다.</p>
+							<p class="note_txt">
+								1. 특히 뉴스/언론사 기사를 전문 또는 부분적으로 '허락없이' 갖고 와서는 안됩니다 (출처를 밝히는 경우에도 안됨).<br />
+								2. 저작권자의 허락을 받지 않은 콘텐츠의 무단 사용은 저작권자의 권리를 침해하는 행위로, 이에 대한 법적 책임을 지게 될 수 있습니다.
+							</p>
+							
+							<div class="btn_layer_default">
+								<label><button id="proc_btn" name="proc_btn" type="button" value="" class="btn_blue" onclick="review_proc('re_ins','');">등록</button></label>
+								<label><button id="reset_btn" name="reset_btn" type="button" value="" class="btn_white" onclick="frm_reset();">취소</button></label>
+							</div>
+						</div>
+
+						</form> 
+						<!--// content-->					
+					</div>
+				</div>											
+			</div>			
+		</div>			
+	</div>			  <!-- //레이어 팝업 - 리뷰쓰기 -->
+  
+  <!-- 레이어 팝업 - 오탈자등록 -->
+  	
+	<div class="misprint_layer">
+		<div class="bg"></div>
+		<div class="misprint_pop-layer" id="layer_misprint">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">오탈자 등록</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<form id="err_input_frm"  name="err_input_frm"  method="post" enctype="multipart/form-data">
+							<input type="hidden" name="fk_p_code" id="fk_p_code" value="B7377025207">	
+							<input type="hidden" name="fk_isbn" id="fk_isbn" value="">	
+							<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">														
+							<div class="layer_con_box">
+								<fieldset>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>도서명 :</div>
+									<div class="i_con">
+										맛있는 디자인 포토샵&일러스트레이터 CC 2020									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>구분 :</div>
+									<div class="i_con">
+										<label>
+											<select id="err_type" name="err_type" class="i_select">	
+												<option value="" selected>오탈자 유형 선택</option>	
+												<option value="G">내용 오류/확인 요청</option>	
+												<option value="P">주요 기술 오류(로직/코드)</option>	
+												<option value="E">오자/탈자, 띄어쓰기 오류</option>												
+											</select>	
+										</label>
+									</div>
+		
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>상품 버전</div>
+									<div class="i_con">
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="종이책"><span>종이책</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="PDF"><span>PDF</span></span>
+										<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="ePub"><span>ePub</span></span>
+										<!--<span class="chk_list"><input type="checkbox" name="err_p_version[]" class="i_check" value="Mobi"><span>Mobi</span></span>-->
+									</div>
+								</div>
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>페이지 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_p_page" id="err_p_page" class="i_text2" onkeyup="this.value=number_filter(this.value);" ><span>숫자로만 입력해주세요.</span>
+										</label>
+									</div>
+								</div>
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>위치정보 :</div>
+									<div class="i_con">
+										<label>
+											<input type="text" name="err_location" id="err_location" class="i_text1">	
+										</label>
+									</div>
+								</div>							
+								
+								<div class="lp_register_li">
+									<div class="i_tit"><span>* </span>내용 :</div>
+									<div class="i_con">
+										<label>
+											<textarea name="err_info" id="err_info" class="i_textarea"></textarea>	
+											<script type="text/javascript">
+											var myeditor_err = new cheditor(); // 에디터 개체를 생성합니다.
+											myeditor_err.config.editorHeight = '200px'; // 에디터 세로폭입니다.
+											myeditor_err.config.editorWidth = '800px'; // 에디터 가로폭입니다.
+											myeditor_err.inputForm = 'err_info'; // textarea의 id 이름입니다. 주의: name 속성 이름이 아닙니다.
+											myeditor_err.useBold = false;
+											myeditor_err.run(); // 에디터를 실행합니다.
+											</script>		
+										</label>
+									</div>
+								</div>
+								</fieldset>
+							</div>
+						</form>
+					
+						<div class="btn_layer_default">
+							<label>
+								<button name="" type="submit" value="" class="btn_blue" onclick="misprint_proc('ins','');">등록</button>
+							</label>
+							<label>
+								<button name="" type="submit" value="" class="btn_white" onclick="misprint_reset();">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	  <!-- //레이어 팝업 - 오탈자등록 -->
+
+  <!-- 레이어 팝업 - 도서인증 -->
+  
+<link rel="stylesheet" href="/css/jquery-ui.css">
+
+<!--
+<style>
+.ui-datepicker {
+	width: 280px;
+	padding:0;
+	display: none;
+	background:#fff;
+	border:4px solid #333;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: 10px 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 5px;
+	width: 1.8em;
+	height: 1.8em;
+	font-size:13px;
+	cursor:pointer;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	text-decoration:underline;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	left: 210px;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin:0;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width:;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width:;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+	width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+	float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+	width: 95%;
+	margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+	width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+	width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+	width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+	border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+	clear: left;
+}
+.ui-datepicker-row-break {
+	clear: both;
+	width: 100%;
+	font-size: 0;
+}
+
+/* RTL support */
+.ui-datepicker-rtl {
+	direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+	right: 2px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+	left: 2px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+	right: 1px;
+	left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+	left: 1px;
+	right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+	clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+	float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+	float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
+
+.ui-datepicker .ui-widget-content {
+    background: #999 none;
+}
+
+</style>
+-->
+<script type="text/javascript" src="/js/jquery.ui.datepicker-ko.js"></script>
+<script type="text/javascript">
+ $(function() {    
+	$("#buy_date").datepicker({ maxDate: '0'  });
+ });
+
+</script>
+	<form name="cfrm" id="cfrm" method="post" action="/store/ajax.addBookauth.php">
+	<input type="hidden" name="fk_p_code" id="fk_p_code" value="B7377025207">	
+	<input type="hidden" name="fk_m_idx" id="fk_m_idx" value="">		
+	<div class="certification_layer">
+		<div class="bg"></div>
+		<div class="certification_pop-layer" id="layer_certification">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<p class="tit">도서 인증</p>
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close2.png" width="39" height="38" alt="닫기" /></a></div>
+					
+					<div class="layer_scroll">
+						<div class="layer_con_box">
+							<fieldset>
+							<div class="lp_register_li">
+								<div class="i_tit">도서명<span>* </span></div>
+								<div class="i_con">맛있는 디자인 포토샵&일러스트레이터 CC 2020</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입처<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<select id="buy_site" name="buy_site" class="i_select">	
+											<option value="" selected>선택하세요.</option>	
+											<option value="교보문고">교보문고</option>
+											<option value="예스24">예스24</option>
+											<option value="알라딘">알라딘</option>
+											<option value="반디앤루니스">반디앤루니스</option>
+											<option value="영풍문고">영풍문고</option>
+											<option value="한빛 웹사이트">한빛 웹사이트</option>
+											<option value="기타서점">기타서점</option>
+										</select>	
+									</label>
+								</div>
+	
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">구입일<span>* </span></div>
+								<div class="i_con">
+									<!-- 달력 -->
+									<label><input class="i_text2" id="buy_date" name="buy_date" type="text" value=""  /></label>
+									<label><button name="btnBuyDate" id="btnBuyDate" type="button" value="검색" class="i_car">달력</button></label>
+									<!-- //달력 -->
+								</div>
+							</div>
+							<div class="lp_register_li">
+								<div class="i_tit">부가기호<span>* </span></div>
+								<div class="i_con">
+									<label>
+										<input type="text" name="add_code" id="add_code" class="i_text2">	
+									</label>
+								</div>
+							</div>
+							<div class="barcode_img">
+								<img src="http://www.hanbit.co.kr/images/common/rs_barcode_ban.png" alt="부가기호 안내" />
+							</div>
+							</fieldset>
+						</div>
+						<p class="txt">* 회원가입후 도서인증을 하시면 마일리지 500점을 드립니다.</p>
+						<p class="txt">* 한빛 웹사이트에서 구입한 도서는 자동 인증됩니다.</p>
+						<p class="txt">* 도서인증은 일 3권, 월 10권, 년 50권으로 제한됩니다.</p>
+						<p class="txt">* 절판도서,  eBook 등 일부 도서는 도서인증이 제한됩니다.</p>
+						
+						<div class="btn_layer_default">
+							<label>
+								<!--<button name="btnBookauth1" type="submit" class="btn_blue">등록</button>-->
+								<button name="btnBookauth1" type="button" class="btn_blue" onclick='book_auth();'>등록</button>
+							</label>
+							<label>
+								<button name="btnBookauth2" type="button" value="" class="btn_white">취소</button>
+							</label>
+						</div>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+<SCRIPT LANGUAGE="JavaScript">
+<!--	
+	$("#btnBuyDate").click(function() {					
+		$('#buy_date').datepicker('show');
+	});		
+
+//-->
+</SCRIPT>  <!-- //레이어 팝업 - 도서인증 -->
+  
+  <!-- 레이어 팝업 - 카트 담기 -->
+  	<div class="add_cart_layer">
+		<div class="bg"></div>
+		<div class="add_cart_pop-layer" id="layer_add_cart">
+			<div class="pop-container">
+				<div class="pop-conts">
+					
+					<!--content //-->
+					<div class="close"><a class="cbtn" href="javascript:;" onClick=""><img src="http://www.hanbit.co.kr/images/common/icon_close.png" width="38" height="38" alt="닫기" /></a></div>
+					<p class="ctxt"><span id='cartmsg'>해당 상품을 장바구니에 담았습니다.</span><span id='cartmsg2'>이미 장바구니에 추가된 상품입니다.</span><br />장바구니로 이동하시겠습니까?</p>
+					<div class="btn_layer">
+						<a href="/myhanbit/cart.html">장바구니<br />이동</a> <!-- #juha -->
+						<!--<a href="javascript:;" onClick="$('.add_cart_layer').hide();">쇼핑<br />계속</a>-->
+						<a class="cbtn" href="javascript:;" onClick="">쇼핑<br />계속</a>
+					</div>
+					<!--// content-->
+					
+				</div>
+			</div>
+		</div>
+	</div>  <!-- //레이어 팝업 - 카트 담기 -->
+</div>
+<!-- //Contents -->
+<script>
+
+//focus 강제지정
+/*
+$(document).ready(function() 
+document.getElementById("container").addEventListener("click", function() {
+   $("#wrap_gnb").focus();
+});
+*/
+
+//숫자만 입력
+function number_filter(str_value){
+  return str_value.replace(/[^0-9]/gi, ""); 
+}
+  
+function hb_show_tabs(t_num){        
+  //alert(t_num);
+  var t_max = 9;
+  for(var t=1; t <t_max; t++){    
+    if(t_num ==0){
+      $("#tabs_"+t).show();
+      $(".detail_tit").css({"display":"block"});
+    }else{      
+      if(t==t_num){ 
+        $("#tabs_"+t).show();
+        $(".detail_tit").css({"display":"none"});      
+      }else{
+        $("#tabs_"+t).hide();    
+      }
+    }
+  }
+  
+}
+
+var tid= "";
+if(tid=="review"){  
+  hb_show_tabs(5);
+  document.getElementById("review_tab").scrollIntoView();
+  
+}else if(tid=="misprint"){  
+  hb_show_tabs(6);
+  document.getElementById("misprint_tab").scrollIntoView();
+
+}else if(tid=="exam"){  
+  hb_show_tabs(7);
+  document.getElementById("exam_tab").scrollIntoView();
+  
+}else{
+  hb_show_tabs(0);
+}
+
+/*
+$(document).ready(function() {
+  location.hash="#hanbit_network";
+  setTimeout(function(){
+      $('#wrap_gnb').focus();    
+      removeHash();
+  }, 100);
+});
+*/
+
+//해쉬 태그로 포커스 이동후 해쉬 제거
+function removeHash () { 
+    var scrollV, scrollH, loc = window.location;
+    if ("pushState" in history)
+        history.pushState("", document.title, loc.pathname + loc.search);
+    else {
+        // Prevent scrolling by storing the page's current scroll offset
+        scrollV = document.body.scrollTop;
+        scrollH = document.body.scrollLeft;
+
+        loc.hash = "";
+
+        // Restore the scroll offset, should be flicker free
+        document.body.scrollTop = scrollV;
+        document.body.scrollLeft = scrollH;
+    }
+}
+</script><!-- Footer -->
+<footer>
+  <!-- 공지사항 -->
+  <div class="foot_notice">
+      </div>
+  <!-- //공지사항 -->
+  
+  <div class="foot_contents">
+    <!-- 하단 메뉴 -->
+    <div class="foot_menu">
+      <!-- added by coffin -->
+            <ul>
+        <li><a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">회사소개</a>(<a href="http://www.hanbit.co.kr/publisher/index.html" target="_blank">KOR</a> | <a href="http://www.hanbit.co.kr/publisher/index.html?lang=e" target="_blank">ENG</a>) &#149; <a href="http://www.hanbit.co.kr/publisher/contact.html?lang=k" target="_blank">약도</a></li>
+        <li><a href="http://www.hanbit.co.kr/publisher/write.html" target="_blank">기획 및 원고 모집</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/use_agreement.html">이용약관</a></li>
+        <li><a href="http://www.hanbit.co.kr/member/privacy_policy.html"><strong>개인정보취급방침</strong></a></li>
+        <li><a href="http://www.hanbit.co.kr/sitemap/sitemap.html">사이트맵</a></li>
+      </ul>
+          </div>
+    <!-- //하단 메뉴 -->
+
+    <!-- SNS -->
+    <div class="foot_sns">
+            
+      <ul>
+        <li class="foot_facebook"><a href="https://www.facebook.com/hanbitmedia" target="_blank"><span>페이스북</span></a></li>
+        <!-- <li class="foot_googleplus"><a href="https://plus.google.com/u/0/+HanbitCoKr/posts" target="_blank"><span>구글플러스</span></a></li> -->
+        <li class="foot_twitter"><a href="https://twitter.com/hanbit" target="_blank"><span>트위터</span></a></li>
+        <li class="foot_youtube"><a href="https://www.youtube.com/user/HanbitMedia93" target="_blank"><span>유튜브</span></a></li>
+        <li class="foot_bolg"><a href="http://blog.hanbit.co.kr/" target="_blank"><span>블로그</span></a></li>
+        <li class="foot_naverpost"><a href="https://m.post.naver.com/hanbitstory" target="_blank"><span>네이버포스트</span></a></li>
+      </ul>
+      
+      
+        <fieldset class="foot_srch">
+          <legend>하단 검색영역</legend>
+          <input title="검색어" class="foot_srch_keyword" accesskey="s" type="text" value=""  id="foot_keyword_str" style="font-size:16px;">
+          <input type="button" alt="" class="foot_srch_btn" onclick="foot_sch_smit();" style="cursor: pointer;">
+        </fieldset>
+
+      
+      <script>
+        // 검색 리스트  
+        $(document).ready(function() {       
+          $('#foot_keyword_str').keyup(function(e) {
+            if (e.keyCode == 13) 
+              foot_sch_smit();
+          });        
+        });
+
+        function foot_sch_smit(){            
+          var foot_keyword_str = $("#foot_keyword_str").val();      
+          var searchUrl = "/search/search_list.html?keyword="+foot_keyword_str;
+
+          if(!foot_keyword_str){
+            alert("검색어를 입력해주세요");
+            $("#foot_keyword_str").focus();
+          }else{
+            location.href = searchUrl;
+          }
+        }
+      </script>  
+      
+    </div>
+    <!-- //SNS -->
+    
+    <!-- 한빛 정보 -->
+    <div class="foot_about">
+      <div class="foot_about_area">
+        
+
+        <p><strong>한빛미디어㈜ &#149; 한빛아카데미㈜ &#149; 한빛비즈㈜</strong></p>
+        <p>(03785) 서울 서대문구 연희로2길 62</p>
+        <p>EMAIL : support@hanbit.co.kr</p>
+        <p>대표이사 : 김태헌</p>
+        <p>사업자등록번호 : 220-81-05665 <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=2208105665" target="_blank">[확인]</a></p>
+        <p>통신판매업신고 : 2017-서울서대문-0671호</p>
+        <p>호스팅제공자 : (주)누리호스팅</p>
+        
+
+      </div>
+    </div>
+    <!-- //한빛 정보 -->
+  </div>
+  
+  <div class="copyright">&copy;1993-2020 Hanbit Publishing Network, Inc. All rights reserved.</div>
+</footer>
+<!-- //푸터 -->
+<div class="foot_download_btn"><a href="http://www.hanbit.co.kr/support/supplement_list.html">자료실</a></div>
+
+<!-- 공통 JS 호출 -->
+<script type="text/javascript" src="/js/common.js"></script>
+<!-- //공통 JS 호출 -->
+
+</body>
+</html>
