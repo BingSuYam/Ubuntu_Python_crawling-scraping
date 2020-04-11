@@ -6,3 +6,20 @@ $ . scraping/bin/activate
 
 $ deactivate
 >> 설명 : 가상환경 종료
+
+
+##################################################################
+git 허브에 파일 올릴때 쓰는 명령어 
+
+$ git add .
+$ git commit -m 'message'
+$ git push -u oirigin master
+
+
+##################################################################
+
+
+scraping 에서 
+python 나가기 = exit() , ctrl+d
+
+
